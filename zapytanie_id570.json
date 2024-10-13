@@ -1,0 +1,55 @@
+[
+    {
+        "App ID": 570,
+        "Nazwa gry": "Dota 2",
+        "Typ": "game",
+        "Developer": [
+            "Valve"
+        ],
+        "Wydawca": [
+            "Valve"
+        ],
+        "Czy darmowa": true,
+        "Cena": "Free",
+        "Wiek": 0,
+        "Szczegółowy opis": "The most-played game on Steam.\nEvery day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has truly taken on a life of its own.\nOne Battlefield. Infinite Possibilities.\nWhen it comes to diversity of heroes, abilities, and powerful items, Dota boasts an endless array—no two games are the same. Any hero can fill multiple roles, and there's an abundance of items to help meet the needs of each game. Dota doesn't provide limitations on how to play, it empowers you to express your own style.\nAll heroes are free.\nCompetitive balance is Dota's crown jewel, and to ensure everyone is playing on an even field, the core content of the game—like the vast pool of heroes—is available to all players. Fans can collect cosmetics for heroes and fun add-ons for the world they inhabit, but everything you need to play is already included before you join your first match.\nBring your friends and party up.\nDota is deep, and constantly evolving, but it's never too late to join. \nLearn the ropes playing co-op vs. bots. Sharpen your skills in the hero demo mode. Jump into the behavior- and skill-based matchmaking system that ensures you'll \nbe matched with the right players each game.",
+        "O grze": "<strong>The most-played game on Steam.</strong><br>Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has truly taken on a life of its own.<br><br><strong>One Battlefield. Infinite Possibilities.</strong><br>When it comes to diversity of heroes, abilities, and powerful items, Dota boasts an endless array—no two games are the same. Any hero can fill multiple roles, and there's an abundance of items to help meet the needs of each game. Dota doesn't provide limitations on how to play, it empowers you to express your own style.<br><br><strong>All heroes are free.</strong><br>Competitive balance is Dota's crown jewel, and to ensure everyone is playing on an even field, the core content of the game—like the vast pool of heroes—is available to all players. Fans can collect cosmetics for heroes and fun add-ons for the world they inhabit, but everything you need to play is already included before you join your first match.<br><br><strong>Bring your friends and party up.</strong><br>Dota is deep, and constantly evolving, but it's never too late to join. <br>Learn the ropes playing co-op vs. bots. Sharpen your skills in the hero demo mode. Jump into the behavior- and skill-based matchmaking system that ensures you'll <br>be matched with the right players each game.",
+        "Krótki opis": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
+        "Minimalne wymagania": "Minimum:\nOS *:\n Windows 7 or newer\nProcessor:\n Dual core from Intel or AMD at 2.8 GHz\nMemory:\n 4 GB RAM\nGraphics:\n NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600\nDirectX:\n Version 11\nNetwork:\n Broadband Internet connection\nStorage:\n 60 GB available space\nSound Card:\n DirectX Compatible",
+        "Zalecane wymagania": "Brak danych",
+        "Kategorie": [
+            {
+                "id": 1,
+                "description": "Multi-player"
+            },
+            {
+                "id": 9,
+                "description": "Co-op"
+            },
+            {
+                "id": 29,
+                "description": "Steam Trading Cards"
+            },
+            {
+                "id": 30,
+                "description": "Steam Workshop"
+            },
+            {
+                "id": 40,
+                "description": "SteamVR Collectibles"
+            },
+            {
+                "id": 35,
+                "description": "In-App Purchases"
+            },
+            {
+                "id": 8,
+                "description": "Valve Anti-Cheat enabled"
+            },
+            {
+                "id": 63,
+                "description": "Steam Timeline"
+            }
+        ]
+    }
+]
