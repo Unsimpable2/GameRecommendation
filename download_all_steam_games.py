@@ -4,7 +4,7 @@ import html
 from bs4 import BeautifulSoup
 
 def get_game_details(app_id):
-    url = f"https://store.steampowered.com/api/appdetails?appids={app_id}"
+    url = f"https://store.steampowered.com/api/appdetails?appids={app_id}&l=english"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
@@ -14,8 +14,11 @@ def get_game_details(app_id):
     return None
 
 def remove_html_tags(text):
+    if not text or text.strip() == "":
+        return ""
     soup = BeautifulSoup(text, "html.parser")
-    return soup.get_text(separator="\n")
+    clean_text = soup.get_text(separator=" ")
+    return clean_text.replace("\n", " ")
 
 def save_games_data(app_id=None):
     url = 'http://api.steampowered.com/ISteamApps/GetAppList/v2/'
@@ -42,7 +45,7 @@ def save_games_data(app_id=None):
 
 def process_game_details(app_id, game_details):
     is_free = game_details.get('is_free', False)
-    
+
     if is_free:
         price = "Free"
     else:
@@ -50,14 +53,19 @@ def process_game_details(app_id, game_details):
 
     detailed_description = game_details.get('detailed_description', '')
     detailed_description = html.unescape(detailed_description)
-    detailed_description = remove_html_tags(detailed_description)
+    detailed_description = remove_html_tags(detailed_description).replace("\n", " ")
 
     pc_requirements = game_details.get('pc_requirements', {})
-    minimal_requirements = pc_requirements.get('minimum', 'Brak danych')
-    recommended_requirements = pc_requirements.get('recommended', 'Brak')
+    
+    if isinstance(pc_requirements, dict):
+        minimal_requirements = pc_requirements.get('minimum', 'Brak danych')
+        recommended_requirements = pc_requirements.get('recommended', 'Brak')
+    else:
+        minimal_requirements = 'Brak danych'
+        recommended_requirements = 'Brak danych'
 
-    minimal_requirements = remove_html_tags(minimal_requirements)
-    recommended_requirements = remove_html_tags(recommended_requirements) if recommended_requirements != 'Brak' else 'Brak danych'
+    minimal_requirements = remove_html_tags(minimal_requirements).replace("\n", " ")
+    recommended_requirements = remove_html_tags(recommended_requirements).replace("\n", " ") if recommended_requirements != 'Brak' else 'Brak danych'
 
     return {
         'App ID': app_id,
@@ -68,14 +76,14 @@ def process_game_details(app_id, game_details):
         'Czy darmowa': is_free,
         'Cena': price,
         'Wiek': game_details.get('required_age', 'N/A'),
-        'Szczegółowy opis': detailed_description, 
+        'Szczegółowy opis': detailed_description,
         'O grze': game_details.get('about_the_game', 'Brak danych'),
         'Krótki opis': game_details.get('short_description', 'Brak danych'),
-        'Minimalne wymagania': minimal_requirements, 
+        'Minimalne wymagania': minimal_requirements,
         'Zalecane wymagania': recommended_requirements,
-        'Kategorie': game_details.get('categories', []) 
+        'Kategorie': game_details.get('categories', [])
     }
 
-# save_games_data()
+save_games_data()
 
-save_games_data(app_id=570)
+#save_games_data(app_id=570)
