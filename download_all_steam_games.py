@@ -56,10 +56,10 @@ def save_games_data(app_id=None):
             else:
                 logging.info(f"Skipped game with ID: {app_id}")
 
-    with open('test.json', 'w', encoding='utf-8') as file:
+    with open('steam_game_id_703400.json', 'w', encoding='utf-8') as file:
         json.dump(games, file, ensure_ascii=False, indent=4)
 
-    print(f"Data for {'all games' if not app_id else f'game with ID {app_id}'} has been saved to steam_game_list.json")
+    print(f"Data for {'all games' if not app_id else f'game with ID {app_id}'} has been saved to steam_game_id_703400.json")
 
 def process_game_details(app_id, game_details):
     try:
@@ -108,11 +108,12 @@ def process_game_details(app_id, game_details):
             'About the Game': about_game,
             'Minimum Requirements': minimal_requirements,
             'Recommended Requirements': recommended_requirements,
-            'Categories': game_details.get('categories', [])
+            'Categories': game_details.get('categories', []),
+            'Genres': game_details.get('genres', [])
         }
     except Exception as e:
         logging.error(f"Error processing data for game with ID {app_id}: {str(e)}")
         return None
 
 #save_games_data()
-save_games_data(app_id=570)
+save_games_data(app_id=703400)
