@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import time
 import logging
 
-# Konfiguracja logowania
 logging.basicConfig(filename='steam_games.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def get_game_details(app_id, retries=3):
@@ -19,11 +18,11 @@ def get_game_details(app_id, retries=3):
                     if data[str(app_id)]['data']['type'] == 'game':
                         return data[str(app_id)]['data']
             else:
-                logging.warning(f"Niepoprawny status odpowiedzi dla ID {app_id}: {response.status_code}")
+                logging.warning(f"Invalid response status for ID {app_id}: {response.status_code}")
         except requests.RequestException as e:
-            logging.error(f"Błąd podczas pobierania danych dla ID {app_id}: {str(e)}")
+            logging.error(f"Error fetching data for ID {app_id}: {str(e)}")
         
-        time.sleep(1)  # Czekaj chwilę przed kolejną próbą
+        time.sleep(1)
     return None
 
 def remove_html_tags(text):
@@ -39,28 +38,28 @@ def save_games_data(app_id=None):
         response = requests.get(url)
         data = response.json()
     except requests.RequestException as e:
-        logging.error(f"Błąd podczas pobierania listy gier: {str(e)}")
+        logging.error(f"Error fetching game list: {str(e)}")
         return
 
-    gry = []
+    games = []
 
     if app_id: 
         game_details = get_game_details(app_id)
         if game_details:
-            gry.append(process_game_details(app_id, game_details))
+            games.append(process_game_details(app_id, game_details))
     else:  
         for app in data['applist']['apps']:
             app_id = app['appid']
             game_details = get_game_details(app_id)
             if game_details:
-                gry.append(process_game_details(app_id, game_details))
+                games.append(process_game_details(app_id, game_details))
             else:
-                logging.info(f"Pominięto grę o ID: {app_id}")
+                logging.info(f"Skipped game with ID: {app_id}")
 
     with open('test.json', 'w', encoding='utf-8') as file:
-        json.dump(gry, file, ensure_ascii=False, indent=4)
+        json.dump(games, file, ensure_ascii=False, indent=4)
 
-    print(f"Dane dla {'wszystkich gier' if not app_id else f'gry o ID {app_id}'} zostały zapisane do pliku lista_gier_steam.json")
+    print(f"Data for {'all games' if not app_id else f'game with ID {app_id}'} has been saved to steam_game_list.json")
 
 def process_game_details(app_id, game_details):
     try:
@@ -75,40 +74,45 @@ def process_game_details(app_id, game_details):
         detailed_description = html.unescape(detailed_description)
         detailed_description = remove_html_tags(detailed_description).replace("\n", " ")
 
+        short_description = game_details.get('detailed_description', 'No data')
+        short_description = html.unescape(short_description)
+        short_description = remove_html_tags(short_description).replace("\n", " ")
+
+        about_game = game_details.get('detailed_description', 'No data')
+        about_game = html.unescape(about_game)
+        about_game = remove_html_tags(about_game).replace("\n", " ")
+
         pc_requirements = game_details.get('pc_requirements', {})
         
         if isinstance(pc_requirements, dict):
-            minimal_requirements = pc_requirements.get('minimum', 'Brak danych')
-            recommended_requirements = pc_requirements.get('recommended', 'Brak')
+            minimal_requirements = pc_requirements.get('minimum', 'No data')
+            recommended_requirements = pc_requirements.get('recommended', 'None')
         else:
-            minimal_requirements = 'Brak danych'
-            recommended_requirements = 'Brak danych'
+            minimal_requirements = 'No data'
+            recommended_requirements = 'No data'
 
         minimal_requirements = remove_html_tags(minimal_requirements).replace("\n", " ")
-        recommended_requirements = remove_html_tags(recommended_requirements).replace("\n", " ") if recommended_requirements != 'Brak' else 'Brak danych'
+        recommended_requirements = remove_html_tags(recommended_requirements).replace("\n", " ") if recommended_requirements != 'None' else 'No data'
 
         return {
             'App ID': app_id,
-            'Nazwa gry': game_details['name'],
-            'Typ': game_details['type'],
+            'Game Name': game_details['name'],
+            'Type': game_details['type'],
             'Developer': game_details.get('developers', []),
-            'Wydawca': game_details.get('publishers', []),
-            'Czy darmowa': is_free,
-            'Cena': price,
-            'Wiek': game_details.get('required_age', 'N/A'),
-            'Szczegółowy opis': detailed_description,
-            'O grze': game_details.get('about_the_game', 'Brak danych'),
-            'Krótki opis': game_details.get('short_description', 'Brak danych'),
-            'Minimalne wymagania': minimal_requirements,
-            'Zalecane wymagania': recommended_requirements,
-            'Kategorie': game_details.get('categories', [])
+            'Publisher': game_details.get('publishers', []),
+            'Is Free': is_free,
+            'Price': price,
+            'Age Rating': game_details.get('required_age', 'N/A'),
+            'Detailed Description': detailed_description,
+            'Short Description': short_description,
+            'About the Game': about_game,
+            'Minimum Requirements': minimal_requirements,
+            'Recommended Requirements': recommended_requirements,
+            'Categories': game_details.get('categories', [])
         }
     except Exception as e:
-        logging.error(f"Błąd podczas przetwarzania danych dla gry o ID {app_id}: {str(e)}")
+        logging.error(f"Error processing data for game with ID {app_id}: {str(e)}")
         return None
 
-# Zapisz dane dla wszystkich gier
-save_games_data()
-
-# Możliwość zapisania danych dla konkretnego ID
-# save_games_data(app_id=570)
+#save_games_data()
+save_games_data(app_id=570)
