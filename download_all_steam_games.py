@@ -6,7 +6,6 @@ import logging
 max_iterations = 80000
 iteration_count = 0
 
-# Konfiguracja logowania
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='steam_app_processing.log', filemode='w')
 
 def get_app_details(app_id):
@@ -19,10 +18,9 @@ def get_app_details(app_id):
         else:
             return None
     except Exception as e:
-        logging.error(f'Błąd przy pobieraniu danych dla app_id: {app_id} - {e}')
+        logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
 
-# Wczytanie listy gier
 with open('steam_game_list.json', 'r', encoding='utf-8') as file:
     game_list = json.load(file)
 
@@ -48,16 +46,14 @@ for game in game_list:
 
     if details:
         if details.get('type') == 'game':
-            # Logowanie, gdy obiekt jest grą
-            logging.info(f"Przetworzono grę: {details.get('name', 'Brak nazwy')} (app_id: {app_id})")
+            logging.info(f"Processed game: {details.get('name', 'No name')} (app_id: {app_id})")
             
-            # Pobranie szczegółów gry
             is_free = details.get('is_free', False)
             price_overview = details.get('price_overview', {})
             price = price_overview.get('final_formatted', 'N/A') if price_overview else 'N/A'
-            detailed_description = details.get('detailed_description', 'Brak opisu')
-            short_description = details.get('short_description', 'Brak opisu')
-            about_game = details.get('about_the_game', 'Brak opisu')
+            detailed_description = details.get('detailed_description', 'No description')
+            short_description = details.get('short_description', 'No description')
+            about_game = details.get('about_the_game', 'No description')
             pc_requirements_data = details.get('pc_requirements', [])
             if isinstance(pc_requirements_data, list) and pc_requirements_data:
                 pc_requirements = pc_requirements_data[0]
@@ -65,16 +61,15 @@ for game in game_list:
                 pc_requirements = pc_requirements_data
             else:
                 pc_requirements = {}
-            minimal_requirements = pc_requirements.get('minimum', 'Brak informacji')
-            recommended_requirements = pc_requirements.get('recommended', 'Brak informacji')
+            minimal_requirements = pc_requirements.get('minimum', 'No information')
+            recommended_requirements = pc_requirements.get('recommended', 'No information')
             
-            # Dodanie szczegółów gry do listy
             game_details = {
                 'App ID': app_id,
                 'Game Name': details['name'],
                 'Type': details['type'],
-                'Developer': details.get('developers', ['Brak informacji']),
-                'Publisher': details.get('publishers', ['Brak informacji']),
+                'Developer': details.get('developers', ['No information']),
+                'Publisher': details.get('publishers', ['No information']),
                 'Is Free': is_free,
                 'Price': price,
                 'Age Rating': details.get('required_age', 'N/A'),
@@ -87,27 +82,22 @@ for game in game_list:
                 'Genres': details.get('genres', [])
             }
             
-            # Dopisanie przetworzonej gry do pliku steam_games_processed.json
             existing_games.append(game_details)
             with open('steam_games_processed.json', 'w', encoding='utf-8') as file:
                 json.dump(existing_games, file, ensure_ascii=False, indent=4)
 
-            # Dodanie gry do listy przetworzonych gier i zapisanie pozostałych gier
             processed_games.append(game)
             save_remaining_games()
         else:
-            # Logowanie, gdy obiekt nie jest grą
-            logging.info(f"Obiekt nie jest grą: app_id: {app_id}")
-            # Dodanie do listy przetworzonych gier, aby usunąć z listy
+            logging.info(f"Object is not a game: app_id: {app_id}")
             processed_games.append(game)
             save_remaining_games()
     else:
-        logging.warning(f"Nie udało się pobrać szczegółów dla app_id: {app_id}")
-        # Dodanie do listy przetworzonych gier, aby usunąć z listy
+        logging.warning(f"Failed to fetch details for app_id: {app_id}")
         processed_games.append(game)
         save_remaining_games()
     
     iteration_count += 1
     time.sleep(0.5)
 
-print("Lista została zaktualizowana, przetworzone app_id usunięte. Szczegóły gier zapisano do pliku steam_games_processed.json.")
+print("The list has been updated, processed app_ids removed. Game details saved to steam_games_processed.json.")
