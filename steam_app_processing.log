@@ -1,35 +1,1630 @@
-2024-10-15 09:57:52,309 - INFO - Przetworzono grê: Alice - Behind the Mirror (app_id: 835700)
-2024-10-15 09:57:54,428 - INFO - Przetworzono grê: Tactics Maiden Remastered (app_id: 835710)
-2024-10-15 09:57:56,517 - INFO - Przetworzono grê: 2260 VR (app_id: 835720)
-2024-10-15 09:57:58,607 - INFO - Obiekt nie jest gr¹: app_id: 835730
-2024-10-15 09:58:00,522 - INFO - Przetworzono grê: HyperFighter Boost Mode ON (app_id: 835740)
-2024-10-15 09:58:02,612 - INFO - Obiekt nie jest gr¹: app_id: 835750
-2024-10-15 09:58:04,520 - INFO - Przetworzono grê: Tony Slopes™ (app_id: 835770)
-2024-10-15 09:58:06,662 - INFO - Obiekt nie jest gr¹: app_id: 835780
-2024-10-15 09:58:08,592 - INFO - Przetworzono grê: Datascape (app_id: 835790)
-2024-10-15 09:58:10,719 - INFO - Przetworzono grê: Flailure (app_id: 835800)
-2024-10-15 09:58:12,803 - INFO - Obiekt nie jest gr¹: app_id: 835830
-2024-10-15 09:58:14,767 - INFO - Przetworzono grê: La-Mulana 2 (app_id: 835430)
-2024-10-15 09:58:17,005 - INFO - Przetworzono grê: Naturallandscape - Grand Canyon (\u81ea\u7136\u666f\u89c2\u7cfb\u5217-\u7f8e\u56fd\u5927\u5ce1\u8c37) (app_id: 835440)
-2024-10-15 09:58:19,179 - INFO - Przetworzono grê: Neon Force Pushers (app_id: 835450)
-2024-10-15 09:58:21,285 - INFO - Obiekt nie jest gr¹: app_id: 835460
-2024-10-15 09:58:23,191 - INFO - Obiekt nie jest gr¹: app_id: 835470
-2024-10-15 09:58:25,077 - INFO - Obiekt nie jest gr¹: app_id: 835471
-2024-10-15 09:58:27,044 - INFO - Obiekt nie jest gr¹: app_id: 835480
-2024-10-15 09:58:28,950 - INFO - Przetworzono grê: Deadly Stigma (app_id: 835490)
-2024-10-15 09:58:31,073 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 835500
-2024-10-15 09:58:33,051 - INFO - Przetworzono grê: Horror Fish Simulator (app_id: 835510)
-2024-10-15 09:58:35,151 - INFO - Przetworzono grê: Dodge Show (app_id: 835520)
-2024-10-15 09:58:37,360 - INFO - Przetworzono grê: \u9b54\u7269\u5a18\u7269\u8bed (app_id: 835530)
-2024-10-15 09:58:39,550 - INFO - Przetworzono grê: Ancient Rush 2 (app_id: 835560)
-2024-10-15 09:58:41,866 - INFO - Obiekt nie jest gr¹: app_id: 835580
-2024-10-15 09:58:43,846 - INFO - Obiekt nie jest gr¹: app_id: 835280
-2024-10-15 09:58:45,782 - INFO - Przetworzono grê: America's Retribution (app_id: 835110)
-2024-10-15 09:58:48,060 - INFO - Przetworzono grê: Last Stanza (app_id: 835130)
-2024-10-15 09:58:50,242 - INFO - Obiekt nie jest gr¹: app_id: 835140
-2024-10-15 09:58:52,366 - INFO - Przetworzono grê: \u7f8e\u5c11\u5973\u590f\u65e5\u6b22\u4e50! (app_id: 835040)
-2024-10-15 09:58:55,043 - INFO - Przetworzono grê: Acro FS (app_id: 834880)
-2024-10-15 09:58:57,589 - INFO - Przetworzono grê: ATLAS (app_id: 834910)
-2024-10-15 09:59:00,252 - INFO - Przetworzono grê: Operation Osama Bin Laden (app_id: 834920)
-2024-10-15 09:59:02,819 - INFO - Przetworzono grê: Bishi and the Alien Slime Invasion! (app_id: 834930)
-2024-10-15 09:59:05,128 - INFO - Przetworzono grê: Crazy Justice (app_id: 834730)
+2024-10-15 10:13:21,706 - INFO - Przetworzono grê: Circle Empires (app_id: 834740)
+2024-10-15 10:13:23,658 - INFO - Przetworzono grê: Crucible Falls: Together Forever (app_id: 834750)
+2024-10-15 10:13:25,532 - INFO - Przetworzono grê: Robot Wants It All (app_id: 834760)
+2024-10-15 10:13:27,427 - INFO - Przetworzono grê: Eggs: All Guns Broken (app_id: 834790)
+2024-10-15 10:13:29,306 - INFO - Przetworzono grê: SolSeraph (app_id: 834800)
+2024-10-15 10:13:31,195 - INFO - Obiekt nie jest gr¹: app_id: 834400
+2024-10-15 10:13:32,883 - INFO - Obiekt nie jest gr¹: app_id: 834401
+2024-10-15 10:13:34,603 - INFO - Obiekt nie jest gr¹: app_id: 834402
+2024-10-15 10:13:36,502 - INFO - Obiekt nie jest gr¹: app_id: 834403
+2024-10-15 10:13:38,276 - INFO - Obiekt nie jest gr¹: app_id: 834404
+2024-10-15 10:13:40,068 - INFO - Obiekt nie jest gr¹: app_id: 834405
+2024-10-15 10:13:41,967 - INFO - Obiekt nie jest gr¹: app_id: 834406
+2024-10-15 10:13:43,869 - INFO - Obiekt nie jest gr¹: app_id: 834407
+2024-10-15 10:13:45,794 - INFO - Obiekt nie jest gr¹: app_id: 834408
+2024-10-15 10:13:47,885 - INFO - Przetworzono grê: Hacker News Reader (app_id: 834410)
+2024-10-15 10:13:50,221 - INFO - Przetworzono grê: RollingBall: Unlimited World (app_id: 834420)
+2024-10-15 10:13:52,276 - INFO - Obiekt nie jest gr¹: app_id: 834430
+2024-10-15 10:13:54,218 - INFO - Przetworzono grê: NAMELESS (app_id: 834440)
+2024-10-15 10:13:56,611 - INFO - Przetworzono grê: Roarr! The Adventures of Rampage Rex (app_id: 834450)
+2024-10-15 10:13:58,637 - INFO - Przetworzono grê: Zima uhodi! (app_id: 834470)
+2024-10-15 10:14:00,711 - INFO - Obiekt nie jest gr¹: app_id: 834490
+2024-10-15 10:14:02,684 - INFO - Obiekt nie jest gr¹: app_id: 834500
+2024-10-15 10:14:04,844 - INFO - Obiekt nie jest gr¹: app_id: 834510
+2024-10-15 10:14:06,942 - INFO - Obiekt nie jest gr¹: app_id: 834520
+2024-10-15 10:14:08,839 - INFO - Przetworzono grê: Yakuza Kiwami (app_id: 834530)
+2024-10-15 10:14:11,129 - INFO - Obiekt nie jest gr¹: app_id: 834550
+2024-10-15 10:14:13,175 - INFO - Obiekt nie jest gr¹: app_id: 834560
+2024-10-15 10:14:15,149 - INFO - Przetworzono grê: \u6771\u65b9\u9006\u5999\u4e71 ~ Ephemeral Unnatural Balance (app_id: 834580)
+2024-10-15 10:14:17,612 - INFO - Obiekt nie jest gr¹: app_id: 834590
+2024-10-15 10:14:19,527 - INFO - Przetworzono grê: Overchunked (app_id: 833910)
+2024-10-15 10:14:21,776 - INFO - Przetworzono grê: Meme Machine (app_id: 833920)
+2024-10-15 10:14:24,144 - INFO - Przetworzono grê: Vertigo FPS (app_id: 833940)
+2024-10-15 10:14:26,263 - INFO - Przetworzono grê: Risk System (app_id: 833950)
+2024-10-15 10:14:28,721 - INFO - Przetworzono grê: Mr. Grayscale (app_id: 833960)
+2024-10-15 10:14:31,083 - INFO - Przetworzono grê: Dave (app_id: 833980)
+2024-10-15 10:14:33,481 - INFO - Przetworzono grê: Stonewall Penitentiary (app_id: 833990)
+2024-10-15 10:14:35,794 - INFO - Przetworzono grê: Cross Country Skiing VR (app_id: 834000)
+2024-10-15 10:14:37,890 - INFO - Obiekt nie jest gr¹: app_id: 834020
+2024-10-15 10:14:40,061 - INFO - Przetworzono grê: Slamdunk VR (app_id: 834030)
+2024-10-15 10:14:42,248 - INFO - Obiekt nie jest gr¹: app_id: 834040
+2024-10-15 10:14:44,388 - INFO - Przetworzono grê: SixGenerals | \u516d\u5c0f\u5c06\u4f20\u8bf4 (app_id: 834050)
+2024-10-15 10:14:46,859 - INFO - Przetworzono grê: Dungeon Adventure (app_id: 834100)
+2024-10-15 10:14:48,935 - INFO - Obiekt nie jest gr¹: app_id: 834130
+2024-10-15 10:14:51,226 - INFO - Obiekt nie jest gr¹: app_id: 834131
+2024-10-15 10:14:53,326 - INFO - Przetworzono grê: Blacksmith: Dark Times (app_id: 834140)
+2024-10-15 10:14:55,868 - INFO - Przetworzono grê: Glare1more (app_id: 834150)
+2024-10-15 10:14:57,938 - INFO - Przetworzono grê: Chameleon Video Player (app_id: 834170)
+2024-10-15 10:15:00,467 - INFO - Przetworzono grê: #CuteSnake 2 (app_id: 834180)
+2024-10-15 10:15:02,684 - INFO - Przetworzono grê: Clicker Planet (app_id: 834210)
+2024-10-15 10:15:05,149 - INFO - Przetworzono grê: Fishing Sim World®: Pro Tour (app_id: 834280)
+2024-10-15 10:15:07,842 - INFO - Obiekt nie jest gr¹: app_id: 834290
+2024-10-15 10:15:10,037 - INFO - Przetworzono grê: My Mad Road - adventure racing & shooting (app_id: 834320)
+2024-10-15 10:15:12,343 - INFO - Obiekt nie jest gr¹: app_id: 834360
+2024-10-15 10:15:14,347 - INFO - Przetworzono grê: Cube Zone (app_id: 834380)
+2024-10-15 10:15:16,493 - INFO - Przetworzono grê: King's Heir: Rise to the Throne (app_id: 834390)
+2024-10-15 10:15:18,637 - INFO - Obiekt nie jest gr¹: app_id: 833420
+2024-10-15 10:15:20,541 - INFO - Przetworzono grê: Vera Swings (app_id: 833440)
+2024-10-15 10:15:22,613 - INFO - Obiekt nie jest gr¹: app_id: 833450
+2024-10-15 10:15:24,496 - INFO - Przetworzono grê: Rabbit: Jigsaw Puzzles (app_id: 833470)
+2024-10-15 10:15:26,761 - INFO - Przetworzono grê: Thunder Rally (app_id: 833500)
+2024-10-15 10:15:28,891 - INFO - Przetworzono grê: Time-Skip (app_id: 833510)
+2024-10-15 10:15:30,899 - INFO - Przetworzono grê: Make Zombies Great Again (app_id: 833530)
+2024-10-15 10:15:32,992 - INFO - Przetworzono grê: The Platformer Gun (app_id: 833540)
+2024-10-15 10:15:35,099 - INFO - Obiekt nie jest gr¹: app_id: 833570
+2024-10-15 10:15:37,010 - INFO - Obiekt nie jest gr¹: app_id: 833580
+2024-10-15 10:15:39,003 - INFO - Obiekt nie jest gr¹: app_id: 833590
+2024-10-15 10:15:40,927 - INFO - Obiekt nie jest gr¹: app_id: 833600
+2024-10-15 10:15:42,826 - INFO - Obiekt nie jest gr¹: app_id: 833610
+2024-10-15 10:15:44,862 - INFO - Przetworzono grê: Starlight City (app_id: 833630)
+2024-10-15 10:15:47,044 - INFO - Przetworzono grê: Dust n Wheels (app_id: 833650)
+2024-10-15 10:15:49,654 - INFO - Przetworzono grê: Grave Prosperity - part 1 (app_id: 833660)
+2024-10-15 10:15:51,825 - INFO - Przetworzono grê: Naughty study for exams with a ghost (app_id: 833670)
+2024-10-15 10:15:53,929 - INFO - Przetworzono grê: Cubesc (app_id: 833690)
+2024-10-15 10:15:56,186 - INFO - Przetworzono grê: City Bus Simulator 2018 (app_id: 833700)
+2024-10-15 10:15:58,387 - INFO - Obiekt nie jest gr¹: app_id: 833730
+2024-10-15 10:16:00,352 - INFO - Przetworzono grê: Aximion (app_id: 833740)
+2024-10-15 10:16:02,464 - INFO - Przetworzono grê: Syko Swinger (app_id: 833750)
+2024-10-15 10:16:04,573 - INFO - Przetworzono grê: Exploration Pro (app_id: 833760)
+2024-10-15 10:16:06,700 - INFO - Przetworzono grê: Couch Party Game Night (app_id: 833770)
+2024-10-15 10:16:08,776 - INFO - Obiekt nie jest gr¹: app_id: 833780
+2024-10-15 10:16:11,026 - INFO - Przetworzono grê: Speed Car Fighter (app_id: 833800)
+2024-10-15 10:16:13,255 - INFO - Przetworzono grê: Extreme Formula Championship (app_id: 833810)
+2024-10-15 10:16:15,382 - INFO - Przetworzono grê: Mountain Racing (app_id: 833820)
+2024-10-15 10:16:17,528 - INFO - Obiekt nie jest gr¹: app_id: 833830
+2024-10-15 10:16:19,500 - INFO - Obiekt nie jest gr¹: app_id: 833840
+2024-10-15 10:16:21,505 - INFO - Obiekt nie jest gr¹: app_id: 833850
+2024-10-15 10:16:23,456 - INFO - Obiekt nie jest gr¹: app_id: 833860
+2024-10-15 10:16:25,423 - INFO - Przetworzono grê: The Unbreakable Gumball (app_id: 833870)
+2024-10-15 10:16:27,569 - INFO - Obiekt nie jest gr¹: app_id: 833880
+2024-10-15 10:16:29,723 - INFO - Przetworzono grê: Biologger (app_id: 833060)
+2024-10-15 10:16:31,942 - INFO - Przetworzono grê: Arrowborn (app_id: 833070)
+2024-10-15 10:16:34,059 - INFO - Przetworzono grê: The Steadfast VR Challenge (app_id: 833110)
+2024-10-15 10:16:36,241 - INFO - Przetworzono grê: Supaplex (app_id: 833140)
+2024-10-15 10:16:38,493 - INFO - Przetworzono grê: Hungry Fish Evolution (app_id: 833150)
+2024-10-15 10:16:40,833 - INFO - Przetworzono grê: Burned Land (app_id: 833170)
+2024-10-15 10:16:43,144 - INFO - Przetworzono grê: Spaceship Commander (app_id: 833180)
+2024-10-15 10:16:45,322 - INFO - Przetworzono grê: Spitting Z (app_id: 833230)
+2024-10-15 10:16:47,486 - INFO - Obiekt nie jest gr¹: app_id: 833240
+2024-10-15 10:16:49,490 - INFO - Przetworzono grê: catAnod (app_id: 833260)
+2024-10-15 10:16:51,877 - INFO - Przetworzono grê: Citrouille: Sweet Witches (app_id: 833270)
+2024-10-15 10:16:54,133 - INFO - Przetworzono grê: Fantasyland (app_id: 833300)
+2024-10-15 10:16:56,518 - INFO - Obiekt nie jest gr¹: app_id: 833310
+2024-10-15 10:16:58,623 - INFO - Przetworzono grê: HPRZ: The Syndrome (app_id: 833330)
+2024-10-15 10:17:00,885 - INFO - Obiekt nie jest gr¹: app_id: 833340
+2024-10-15 10:17:03,023 - INFO - Przetworzono grê: Star Valor (app_id: 833360)
+2024-10-15 10:17:05,214 - INFO - Przetworzono grê: HexLab (app_id: 833370)
+2024-10-15 10:17:07,582 - INFO - Przetworzono grê: Downtown (app_id: 833380)
+2024-10-15 10:17:09,860 - INFO - Przetworzono grê: En Tactico (app_id: 833390)
+2024-10-15 10:17:12,100 - INFO - Przetworzono grê: Corral (app_id: 833400)
+2024-10-15 10:17:14,544 - INFO - Obiekt nie jest gr¹: app_id: 832950
+2024-10-15 10:17:16,550 - INFO - Przetworzono grê: Apocalypse Rider (app_id: 832990)
+2024-10-15 10:17:19,025 - INFO - Przetworzono grê: Zombie Forest 2 (app_id: 833010)
+2024-10-15 10:17:21,334 - INFO - Przetworzono grê: Wail of Despair (app_id: 833020)
+2024-10-15 10:17:23,701 - INFO - Przetworzono grê: Hypertrain (app_id: 833030)
+2024-10-15 10:17:26,086 - INFO - Przetworzono grê: Hiveswap Friendsim (app_id: 833040)
+2024-10-15 10:17:28,341 - INFO - Przetworzono grê: 3 Minutes to Midnight - A Comedy Graphic Adventure (app_id: 832500)
+2024-10-15 10:17:30,568 - INFO - Przetworzono grê: AeroChopper (app_id: 832510)
+2024-10-15 10:17:32,800 - INFO - Przetworzono grê: \u7075\u6587\u897f\u6e38 (app_id: 832520)
+2024-10-15 10:17:35,237 - INFO - Przetworzono grê: VR GAME-Brick of War \u9b54\u5757\u6218\u4e89 (app_id: 832530)
+2024-10-15 10:17:37,600 - INFO - Przetworzono grê: Art of Murder - Hunt for the Puppeteer (app_id: 832540)
+2024-10-15 10:17:40,133 - INFO - Obiekt nie jest gr¹: app_id: 832580
+2024-10-15 10:17:42,217 - INFO - Przetworzono grê: Corrupted (app_id: 832610)
+2024-10-15 10:17:44,473 - INFO - Przetworzono grê: SpectraLayers Pro 5 Steam Edition (app_id: 832620)
+2024-10-15 10:17:46,737 - INFO - Obiekt nie jest gr¹: app_id: 832640
+2024-10-15 10:17:48,934 - INFO - Przetworzono grê: Royal Adventure (app_id: 832650)
+2024-10-15 10:17:51,405 - INFO - Przetworzono grê: Darts and Friends (app_id: 832680)
+2024-10-15 10:17:53,881 - INFO - Przetworzono grê: Stonetowers (app_id: 832690)
+2024-10-15 10:17:56,242 - INFO - Przetworzono grê: The 7th Circle - Endless Nightmare (app_id: 832710)
+2024-10-15 10:17:58,739 - INFO - Przetworzono grê: Dungeon Brewmaster (app_id: 832720)
+2024-10-15 10:18:01,066 - INFO - Obiekt nie jest gr¹: app_id: 832730
+2024-10-15 10:18:03,366 - INFO - Przetworzono grê: Age of Fear: The Undead King GOLD (app_id: 832770)
+2024-10-15 10:18:05,767 - INFO - Obiekt nie jest gr¹: app_id: 832780
+2024-10-15 10:18:07,958 - INFO - Przetworzono grê: Mighty Switch Force! Collection (app_id: 832320)
+2024-10-15 10:18:10,308 - INFO - Przetworzono grê: Hotel Magnate (app_id: 832360)
+2024-10-15 10:18:12,681 - INFO - Przetworzono grê: Cubekiller (app_id: 832370)
+2024-10-15 10:18:15,092 - INFO - Przetworzono grê: Reignman\uff08\u638c\u63a7\u8005\uff09 (app_id: 832380)
+2024-10-15 10:18:17,448 - INFO - Obiekt nie jest gr¹: app_id: 832400
+2024-10-15 10:18:19,593 - INFO - Obiekt nie jest gr¹: app_id: 832410
+2024-10-15 10:18:21,719 - INFO - Obiekt nie jest gr¹: app_id: 832411
+2024-10-15 10:18:23,859 - INFO - Obiekt nie jest gr¹: app_id: 832412
+2024-10-15 10:18:26,074 - INFO - Przetworzono grê: ICED VR (app_id: 832420)
+2024-10-15 10:18:28,590 - INFO - Przetworzono grê: Electric Dreams (app_id: 832430)
+2024-10-15 10:18:31,081 - INFO - Obiekt nie jest gr¹: app_id: 832440
+2024-10-15 10:18:33,317 - INFO - Przetworzono grê: Bullet Age (app_id: 832460)
+2024-10-15 10:18:35,767 - INFO - Przetworzono grê: Season Up (app_id: 832470)
+2024-10-15 10:18:38,065 - INFO - Przetworzono grê: Google Spotlight Stories: Back to the Moon (app_id: 832080)
+2024-10-15 10:18:40,649 - INFO - Obiekt nie jest gr¹: app_id: 832090
+2024-10-15 10:18:42,832 - INFO - Obiekt nie jest gr¹: app_id: 832100
+2024-10-15 10:18:45,124 - INFO - Przetworzono grê: Negative World (app_id: 832130)
+2024-10-15 10:18:47,665 - INFO - Przetworzono grê: Infernal Radiation (app_id: 832140)
+2024-10-15 10:18:50,105 - INFO - Przetworzono grê: EMMA The Story (app_id: 831720)
+2024-10-15 10:18:52,522 - INFO - Przetworzono grê: Circles of hell (app_id: 831740)
+2024-10-15 10:18:54,822 - INFO - Obiekt nie jest gr¹: app_id: 831760
+2024-10-15 10:18:57,035 - INFO - Przetworzono grê: Zombie Derby (app_id: 831770)
+2024-10-15 10:18:59,479 - INFO - Przetworzono grê: Geeste (app_id: 831790)
+2024-10-15 10:19:01,900 - INFO - Przetworzono grê: Bane of Asphodel (app_id: 831810)
+2024-10-15 10:19:04,380 - INFO - Obiekt nie jest gr¹: app_id: 831830
+2024-10-15 10:19:06,579 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 831840
+2024-10-15 10:19:08,795 - INFO - Obiekt nie jest gr¹: app_id: 831890
+2024-10-15 10:19:11,132 - INFO - Przetworzono grê: Croc's World Construction Kit (app_id: 831910)
+2024-10-15 10:19:13,614 - INFO - Obiekt nie jest gr¹: app_id: 831920
+2024-10-15 10:19:15,953 - INFO - Przetworzono grê: Infinite Survival (app_id: 831950)
+2024-10-15 10:19:18,527 - INFO - Obiekt nie jest gr¹: app_id: 832010
+2024-10-15 10:19:21,007 - INFO - Przetworzono grê: Questery (app_id: 832020)
+2024-10-15 10:19:23,646 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 832060
+2024-10-15 10:19:26,016 - INFO - Przetworzono grê: Kolb Antarctica Experience (app_id: 831450)
+2024-10-15 10:19:28,425 - INFO - Przetworzono grê: VOICEACTRESS\u2161 (app_id: 831460)
+2024-10-15 10:19:30,894 - INFO - Przetworzono grê: One Dollar Simulator (app_id: 831470)
+2024-10-15 10:19:33,412 - INFO - Przetworzono grê: Draw Near (app_id: 831490)
+2024-10-15 10:19:35,916 - INFO - Przetworzono grê: Norilsk (app_id: 831540)
+2024-10-15 10:19:38,472 - INFO - Obiekt nie jest gr¹: app_id: 831550
+2024-10-15 10:19:40,793 - INFO - Przetworzono grê: WARRIORS OROCHI 4 (app_id: 831560)
+2024-10-15 10:19:43,466 - INFO - Przetworzono grê: Isoland (app_id: 831570)
+2024-10-15 10:19:45,857 - INFO - Przetworzono grê: VRQ Test (app_id: 831590)
+2024-10-15 10:19:48,402 - INFO - Obiekt nie jest gr¹: app_id: 831640
+2024-10-15 10:19:50,898 - INFO - Przetworzono grê: Chronus Arc (app_id: 831650)
+2024-10-15 10:19:53,311 - INFO - Przetworzono grê: Monobeno-HAPPY END- Deluxe (app_id: 831660)
+2024-10-15 10:19:55,728 - INFO - Przetworzono grê: SPACE HUNT (app_id: 831670)
+2024-10-15 10:19:58,128 - INFO - Przetworzono grê: Hero Go (app_id: 831680)
+2024-10-15 10:20:00,468 - INFO - Przetworzono grê: Hovercraft Drive (app_id: 831350)
+2024-10-15 10:20:02,982 - INFO - Obiekt nie jest gr¹: app_id: 831390
+2024-10-15 10:20:05,261 - INFO - Przetworzono grê: Doors Quest Demo (app_id: 831230)
+2024-10-15 10:20:07,700 - INFO - Przetworzono grê: Maxi Pool Masters VR (app_id: 831250)
+2024-10-15 10:20:10,116 - INFO - Przetworzono grê: KeyBoard Guitar Master (app_id: 831260)
+2024-10-15 10:20:12,592 - INFO - Obiekt nie jest gr¹: app_id: 831310
+2024-10-15 10:20:14,921 - INFO - Obiekt nie jest gr¹: app_id: 831311
+2024-10-15 10:20:17,466 - INFO - Obiekt nie jest gr¹: app_id: 831312
+2024-10-15 10:20:19,754 - INFO - Przetworzono grê: London Museum Of Water & Steam (app_id: 831040)
+2024-10-15 10:20:22,154 - INFO - Przetworzono grê: Dolmen (app_id: 831050)
+2024-10-15 10:20:24,884 - INFO - Przetworzono grê: Black Jack Story (app_id: 831060)
+2024-10-15 10:20:27,388 - INFO - Przetworzono grê: The Cabinets of Doctor Arcana (app_id: 831070)
+2024-10-15 10:20:29,836 - INFO - Przetworzono grê: OS:Path (app_id: 831090)
+2024-10-15 10:20:32,346 - INFO - Przetworzono grê: Brother Perro (app_id: 831100)
+2024-10-15 10:20:35,206 - INFO - Przetworzono grê: Unconventional Warfare (app_id: 831110)
+2024-10-15 10:20:37,879 - INFO - Przetworzono grê: Space Pilgrim Academy: Year 2 (app_id: 831120)
+2024-10-15 10:20:40,431 - INFO - Obiekt nie jest gr¹: app_id: 831160
+2024-10-15 10:20:42,748 - INFO - Obiekt nie jest gr¹: app_id: 831161
+2024-10-15 10:20:45,146 - INFO - Obiekt nie jest gr¹: app_id: 831162
+2024-10-15 10:20:47,564 - INFO - Obiekt nie jest gr¹: app_id: 831170
+2024-10-15 10:20:49,847 - INFO - Obiekt nie jest gr¹: app_id: 830910
+2024-10-15 10:20:52,152 - INFO - Obiekt nie jest gr¹: app_id: 830920
+2024-10-15 10:20:54,405 - INFO - Obiekt nie jest gr¹: app_id: 830930
+2024-10-15 10:20:56,753 - INFO - Obiekt nie jest gr¹: app_id: 830940
+2024-10-15 10:20:59,069 - INFO - Obiekt nie jest gr¹: app_id: 830950
+2024-10-15 10:21:01,414 - INFO - Przetworzono grê: Doodle Date (app_id: 830980)
+2024-10-15 10:21:03,921 - INFO - Przetworzono grê: The Blobs Fight (app_id: 830500)
+2024-10-15 10:21:06,370 - INFO - Przetworzono grê: Bounty Hunter: Ocean Diver (app_id: 830510)
+2024-10-15 10:21:09,113 - INFO - Przetworzono grê: Finger Jets (app_id: 830520)
+2024-10-15 10:21:11,663 - INFO - Obiekt nie jest gr¹: app_id: 830550
+2024-10-15 10:21:14,011 - INFO - Przetworzono grê: OVERTURN: Final Operation (app_id: 830560)
+2024-10-15 10:21:16,508 - INFO - Obiekt nie jest gr¹: app_id: 830570
+2024-10-15 10:21:18,811 - INFO - Przetworzono grê: BattleBeasts (app_id: 830580)
+2024-10-15 10:21:21,419 - INFO - Przetworzono grê: Holy Potatoes! A Spy Story?! (app_id: 830590)
+2024-10-15 10:21:23,916 - INFO - Przetworzono grê: Storm of Jigsaw Puzzles  \u62fc\u56fe\u98ce\u66b4 (app_id: 830620)
+2024-10-15 10:21:26,441 - INFO - Przetworzono grê: Existential Kitty Cat RPG (app_id: 830630)
+2024-10-15 10:21:29,086 - INFO - Obiekt nie jest gr¹: app_id: 830650
+2024-10-15 10:21:32,321 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 830660
+2024-10-15 10:21:35,335 - INFO - Przetworzono grê: The Eerie Inn (app_id: 830710)
+2024-10-15 10:21:38,821 - INFO - Obiekt nie jest gr¹: app_id: 830720
+2024-10-15 10:21:41,591 - INFO - Obiekt nie jest gr¹: app_id: 830740
+2024-10-15 10:21:44,524 - INFO - Przetworzono grê: Poker Simulator (app_id: 830750)
+2024-10-15 10:21:47,364 - INFO - Przetworzono grê: Death Game (app_id: 830810)
+2024-10-15 10:21:50,283 - INFO - Przetworzono grê: Jets'n'Guns 2 (app_id: 830820)
+2024-10-15 10:21:53,568 - INFO - Przetworzono grê: Dragon's Eye (app_id: 830850)
+2024-10-15 10:21:56,587 - INFO - Przetworzono grê: Infinite Vector (app_id: 830890)
+2024-10-15 10:21:59,388 - INFO - Przetworzono grê: Platform Challenge (app_id: 830360)
+2024-10-15 10:22:02,827 - INFO - Obiekt nie jest gr¹: app_id: 830400
+2024-10-15 10:22:06,078 - INFO - Przetworzono grê: Nogalious (app_id: 830410)
+2024-10-15 10:22:09,454 - INFO - Obiekt nie jest gr¹: app_id: 830420
+2024-10-15 10:22:12,602 - INFO - Przetworzono grê: Drowning (app_id: 830430)
+2024-10-15 10:22:16,130 - INFO - Obiekt nie jest gr¹: app_id: 830450
+2024-10-15 10:22:18,767 - INFO - Obiekt nie jest gr¹: app_id: 830451
+2024-10-15 10:22:22,055 - INFO - Obiekt nie jest gr¹: app_id: 830460
+2024-10-15 10:22:24,645 - INFO - Obiekt nie jest gr¹: app_id: 830461
+2024-10-15 10:22:27,420 - INFO - Przetworzono grê: MazeBot (app_id: 830470)
+2024-10-15 10:22:30,164 - INFO - Przetworzono grê: Achievement Lurker: You are going to have to work hard for these nuts (app_id: 830490)
+2024-10-15 10:22:32,764 - INFO - Przetworzono grê: Robots Attack On Vapeland (app_id: 829750)
+2024-10-15 10:22:35,435 - INFO - Przetworzono grê: Synthrally (app_id: 829760)
+2024-10-15 10:22:38,055 - INFO - Przetworzono grê: Baby's on fire: 99 virgins (app_id: 829780)
+2024-10-15 10:22:40,702 - INFO - Przetworzono grê: Russian World (app_id: 829940)
+2024-10-15 10:22:43,238 - INFO - Obiekt nie jest gr¹: app_id: 829960
+2024-10-15 10:22:45,761 - INFO - Przetworzono grê: Jagoondo (app_id: 829980)
+2024-10-15 10:22:48,399 - INFO - Obiekt nie jest gr¹: app_id: 830010
+2024-10-15 10:22:50,882 - INFO - Obiekt nie jest gr¹: app_id: 829450
+2024-10-15 10:22:53,301 - INFO - Obiekt nie jest gr¹: app_id: 829460
+2024-10-15 10:22:55,749 - INFO - Przetworzono grê: Firebird - Steam version (app_id: 829490)
+2024-10-15 10:22:58,506 - INFO - Obiekt nie jest gr¹: app_id: 829510
+2024-10-15 10:23:00,929 - INFO - Obiekt nie jest gr¹: app_id: 829550
+2024-10-15 10:23:03,423 - INFO - Przetworzono grê: Katie (app_id: 829560)
+2024-10-15 10:23:06,366 - INFO - Przetworzono grê: CryoFall (app_id: 829590)
+2024-10-15 10:23:09,057 - INFO - Przetworzono grê: Alice In VR (app_id: 829610)
+2024-10-15 10:23:12,172 - INFO - Obiekt nie jest gr¹: app_id: 829620
+2024-10-15 10:23:14,791 - INFO - Przetworzono grê: Skat Stammtisch (app_id: 829630)
+2024-10-15 10:23:17,804 - INFO - Przetworzono grê: No Time to Relax (app_id: 829660)
+2024-10-15 10:23:20,722 - INFO - Obiekt nie jest gr¹: app_id: 829690
+2024-10-15 10:23:23,180 - INFO - Obiekt nie jest gr¹: app_id: 829700
+2024-10-15 10:23:25,647 - INFO - Obiekt nie jest gr¹: app_id: 829710
+2024-10-15 10:23:28,233 - INFO - Przetworzono grê: The Nature (app_id: 829720)
+2024-10-15 10:23:30,857 - INFO - Obiekt nie jest gr¹: app_id: 829730
+2024-10-15 10:23:33,335 - INFO - Obiekt nie jest gr¹: app_id: 829731
+2024-10-15 10:23:35,840 - INFO - Obiekt nie jest gr¹: app_id: 829732
+2024-10-15 10:23:38,315 - INFO - Obiekt nie jest gr¹: app_id: 829733
+2024-10-15 10:23:40,866 - INFO - Obiekt nie jest gr¹: app_id: 829734
+2024-10-15 10:23:43,454 - INFO - Obiekt nie jest gr¹: app_id: 829735
+2024-10-15 10:23:45,975 - INFO - Obiekt nie jest gr¹: app_id: 829736
+2024-10-15 10:23:48,499 - INFO - Obiekt nie jest gr¹: app_id: 829737
+2024-10-15 10:23:50,968 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 829110
+2024-10-15 10:23:53,415 - INFO - Przetworzono grê: Extreme Dash: Reloaded (app_id: 829120)
+2024-10-15 10:23:56,099 - INFO - Obiekt nie jest gr¹: app_id: 829130
+2024-10-15 10:23:58,586 - INFO - Obiekt nie jest gr¹: app_id: 829230
+2024-10-15 10:24:01,043 - INFO - Przetworzono grê: Morning Never Comes (app_id: 829260)
+2024-10-15 10:24:03,857 - INFO - Obiekt nie jest gr¹: app_id: 829270
+2024-10-15 10:24:06,425 - INFO - Przetworzono grê: Kaze and the Wild Masks (app_id: 829280)
+2024-10-15 10:24:09,077 - INFO - Przetworzono grê: bomber-un (app_id: 829300)
+2024-10-15 10:24:11,893 - INFO - Obiekt nie jest gr¹: app_id: 829360
+2024-10-15 10:24:14,465 - INFO - Przetworzono grê: Nicky - The Home Alone Golf Ball (app_id: 829370)
+2024-10-15 10:24:17,198 - INFO - Przetworzono grê: Wren's Journey (app_id: 829400)
+2024-10-15 10:24:19,912 - INFO - Przetworzono grê: Project Myriad (app_id: 829410)
+2024-10-15 10:24:22,586 - INFO - Przetworzono grê: Fun Hospital (app_id: 829420)
+2024-10-15 10:24:25,491 - INFO - Obiekt nie jest gr¹: app_id: 829430
+2024-10-15 10:24:27,977 - INFO - Przetworzono grê: The Stillness of the Wind (app_id: 828900)
+2024-10-15 10:24:30,724 - INFO - Przetworzono grê: aMAZE Frozen (app_id: 828910)
+2024-10-15 10:24:33,519 - INFO - Obiekt nie jest gr¹: app_id: 828920
+2024-10-15 10:24:36,298 - INFO - Obiekt nie jest gr¹: app_id: 828940
+2024-10-15 10:24:38,832 - INFO - Przetworzono grê: Howlville: The Dark Past (app_id: 828950)
+2024-10-15 10:24:41,529 - INFO - Przetworzono grê: Blonde Driver (app_id: 828960)
+2024-10-15 10:24:44,224 - INFO - Przetworzono grê: Hit The Hive (app_id: 828970)
+2024-10-15 10:24:46,957 - INFO - Obiekt nie jest gr¹: app_id: 829000
+2024-10-15 10:24:49,651 - INFO - Przetworzono grê: Light Borrower (app_id: 829040)
+2024-10-15 10:24:52,437 - INFO - Przetworzono grê: Burst Into (app_id: 829080)
+2024-10-15 10:24:55,167 - INFO - Przetworzono grê: \u0418\u0433\u0440\u0430 \u0437\u0430\u0431\u044b\u0442\u044b\u0445 \u0411\u043e\u0433\u043e\u0432. \u041f\u0440\u043e\u0441\u043d\u0438\u0441\u044c / Game of the forgotten Gods. Wake up (app_id: 828540)
+2024-10-15 10:24:58,006 - INFO - Przetworzono grê: Trivia Vault: Hockey Trivia (app_id: 828550)
+2024-10-15 10:25:00,704 - INFO - Obiekt nie jest gr¹: app_id: 828560
+2024-10-15 10:25:03,290 - INFO - Przetworzono grê: NEKO-NIN exHeart 2 (app_id: 828580)
+2024-10-15 10:25:06,418 - INFO - Przetworzono grê: Super Weekend Mode (app_id: 828590)
+2024-10-15 10:25:09,343 - INFO - Przetworzono grê: Mama Farm (app_id: 828600)
+2024-10-15 10:25:12,400 - INFO - Obiekt nie jest gr¹: app_id: 828610
+2024-10-15 10:25:15,048 - INFO - Obiekt nie jest gr¹: app_id: 828611
+2024-10-15 10:25:17,783 - INFO - Obiekt nie jest gr¹: app_id: 828612
+2024-10-15 10:25:20,644 - INFO - Obiekt nie jest gr¹: app_id: 828613
+2024-10-15 10:25:23,888 - INFO - Obiekt nie jest gr¹: app_id: 828614
+2024-10-15 10:25:27,421 - INFO - Obiekt nie jest gr¹: app_id: 828615
+2024-10-15 10:25:30,891 - INFO - Obiekt nie jest gr¹: app_id: 828616
+2024-10-15 10:25:34,357 - INFO - Obiekt nie jest gr¹: app_id: 828620
+2024-10-15 10:25:37,968 - INFO - Obiekt nie jest gr¹: app_id: 828621
+2024-10-15 10:25:41,634 - INFO - Obiekt nie jest gr¹: app_id: 828622
+2024-10-15 10:25:44,552 - INFO - Obiekt nie jest gr¹: app_id: 828623
+2024-10-15 10:25:48,158 - INFO - Obiekt nie jest gr¹: app_id: 828624
+2024-10-15 10:25:51,707 - INFO - Obiekt nie jest gr¹: app_id: 828625
+2024-10-15 10:25:54,678 - INFO - Obiekt nie jest gr¹: app_id: 828626
+2024-10-15 10:25:58,279 - INFO - Obiekt nie jest gr¹: app_id: 828630
+2024-10-15 10:26:01,939 - INFO - Obiekt nie jest gr¹: app_id: 828631
+2024-10-15 10:26:04,841 - INFO - Obiekt nie jest gr¹: app_id: 828632
+2024-10-15 10:26:07,512 - INFO - Przetworzono grê: The Stranger VR (app_id: 828640)
+2024-10-15 10:26:10,278 - INFO - Przetworzono grê: War Of The Zombie (app_id: 828660)
+2024-10-15 10:26:13,214 - INFO - Przetworzono grê: Berserker's Descent (app_id: 828680)
+2024-10-15 10:26:16,030 - INFO - Obiekt nie jest gr¹: app_id: 828690
+2024-10-15 10:26:18,723 - INFO - Przetworzono grê: Laws of Machine (app_id: 828710)
+2024-10-15 10:26:22,438 - INFO - Przetworzono grê: Dumb As Wizards (app_id: 828730)
+2024-10-15 10:26:25,978 - INFO - Przetworzono grê: Tales of the Neon Sea (app_id: 828740)
+2024-10-15 10:26:29,746 - INFO - Przetworzono grê: Paper Shakespeare: The Legend of Rainbow Hollow (app_id: 828760)
+2024-10-15 10:26:33,227 - INFO - Przetworzono grê: Turbo Soccer VR (app_id: 828770)
+2024-10-15 10:26:36,492 - INFO - Obiekt nie jest gr¹: app_id: 828790
+2024-10-15 10:26:39,318 - INFO - Przetworzono grê: Artipic (app_id: 828800)
+2024-10-15 10:26:42,601 - INFO - Obiekt nie jest gr¹: app_id: 828830
+2024-10-15 10:26:45,775 - INFO - Obiekt nie jest gr¹: app_id: 828840
+2024-10-15 10:26:48,916 - INFO - Przetworzono grê: The Stroke of Midnight (app_id: 828860)
+2024-10-15 10:26:52,632 - INFO - Obiekt nie jest gr¹: app_id: 828880
+2024-10-15 10:26:56,105 - INFO - Przetworzono grê: My Golf (app_id: 828890)
+2024-10-15 10:26:58,946 - INFO - Przetworzono grê: Treasure Hunter Claire (app_id: 828070)
+2024-10-15 10:27:01,807 - INFO - Przetworzono grê: Pong like (app_id: 828080)
+2024-10-15 10:27:04,605 - INFO - Przetworzono grê: TCPingInfoView (app_id: 828090)
+2024-10-15 10:27:07,468 - INFO - Przetworzono grê: Synstasis (app_id: 828100)
+2024-10-15 10:27:10,416 - INFO - Obiekt nie jest gr¹: app_id: 828130
+2024-10-15 10:27:13,061 - INFO - Przetworzono grê: WIN THE GAME! (app_id: 828150)
+2024-10-15 10:27:15,860 - INFO - Przetworzono grê: X-Town 3D game (app_id: 828160)
+2024-10-15 10:27:18,878 - INFO - Przetworzono grê: Pivross (app_id: 828170)
+2024-10-15 10:27:21,728 - INFO - Obiekt nie jest gr¹: app_id: 828180
+2024-10-15 10:27:24,444 - INFO - Obiekt nie jest gr¹: app_id: 828200
+2024-10-15 10:27:27,203 - INFO - Przetworzono grê: Beta Kaola Budding Game (app_id: 828220)
+2024-10-15 10:27:30,373 - INFO - Przetworzono grê: Dungeons of the dead (app_id: 828230)
+2024-10-15 10:27:34,221 - INFO - Przetworzono grê: HOST (app_id: 828240)
+2024-10-15 10:27:37,302 - INFO - Przetworzono grê: Stargazer program (app_id: 828250)
+2024-10-15 10:27:40,493 - INFO - Obiekt nie jest gr¹: app_id: 828260
+2024-10-15 10:27:43,523 - INFO - Przetworzono grê: Jelly Bomber (app_id: 828270)
+2024-10-15 10:27:46,464 - INFO - Obiekt nie jest gr¹: app_id: 828300
+2024-10-15 10:27:49,251 - INFO - Obiekt nie jest gr¹: app_id: 828310
+2024-10-15 10:27:52,533 - INFO - Przetworzono grê: Grid Clash VR (app_id: 828320)
+2024-10-15 10:27:55,682 - INFO - Przetworzono grê: Tomb Towers (app_id: 828350)
+2024-10-15 10:27:59,645 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 828370
+2024-10-15 10:28:02,482 - INFO - Przetworzono grê: Death Mark Vol.1 - \u6b7b\u5370\u4e4b\u8ff7\u96fe (app_id: 828380)
+2024-10-15 10:28:05,633 - INFO - Obiekt nie jest gr¹: app_id: 828390
+2024-10-15 10:28:08,473 - INFO - Przetworzono grê: OniBushi VR (app_id: 828410)
+2024-10-15 10:28:11,545 - INFO - Przetworzono grê: Six Second Slam (app_id: 828420)
+2024-10-15 10:28:15,484 - INFO - Obiekt nie jest gr¹: app_id: 828430
+2024-10-15 10:28:18,785 - INFO - Przetworzono grê: The Other Side Of The Screen (app_id: 828440)
+2024-10-15 10:28:22,451 - INFO - Obiekt nie jest gr¹: app_id: 828450
+2024-10-15 10:28:26,021 - INFO - Przetworzono grê: The Last Barbarian (app_id: 828470)
+2024-10-15 10:28:29,150 - INFO - Przetworzono grê: MinigolfPark VR (app_id: 828480)
+2024-10-15 10:28:32,354 - INFO - Obiekt nie jest gr¹: app_id: 828490
+2024-10-15 10:28:35,965 - INFO - Obiekt nie jest gr¹: app_id: 828500
+2024-10-15 10:28:39,876 - INFO - Przetworzono grê: Metis One (app_id: 828520)
+2024-10-15 10:28:44,022 - INFO - Obiekt nie jest gr¹: app_id: 827680
+2024-10-15 10:28:47,061 - INFO - Obiekt nie jest gr¹: app_id: 827690
+2024-10-15 10:28:50,783 - INFO - Obiekt nie jest gr¹: app_id: 827700
+2024-10-15 10:28:53,724 - INFO - Obiekt nie jest gr¹: app_id: 827710
+2024-10-15 10:28:57,217 - INFO - Obiekt nie jest gr¹: app_id: 827720
+2024-10-15 10:29:00,949 - INFO - Obiekt nie jest gr¹: app_id: 827730
+2024-10-15 10:29:04,776 - INFO - Przetworzono grê: Pathosis (app_id: 827770)
+2024-10-15 10:29:08,444 - INFO - Przetworzono grê: Margot's Word Brain (app_id: 827780)
+2024-10-15 10:29:11,835 - INFO - Obiekt nie jest gr¹: app_id: 827810
+2024-10-15 10:29:15,771 - INFO - Obiekt nie jest gr¹: app_id: 827820
+2024-10-15 10:29:19,028 - INFO - Przetworzono grê: Castle Agony (app_id: 827830)
+2024-10-15 10:29:22,422 - INFO - Przetworzono grê: Destined (app_id: 827860)
+2024-10-15 10:29:26,342 - INFO - Przetworzono grê: The Endless Mission (app_id: 827880)
+2024-10-15 10:29:30,227 - INFO - Przetworzono grê: Bounty Hunter: Stampede (app_id: 827900)
+2024-10-15 10:29:33,835 - INFO - Przetworzono grê: Bounce (app_id: 827920)
+2024-10-15 10:29:37,940 - INFO - Przetworzono grê: Strive (app_id: 827930)
+2024-10-15 10:29:41,514 - INFO - Przetworzono grê: Marvellous Inc. (app_id: 827940)
+2024-10-15 10:29:45,373 - INFO - Przetworzono grê: Inzo (app_id: 827950)
+2024-10-15 10:29:49,073 - INFO - Obiekt nie jest gr¹: app_id: 828020
+2024-10-15 10:29:52,545 - INFO - Przetworzono grê: One Ping Only (app_id: 828030)
+2024-10-15 10:29:56,382 - INFO - Obiekt nie jest gr¹: app_id: 828040
+2024-10-15 10:29:59,926 - INFO - Przetworzono grê: Luminous Combat (app_id: 827410)
+2024-10-15 10:30:03,417 - INFO - Przetworzono grê: Coin Pusher (app_id: 827420)
+2024-10-15 10:30:07,796 - INFO - Obiekt nie jest gr¹: app_id: 827440
+2024-10-15 10:30:11,610 - INFO - Przetworzono grê: InkSplosion (app_id: 827450)
+2024-10-15 10:30:15,343 - INFO - Przetworzono grê: TETRA's Escape (app_id: 827460)
+2024-10-15 10:30:19,747 - INFO - Przetworzono grê: Current (app_id: 827530)
+2024-10-15 10:30:23,805 - INFO - Przetworzono grê: A Penny For Some Motivation (app_id: 827540)
+2024-10-15 10:30:28,023 - INFO - Przetworzono grê: Arena of the Gods (app_id: 827560)
+2024-10-15 10:30:32,079 - INFO - Przetworzono grê: A.S.H. (app_id: 827580)
+2024-10-15 10:30:35,915 - INFO - Przetworzono grê: Nova Wing II (app_id: 827590)
+2024-10-15 10:30:39,515 - INFO - Obiekt nie jest gr¹: app_id: 827600
+2024-10-15 10:30:43,073 - INFO - Przetworzono grê: Dead End Job (app_id: 827610)
+2024-10-15 10:30:47,138 - INFO - Przetworzono grê: Trash Story (app_id: 827640)
+2024-10-15 10:30:51,107 - INFO - Obiekt nie jest gr¹: app_id: 826980
+2024-10-15 10:30:54,805 - INFO - Obiekt nie jest gr¹: app_id: 826990
+2024-10-15 10:30:58,604 - INFO - Przetworzono grê: Celtic Kings: Rage of War (app_id: 827000)
+2024-10-15 10:31:02,491 - INFO - Obiekt nie jest gr¹: app_id: 827030
+2024-10-15 10:31:05,692 - INFO - Przetworzono grê: Rising Kingdoms (app_id: 827050)
+2024-10-15 10:31:09,949 - INFO - Obiekt nie jest gr¹: app_id: 827070
+2024-10-15 10:31:13,687 - INFO - Obiekt nie jest gr¹: app_id: 827080
+2024-10-15 10:31:17,477 - INFO - Obiekt nie jest gr¹: app_id: 827090
+2024-10-15 10:31:21,441 - INFO - Przetworzono grê: Aladin & the Enchanted Lamp (app_id: 827100)
+2024-10-15 10:31:25,821 - INFO - Przetworzono grê: The Three Musketeers - D'Artagnan & the 12 Jewels (app_id: 827110)
+2024-10-15 10:31:29,016 - INFO - Przetworzono grê: Les Misérables: Cosette's Fate (app_id: 827120)
+2024-10-15 10:31:32,239 - INFO - Przetworzono grê: Les Misérables: Jean Valjean (app_id: 827130)
+2024-10-15 10:31:35,244 - INFO - Obiekt nie jest gr¹: app_id: 827150
+2024-10-15 10:31:38,206 - INFO - Obiekt nie jest gr¹: app_id: 827160
+2024-10-15 10:31:41,137 - INFO - Przetworzono grê: FlickSync - Mad Hatter VR (app_id: 827170)
+2024-10-15 10:31:44,235 - INFO - Obiekt nie jest gr¹: app_id: 827180
+2024-10-15 10:31:47,732 - INFO - Obiekt nie jest gr¹: app_id: 827200
+2024-10-15 10:31:50,806 - INFO - Przetworzono grê: Overclocked: The Aclockalypse (app_id: 827220)
+2024-10-15 10:31:54,338 - INFO - Obiekt nie jest gr¹: app_id: 827240
+2024-10-15 10:31:58,110 - INFO - Obiekt nie jest gr¹: app_id: 827250
+2024-10-15 10:32:01,413 - INFO - Przetworzono grê: Bounty Hunter: Space Detective (app_id: 827270)
+2024-10-15 10:32:04,760 - INFO - Przetworzono grê: School Fab Lab VR (app_id: 827280)
+2024-10-15 10:32:08,230 - INFO - Przetworzono grê: Secret Little Haven (app_id: 827290)
+2024-10-15 10:32:11,400 - INFO - Przetworzono grê: Skydrift Infinity (app_id: 827330)
+2024-10-15 10:32:14,659 - INFO - Obiekt nie jest gr¹: app_id: 827350
+2024-10-15 10:32:18,456 - INFO - Przetworzono grê: Armoured Engines (app_id: 827360)
+2024-10-15 10:32:22,258 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 827380
+2024-10-15 10:32:25,999 - INFO - Obiekt nie jest gr¹: app_id: 826504
+2024-10-15 10:32:30,310 - INFO - Obiekt nie jest gr¹: app_id: 826505
+2024-10-15 10:32:33,965 - INFO - Obiekt nie jest gr¹: app_id: 826506
+2024-10-15 10:32:37,856 - INFO - Obiekt nie jest gr¹: app_id: 826507
+2024-10-15 10:32:41,291 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 826510
+2024-10-15 10:32:44,952 - INFO - Obiekt nie jest gr¹: app_id: 826520
+2024-10-15 10:32:49,154 - INFO - Obiekt nie jest gr¹: app_id: 826530
+2024-10-15 10:32:52,752 - INFO - Przetworzono grê: Audio Trip (app_id: 826540)
+2024-10-15 10:32:55,956 - INFO - Przetworzono grê: Golf Cart Drive (app_id: 826550)
+2024-10-15 10:32:59,387 - INFO - Przetworzono grê: Kmenta (app_id: 826590)
+2024-10-15 10:33:02,950 - INFO - Przetworzono grê: I am not a Monster: First Contact (app_id: 826600)
+2024-10-15 10:33:06,940 - INFO - Przetworzono grê: MAX MOZART (app_id: 826610)
+2024-10-15 10:33:11,125 - INFO - Obiekt nie jest gr¹: app_id: 826620
+2024-10-15 10:33:14,392 - INFO - Przetworzono grê: Iron Harvest (app_id: 826630)
+2024-10-15 10:33:17,671 - INFO - Przetworzono grê: EARTHLOCK 2 (app_id: 826640)
+2024-10-15 10:33:21,101 - INFO - Obiekt nie jest gr¹: app_id: 826650
+2024-10-15 10:33:24,371 - INFO - Przetworzono grê: Rosette and Words (app_id: 826660)
+2024-10-15 10:33:28,463 - INFO - Przetworzono grê: Rise of the Slime (app_id: 826740)
+2024-10-15 10:33:32,187 - INFO - Przetworzono grê: Floor By Floor (app_id: 826810)
+2024-10-15 10:33:36,367 - INFO - Przetworzono grê: The Capture Worlds (app_id: 826930)
+2024-10-15 10:33:40,696 - INFO - Przetworzono grê: Maid of Sker (app_id: 826940)
+2024-10-15 10:33:44,489 - INFO - Obiekt nie jest gr¹: app_id: 826960
+2024-10-15 10:33:47,553 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 826260
+2024-10-15 10:33:50,570 - INFO - Przetworzono grê: Hellbreath (app_id: 826270)
+2024-10-15 10:33:53,809 - INFO - Obiekt nie jest gr¹: app_id: 826290
+2024-10-15 10:33:56,795 - INFO - Przetworzono grê: Monochromaniacs (app_id: 826300)
+2024-10-15 10:34:00,054 - INFO - Obiekt nie jest gr¹: app_id: 826360
+2024-10-15 10:34:03,007 - INFO - Przetworzono grê: Spirits of Mystery: The Silver Arrow Collector's Edition (app_id: 826370)
+2024-10-15 10:34:06,331 - INFO - Przetworzono grê: Dark Canvas: A Murder Exposed Collector's Edition (app_id: 826380)
+2024-10-15 10:34:09,647 - INFO - Przetworzono grê: Haunted Manor: Painted Beauties Collector's Edition (app_id: 826390)
+2024-10-15 10:34:12,784 - INFO - Przetworzono grê: Dark Romance: Heart of the Beast Collector's Edition (app_id: 826420)
+2024-10-15 10:34:15,936 - INFO - Przetworzono grê: Twilight Phenomena: The Incredible Show Collector's Edition (app_id: 826430)
+2024-10-15 10:34:19,255 - INFO - Przetworzono grê: Sable Maze: Forbidden Garden Collector's Edition (app_id: 826440)
+2024-10-15 10:34:22,403 - INFO - Przetworzono grê: Paws 'n Claws VR (app_id: 826450)
+2024-10-15 10:34:25,712 - INFO - Przetworzono grê: The Road to Hades (app_id: 826460)
+2024-10-15 10:34:28,915 - INFO - Przetworzono grê: Nummels (app_id: 826470)
+2024-10-15 10:34:32,096 - INFO - Przetworzono grê: VR Benchmark Kanojo (app_id: 826480)
+2024-10-15 10:34:35,840 - INFO - Obiekt nie jest gr¹: app_id: 826490
+2024-10-15 10:34:38,907 - INFO - Obiekt nie jest gr¹: app_id: 826491
+2024-10-15 10:34:41,988 - INFO - Obiekt nie jest gr¹: app_id: 826492
+2024-10-15 10:34:45,211 - INFO - Obiekt nie jest gr¹: app_id: 826493
+2024-10-15 10:34:48,410 - INFO - Obiekt nie jest gr¹: app_id: 826494
+2024-10-15 10:34:51,619 - INFO - Obiekt nie jest gr¹: app_id: 826495
+2024-10-15 10:34:54,769 - INFO - Obiekt nie jest gr¹: app_id: 826496
+2024-10-15 10:34:57,965 - INFO - Obiekt nie jest gr¹: app_id: 826497
+2024-10-15 10:35:01,123 - INFO - Obiekt nie jest gr¹: app_id: 826498
+2024-10-15 10:35:04,174 - INFO - Obiekt nie jest gr¹: app_id: 826499
+2024-10-15 10:35:07,296 - INFO - Obiekt nie jest gr¹: app_id: 826500
+2024-10-15 10:35:10,371 - INFO - Obiekt nie jest gr¹: app_id: 826501
+2024-10-15 10:35:13,516 - INFO - Obiekt nie jest gr¹: app_id: 826502
+2024-10-15 10:35:16,646 - INFO - Obiekt nie jest gr¹: app_id: 826503
+2024-10-15 10:35:19,747 - INFO - Obiekt nie jest gr¹: app_id: 826084
+2024-10-15 10:35:22,925 - INFO - Obiekt nie jest gr¹: app_id: 826085
+2024-10-15 10:35:26,152 - INFO - Obiekt nie jest gr¹: app_id: 826086
+2024-10-15 10:35:29,221 - INFO - Obiekt nie jest gr¹: app_id: 826087
+2024-10-15 10:35:32,433 - INFO - Obiekt nie jest gr¹: app_id: 826088
+2024-10-15 10:35:35,698 - INFO - Obiekt nie jest gr¹: app_id: 826090
+2024-10-15 10:35:38,721 - INFO - Przetworzono grê: Find someone else (app_id: 826100)
+2024-10-15 10:35:42,138 - INFO - Przetworzono grê: ButcherBoy (app_id: 826160)
+2024-10-15 10:35:45,601 - INFO - Przetworzono grê: Laser Ball (app_id: 826170)
+2024-10-15 10:35:49,352 - INFO - Przetworzono grê: EONIA (app_id: 826180)
+2024-10-15 10:35:53,601 - INFO - Przetworzono grê: CONCLUSE (app_id: 826230)
+2024-10-15 10:35:57,031 - INFO - Przetworzono grê: Viking's drakkars (app_id: 825610)
+2024-10-15 10:36:00,597 - INFO - Przetworzono grê: M.I.N.D. (app_id: 825620)
+2024-10-15 10:36:04,254 - INFO - Przetworzono grê: STEINS;GATE 0 (app_id: 825630)
+2024-10-15 10:36:08,192 - INFO - Obiekt nie jest gr¹: app_id: 825640
+2024-10-15 10:36:11,958 - INFO - Obiekt nie jest gr¹: app_id: 825650
+2024-10-15 10:36:16,128 - INFO - Obiekt nie jest gr¹: app_id: 825660
+2024-10-15 10:36:20,444 - INFO - Obiekt nie jest gr¹: app_id: 825670
+2024-10-15 10:36:24,493 - INFO - Obiekt nie jest gr¹: app_id: 825680
+2024-10-15 10:36:28,975 - INFO - Obiekt nie jest gr¹: app_id: 825690
+2024-10-15 10:36:33,287 - INFO - Obiekt nie jest gr¹: app_id: 825700
+2024-10-15 10:36:37,378 - INFO - Obiekt nie jest gr¹: app_id: 825710
+2024-10-15 10:36:41,966 - INFO - Przetworzono grê: Tzar: The Burden of the Crown (app_id: 825730)
+2024-10-15 10:36:46,733 - INFO - Przetworzono grê: The Mystery of Devils House (app_id: 825970)
+2024-10-15 10:36:51,567 - INFO - Przetworzono grê: Masked Forces 3 (app_id: 826000)
+2024-10-15 10:36:56,074 - INFO - Przetworzono grê: JQ: chemistry (app_id: 826010)
+2024-10-15 10:37:01,905 - INFO - Przetworzono grê: Zombie Teacher (app_id: 826020)
+2024-10-15 10:37:07,693 - INFO - Przetworzono grê: BrainPower (app_id: 826030)
+2024-10-15 10:37:12,313 - INFO - Przetworzono grê: Sacred Stones (app_id: 826040)
+2024-10-15 10:37:16,304 - INFO - Przetworzono grê: Chime Sharp Game Composer Edition (app_id: 826050)
+2024-10-15 10:37:20,207 - INFO - Obiekt nie jest gr¹: app_id: 826080
+2024-10-15 10:37:23,852 - INFO - Obiekt nie jest gr¹: app_id: 826081
+2024-10-15 10:37:27,213 - INFO - Obiekt nie jest gr¹: app_id: 826082
+2024-10-15 10:37:30,571 - INFO - Obiekt nie jest gr¹: app_id: 825221
+2024-10-15 10:37:34,057 - INFO - Przetworzono grê: Elude (app_id: 825240)
+2024-10-15 10:37:37,506 - INFO - Przetworzono grê: To Trust an Incubus (app_id: 825300)
+2024-10-15 10:37:41,028 - INFO - Przetworzono grê: Dude Simulator 2 (app_id: 825310)
+2024-10-15 10:37:44,521 - INFO - Przetworzono grê: CyberRebeat -The Fifth Domain of Warfare- (app_id: 825320)
+2024-10-15 10:37:48,168 - INFO - Przetworzono grê: Downhill Deceits (app_id: 825350)
+2024-10-15 10:37:51,891 - INFO - Przetworzono grê: A Bloody Party (app_id: 825370)
+2024-10-15 10:37:55,328 - INFO - Przetworzono grê: \u5f3a\u519b (app_id: 825380)
+2024-10-15 10:37:58,711 - INFO - Przetworzono grê: Defiance 2050 - Beta (app_id: 825430)
+2024-10-15 10:38:02,106 - INFO - Przetworzono grê: Type (app_id: 825450)
+2024-10-15 10:38:05,902 - INFO - Obiekt nie jest gr¹: app_id: 825470
+2024-10-15 10:38:09,153 - INFO - Przetworzono grê: ELDR  LEGACY (app_id: 825480)
+2024-10-15 10:38:12,565 - INFO - Przetworzono grê: Dead Ground:Arena (app_id: 825500)
+2024-10-15 10:38:15,996 - INFO - Przetworzono grê: BlueberryNOVA (app_id: 825550)
+2024-10-15 10:38:19,462 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 825560
+2024-10-15 10:38:22,721 - INFO - Obiekt nie jest gr¹: app_id: 825570
+2024-10-15 10:38:26,117 - INFO - Obiekt nie jest gr¹: app_id: 825590
+2024-10-15 10:38:29,311 - INFO - Przetworzono grê: Pure Rock Crawling (app_id: 824720)
+2024-10-15 10:38:32,876 - INFO - Przetworzono grê: Deathtrap Dungeon Trilogy (app_id: 824760)
+2024-10-15 10:38:36,477 - INFO - Przetworzono grê: Labirinto 2 (app_id: 824770)
+2024-10-15 10:38:39,874 - INFO - Obiekt nie jest gr¹: app_id: 824810
+2024-10-15 10:38:43,148 - INFO - Obiekt nie jest gr¹: app_id: 824820
+2024-10-15 10:38:46,297 - INFO - Przetworzono grê: Corpse Party: Blood Drive (app_id: 824830)
+2024-10-15 10:38:49,742 - INFO - Przetworzono grê: Oi, Innkeep! (app_id: 824840)
+2024-10-15 10:38:53,209 - INFO - Obiekt nie jest gr¹: app_id: 824860
+2024-10-15 10:38:56,553 - INFO - Przetworzono grê: Charlotte (app_id: 824880)
+2024-10-15 10:38:59,902 - INFO - Obiekt nie jest gr¹: app_id: 824890
+2024-10-15 10:39:03,132 - INFO - Przetworzono grê: Fallen Empires (app_id: 824900)
+2024-10-15 10:39:06,577 - INFO - Przetworzono grê: Temptation (app_id: 825000)
+2024-10-15 10:39:10,224 - INFO - Przetworzono grê: Watch Over Christmas (app_id: 825060)
+2024-10-15 10:39:13,668 - INFO - Obiekt nie jest gr¹: app_id: 825090
+2024-10-15 10:39:17,031 - INFO - Przetworzono grê: Redshift VR (app_id: 825100)
+2024-10-15 10:39:20,590 - INFO - Przetworzono grê: Space Drift Squad (app_id: 825110)
+2024-10-15 10:39:23,902 - INFO - Przetworzono grê: Lollihop (app_id: 825160)
+2024-10-15 10:39:27,467 - INFO - Przetworzono grê: Porcuball (app_id: 825170)
+2024-10-15 10:39:30,985 - INFO - Obiekt nie jest gr¹: app_id: 825180
+2024-10-15 10:39:34,362 - INFO - Przetworzono grê: Donut Shop (app_id: 825210)
+2024-10-15 10:39:37,879 - INFO - Obiekt nie jest gr¹: app_id: 825220
+2024-10-15 10:39:41,656 - INFO - Przetworzono grê: KovaaK's (app_id: 824270)
+2024-10-15 10:39:46,581 - INFO - Przetworzono grê: Monster Jam Steel Titans (app_id: 824280)
+2024-10-15 10:39:51,751 - INFO - Przetworzono grê: Dragon Awaken (app_id: 824300)
+2024-10-15 10:39:56,379 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 824320
+2024-10-15 10:40:01,651 - INFO - Obiekt nie jest gr¹: app_id: 824330
+2024-10-15 10:40:06,648 - INFO - Obiekt nie jest gr¹: app_id: 824350
+2024-10-15 10:40:11,583 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 824360
+2024-10-15 10:40:15,617 - INFO - Obiekt nie jest gr¹: app_id: 824380
+2024-10-15 10:40:20,023 - INFO - Obiekt nie jest gr¹: app_id: 824381
+2024-10-15 10:40:23,717 - INFO - Obiekt nie jest gr¹: app_id: 824382
+2024-10-15 10:40:27,233 - INFO - Przetworzono grê: Havoc in heaven (app_id: 824400)
+2024-10-15 10:40:30,824 - INFO - Przetworzono grê: Ouch\uff01War\uff01/ \u7834\u97f3\u4e71\u6597 (app_id: 824420)
+2024-10-15 10:40:34,603 - INFO - Przetworzono grê: Black Circle (app_id: 824430)
+2024-10-15 10:40:38,481 - INFO - Przetworzono grê: \u96ea\u8272\u5e9f\u90fd Abandoned Snowy Castle (app_id: 824440)
+2024-10-15 10:40:41,963 - INFO - Przetworzono grê: Blockchain Tycoon (app_id: 824450)
+2024-10-15 10:40:45,695 - INFO - Przetworzono grê: HELLFRONT: HONEYMOON (app_id: 824460)
+2024-10-15 10:40:49,257 - INFO - Przetworzono grê: My Maid Girlfriend (app_id: 824470)
+2024-10-15 10:40:53,046 - INFO - Obiekt nie jest gr¹: app_id: 824480
+2024-10-15 10:40:56,601 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 824500
+2024-10-15 10:40:59,882 - INFO - Przetworzono grê: Nobody Knows (app_id: 824520)
+2024-10-15 10:41:03,434 - INFO - Przetworzono grê: Arrow Ventura VR (app_id: 824540)
+2024-10-15 10:41:07,657 - INFO - Przetworzono grê: Kine (app_id: 824570)
+2024-10-15 10:41:12,210 - INFO - Przetworzono grê: The Last Tower (app_id: 824580)
+2024-10-15 10:41:16,489 - INFO - Obiekt nie jest gr¹: app_id: 824590
+2024-10-15 10:41:20,754 - INFO - Przetworzono grê: HROT (app_id: 824600)
+2024-10-15 10:41:26,020 - INFO - Obiekt nie jest gr¹: app_id: 824610
+2024-10-15 10:41:30,861 - INFO - Przetworzono grê: Jolly Battle (app_id: 824620)
+2024-10-15 10:41:35,702 - INFO - Przetworzono grê: The Witch's Apprentice: A Magical Mishap (app_id: 824640)
+2024-10-15 10:41:39,842 - INFO - Przetworzono grê: Float (app_id: 823900)
+2024-10-15 10:41:44,364 - INFO - Przetworzono grê: Last Evil (app_id: 823910)
+2024-10-15 10:41:48,818 - INFO - Przetworzono grê: Kawaii Rainbow Portal (app_id: 823920)
+2024-10-15 10:41:53,450 - INFO - Obiekt nie jest gr¹: app_id: 823930
+2024-10-15 10:41:57,274 - INFO - Przetworzono grê: Virtual Battlegrounds (app_id: 823940)
+2024-10-15 10:42:01,031 - INFO - Przetworzono grê: Re:Legend (app_id: 823950)
+2024-10-15 10:42:05,343 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 823960
+2024-10-15 10:42:09,250 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 823970
+2024-10-15 10:42:13,748 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 823980
+2024-10-15 10:42:17,366 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 823981
+2024-10-15 10:42:20,870 - INFO - Obiekt nie jest gr¹: app_id: 823990
+2024-10-15 10:42:24,192 - INFO - Przetworzono grê: Hokko Life (app_id: 824000)
+2024-10-15 10:42:27,803 - INFO - Przetworzono grê: Objects in Space (app_id: 824070)
+2024-10-15 10:42:31,333 - INFO - Obiekt nie jest gr¹: app_id: 824080
+2024-10-15 10:42:35,086 - INFO - Przetworzono grê: TailQuest Defense (app_id: 824090)
+2024-10-15 10:42:39,347 - INFO - Przetworzono grê: Before the Blood (app_id: 824110)
+2024-10-15 10:42:43,146 - INFO - Obiekt nie jest gr¹: app_id: 824160
+2024-10-15 10:42:46,951 - INFO - Przetworzono grê: Relic Raiders (app_id: 824170)
+2024-10-15 10:42:52,131 - INFO - Obiekt nie jest gr¹: app_id: 824180
+2024-10-15 10:42:55,760 - INFO - Przetworzono grê: Achievement Clicker 2019 (app_id: 824190)
+2024-10-15 10:43:00,312 - INFO - Przetworzono grê: The Bell Chimes for Gold (app_id: 824200)
+2024-10-15 10:43:04,392 - INFO - Przetworzono grê: Reflecting Reflections (app_id: 824220)
+2024-10-15 10:43:08,899 - INFO - Obiekt nie jest gr¹: app_id: 824230
+2024-10-15 10:43:12,596 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 824240
+2024-10-15 10:43:16,535 - INFO - Przetworzono grê: BitBreaker (app_id: 824250)
+2024-10-15 10:43:20,779 - INFO - Przetworzono grê: Show Me What You Got (app_id: 824260)
+2024-10-15 10:43:24,575 - INFO - Obiekt nie jest gr¹: app_id: 823400
+2024-10-15 10:43:29,589 - INFO - Przetworzono grê: Erinye Demo (app_id: 823420)
+2024-10-15 10:43:33,280 - INFO - Obiekt nie jest gr¹: app_id: 823430
+2024-10-15 10:43:36,772 - INFO - Obiekt nie jest gr¹: app_id: 823460
+2024-10-15 10:43:40,296 - INFO - Przetworzono grê: Glitchball (app_id: 823470)
+2024-10-15 10:43:43,865 - INFO - Przetworzono grê: BONEWORKS (app_id: 823500)
+2024-10-15 10:43:47,385 - INFO - Przetworzono grê: Precision Sniping: Competitive (app_id: 823510)
+2024-10-15 10:43:50,910 - INFO - Obiekt nie jest gr¹: app_id: 823520
+2024-10-15 10:43:54,595 - INFO - Przetworzono grê: Aesthetic Arena (app_id: 823530)
+2024-10-15 10:43:58,198 - INFO - Przetworzono grê: Isoland 2 - Ashes of Time (app_id: 823580)
+2024-10-15 10:44:02,018 - INFO - Przetworzono grê: Slug Slasher (app_id: 823590)
+2024-10-15 10:44:05,607 - INFO - Przetworzono grê: Battle Brawlers (app_id: 823600)
+2024-10-15 10:44:09,221 - INFO - Przetworzono grê: Dungeon Of Dragon Knight (app_id: 823610)
+2024-10-15 10:44:12,794 - INFO - Przetworzono grê: Gnomes Garden Lost King (app_id: 823640)
+2024-10-15 10:44:16,365 - INFO - Przetworzono grê: Zombow (app_id: 823650)
+2024-10-15 10:44:19,982 - INFO - Obiekt nie jest gr¹: app_id: 823660
+2024-10-15 10:44:23,442 - INFO - Przetworzono grê: HYKEE - Episode 1: Underwater (app_id: 823670)
+2024-10-15 10:44:27,007 - INFO - Obiekt nie jest gr¹: app_id: 823680
+2024-10-15 10:44:30,409 - INFO - Przetworzono grê: VR TOON Help Me (\uc0b4\ub824\uc8fc\uc138\uc694) (app_id: 823690)
+2024-10-15 10:44:33,961 - INFO - Przetworzono grê: AUTOCROSS MADNESS (app_id: 823700)
+2024-10-15 10:44:37,551 - INFO - Obiekt nie jest gr¹: app_id: 823720
+2024-10-15 10:44:41,023 - INFO - Przetworzono grê: Labyrinths of Atlantis (app_id: 823770)
+2024-10-15 10:44:44,691 - INFO - Przetworzono grê: Kitty Play (app_id: 823800)
+2024-10-15 10:44:48,386 - INFO - Obiekt nie jest gr¹: app_id: 823810
+2024-10-15 10:44:51,847 - INFO - Przetworzono grê: Fallen Dungeons (app_id: 823820)
+2024-10-15 10:44:55,501 - INFO - Przetworzono grê: Frightened Beetles (app_id: 823830)
+2024-10-15 10:44:59,082 - INFO - Przetworzono grê: Macrotis: A Mother's Journey (app_id: 823840)
+2024-10-15 10:45:02,986 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 823850
+2024-10-15 10:45:22,230 - INFO - Obiekt nie jest gr¹: app_id: 823860
+2024-10-15 10:45:25,561 - INFO - Obiekt nie jest gr¹: app_id: 823870
+2024-10-15 10:45:29,082 - INFO - Przetworzono grê: Wolf Tails (app_id: 822930)
+2024-10-15 10:45:33,074 - INFO - Przetworzono grê: Tori (app_id: 822940)
+2024-10-15 10:45:36,704 - INFO - Przetworzono grê: BLOCK CAT SPACE GOLF (app_id: 822970)
+2024-10-15 10:45:40,423 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 822980
+2024-10-15 10:45:44,046 - INFO - Przetworzono grê: Spinnortality | cyberpunk management sim (app_id: 822990)
+2024-10-15 10:45:47,690 - INFO - Obiekt nie jest gr¹: app_id: 823000
+2024-10-15 10:45:51,207 - INFO - Obiekt nie jest gr¹: app_id: 823010
+2024-10-15 10:45:54,726 - INFO - Obiekt nie jest gr¹: app_id: 823020
+2024-10-15 10:45:58,230 - INFO - Obiekt nie jest gr¹: app_id: 823030
+2024-10-15 10:46:01,748 - INFO - Przetworzono grê: Griefer (app_id: 823040)
+2024-10-15 10:46:05,364 - INFO - Przetworzono grê: Peace Duke (app_id: 823100)
+2024-10-15 10:46:09,389 - INFO - Obiekt nie jest gr¹: app_id: 823110
+2024-10-15 10:46:13,444 - INFO - Obiekt nie jest gr¹: app_id: 823120
+2024-10-15 10:46:16,914 - INFO - Przetworzono grê: Totally Accurate Battlegrounds (app_id: 823130)
+2024-10-15 10:46:20,617 - INFO - Obiekt nie jest gr¹: app_id: 823140
+2024-10-15 10:46:24,104 - INFO - Obiekt nie jest gr¹: app_id: 823150
+2024-10-15 10:46:27,579 - INFO - Przetworzono grê: Knife Hit Dash (app_id: 823160)
+2024-10-15 10:46:31,421 - INFO - Obiekt nie jest gr¹: app_id: 823170
+2024-10-15 10:46:35,447 - INFO - Obiekt nie jest gr¹: app_id: 823190
+2024-10-15 10:46:38,900 - INFO - Obiekt nie jest gr¹: app_id: 823200
+2024-10-15 10:46:42,362 - INFO - Przetworzono grê: Lunar Soil (app_id: 823210)
+2024-10-15 10:46:46,037 - INFO - Przetworzono grê: Demolition Pro Online (app_id: 823230)
+2024-10-15 10:46:49,794 - INFO - Obiekt nie jest gr¹: app_id: 823240
+2024-10-15 10:46:53,324 - INFO - Obiekt nie jest gr¹: app_id: 823250
+2024-10-15 10:46:56,994 - INFO - Obiekt nie jest gr¹: app_id: 823260
+2024-10-15 10:47:00,688 - INFO - Obiekt nie jest gr¹: app_id: 823261
+2024-10-15 10:47:04,282 - INFO - Obiekt nie jest gr¹: app_id: 823262
+2024-10-15 10:47:08,046 - INFO - Przetworzono grê: STE : Save The Earth (app_id: 823280)
+2024-10-15 10:47:11,748 - INFO - Przetworzono grê: Pokka Man (app_id: 823290)
+2024-10-15 10:47:15,437 - INFO - Obiekt nie jest gr¹: app_id: 823300
+2024-10-15 10:47:19,050 - INFO - Obiekt nie jest gr¹: app_id: 823301
+2024-10-15 10:47:22,647 - INFO - Przetworzono grê: Alchemy Classic (app_id: 823310)
+2024-10-15 10:47:26,449 - INFO - Przetworzono grê: CrazyHousePlanes (app_id: 823320)
+2024-10-15 10:47:30,511 - INFO - Przetworzono grê: Marginal act (app_id: 823330)
+2024-10-15 10:47:34,390 - INFO - Przetworzono grê: Round Mars (app_id: 823340)
+2024-10-15 10:47:38,060 - INFO - Przetworzono grê: HELL'S NEW WORLD (app_id: 823350)
+2024-10-15 10:47:41,937 - INFO - Przetworzono grê: Sloppy Goat (app_id: 823360)
+2024-10-15 10:47:45,772 - INFO - Przetworzono grê: Lucky VS Aliens (app_id: 823370)
+2024-10-15 10:47:49,772 - INFO - Przetworzono grê: You Are The Apple Of My Eye \u7814\u78e8\u65f6\u5149 (app_id: 822440)
+2024-10-15 10:47:54,154 - INFO - Przetworzono grê: EXE: Mainframe (app_id: 822450)
+2024-10-15 10:47:57,933 - INFO - Przetworzono grê: Trivia Vault: Auto Racing Trivia (app_id: 822460)
+2024-10-15 10:48:01,748 - INFO - Przetworzono grê: \u5c5e\u6027\u4e0e\u751f\u6d3b (app_id: 822470)
+2024-10-15 10:48:05,593 - INFO - Obiekt nie jest gr¹: app_id: 822480
+2024-10-15 10:48:09,175 - INFO - Przetworzono grê: Struggle For Survival VR : Battle Royale (app_id: 822510)
+2024-10-15 10:48:12,908 - INFO - Przetworzono grê: Pukan Bye Bye (app_id: 822530)
+2024-10-15 10:48:16,658 - INFO - Przetworzono grê: Escape From Tethys (app_id: 822540)
+2024-10-15 10:48:20,346 - INFO - Przetworzono grê: 2DGameManias Taken (app_id: 822550)
+2024-10-15 10:48:24,147 - INFO - Obiekt nie jest gr¹: app_id: 822570
+2024-10-15 10:48:27,837 - INFO - Przetworzono grê: Patternis (app_id: 822610)
+2024-10-15 10:48:31,672 - INFO - Przetworzono grê: Squids Odyssey (app_id: 822640)
+2024-10-15 10:48:35,442 - INFO - Przetworzono grê: Typical Nightmare (app_id: 822650)
+2024-10-15 10:48:39,197 - INFO - Przetworzono grê: Abacus (app_id: 822660)
+2024-10-15 10:48:43,003 - INFO - Obiekt nie jest gr¹: app_id: 822670
+2024-10-15 10:48:46,648 - INFO - Przetworzono grê: Eternal Man: Jump (app_id: 822680)
+2024-10-15 10:48:50,590 - INFO - Obiekt nie jest gr¹: app_id: 822690
+2024-10-15 10:48:54,214 - INFO - Przetworzono grê: Beer and Skittls VR (app_id: 822700)
+2024-10-15 10:48:58,051 - INFO - Przetworzono grê: Clash: Mutants Vs Pirates (app_id: 822710)
+2024-10-15 10:49:01,825 - INFO - Przetworzono grê: The Amazing Bernard (app_id: 822720)
+2024-10-15 10:49:05,584 - INFO - Obiekt nie jest gr¹: app_id: 822730
+2024-10-15 10:49:09,458 - INFO - Przetworzono grê: FlappyU VR (app_id: 822740)
+2024-10-15 10:49:13,476 - INFO - Przetworzono grê: Try to seize me (app_id: 822750)
+2024-10-15 10:49:17,639 - INFO - Przetworzono grê: Fureraba ~Friend to Lover~ (app_id: 822760)
+2024-10-15 10:49:23,102 - INFO - Obiekt nie jest gr¹: app_id: 822780
+2024-10-15 10:49:28,150 - INFO - Przetworzono grê: Soulfire (app_id: 822800)
+2024-10-15 10:49:33,063 - INFO - Przetworzono grê: Velvet Guard (app_id: 822810)
+2024-10-15 10:49:37,067 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 822820
+2024-10-15 10:49:41,889 - INFO - Przetworzono grê: Ouroboros (app_id: 822830)
+2024-10-15 10:49:45,962 - INFO - Przetworzono grê: METAL (app_id: 822840)
+2024-10-15 10:49:49,991 - INFO - Obiekt nie jest gr¹: app_id: 822860
+2024-10-15 10:49:54,852 - INFO - Przetworzono grê: Diary of Defender (app_id: 822870)
+2024-10-15 10:49:59,993 - INFO - Przetworzono grê: Trivia Vault: Golf Trivia (app_id: 822900)
+2024-10-15 10:50:04,624 - INFO - Przetworzono grê: Mortal Squad: Portal to Hell (app_id: 822910)
+2024-10-15 10:50:08,633 - INFO - Przetworzono grê: Ellen (app_id: 822920)
+2024-10-15 10:50:13,404 - INFO - Przetworzono grê: Dark Drive (app_id: 822030)
+2024-10-15 10:50:17,516 - INFO - Przetworzono grê: Super Volley Blast (app_id: 822040)
+2024-10-15 10:50:21,431 - INFO - Obiekt nie jest gr¹: app_id: 822060
+2024-10-15 10:50:25,455 - INFO - Obiekt nie jest gr¹: app_id: 822061
+2024-10-15 10:50:29,189 - INFO - Przetworzono grê: SAS VS Zombies (app_id: 822070)
+2024-10-15 10:50:33,017 - INFO - Obiekt nie jest gr¹: app_id: 822080
+2024-10-15 10:50:36,719 - INFO - Obiekt nie jest gr¹: app_id: 822090
+2024-10-15 10:50:41,403 - INFO - Obiekt nie jest gr¹: app_id: 822091
+2024-10-15 10:50:46,064 - INFO - Obiekt nie jest gr¹: app_id: 822093
+2024-10-15 10:50:50,807 - INFO - Obiekt nie jest gr¹: app_id: 822094
+2024-10-15 10:50:55,342 - INFO - Przetworzono grê: Magika Land of Fantasy (app_id: 822110)
+2024-10-15 10:50:59,378 - INFO - Przetworzono grê: Flynn and Freckles (app_id: 822130)
+2024-10-15 10:51:03,611 - INFO - Przetworzono grê: Glaive: Brick Breaker (app_id: 822140)
+2024-10-15 10:51:07,608 - INFO - Przetworzono grê: WAY HOME (app_id: 822150)
+2024-10-15 10:51:11,486 - INFO - Obiekt nie jest gr¹: app_id: 822170
+2024-10-15 10:51:15,199 - INFO - Obiekt nie jest gr¹: app_id: 822180
+2024-10-15 10:51:18,857 - INFO - Przetworzono grê: Little Bug (app_id: 822190)
+2024-10-15 10:51:22,791 - INFO - Obiekt nie jest gr¹: app_id: 822210
+2024-10-15 10:51:26,583 - INFO - Przetworzono grê: GL1TCH (app_id: 822250)
+2024-10-15 10:51:30,551 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 822260
+2024-10-15 10:51:34,249 - INFO - Przetworzono grê: Clash of Magic: Spectator Only (app_id: 822270)
+2024-10-15 10:51:38,119 - INFO - Obiekt nie jest gr¹: app_id: 822300
+2024-10-15 10:51:41,746 - INFO - Przetworzono grê: Bones 'n' Bullets (app_id: 822310)
+2024-10-15 10:51:45,888 - INFO - Obiekt nie jest gr¹: app_id: 822330
+2024-10-15 10:51:49,695 - INFO - Obiekt nie jest gr¹: app_id: 822340
+2024-10-15 10:51:53,494 - INFO - Obiekt nie jest gr¹: app_id: 822350
+2024-10-15 10:51:57,264 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 822380
+2024-10-15 10:52:00,850 - INFO - Obiekt nie jest gr¹: app_id: 822400
+2024-10-15 10:52:04,691 - INFO - Przetworzono grê: The Dreamlands: Aisling's Quest (app_id: 821550)
+2024-10-15 10:52:08,564 - INFO - Przetworzono grê: \u87a2\u5e55\u5224\u5b98 Behind the Screen (app_id: 821560)
+2024-10-15 10:52:12,598 - INFO - Przetworzono grê: Lethal Lawns: Competitive Mowing Bloodsport (app_id: 821570)
+2024-10-15 10:52:16,519 - INFO - Obiekt nie jest gr¹: app_id: 821590
+2024-10-15 10:52:20,229 - INFO - Obiekt nie jest gr¹: app_id: 821600
+2024-10-15 10:52:24,028 - INFO - Obiekt nie jest gr¹: app_id: 821601
+2024-10-15 10:52:27,799 - INFO - Przetworzono grê: My Sunny Resort (app_id: 821610)
+2024-10-15 10:52:31,792 - INFO - Obiekt nie jest gr¹: app_id: 821620
+2024-10-15 10:52:35,563 - INFO - Obiekt nie jest gr¹: app_id: 821630
+2024-10-15 10:52:39,329 - INFO - Przetworzono grê: Floor Kids (app_id: 821640)
+2024-10-15 10:52:43,261 - INFO - Przetworzono grê: Horse Farm (app_id: 821670)
+2024-10-15 10:52:47,188 - INFO - Przetworzono grê: Military Operations: Benchmark (app_id: 821680)
+2024-10-15 10:52:51,184 - INFO - Obiekt nie jest gr¹: app_id: 821710
+2024-10-15 10:52:55,055 - INFO - Przetworzono grê: 20.000 Leagues Under The Sea - Captain Nemo (app_id: 821720)
+2024-10-15 10:52:59,137 - INFO - Obiekt nie jest gr¹: app_id: 821740
+2024-10-15 10:53:02,854 - INFO - Obiekt nie jest gr¹: app_id: 821750
+2024-10-15 10:53:06,755 - INFO - Przetworzono grê: MAGIX Photostory Premium VR Steam Edition (app_id: 821760)
+2024-10-15 10:53:10,818 - INFO - Przetworzono grê: SOUND FORGE Pro 12 Steam Edition (app_id: 821770)
+2024-10-15 10:53:14,756 - INFO - Przetworzono grê: Last Anime Boy 2: Hentai Zombie Hell (app_id: 821780)
+2024-10-15 10:53:18,930 - INFO - Przetworzono grê: Who Am I: The Tale of Dorothy (app_id: 821790)
+2024-10-15 10:53:22,979 - INFO - Przetworzono grê: Farmer's Fairy Tale (app_id: 821820)
+2024-10-15 10:53:26,992 - INFO - Przetworzono grê: Holy Stick! (app_id: 821840)
+2024-10-15 10:53:31,070 - INFO - Przetworzono grê: Old Factory (app_id: 821850)
+2024-10-15 10:53:35,113 - INFO - Przetworzono grê: Secret Laboratory (app_id: 821860)
+2024-10-15 10:53:39,168 - INFO - Przetworzono grê: StarBall (app_id: 821870)
+2024-10-15 10:53:43,274 - INFO - Przetworzono grê: Idol Manager (app_id: 821880)
+2024-10-15 10:53:47,331 - INFO - Przetworzono grê: Tower Defense Sudden Attack (app_id: 821910)
+2024-10-15 10:53:51,333 - INFO - Przetworzono grê: OAOA - Off And On Again (app_id: 821920)
+2024-10-15 10:53:55,288 - INFO - Obiekt nie jest gr¹: app_id: 821940
+2024-10-15 10:53:59,125 - INFO - Obiekt nie jest gr¹: app_id: 821950
+2024-10-15 10:54:03,135 - INFO - Obiekt nie jest gr¹: app_id: 821970
+2024-10-15 10:54:07,093 - INFO - Obiekt nie jest gr¹: app_id: 821980
+2024-10-15 10:54:10,917 - INFO - Obiekt nie jest gr¹: app_id: 821990
+2024-10-15 10:54:14,821 - INFO - Obiekt nie jest gr¹: app_id: 822000
+2024-10-15 10:54:18,605 - INFO - Obiekt nie jest gr¹: app_id: 822010
+2024-10-15 10:54:22,755 - INFO - Przetworzono grê: Desktop Mascot Engine (app_id: 821060)
+2024-10-15 10:54:26,720 - INFO - Obiekt nie jest gr¹: app_id: 821090
+2024-10-15 10:54:30,705 - INFO - Przetworzono grê: The Protocons (app_id: 821100)
+2024-10-15 10:54:34,829 - INFO - Przetworzono grê: Poopy Philosophy (app_id: 821120)
+2024-10-15 10:54:38,923 - INFO - Obiekt nie jest gr¹: app_id: 821170
+2024-10-15 10:54:42,751 - INFO - Przetworzono grê: Reliefs The Time of the Lemures (app_id: 821180)
+2024-10-15 10:54:46,828 - INFO - Przetworzono grê: Minitime (app_id: 821190)
+2024-10-15 10:54:50,972 - INFO - Obiekt nie jest gr¹: app_id: 821210
+2024-10-15 10:54:55,018 - INFO - Przetworzono grê: Drink 'Em (app_id: 821230)
+2024-10-15 10:54:59,196 - INFO - Przetworzono grê: Flotsam (app_id: 821250)
+2024-10-15 10:55:03,264 - INFO - Przetworzono grê: LIGHT (app_id: 821260)
+2024-10-15 10:55:07,343 - INFO - Obiekt nie jest gr¹: app_id: 821280
+2024-10-15 10:55:11,270 - INFO - Obiekt nie jest gr¹: app_id: 821310
+2024-10-15 10:55:15,198 - INFO - Przetworzono grê: SPAGHET (app_id: 821320)
+2024-10-15 10:55:19,501 - INFO - Przetworzono grê: Mob War Nazi Golds (app_id: 821330)
+2024-10-15 10:55:23,563 - INFO - Przetworzono grê: Wallrunners (app_id: 821360)
+2024-10-15 10:55:27,863 - INFO - Przetworzono grê: MLB Home Run Derby VR (app_id: 821370)
+2024-10-15 10:55:31,924 - INFO - Przetworzono grê: Achievement Lurker: Another one bites the dust (app_id: 821390)
+2024-10-15 10:55:36,120 - INFO - Przetworzono grê: Packed Train (app_id: 821400)
+2024-10-15 10:55:40,442 - INFO - Przetworzono grê: Yafti (app_id: 821410)
+2024-10-15 10:55:44,525 - INFO - Przetworzono grê: Unknown Scrolls (app_id: 821430)
+2024-10-15 10:55:48,647 - INFO - Przetworzono grê: GunnRunner (app_id: 821440)
+2024-10-15 10:55:52,913 - INFO - Obiekt nie jest gr¹: app_id: 821450
+2024-10-15 10:55:56,711 - INFO - Obiekt nie jest gr¹: app_id: 821470
+2024-10-15 10:56:00,711 - INFO - Przetworzono grê: Space Flowers (app_id: 821480)
+2024-10-15 10:56:04,818 - INFO - Przetworzono grê: BattleCourt (app_id: 821490)
+2024-10-15 10:56:09,069 - INFO - Przetworzono grê: Ria's Hook (app_id: 821500)
+2024-10-15 10:56:13,214 - INFO - Przetworzono grê: Trivia Vault: Boxing Trivia (app_id: 821520)
+2024-10-15 10:56:17,274 - INFO - Przetworzono grê: Exterminate the world - \u706d\u4e16VR (app_id: 820570)
+2024-10-15 10:56:21,377 - INFO - Obiekt nie jest gr¹: app_id: 820590
+2024-10-15 10:56:25,476 - INFO - Przetworzono grê: ReThink | Evolved 2 (app_id: 820600)
+2024-10-15 10:56:29,693 - INFO - Przetworzono grê: Ages of Mages: The last keeper (app_id: 820610)
+2024-10-15 10:56:33,834 - INFO - Przetworzono grê: Spooky Ghosts Dot Com (app_id: 820620)
+2024-10-15 10:56:37,976 - INFO - Przetworzono grê: Metal Wolf Chaos XD (app_id: 820630)
+2024-10-15 10:56:42,043 - INFO - Przetworzono grê: Aqua Lungers (app_id: 820640)
+2024-10-15 10:56:46,352 - INFO - Przetworzono grê: Future City Coaster (app_id: 820660)
+2024-10-15 10:56:50,429 - INFO - Przetworzono grê: HIGHER GROUND (app_id: 820680)
+2024-10-15 10:56:54,695 - INFO - Przetworzono grê: ZYTERNION (app_id: 820690)
+2024-10-15 10:56:58,890 - INFO - Przetworzono grê: Free road (app_id: 820700)
+2024-10-15 10:57:03,196 - INFO - Przetworzono grê: Mogic (app_id: 820710)
+2024-10-15 10:57:07,775 - INFO - Obiekt nie jest gr¹: app_id: 820720
+2024-10-15 10:57:11,801 - INFO - Przetworzono grê: Adventure of a Lifetime (app_id: 820730)
+2024-10-15 10:57:16,109 - INFO - Przetworzono grê: Tactics & Strategy Master:Joan of Arc (app_id: 820760)
+2024-10-15 10:57:20,279 - INFO - Przetworzono grê: Dungeon Jump - \u5730\u7262\u8df3\u8dc3 (app_id: 820780)
+2024-10-15 10:57:24,627 - INFO - Przetworzono grê: FEAST: Book One «Family Ties» (app_id: 820790)
+2024-10-15 10:57:29,418 - INFO - Obiekt nie jest gr¹: app_id: 820820
+2024-10-15 10:57:34,057 - INFO - Obiekt nie jest gr¹: app_id: 820821
+2024-10-15 10:57:38,021 - INFO - Przetworzono grê: The famous diver (app_id: 820830)
+2024-10-15 10:57:42,246 - INFO - Przetworzono grê: PRE:ONE (app_id: 820840)
+2024-10-15 10:57:46,404 - INFO - Obiekt nie jest gr¹: app_id: 820860
+2024-10-15 10:57:50,512 - INFO - Obiekt nie jest gr¹: app_id: 820870
+2024-10-15 10:57:54,557 - INFO - Przetworzono grê: Helping Hand (app_id: 820880)
+2024-10-15 10:57:58,819 - INFO - Przetworzono grê: Ceress and Orea (app_id: 820900)
+2024-10-15 10:58:03,105 - INFO - Przetworzono grê: Last Resort Island (app_id: 820910)
+2024-10-15 10:58:07,369 - INFO - Obiekt nie jest gr¹: app_id: 820930
+2024-10-15 10:58:11,398 - INFO - Obiekt nie jest gr¹: app_id: 820940
+2024-10-15 10:58:15,299 - INFO - Przetworzono grê: Boltzmann Brain (app_id: 820950)
+2024-10-15 10:58:19,492 - INFO - Obiekt nie jest gr¹: app_id: 820980
+2024-10-15 10:58:23,410 - INFO - Obiekt nie jest gr¹: app_id: 820990
+2024-10-15 10:58:27,317 - INFO - Przetworzono grê: Primus Vita - Artemis (app_id: 821020)
+2024-10-15 10:58:31,709 - INFO - Obiekt nie jest gr¹: app_id: 821030
+2024-10-15 10:58:35,756 - INFO - Obiekt nie jest gr¹: app_id: 820151
+2024-10-15 10:58:39,881 - INFO - Obiekt nie jest gr¹: app_id: 820152
+2024-10-15 10:58:43,860 - INFO - Obiekt nie jest gr¹: app_id: 820153
+2024-10-15 10:58:47,991 - INFO - Przetworzono grê: CRAZY MAZE (app_id: 820170)
+2024-10-15 10:58:52,832 - INFO - Obiekt nie jest gr¹: app_id: 820180
+2024-10-15 10:58:57,482 - INFO - Przetworzono grê: FORWARD (app_id: 820190)
+2024-10-15 10:59:01,838 - INFO - Obiekt nie jest gr¹: app_id: 820200
+2024-10-15 10:59:05,822 - INFO - Obiekt nie jest gr¹: app_id: 820201
+2024-10-15 10:59:09,840 - INFO - Obiekt nie jest gr¹: app_id: 820203
+2024-10-15 10:59:13,919 - INFO - Przetworzono grê: Ashi Wash (app_id: 820210)
+2024-10-15 10:59:18,318 - INFO - Obiekt nie jest gr¹: app_id: 820220
+2024-10-15 10:59:22,322 - INFO - Obiekt nie jest gr¹: app_id: 820230
+2024-10-15 10:59:26,228 - INFO - Obiekt nie jest gr¹: app_id: 820231
+2024-10-15 10:59:30,935 - INFO - Obiekt nie jest gr¹: app_id: 820232
+2024-10-15 10:59:35,036 - INFO - Przetworzono grê: Save One More (app_id: 820240)
+2024-10-15 10:59:39,229 - INFO - Przetworzono grê: Trial of the Gods (app_id: 820250)
+2024-10-15 10:59:43,488 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 820270
+2024-10-15 10:59:47,525 - INFO - Przetworzono grê: Crypto Girl The Visual Novel (app_id: 820300)
+2024-10-15 10:59:51,810 - INFO - Przetworzono grê: Truth Of Falchion (app_id: 820310)
+2024-10-15 10:59:56,225 - INFO - Przetworzono grê: Word Typing Game (app_id: 820320)
+2024-10-15 11:00:00,572 - INFO - Obiekt nie jest gr¹: app_id: 820370
+2024-10-15 11:00:04,848 - INFO - Przetworzono grê: Russian Prisoner VS Nazi Zombies (app_id: 820380)
+2024-10-15 11:00:09,333 - INFO - Przetworzono grê: Shrouded in Sanity: Freebirth (app_id: 820400)
+2024-10-15 11:00:13,481 - INFO - Obiekt nie jest gr¹: app_id: 820430
+2024-10-15 11:00:17,623 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 820441
+2024-10-15 11:00:21,656 - INFO - Przetworzono grê: Hero Academy 2 (app_id: 820460)
+2024-10-15 11:00:26,096 - INFO - Przetworzono grê: Warriors Of Titus (app_id: 820480)
+2024-10-15 11:00:30,457 - INFO - Obiekt nie jest gr¹: app_id: 820490
+2024-10-15 11:00:36,082 - INFO - Przetworzono grê: Tisnart Shapes (app_id: 820500)
+2024-10-15 11:00:42,627 - INFO - Przetworzono grê: Camp W (app_id: 820510)
+2024-10-15 11:00:48,473 - INFO - Przetworzono grê: Stardust VR (app_id: 820530)
+2024-10-15 11:00:53,183 - INFO - Przetworzono grê: Bloodroots (app_id: 820540)
+2024-10-15 11:00:57,618 - INFO - Przetworzono grê: INFINITY CHALLENGE (app_id: 819660)
+2024-10-15 11:01:02,078 - INFO - Przetworzono grê: Wall Walker (app_id: 819670)
+2024-10-15 11:01:07,237 - INFO - Przetworzono grê: Rounders (Arena) (app_id: 819730)
+2024-10-15 11:01:13,910 - INFO - Przetworzono grê: Deadly Delivery (app_id: 819740)
+2024-10-15 11:01:19,947 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 819750
+2024-10-15 11:01:25,650 - INFO - Obiekt nie jest gr¹: app_id: 819760
+2024-10-15 11:01:32,268 - INFO - Przetworzono grê: The Singularity Wish (app_id: 819780)
+2024-10-15 11:01:37,886 - INFO - Przetworzono grê: Untouchable (app_id: 819800)
+2024-10-15 11:01:42,199 - INFO - Obiekt nie jest gr¹: app_id: 819810
+2024-10-15 11:01:46,463 - INFO - Obiekt nie jest gr¹: app_id: 819820
+2024-10-15 11:01:50,605 - INFO - Obiekt nie jest gr¹: app_id: 819830
+2024-10-15 11:01:54,889 - INFO - Obiekt nie jest gr¹: app_id: 819840
+2024-10-15 11:01:58,983 - INFO - Obiekt nie jest gr¹: app_id: 819850
+2024-10-15 11:02:03,099 - INFO - Obiekt nie jest gr¹: app_id: 819860
+2024-10-15 11:02:07,166 - INFO - Przetworzono grê: 7 Days in Dream \u5149\u5c18 (app_id: 819870)
+2024-10-15 11:02:11,554 - INFO - Przetworzono grê: SShield Reborn (app_id: 819880)
+2024-10-15 11:02:15,936 - INFO - Przetworzono grê: Rum Ram (app_id: 819940)
+2024-10-15 11:02:20,252 - INFO - Przetworzono grê: Archer's story (app_id: 819950)
+2024-10-15 11:02:24,515 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 819970
+2024-10-15 11:02:28,581 - INFO - Przetworzono grê: Brief Battles (app_id: 819980)
+2024-10-15 11:02:32,920 - INFO - Obiekt nie jest gr¹: app_id: 820010
+2024-10-15 11:02:37,196 - INFO - Przetworzono grê: Alder's Blood: Definitive Edition (app_id: 820020)
+2024-10-15 11:02:41,605 - INFO - Przetworzono grê: Picross Fairytale - nonogram: Red Riding Hood secret (app_id: 820030)
+2024-10-15 11:02:46,049 - INFO - Przetworzono grê: Picross Fairytale: Legend of the Mermaid (app_id: 820040)
+2024-10-15 11:02:50,363 - INFO - Obiekt nie jest gr¹: app_id: 820060
+2024-10-15 11:02:54,550 - INFO - Przetworzono grê: Cube Universe (app_id: 820070)
+2024-10-15 11:02:58,976 - INFO - Przetworzono grê: Solitaire Knights (app_id: 820090)
+2024-10-15 11:03:03,331 - INFO - Obiekt nie jest gr¹: app_id: 820140
+2024-10-15 11:03:07,513 - INFO - Obiekt nie jest gr¹: app_id: 820150
+2024-10-15 11:03:11,762 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 819180
+2024-10-15 11:03:16,002 - INFO - Przetworzono grê: Undead Citadel (app_id: 819190)
+2024-10-15 11:03:20,504 - INFO - Obiekt nie jest gr¹: app_id: 819200
+2024-10-15 11:03:24,792 - INFO - Przetworzono grê: The President (app_id: 819210)
+2024-10-15 11:03:29,266 - INFO - Przetworzono grê: Yuso (app_id: 819220)
+2024-10-15 11:03:33,637 - INFO - Przetworzono grê: Gothicc Breaker (app_id: 819230)
+2024-10-15 11:03:37,973 - INFO - Obiekt nie jest gr¹: app_id: 819240
+2024-10-15 11:03:42,132 - INFO - Przetworzono grê: Feudal Lords (app_id: 819260)
+2024-10-15 11:03:46,586 - INFO - Przetworzono grê: JUSTICE LEGION (app_id: 819270)
+2024-10-15 11:03:51,008 - INFO - Przetworzono grê: ZAMB! Endless Extermination (app_id: 819280)
+2024-10-15 11:03:55,350 - INFO - Obiekt nie jest gr¹: app_id: 819290
+2024-10-15 11:03:59,515 - INFO - Obiekt nie jest gr¹: app_id: 819300
+2024-10-15 11:04:03,678 - INFO - Obiekt nie jest gr¹: app_id: 819310
+2024-10-15 11:04:07,690 - INFO - Obiekt nie jest gr¹: app_id: 819320
+2024-10-15 11:04:11,962 - INFO - Przetworzono grê: Quaddro 2 (app_id: 819330)
+2024-10-15 11:04:16,304 - INFO - Obiekt nie jest gr¹: app_id: 819340
+2024-10-15 11:04:20,460 - INFO - Obiekt nie jest gr¹: app_id: 819350
+2024-10-15 11:04:24,661 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 819360
+2024-10-15 11:04:28,886 - INFO - Przetworzono grê: Battle of cubes (app_id: 819370)
+2024-10-15 11:04:33,322 - INFO - Obiekt nie jest gr¹: app_id: 819390
+2024-10-15 11:04:37,475 - INFO - Obiekt nie jest gr¹: app_id: 819420
+2024-10-15 11:04:41,755 - INFO - Obiekt nie jest gr¹: app_id: 819430
+2024-10-15 11:04:46,092 - INFO - Przetworzono grê: HAMMER WORLD: DIMENSION TRAVELER (app_id: 819440)
+2024-10-15 11:04:50,516 - INFO - Obiekt nie jest gr¹: app_id: 819450
+2024-10-15 11:04:54,725 - INFO - Przetworzono grê: Metal Shell: Neon Pulse (app_id: 819460)
+2024-10-15 11:04:59,236 - INFO - Przetworzono grê: Trainpunk Run (app_id: 819470)
+2024-10-15 11:05:03,788 - INFO - Przetworzono grê: Pizza Titan Ultra (app_id: 819480)
+2024-10-15 11:05:08,542 - INFO - Obiekt nie jest gr¹: app_id: 819490
+2024-10-15 11:05:12,717 - INFO - Przetworzono grê: GLBasic SDK - A Multiplatform BASIC Compiler (app_id: 819510)
+2024-10-15 11:05:17,394 - INFO - Przetworzono grê: Star Souls (app_id: 819520)
+2024-10-15 11:05:22,065 - INFO - Przetworzono grê: Cheese Maze (app_id: 819550)
+2024-10-15 11:05:26,643 - INFO - Przetworzono grê: TurbOT Racing (app_id: 819560)
+2024-10-15 11:05:31,589 - INFO - Obiekt nie jest gr¹: app_id: 819580
+2024-10-15 11:05:35,969 - INFO - Obiekt nie jest gr¹: app_id: 819590
+2024-10-15 11:05:40,418 - INFO - Obiekt nie jest gr¹: app_id: 819610
+2024-10-15 11:05:44,803 - INFO - Przetworzono grê: Basketball Classics (app_id: 819630)
+2024-10-15 11:05:49,762 - INFO - Przetworzono grê: Crypto Quest (app_id: 819640)
+2024-10-15 11:05:57,322 - INFO - Przetworzono grê: Bitcoin (app_id: 819650)
+2024-10-15 11:06:02,839 - INFO - Obiekt nie jest gr¹: app_id: 818810
+2024-10-15 11:06:07,170 - INFO - Obiekt nie jest gr¹: app_id: 818820
+2024-10-15 11:06:11,575 - INFO - Przetworzono grê: Asteroid Deflector XL (app_id: 818830)
+2024-10-15 11:06:16,406 - INFO - Przetworzono grê: Beyond the Sky (app_id: 818860)
+2024-10-15 11:06:21,119 - INFO - Obiekt nie jest gr¹: app_id: 818870
+2024-10-15 11:06:25,494 - INFO - Obiekt nie jest gr¹: app_id: 818880
+2024-10-15 11:06:29,742 - INFO - Przetworzono grê: Box Maze Extreme (app_id: 818890)
+2024-10-15 11:06:34,567 - INFO - Obiekt nie jest gr¹: app_id: 818900
+2024-10-15 11:06:39,115 - INFO - Przetworzono grê: The Silent Islands (app_id: 818910)
+2024-10-15 11:06:43,716 - INFO - Obiekt nie jest gr¹: app_id: 818920
+2024-10-15 11:06:47,894 - INFO - Przetworzono grê: Oakwood Academy of Spells and Sorcery (app_id: 818940)
+2024-10-15 11:06:52,402 - INFO - Przetworzono grê: Space Slingshot VR (app_id: 818950)
+2024-10-15 11:06:56,959 - INFO - Przetworzono grê: TAYAL (app_id: 818960)
+2024-10-15 11:07:01,593 - INFO - Obiekt nie jest gr¹: app_id: 818980
+2024-10-15 11:07:05,947 - INFO - Obiekt nie jest gr¹: app_id: 818981
+2024-10-15 11:07:10,265 - INFO - Obiekt nie jest gr¹: app_id: 818982
+2024-10-15 11:07:14,532 - INFO - Przetworzono grê: Hotel Spring (app_id: 818990)
+2024-10-15 11:07:19,055 - INFO - Obiekt nie jest gr¹: app_id: 819000
+2024-10-15 11:07:23,420 - INFO - Przetworzono grê: Zanki Zero: Last Beginning (app_id: 819020)
+2024-10-15 11:07:28,258 - INFO - Przetworzono grê: STEINS;GATE ELITE (app_id: 819030)
+2024-10-15 11:07:32,782 - INFO - Przetworzono grê: Ashi: Lake of Light (app_id: 819040)
+2024-10-15 11:07:37,342 - INFO - Przetworzono grê: Red Rover (app_id: 819060)
+2024-10-15 11:07:41,977 - INFO - Przetworzono grê: The Unknown City (Horror Begins Now.....Episode 1) (app_id: 819070)
+2024-10-15 11:07:46,598 - INFO - Przetworzono grê: Pixel Caveman (app_id: 819090)
+2024-10-15 11:07:51,279 - INFO - Obiekt nie jest gr¹: app_id: 819100
+2024-10-15 11:07:55,907 - INFO - Obiekt nie jest gr¹: app_id: 819101
+2024-10-15 11:08:00,494 - INFO - Obiekt nie jest gr¹: app_id: 819102
+2024-10-15 11:08:05,116 - INFO - Obiekt nie jest gr¹: app_id: 819103
+2024-10-15 11:08:09,828 - INFO - Obiekt nie jest gr¹: app_id: 819104
+2024-10-15 11:08:14,308 - INFO - Obiekt nie jest gr¹: app_id: 819105
+2024-10-15 11:08:20,333 - INFO - Obiekt nie jest gr¹: app_id: 819110
+2024-10-15 11:08:27,595 - INFO - Obiekt nie jest gr¹: app_id: 819111
+2024-10-15 11:08:33,055 - INFO - Obiekt nie jest gr¹: app_id: 819112
+2024-10-15 11:08:37,905 - INFO - Obiekt nie jest gr¹: app_id: 819150
+2024-10-15 11:08:42,994 - INFO - Przetworzono grê: Aliens Are Rude! (app_id: 819160)
+2024-10-15 11:08:47,783 - INFO - Obiekt nie jest gr¹: app_id: 819170
+2024-10-15 11:08:52,194 - INFO - Przetworzono grê: LEGO® The Incredibles (app_id: 818320)
+2024-10-15 11:08:56,970 - INFO - Obiekt nie jest gr¹: app_id: 818330
+2024-10-15 11:09:01,361 - INFO - Obiekt nie jest gr¹: app_id: 818340
+2024-10-15 11:09:05,852 - INFO - Przetworzono grê: TENKYU (app_id: 818350)
+2024-10-15 11:09:10,655 - INFO - Przetworzono grê: Wildbus (app_id: 818360)
+2024-10-15 11:09:15,524 - INFO - Przetworzono grê: Spadyssey (app_id: 818370)
+2024-10-15 11:09:20,351 - INFO - Przetworzono grê: Seasonal Soccer (app_id: 818380)
+2024-10-15 11:09:25,046 - INFO - Przetworzono grê: The Deer (app_id: 818390)
+2024-10-15 11:09:29,647 - INFO - Przetworzono grê: STARWAY VR (app_id: 818400)
+2024-10-15 11:09:34,356 - INFO - Przetworzono grê: Space Hole 2018 (app_id: 818410)
+2024-10-15 11:09:39,033 - INFO - Przetworzono grê: jump kingdom (app_id: 818420)
+2024-10-15 11:09:43,724 - INFO - Przetworzono grê: BurningBridges VR (app_id: 818430)
+2024-10-15 11:09:48,653 - INFO - Przetworzono grê: Forgotten Places: Lost Circus (app_id: 818440)
+2024-10-15 11:09:53,319 - INFO - Przetworzono grê: Eternal Man: Mountain (app_id: 818480)
+2024-10-15 11:09:57,966 - INFO - Przetworzono grê: Colorzzle (app_id: 818500)
+2024-10-15 11:10:02,771 - INFO - Przetworzono grê: 8 Ball (app_id: 818530)
+2024-10-15 11:10:07,559 - INFO - Przetworzono grê: Zombie Desperation (app_id: 818570)
+2024-10-15 11:10:12,596 - INFO - Przetworzono grê: Shapestorm (app_id: 818580)
+2024-10-15 11:10:17,185 - INFO - Przetworzono grê: Nano Nebula (app_id: 818590)
+2024-10-15 11:10:21,836 - INFO - Przetworzono grê: The Great Gaias (app_id: 818610)
+2024-10-15 11:10:26,605 - INFO - Przetworzono grê: Music Boy 3D (app_id: 818620)
+2024-10-15 11:10:31,357 - INFO - Przetworzono grê: Secrets of Godhelm: Riverfall (app_id: 818630)
+2024-10-15 11:10:36,024 - INFO - Przetworzono grê: Alien Invasion 3d (app_id: 818640)
+2024-10-15 11:10:40,901 - INFO - Przetworzono grê: Evil Cogs (app_id: 818650)
+2024-10-15 11:10:45,837 - INFO - Przetworzono grê: Save Snegurochka! (app_id: 818670)
+2024-10-15 11:10:50,739 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 818690
+2024-10-15 11:10:55,411 - INFO - Obiekt nie jest gr¹: app_id: 818700
+2024-10-15 11:11:00,196 - INFO - Przetworzono grê: Galactic Tanks (app_id: 818710)
+2024-10-15 11:11:05,169 - INFO - Przetworzono grê: Gummy Goo Clean Up (app_id: 818720)
+2024-10-15 11:11:10,904 - INFO - Przetworzono grê: Tower climber (app_id: 818730)
+2024-10-15 11:11:16,100 - INFO - Przetworzono grê: Woodways (app_id: 818760)
+2024-10-15 11:11:21,675 - INFO - Przetworzono grê: Scrunk (app_id: 818780)
+2024-10-15 11:11:27,731 - INFO - Przetworzono grê: Stunt Hill (app_id: 818790)
+2024-10-15 11:11:32,884 - INFO - Przetworzono grê: Merrily Perilly (app_id: 818800)
+2024-10-15 11:11:37,764 - INFO - Obiekt nie jest gr¹: app_id: 817850
+2024-10-15 11:11:42,397 - INFO - Przetworzono grê: Perceptions of the Dead 2 (app_id: 817860)
+2024-10-15 11:11:47,189 - INFO - Obiekt nie jest gr¹: app_id: 817880
+2024-10-15 11:11:51,721 - INFO - Przetworzono grê: Paleocalypse (app_id: 817890)
+2024-10-15 11:11:56,727 - INFO - Obiekt nie jest gr¹: app_id: 817900
+2024-10-15 11:12:01,478 - INFO - Obiekt nie jest gr¹: app_id: 817901
+2024-10-15 11:12:06,023 - INFO - Obiekt nie jest gr¹: app_id: 817902
+2024-10-15 11:12:10,516 - INFO - Obiekt nie jest gr¹: app_id: 817910
+2024-10-15 11:12:15,221 - INFO - Przetworzono grê: NO LOVE (app_id: 817920)
+2024-10-15 11:12:19,927 - INFO - Przetworzono grê: Naturallandscape - Three Gorges (\u81ea\u7136\u666f\u89c2\u7cfb\u5217-\u957f\u6c5f\u4e09\u5ce1) (app_id: 817950)
+2024-10-15 11:12:24,840 - INFO - Przetworzono grê: High Noom VR (app_id: 817970)
+2024-10-15 11:12:29,820 - INFO - Przetworzono grê: Murderwave: Digital Slaughter (app_id: 817980)
+2024-10-15 11:12:34,652 - INFO - Obiekt nie jest gr¹: app_id: 818000
+2024-10-15 11:12:39,174 - INFO - Przetworzono grê: IAIDO (app_id: 818010)
+2024-10-15 11:12:43,928 - INFO - Przetworzono grê: Alicia Quatermain 3: The Mystery of the Flaming Gold (app_id: 818030)
+2024-10-15 11:12:48,890 - INFO - Obiekt nie jest gr¹: app_id: 818040
+2024-10-15 11:12:53,841 - INFO - Przetworzono grê: Wormster Dash (app_id: 818050)
+2024-10-15 11:12:58,579 - INFO - Przetworzono grê: Super Saurio Fly: Jurassic Edition (app_id: 818060)
+2024-10-15 11:13:03,308 - INFO - Przetworzono grê: Draoi (app_id: 818070)
+2024-10-15 11:13:08,170 - INFO - Przetworzono grê: Inner Riddle (app_id: 818090)
+2024-10-15 11:13:13,029 - INFO - Obiekt nie jest gr¹: app_id: 818110
+2024-10-15 11:13:17,638 - INFO - Obiekt nie jest gr¹: app_id: 818130
+2024-10-15 11:13:22,699 - INFO - Przetworzono grê: Stay Safe (app_id: 818140)
+2024-10-15 11:13:27,632 - INFO - Przetworzono grê: Retro Hacker (app_id: 818150)
+2024-10-15 11:13:32,726 - INFO - Obiekt nie jest gr¹: app_id: 818180
+2024-10-15 11:13:37,611 - INFO - Obiekt nie jest gr¹: app_id: 818190
+2024-10-15 11:13:42,363 - INFO - Obiekt nie jest gr¹: app_id: 818200
+2024-10-15 11:13:47,040 - INFO - Przetworzono grê: Indie Pogo (app_id: 818210)
+2024-10-15 11:13:51,792 - INFO - Przetworzono grê: Fatal Stormer (app_id: 818220)
+2024-10-15 11:13:56,535 - INFO - Przetworzono grê: Fix Race (app_id: 818240)
+2024-10-15 11:14:01,421 - INFO - Obiekt nie jest gr¹: app_id: 818270
+2024-10-15 11:14:05,904 - INFO - Obiekt nie jest gr¹: app_id: 818300
+2024-10-15 11:14:10,454 - INFO - Przetworzono grê: Marching Simulator (app_id: 817370)
+2024-10-15 11:14:15,434 - INFO - Przetworzono grê: Age of Giants (app_id: 817390)
+2024-10-15 11:14:20,177 - INFO - Przetworzono grê: SushiParty (app_id: 817410)
+2024-10-15 11:14:25,183 - INFO - Przetworzono grê: AngelShooter (app_id: 817440)
+2024-10-15 11:14:30,025 - INFO - Obiekt nie jest gr¹: app_id: 817450
+2024-10-15 11:14:34,555 - INFO - Przetworzono grê: Sea Dogs: Caribbean Tales (app_id: 817460)
+2024-10-15 11:14:39,433 - INFO - Przetworzono grê: ToaZZle (app_id: 817470)
+2024-10-15 11:14:44,163 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 817480
+2024-10-15 11:14:48,891 - INFO - Przetworzono grê: Golfing Over It with Alva Majo (app_id: 817510)
+2024-10-15 11:14:53,693 - INFO - Przetworzono grê: Mercury Race (app_id: 817530)
+2024-10-15 11:14:58,456 - INFO - Przetworzono grê: SpellForce 3 Soul Harvest (app_id: 817540)
+2024-10-15 11:15:03,358 - INFO - Obiekt nie jest gr¹: app_id: 817550
+2024-10-15 11:15:07,983 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 817560
+2024-10-15 11:15:12,669 - INFO - Obiekt nie jest gr¹: app_id: 817570
+2024-10-15 11:15:17,235 - INFO - Przetworzono grê: The Wranglers (app_id: 817600)
+2024-10-15 11:15:22,323 - INFO - Przetworzono grê: Hidden Space (app_id: 817610)
+2024-10-15 11:15:27,505 - INFO - Przetworzono grê: Gingerbread Story (app_id: 817620)
+2024-10-15 11:15:32,834 - INFO - Przetworzono grê: Island Tribe 3 (app_id: 817630)
+2024-10-15 11:15:37,976 - INFO - Przetworzono grê: Adelantado 4 Aztec Skulls (app_id: 817640)
+2024-10-15 11:15:43,156 - INFO - Przetworzono grê: Soul Smith of the Kingdom (app_id: 817660)
+2024-10-15 11:15:49,617 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 817670
+2024-10-15 11:15:54,571 - INFO - Przetworzono grê: Real Drift (app_id: 817680)
+2024-10-15 11:15:59,704 - INFO - Przetworzono grê: vridniX (app_id: 817710)
+2024-10-15 11:16:04,879 - INFO - Przetworzono grê: Cricket Captain 2018 (app_id: 817720)
+2024-10-15 11:16:09,869 - INFO - Obiekt nie jest gr¹: app_id: 817730
+2024-10-15 11:16:14,388 - INFO - Obiekt nie jest gr¹: app_id: 817750
+2024-10-15 11:16:19,025 - INFO - Przetworzono grê: 30 Seconds To Jail (app_id: 817770)
+2024-10-15 11:16:23,924 - INFO - Przetworzono grê: Overlook Trail (app_id: 817800)
+2024-10-15 11:16:28,993 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 817810
+2024-10-15 11:16:33,715 - INFO - Przetworzono grê: The "Quiet, Please!" Collection (app_id: 817820)
+2024-10-15 11:16:38,659 - INFO - Przetworzono grê: Max Gentlemen Sexy Business! (app_id: 817840)
+2024-10-15 11:16:43,825 - INFO - Przetworzono grê: Production Sound / \u4ea7\u58f0 (app_id: 816930)
+2024-10-15 11:16:48,801 - INFO - Obiekt nie jest gr¹: app_id: 816950
+2024-10-15 11:16:53,832 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 816970
+2024-10-15 11:16:58,504 - INFO - Obiekt nie jest gr¹: app_id: 816980
+2024-10-15 11:17:03,207 - INFO - Obiekt nie jest gr¹: app_id: 816981
+2024-10-15 11:17:07,783 - INFO - Obiekt nie jest gr¹: app_id: 816982
+2024-10-15 11:17:12,623 - INFO - Przetworzono grê: Dead Dust (app_id: 816990)
+2024-10-15 11:17:17,568 - INFO - Przetworzono grê: Unholy (app_id: 817020)
+2024-10-15 11:17:22,759 - INFO - Obiekt nie jest gr¹: app_id: 817050
+2024-10-15 11:17:27,356 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 817060
+2024-10-15 11:17:32,116 - INFO - Obiekt nie jest gr¹: app_id: 817070
+2024-10-15 11:17:36,847 - INFO - Obiekt nie jest gr¹: app_id: 817090
+2024-10-15 11:17:41,612 - INFO - Obiekt nie jest gr¹: app_id: 817100
+2024-10-15 11:17:46,203 - INFO - Przetworzono grê: Bitcoin VS Brain (app_id: 817110)
+2024-10-15 11:17:51,365 - INFO - Przetworzono grê: HAMMY (app_id: 817120)
+2024-10-15 11:17:57,361 - INFO - Obiekt nie jest gr¹: app_id: 817170
+2024-10-15 11:18:02,638 - INFO - Przetworzono grê: Nautical Life (app_id: 817200)
+2024-10-15 11:18:07,959 - INFO - Przetworzono grê: The Forestale (app_id: 817220)
+2024-10-15 11:18:13,012 - INFO - Przetworzono grê: Acid Spy (app_id: 817230)
+2024-10-15 11:18:19,069 - INFO - Obiekt nie jest gr¹: app_id: 817240
+2024-10-15 11:18:24,726 - INFO - Przetworzono grê: Kill Him! Online Wars (app_id: 817250)
+2024-10-15 11:18:30,150 - INFO - Obiekt nie jest gr¹: app_id: 817260
+2024-10-15 11:18:34,933 - INFO - Obiekt nie jest gr¹: app_id: 817270
+2024-10-15 11:18:39,611 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 817300
+2024-10-15 11:18:44,533 - INFO - Obiekt nie jest gr¹: app_id: 817310
+2024-10-15 11:18:49,273 - INFO - Obiekt nie jest gr¹: app_id: 817320
+2024-10-15 11:18:54,038 - INFO - Obiekt nie jest gr¹: app_id: 817330
+2024-10-15 11:18:58,854 - INFO - Przetworzono grê: The Outer Rim: Survivor (app_id: 817360)
+2024-10-15 11:19:03,825 - INFO - Obiekt nie jest gr¹: app_id: 816390
+2024-10-15 11:19:08,656 - INFO - Przetworzono grê: Questlike (app_id: 816400)
+2024-10-15 11:19:13,876 - INFO - Przetworzono grê: Go Go Poncho! (app_id: 816410)
+2024-10-15 11:19:19,104 - INFO - Przetworzono grê: Radical Relocation (app_id: 816430)
+2024-10-15 11:19:24,217 - INFO - Obiekt nie jest gr¹: app_id: 816440
+2024-10-15 11:19:29,006 - INFO - Obiekt nie jest gr¹: app_id: 816470
+2024-10-15 11:19:33,980 - INFO - Przetworzono grê: Hidden Paws (app_id: 816490)
+2024-10-15 11:19:39,159 - INFO - Przetworzono grê: Micro Pico Racers (app_id: 816500)
+2024-10-15 11:19:44,189 - INFO - Obiekt nie jest gr¹: app_id: 816510
+2024-10-15 11:19:48,977 - INFO - Obiekt nie jest gr¹: app_id: 816540
+2024-10-15 11:19:53,766 - INFO - Przetworzono grê: Gallows (app_id: 816550)
+2024-10-15 11:19:58,818 - INFO - Przetworzono grê: DESOLATE: Clone Catastrophe (app_id: 816570)
+2024-10-15 11:20:03,993 - INFO - Przetworzono grê: LOVE Obsession (app_id: 816580)
+2024-10-15 11:20:08,869 - INFO - Przetworzono grê: FinalFire (app_id: 816590)
+2024-10-15 11:20:13,884 - INFO - Przetworzono grê: \u4e30\u88d5\u4e4b\u89d2 \u4e0d\u53ef\u601d\u8bae\u4e4b\u7269\u5c45\u4f4f\u7684\u5c0f\u9547 (app_id: 816600)
+2024-10-15 11:20:18,994 - INFO - Obiekt nie jest gr¹: app_id: 816620
+2024-10-15 11:20:23,990 - INFO - Przetworzono grê: Monkey King: Master of the Clouds | \u4e2d\u83ef\u5927\u4ed9 (app_id: 816630)
+2024-10-15 11:20:29,091 - INFO - Przetworzono grê: Armor Contest (app_id: 816650)
+2024-10-15 11:20:34,234 - INFO - Przetworzono grê: Slayer Of Traitors (app_id: 816670)
+2024-10-15 11:20:39,187 - INFO - Przetworzono grê: Gray Cat (app_id: 816710)
+2024-10-15 11:20:44,273 - INFO - Przetworzono grê: Bugs Must Die / \u5f02\u661f\u7279\u52e4\u961f (app_id: 816720)
+2024-10-15 11:20:49,336 - INFO - Przetworzono grê: HeadON! (app_id: 816730)
+2024-10-15 11:20:54,375 - INFO - Przetworzono grê: Stickman: Fidget Spinner Rush (app_id: 816760)
+2024-10-15 11:20:59,608 - INFO - Przetworzono grê: The Four Colour Theorem (app_id: 816770)
+2024-10-15 11:21:04,639 - INFO - Obiekt nie jest gr¹: app_id: 816780
+2024-10-15 11:21:09,723 - INFO - Obiekt nie jest gr¹: app_id: 816790
+2024-10-15 11:21:14,389 - INFO - Przetworzono grê: Varius (app_id: 816830)
+2024-10-15 11:21:19,442 - INFO - Przetworzono grê: Night of the Shrub Part 1 (app_id: 816840)
+2024-10-15 11:21:24,412 - INFO - Przetworzono grê: Stardust Origins (app_id: 816850)
+2024-10-15 11:21:29,485 - INFO - Przetworzono grê: Kill 'Em All (app_id: 816870)
+2024-10-15 11:21:34,551 - INFO - Obiekt nie jest gr¹: app_id: 816880
+2024-10-15 11:21:39,298 - INFO - Przetworzono grê: AVA: Dog Tag (app_id: 815940)
+2024-10-15 11:21:44,299 - INFO - Przetworzono grê: Chocolate makes you happy 4 (app_id: 815950)
+2024-10-15 11:21:49,349 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 815960
+2024-10-15 11:21:54,334 - INFO - Przetworzono grê: MANE (app_id: 815970)
+2024-10-15 11:21:59,396 - INFO - Przetworzono grê: Face au train (app_id: 816000)
+2024-10-15 11:22:04,606 - INFO - Przetworzono grê: Alice Must Find The Key To Escape (Hidden Objects) (app_id: 816030)
+2024-10-15 11:22:09,847 - INFO - Przetworzono grê: Dot Debugger (app_id: 816040)
+2024-10-15 11:22:15,059 - INFO - Obiekt nie jest gr¹: app_id: 816050
+2024-10-15 11:22:20,042 - INFO - Przetworzono grê: Kingdom Clicker (app_id: 816060)
+2024-10-15 11:22:25,277 - INFO - Przetworzono grê: Blunt Force (app_id: 816070)
+2024-10-15 11:22:30,615 - INFO - Przetworzono grê: Ultimate Select Hero / \u7a76\u6781\u52c7\u8005\u7684\u9009\u62e9\u4f20\u8bf4 (app_id: 816080)
+2024-10-15 11:22:35,807 - INFO - Przetworzono grê: Space Hulk: Deathwing Enhanced Edition (app_id: 816090)
+2024-10-15 11:22:41,077 - INFO - Obiekt nie jest gr¹: app_id: 816110
+2024-10-15 11:22:46,655 - INFO - Obiekt nie jest gr¹: app_id: 816140
+2024-10-15 11:22:51,524 - INFO - Przetworzono grê: Hardway Party (app_id: 816150)
+2024-10-15 11:22:56,509 - INFO - Przetworzono grê: Score a goal 2 (Physical football) (app_id: 816160)
+2024-10-15 11:23:01,790 - INFO - Przetworzono grê: Spectrubes Infinity (app_id: 816170)
+2024-10-15 11:23:06,886 - INFO - Przetworzono grê: Zhmyshenko Valery Albertovich (app_id: 816180)
+2024-10-15 11:23:12,038 - INFO - Przetworzono grê: Draw It! (app_id: 816190)
+2024-10-15 11:23:17,074 - INFO - Przetworzono grê: Planet Assault (app_id: 816200)
+2024-10-15 11:23:22,236 - INFO - Przetworzono grê: The Balcony (app_id: 816210)
+2024-10-15 11:23:27,323 - INFO - Przetworzono grê: Build Wars (app_id: 816240)
+2024-10-15 11:23:32,531 - INFO - Przetworzono grê: JQ: dogs & cats (app_id: 816250)
+2024-10-15 11:23:37,624 - INFO - Przetworzono grê: Sounds of Verity (app_id: 816270)
+2024-10-15 11:23:42,736 - INFO - Przetworzono grê: Amora (app_id: 816280)
+2024-10-15 11:23:47,882 - INFO - Przetworzono grê: Kingdom Rush Origins - Tower Defense (app_id: 816340)
+2024-10-15 11:23:53,005 - INFO - Przetworzono grê: The Flood (app_id: 816350)
+2024-10-15 11:23:57,996 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 816360
+2024-10-15 11:24:02,820 - INFO - Obiekt nie jest gr¹: app_id: 816370
+2024-10-15 11:24:07,816 - INFO - Przetworzono grê: Crazzers (app_id: 816380)
+2024-10-15 11:24:13,993 - INFO - Przetworzono grê: Psi Cards (app_id: 815390)
+2024-10-15 11:24:19,150 - INFO - Obiekt nie jest gr¹: app_id: 815410
+2024-10-15 11:24:24,041 - INFO - Przetworzono grê: Time Transit VR (app_id: 815440)
+2024-10-15 11:24:29,647 - INFO - Przetworzono grê: Cardinal Cross (app_id: 815450)
+2024-10-15 11:24:34,922 - INFO - Obiekt nie jest gr¹: app_id: 815460
+2024-10-15 11:24:40,760 - INFO - Przetworzono grê: Ratergy (app_id: 815480)
+2024-10-15 11:24:45,926 - INFO - Przetworzono grê: Awakening: The Skyward Castle Collector's Edition (app_id: 815540)
+2024-10-15 11:24:51,854 - INFO - Przetworzono grê: Surface: Alone in the Mist Collector's Edition (app_id: 815550)
+2024-10-15 11:24:57,579 - INFO - Przetworzono grê: Dead Reckoning: The Crescent Case Collector's Edition (app_id: 815560)
+2024-10-15 11:25:03,242 - INFO - Przetworzono grê: Witches' Legacy: Hunter and the Hunted Collector's Edition (app_id: 815570)
+2024-10-15 11:25:08,777 - INFO - Przetworzono grê: Dark Parables: Return of the Salt Princess Collector's Edition (app_id: 815580)
+2024-10-15 11:25:14,102 - INFO - Obiekt nie jest gr¹: app_id: 815600
+2024-10-15 11:25:19,570 - INFO - Obiekt nie jest gr¹: app_id: 815610
+2024-10-15 11:25:24,474 - INFO - Przetworzono grê: Cyber Escape (app_id: 815620)
+2024-10-15 11:25:29,648 - INFO - Przetworzono grê: Majula Frontier (app_id: 815630)
+2024-10-15 11:25:34,967 - INFO - Obiekt nie jest gr¹: app_id: 815640
+2024-10-15 11:25:40,151 - INFO - Obiekt nie jest gr¹: app_id: 815680
+2024-10-15 11:25:45,187 - INFO - Obiekt nie jest gr¹: app_id: 815690
+2024-10-15 11:25:50,076 - INFO - Przetworzono grê: Consortya (app_id: 815700)
+2024-10-15 11:25:55,221 - INFO - Obiekt nie jest gr¹: app_id: 815710
+2024-10-15 11:26:00,503 - INFO - Obiekt nie jest gr¹: app_id: 815720
+2024-10-15 11:26:05,559 - INFO - Przetworzono grê: Swingy Sword (app_id: 815730)
+2024-10-15 11:26:10,816 - INFO - Przetworzono grê: AO-001 (app_id: 815740)
+2024-10-15 11:26:15,914 - INFO - Obiekt nie jest gr¹: app_id: 815750
+2024-10-15 11:26:20,965 - INFO - Obiekt nie jest gr¹: app_id: 815760
+2024-10-15 11:26:26,028 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 815770
+2024-10-15 11:26:30,952 - INFO - Przetworzono grê: PIPE by BMX Streets (app_id: 815780)
+2024-10-15 11:26:36,208 - INFO - Obiekt nie jest gr¹: app_id: 815790
+2024-10-15 11:26:41,121 - INFO - Przetworzono grê: Infecto (app_id: 815800)
+2024-10-15 11:26:46,667 - INFO - Obiekt nie jest gr¹: app_id: 815810
+2024-10-15 11:26:51,735 - INFO - Obiekt nie jest gr¹: app_id: 815820
+2024-10-15 11:26:56,841 - INFO - Przetworzono grê: Sword Mans (app_id: 815840)
+2024-10-15 11:27:02,042 - INFO - Przetworzono grê: Reframed (app_id: 815860)
+2024-10-15 11:27:07,435 - INFO - Przetworzono grê: Super X Chess (app_id: 814990)
+2024-10-15 11:27:13,033 - INFO - Przetworzono grê: Tardy (app_id: 815000)
+2024-10-15 11:27:18,382 - INFO - Przetworzono grê: Relaxicon (app_id: 815010)
+2024-10-15 11:27:23,707 - INFO - Obiekt nie jest gr¹: app_id: 815020
+2024-10-15 11:27:28,886 - INFO - Przetworzono grê: SKULL FEAST (app_id: 815030)
+2024-10-15 11:27:34,218 - INFO - Przetworzono grê: Star Trek Adversaries (app_id: 815040)
+2024-10-15 11:27:39,537 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 815060
+2024-10-15 11:27:44,702 - INFO - Przetworzono grê: The Adventurous Four (app_id: 815070)
+2024-10-15 11:27:50,281 - INFO - Przetworzono grê: Hot Mars 69 (app_id: 815080)
+2024-10-15 11:27:55,740 - INFO - Przetworzono grê: Lemuria (app_id: 815090)
+2024-10-15 11:28:00,881 - INFO - Przetworzono grê: Bubli (app_id: 815100)
+2024-10-15 11:28:06,048 - INFO - Przetworzono grê: Conc Jump (app_id: 815110)
+2024-10-15 11:28:11,467 - INFO - Obiekt nie jest gr¹: app_id: 815120
+2024-10-15 11:28:16,538 - INFO - Przetworzono grê: Knight Bewitched (app_id: 815150)
+2024-10-15 11:28:21,851 - INFO - Obiekt nie jest gr¹: app_id: 815160
+2024-10-15 11:28:27,046 - INFO - Przetworzono grê: Zombie World (app_id: 815170)
+2024-10-15 11:28:32,388 - INFO - Przetworzono grê: Bounty Brawl (app_id: 815200)
+2024-10-15 11:28:37,764 - INFO - Przetworzono grê: Tiny-Tasy Town (app_id: 815210)
+2024-10-15 11:28:43,118 - INFO - Przetworzono grê: Crooked Waters (app_id: 815280)
+2024-10-15 11:28:48,232 - INFO - Przetworzono grê: Guards of the Gate (app_id: 815290)
+2024-10-15 11:28:53,499 - INFO - Przetworzono grê: Catify VR (app_id: 815320)
+2024-10-15 11:28:58,883 - INFO - Obiekt nie jest gr¹: app_id: 815330
+2024-10-15 11:29:03,904 - INFO - Obiekt nie jest gr¹: app_id: 815340
+2024-10-15 11:29:08,992 - INFO - Obiekt nie jest gr¹: app_id: 815350
+2024-10-15 11:29:14,063 - INFO - Obiekt nie jest gr¹: app_id: 815351
+2024-10-15 11:29:19,180 - INFO - Obiekt nie jest gr¹: app_id: 815352
+2024-10-15 11:29:24,315 - INFO - Obiekt nie jest gr¹: app_id: 815353
+2024-10-15 11:29:29,340 - INFO - Obiekt nie jest gr¹: app_id: 815354
+2024-10-15 11:29:34,471 - INFO - Obiekt nie jest gr¹: app_id: 815355
+2024-10-15 11:29:39,613 - INFO - Obiekt nie jest gr¹: app_id: 815356
+2024-10-15 11:29:44,769 - INFO - Obiekt nie jest gr¹: app_id: 815357
+2024-10-15 11:29:49,801 - INFO - Obiekt nie jest gr¹: app_id: 815358
+2024-10-15 11:29:55,143 - INFO - Obiekt nie jest gr¹: app_id: 815359
+2024-10-15 11:30:00,357 - INFO - Przetworzono grê: Stick War: Castle Defence (app_id: 815360)
+2024-10-15 11:30:05,918 - INFO - Przetworzono grê: Green Hell (app_id: 815370)
+2024-10-15 11:30:11,311 - INFO - Obiekt nie jest gr¹: app_id: 815380
+2024-10-15 11:30:16,389 - INFO - Przetworzono grê: 1248 (app_id: 814510)
+2024-10-15 11:30:21,706 - INFO - Obiekt nie jest gr¹: app_id: 814520
+2024-10-15 11:30:26,729 - INFO - Przetworzono grê: Death Crown (app_id: 814530)
+2024-10-15 11:30:32,139 - INFO - Przetworzono grê: Cherry Island (app_id: 814550)
+2024-10-15 11:30:37,504 - INFO - Przetworzono grê: Eat my Shuriken and Die! (app_id: 814560)
+2024-10-15 11:30:42,972 - INFO - Przetworzono grê: The Great Escape (app_id: 814570)
+2024-10-15 11:30:48,190 - INFO - Przetworzono grê: Where Time Stood Still (app_id: 814580)
+2024-10-15 11:30:53,477 - INFO - Przetworzono grê: Caveman Stories (app_id: 814590)
+2024-10-15 11:30:58,797 - INFO - Przetworzono grê: Tunnel B1 (app_id: 814600)
+2024-10-15 11:31:04,308 - INFO - Przetworzono grê: Last Rites (app_id: 814610)
+2024-10-15 11:31:09,955 - INFO - Przetworzono grê: Central Intelligence (app_id: 814620)
+2024-10-15 11:31:15,365 - INFO - Przetworzono grê: ELF (app_id: 814630)
+2024-10-15 11:31:21,036 - INFO - Przetworzono grê: Sleepwalker (app_id: 814640)
+2024-10-15 11:31:26,416 - INFO - Przetworzono grê: Pushover (app_id: 814650)
+2024-10-15 11:31:31,758 - INFO - Przetworzono grê: The Unintended Consequences of Curiosity (app_id: 814660)
+2024-10-15 11:31:37,110 - INFO - Przetworzono grê: Unbound: Worlds Apart (app_id: 814680)
+2024-10-15 11:31:42,414 - INFO - Przetworzono grê: Larkin building by Frank Lloyd Wright (app_id: 814700)
+2024-10-15 11:31:47,987 - INFO - Przetworzono grê: The Rhys510 Flash Back (app_id: 814710)
+2024-10-15 11:31:53,231 - INFO - Obiekt nie jest gr¹: app_id: 814720
+2024-10-15 11:31:58,561 - INFO - Przetworzono grê: Rogue Frontiers (app_id: 814730)
+2024-10-15 11:32:04,323 - INFO - Przetworzono grê: Armored Battle Crew [World War 1] - Tank Warfare and Crew Management Simulator (app_id: 814740)
+2024-10-15 11:32:09,867 - INFO - Obiekt nie jest gr¹: app_id: 814750
+2024-10-15 11:32:14,975 - INFO - Obiekt nie jest gr¹: app_id: 814760
+2024-10-15 11:32:20,194 - INFO - Przetworzono grê: Duder (app_id: 814770)
+2024-10-15 11:32:25,685 - INFO - Obiekt nie jest gr¹: app_id: 814780
+2024-10-15 11:32:31,219 - INFO - Przetworzono grê: How We Die (app_id: 814790)
+2024-10-15 11:32:36,742 - INFO - Przetworzono grê: Boom Fighters (app_id: 814800)
+2024-10-15 11:32:42,294 - INFO - Przetworzono grê: Monads (app_id: 814870)
+2024-10-15 11:32:47,701 - INFO - Przetworzono grê: PowerBots Builders (app_id: 814880)
+2024-10-15 11:32:53,322 - INFO - Przetworzono grê: BoxEngine (app_id: 814890)
+2024-10-15 11:32:58,660 - INFO - Przetworzono grê: \u4e09\u56fd\u864e\u5c06\u4f20VR-Sanguo Warriors VR (app_id: 814900)
+2024-10-15 11:33:03,960 - INFO - Obiekt nie jest gr¹: app_id: 814930
+2024-10-15 11:33:09,133 - INFO - Przetworzono grê:  (app_id: 814940)
+2024-10-15 11:33:14,678 - INFO - Przetworzono grê: Blackbox (app_id: 814960)
+2024-10-15 11:33:20,119 - INFO - Przetworzono grê: Nuclear 2050 (app_id: 814140)
+2024-10-15 11:33:25,618 - INFO - Przetworzono grê: Simple Story - Alex (app_id: 814200)
+2024-10-15 11:33:31,063 - INFO - Przetworzono grê: Slam Land (app_id: 814230)
+2024-10-15 11:33:36,784 - INFO - Obiekt nie jest gr¹: app_id: 814251
+2024-10-15 11:33:41,938 - INFO - Przetworzono grê: Pigeons Attack (app_id: 814300)
+2024-10-15 11:33:47,449 - INFO - Przetworzono grê: Arkady Survive (app_id: 814320)
+2024-10-15 11:33:53,011 - INFO - Przetworzono grê: Skyfear (app_id: 814330)
+2024-10-15 11:33:58,580 - INFO - Przetworzono grê: Ghoststory (app_id: 814340)
+2024-10-15 11:34:04,091 - INFO - Przetworzono grê: Mythic Ocean (app_id: 814360)
+2024-10-15 11:34:09,675 - INFO - Przetworzono grê: Sekiro™: Shadows Die Twice - GOTY Edition (app_id: 814380)
+2024-10-15 11:34:16,893 - INFO - Obiekt nie jest gr¹: app_id: 814390
+2024-10-15 11:34:25,697 - INFO - Przetworzono grê: Battlewake (app_id: 814400)
+2024-10-15 11:34:34,250 - INFO - Przetworzono grê: TetraLogical (app_id: 814420)
+2024-10-15 11:34:41,729 - INFO - Obiekt nie jest gr¹: app_id: 814440
+2024-10-15 11:34:49,182 - INFO - Przetworzono grê: Mini World: CREATA (app_id: 814480)
+2024-10-15 11:34:56,998 - INFO - Obiekt nie jest gr¹: app_id: 813810
+2024-10-15 11:35:04,883 - INFO - Przetworzono grê: Realm Royale Reforged (app_id: 813820)
+2024-10-15 11:35:12,607 - INFO - Obiekt nie jest gr¹: app_id: 813840
+2024-10-15 11:35:18,271 - INFO - Obiekt nie jest gr¹: app_id: 813850
+2024-10-15 11:35:26,494 - INFO - Przetworzono grê: N.U.T.Z. (app_id: 813860)
+2024-10-15 11:35:33,527 - INFO - Obiekt nie jest gr¹: app_id: 813870
+2024-10-15 11:35:40,770 - INFO - Obiekt nie jest gr¹: app_id: 813900
+2024-10-15 11:35:48,475 - INFO - Przetworzono grê: oldTail (app_id: 813920)
+2024-10-15 11:35:55,782 - INFO - Przetworzono grê: Revoke (app_id: 813930)
+2024-10-15 11:36:04,266 - INFO - Obiekt nie jest gr¹: app_id: 813950
+2024-10-15 11:36:11,438 - INFO - Przetworzono grê: Urban - Episode 1 (app_id: 813970)
+2024-10-15 11:36:18,977 - INFO - Przetworzono grê: ONE PIECE ODYSSEY (app_id: 814000)
+2024-10-15 11:36:26,651 - INFO - Przetworzono grê: Ball Driver (app_id: 814010)
+2024-10-15 11:36:33,872 - INFO - Przetworzono grê: Quickshot (app_id: 814020)
+2024-10-15 11:36:41,892 - INFO - Przetworzono grê: Queen's Quest 4: Sacred Truce (app_id: 814030)
+2024-10-15 11:36:48,298 - INFO - Obiekt nie jest gr¹: app_id: 814060
+2024-10-15 11:36:55,118 - INFO - Obiekt nie jest gr¹: app_id: 814070
+2024-10-15 11:37:01,927 - INFO - Obiekt nie jest gr¹: app_id: 814100
+2024-10-15 11:37:07,680 - INFO - Obiekt nie jest gr¹: app_id: 814110
+2024-10-15 11:37:15,055 - INFO - Obiekt nie jest gr¹: app_id: 813614
+2024-10-15 11:37:21,681 - INFO - Obiekt nie jest gr¹: app_id: 813615
+2024-10-15 11:37:28,479 - INFO - Obiekt nie jest gr¹: app_id: 813616
+2024-10-15 11:37:35,247 - INFO - Obiekt nie jest gr¹: app_id: 813620
+2024-10-15 11:37:43,565 - INFO - Obiekt nie jest gr¹: app_id: 813621
+2024-10-15 11:37:51,339 - INFO - Obiekt nie jest gr¹: app_id: 813622
+2024-10-15 11:37:58,059 - INFO - Obiekt nie jest gr¹: app_id: 813623
+2024-10-15 11:38:05,293 - INFO - Obiekt nie jest gr¹: app_id: 813624
+2024-10-15 11:38:12,357 - INFO - Obiekt nie jest gr¹: app_id: 813625
+2024-10-15 11:38:20,286 - INFO - Obiekt nie jest gr¹: app_id: 813626
+2024-10-15 11:38:28,726 - INFO - Obiekt nie jest gr¹: app_id: 813627
+2024-10-15 11:38:35,786 - INFO - Przetworzono grê: Supraland (app_id: 813630)
+2024-10-15 11:38:42,927 - INFO - Przetworzono grê: Runefall (app_id: 813650)
+2024-10-15 11:38:51,480 - INFO - Przetworzono grê: Sakura Sadist (app_id: 813700)
+2024-10-15 11:38:58,893 - INFO - Przetworzono grê: Fleet Star V (app_id: 813730)
+2024-10-15 11:39:06,119 - INFO - Przetworzono grê: Don't Pray To Satan (app_id: 813170)
+2024-10-15 11:39:14,250 - INFO - Przetworzono grê: DDS(D.I.Y Drone Simulator) Demo (app_id: 813200)
+2024-10-15 11:39:22,883 - INFO - Obiekt nie jest gr¹: app_id: 813210
+2024-10-15 11:39:30,803 - INFO - Przetworzono grê: ANIMAL WELL (app_id: 813230)
+2024-10-15 11:39:39,661 - INFO - Przetworzono grê: Unicorn Dungeon (app_id: 813250)
+2024-10-15 11:39:47,889 - INFO - Przetworzono grê: Vector Born (app_id: 813260)
+2024-10-15 11:39:56,422 - INFO - Przetworzono grê: This Child Of Mine (app_id: 813290)
+2024-10-15 11:40:04,051 - INFO - Przetworzono grê: CODE CRACKER \u4ee3\u7801\u7834\u8bd1\u8005 (app_id: 813300)
+2024-10-15 11:40:12,660 - INFO - Przetworzono grê: Outsider Strategist\uff5e\u7570\u4e16\u754c\u3067\u8ecd\u5e2b\u306b\u306a\u308b\uff5e (app_id: 813310)
+2024-10-15 11:40:20,376 - INFO - Obiekt nie jest gr¹: app_id: 813320
+2024-10-15 11:40:27,682 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 813330
+2024-10-15 11:40:36,181 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 813350
+2024-10-15 11:40:43,624 - INFO - Przetworzono grê: \u0e01\u0e32\u0e23\u0e34\u0e19 \u0e1b\u0e23\u0e34\u0e28\u0e19\u0e32\u0e04\u0e14\u0e35\u0e2d\u0e32\u0e16\u0e23\u0e23\u0e1e\u0e4c the game : \u0e15\u0e2d\u0e19\u0e1e\u0e34\u0e18\u0e35\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e0a\u0e35\u0e1e (app_id: 813370)
+2024-10-15 11:40:51,270 - INFO - Obiekt nie jest gr¹: app_id: 813380
+2024-10-15 11:40:58,208 - INFO - Obiekt nie jest gr¹: app_id: 813390
+2024-10-15 11:41:04,926 - INFO - Przetworzono grê: \u5728\u8fd9\u4e2a\u4e16\u754c\u7684\u5c3d\u5934\uff0c\u4f60\u4e0e\u6211\u88ab\u9057\u5fd8\u7684\u4f20\u8bf4 (app_id: 813400)
+2024-10-15 11:41:12,622 - INFO - Obiekt nie jest gr¹: app_id: 813410
+2024-10-15 11:41:19,805 - INFO - Obiekt nie jest gr¹: app_id: 813420
+2024-10-15 11:41:26,618 - INFO - Przetworzono grê: DrillsVR (app_id: 813440)
+2024-10-15 11:41:34,063 - INFO - Przetworzono grê: Barbearian (app_id: 813450)
+2024-10-15 11:41:42,430 - INFO - Obiekt nie jest gr¹: app_id: 813460
+2024-10-15 11:41:49,777 - INFO - Przetworzono grê: General Horse and the Package of Doom (app_id: 813480)
+2024-10-15 11:41:58,640 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 813490
+2024-10-15 11:42:05,677 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 813491
+2024-10-15 11:42:13,335 - INFO - Obiekt nie jest gr¹: app_id: 813500
+2024-10-15 11:42:20,041 - INFO - Obiekt nie jest gr¹: app_id: 813510
+2024-10-15 11:42:27,073 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 813520
+2024-10-15 11:42:33,448 - INFO - Przetworzono grê: Scheming Through The Zombie Apocalypse: The Beginning (app_id: 813540)
+2024-10-15 11:42:40,807 - INFO - Obiekt nie jest gr¹: app_id: 813560
+2024-10-15 11:42:49,590 - INFO - Przetworzono grê: Solas and the White Winter (app_id: 813590)
+2024-10-15 11:42:57,099 - INFO - Obiekt nie jest gr¹: app_id: 813610
+2024-10-15 11:43:03,591 - INFO - Obiekt nie jest gr¹: app_id: 813611
+2024-10-15 11:43:10,528 - INFO - Obiekt nie jest gr¹: app_id: 813612
+2024-10-15 11:43:17,876 - INFO - Obiekt nie jest gr¹: app_id: 813613
+2024-10-15 11:43:24,498 - INFO - Przetworzono grê: The Plus Point (app_id: 812740)
+2024-10-15 11:43:30,567 - INFO - Obiekt nie jest gr¹: app_id: 812750
+2024-10-15 11:43:36,784 - INFO - Przetworzono grê: Lunapark VR (app_id: 812770)
+2024-10-15 11:43:43,342 - INFO - Przetworzono grê: CasterLords (app_id: 812780)
+2024-10-15 11:43:49,419 - INFO - Przetworzono grê: missed messages. (app_id: 812810)
+2024-10-15 11:43:56,044 - INFO - Obiekt nie jest gr¹: app_id: 812820
+2024-10-15 11:44:02,318 - INFO - Obiekt nie jest gr¹: app_id: 812830
+2024-10-15 11:44:08,425 - INFO - Przetworzono grê: LuGame: Lunchtime Games Club! (app_id: 812840)
+2024-10-15 11:44:14,716 - INFO - Przetworzono grê: Outline (app_id: 812850)
+2024-10-15 11:44:20,897 - INFO - Przetworzono grê: Genius Calculator (app_id: 812860)
+2024-10-15 11:44:27,426 - INFO - Przetworzono grê: Sentinels of Freedom (app_id: 812870)
+2024-10-15 11:44:34,072 - INFO - Przetworzono grê: Bifrost Project (app_id: 812890)
+2024-10-15 11:44:40,831 - INFO - Przetworzono grê: Bump Bump Bump (app_id: 812900)
+2024-10-15 11:44:47,544 - INFO - Przetworzono grê: Zodiac Legion (app_id: 812910)
+2024-10-15 11:44:54,457 - INFO - Przetworzono grê: Strategic Command Classic: WWII (app_id: 812930)
+2024-10-15 11:45:01,554 - INFO - Przetworzono grê: Dear Leader (app_id: 812940)
+2024-10-15 11:45:08,930 - INFO - Przetworzono grê: Guilds Of Delenar (app_id: 812960)
+2024-10-15 11:45:15,414 - INFO - Obiekt nie jest gr¹: app_id: 812970
+2024-10-15 11:45:23,024 - INFO - Przetworzono grê: POSTWORLD (app_id: 812980)
+2024-10-15 11:45:31,158 - INFO - Przetworzono grê: Broken Ties (app_id: 813020)
+2024-10-15 11:45:38,960 - INFO - Przetworzono grê: Reverie - A Heroes Tale (app_id: 813030)
+2024-10-15 11:45:46,393 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 813070
+2024-10-15 11:45:54,177 - INFO - Przetworzono grê: Circadian (app_id: 813080)
+2024-10-15 11:46:02,045 - INFO - Obiekt nie jest gr¹: app_id: 813090
+2024-10-15 11:46:08,593 - INFO - Obiekt nie jest gr¹: app_id: 813091
+2024-10-15 11:46:16,087 - INFO - Obiekt nie jest gr¹: app_id: 813100
+2024-10-15 11:46:23,576 - INFO - Przetworzono grê: Paralines The Last paladin (app_id: 813110)
+2024-10-15 11:46:30,565 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 813120
+2024-10-15 11:46:38,095 - INFO - Przetworzono grê: Elevator Ritual (app_id: 813150)
+2024-10-15 11:46:44,322 - INFO - Przetworzono grê: Monsters of Kanji (app_id: 812360)
+2024-10-15 11:46:50,556 - INFO - Przetworzono grê: Flock of Dogs (app_id: 812380)
+2024-10-15 11:46:57,541 - INFO - Przetworzono grê: Torimodosu (app_id: 812390)
+2024-10-15 11:47:04,203 - INFO - Obiekt nie jest gr¹: app_id: 812400
+2024-10-15 11:47:10,105 - INFO - Przetworzono grê: Dimension of Monster Girls (app_id: 812410)
+2024-10-15 11:47:16,680 - INFO - Przetworzono grê: Touch the devil VR(\u304a\u3055\u308f\u308a\u9b54\u738bVR) (app_id: 812430)
+2024-10-15 11:47:23,222 - INFO - Obiekt nie jest gr¹: app_id: 812440
+2024-10-15 11:47:29,238 - INFO - Przetworzono grê: Air Raid Over Britain (app_id: 812460)
+2024-10-15 11:47:35,754 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812510
+2024-10-15 11:47:41,889 - INFO - Obiekt nie jest gr¹: app_id: 812530
+2024-10-15 11:47:48,024 - INFO - Przetworzono grê: The King's Bird (app_id: 812550)
+2024-10-15 11:47:54,556 - INFO - Przetworzono grê: CROSS†CHANNEL: Steam Edition (app_id: 812560)
+2024-10-15 11:48:00,894 - INFO - Przetworzono grê: Chop It (app_id: 812580)
+2024-10-15 11:48:07,076 - INFO - Przetworzono grê: Awakening of Celestial (app_id: 812590)
+2024-10-15 11:48:13,229 - INFO - Przetworzono grê: Escape Architect VR (app_id: 812610)
+2024-10-15 11:48:19,577 - INFO - Przetworzono grê: Data Defense (app_id: 812650)
+2024-10-15 11:48:25,789 - INFO - Przetworzono grê: MRS SNAKE (app_id: 811910)
+2024-10-15 11:48:31,970 - INFO - Przetworzono grê: Game of Drones (app_id: 811940)
+2024-10-15 11:48:38,282 - INFO - Przetworzono grê: Bloody Faerie (app_id: 811950)
+2024-10-15 11:48:44,484 - INFO - Przetworzono grê: Super Dream Dasher (app_id: 811970)
+2024-10-15 11:48:50,519 - INFO - Obiekt nie jest gr¹: app_id: 812000
+2024-10-15 11:48:56,469 - INFO - Przetworzono grê: Elea - Episode 1 (app_id: 812020)
+2024-10-15 11:49:02,624 - INFO - Obiekt nie jest gr¹: app_id: 812030
+2024-10-15 11:49:08,706 - INFO - Przetworzono grê: Shortest Trip to Earth (app_id: 812040)
+2024-10-15 11:49:14,857 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812050
+2024-10-15 11:49:20,759 - INFO - Przetworzono grê: VIARKANOID (app_id: 812060)
+2024-10-15 11:49:26,908 - INFO - Przetworzono grê: Project Nightmares Case 36: Henrietta Kedward (app_id: 812070)
+2024-10-15 11:49:33,307 - INFO - Przetworzono grê: RAW FOOTAGE (app_id: 812090)
+2024-10-15 11:49:39,355 - INFO - Przetworzono grê: Blake and Mortimer: The Curse of the Thirty Denarii (app_id: 812100)
+2024-10-15 11:49:45,474 - INFO - Przetworzono grê: Alice in Wonderland - Hidden Objects (app_id: 812110)
+2024-10-15 11:49:51,882 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812120
+2024-10-15 11:49:57,881 - INFO - Obiekt nie jest gr¹: app_id: 812130
+2024-10-15 11:50:03,733 - INFO - Przetworzono grê: Etherborn (app_id: 812160)
+2024-10-15 11:50:10,087 - INFO - Przetworzono grê: Parkland (app_id: 812170)
+2024-10-15 11:50:16,327 - INFO - Przetworzono grê: Miasma Caves (app_id: 812190)
+2024-10-15 11:50:22,533 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812200
+2024-10-15 11:50:28,813 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812210
+2024-10-15 11:50:34,741 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812220
+2024-10-15 11:50:40,657 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812230
+2024-10-15 11:50:46,850 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812240
+2024-10-15 11:50:52,938 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812250
+2024-10-15 11:50:58,942 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812260
+2024-10-15 11:51:05,067 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812270
+2024-10-15 11:51:11,106 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812280
+2024-10-15 11:51:16,991 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 812320
+2024-10-15 11:51:22,918 - INFO - Obiekt nie jest gr¹: app_id: 811430
+2024-10-15 11:51:28,911 - INFO - Obiekt nie jest gr¹: app_id: 811431
+2024-10-15 11:51:34,848 - INFO - Przetworzono grê: Gripper's Adventure (app_id: 811440)
+2024-10-15 11:51:41,202 - INFO - Przetworzono grê: Dongo Adventure (app_id: 811450)
+2024-10-15 11:51:47,428 - INFO - Obiekt nie jest gr¹: app_id: 811460
+2024-10-15 11:51:53,530 - INFO - Przetworzono grê: Immunity (app_id: 811470)
+2024-10-15 11:52:00,081 - INFO - Przetworzono grê: Geography Quiz (app_id: 811480)
+2024-10-15 11:52:06,323 - INFO - Przetworzono grê: The Last Piece of Bacon (app_id: 811500)
+2024-10-15 11:52:12,595 - INFO - Przetworzono grê: Organosphere (app_id: 811620)
+2024-10-15 11:52:18,813 - INFO - Przetworzono grê: Don't Look Back (app_id: 811630)
+2024-10-15 11:52:25,060 - INFO - Przetworzono grê: Divided: Soul Theft (app_id: 811640)
+2024-10-15 11:52:31,680 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 811650
+2024-10-15 11:52:37,739 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 811660
+2024-10-15 11:52:43,819 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 811670
+2024-10-15 11:52:49,973 - INFO - Obiekt nie jest gr¹: app_id: 811710
+2024-10-15 11:52:55,977 - INFO - Przetworzono grê: Outbreak: The Nightmare Chronicles (app_id: 811720)
+2024-10-15 11:53:02,162 - INFO - Przetworzono grê: Breach of Contract Reloaded (app_id: 811750)
+2024-10-15 11:53:08,317 - INFO - Przetworzono grê: The Last Exterminator (app_id: 811760)
+2024-10-15 11:53:14,671 - INFO - Obiekt nie jest gr¹: app_id: 811770
+2024-10-15 11:53:20,830 - INFO - Przetworzono grê: Project Plainsight (app_id: 811790)
+2024-10-15 11:53:27,103 - INFO - Przetworzono grê: MINT VR (app_id: 811800)
+2024-10-15 11:53:33,638 - INFO - Obiekt nie jest gr¹: app_id: 811840
+2024-10-15 11:53:39,869 - INFO - Przetworzono grê: Samba Shooter (app_id: 811850)
+2024-10-15 11:53:46,233 - INFO - Przetworzono grê: Verlet Swing (app_id: 811870)
+2024-10-15 11:53:52,626 - INFO - Przetworzono grê: Close Combat: The Bloody First (app_id: 811880)
+2024-10-15 11:53:59,486 - INFO - Przetworzono grê: Perky Little Things (app_id: 811890)
+2024-10-15 11:54:06,106 - INFO - Obiekt nie jest gr¹: app_id: 810910
+2024-10-15 11:54:12,553 - INFO - Obiekt nie jest gr¹: app_id: 810920
+2024-10-15 11:54:18,781 - INFO - Obiekt nie jest gr¹: app_id: 810930
+2024-10-15 11:54:24,908 - INFO - Obiekt nie jest gr¹: app_id: 810940
+2024-10-15 11:54:31,069 - INFO - Obiekt nie jest gr¹: app_id: 810950
+2024-10-15 11:54:37,029 - INFO - Obiekt nie jest gr¹: app_id: 810960
+2024-10-15 11:54:42,682 - INFO - Obiekt nie jest gr¹: app_id: 810970
+2024-10-15 11:54:48,555 - INFO - Obiekt nie jest gr¹: app_id: 810980
+2024-10-15 11:54:54,645 - INFO - Obiekt nie jest gr¹: app_id: 810990
+2024-10-15 11:55:00,469 - INFO - Obiekt nie jest gr¹: app_id: 811000
+2024-10-15 11:55:06,628 - INFO - Obiekt nie jest gr¹: app_id: 811010
+2024-10-15 11:55:12,285 - INFO - Obiekt nie jest gr¹: app_id: 811020
+2024-10-15 11:55:18,170 - INFO - Przetworzono grê: Bloodstone (app_id: 811030)
+2024-10-15 11:55:24,065 - INFO - Przetworzono grê: Memoir (app_id: 811040)
+2024-10-15 11:55:30,096 - INFO - Obiekt nie jest gr¹: app_id: 811050
+2024-10-15 11:55:35,912 - INFO - Przetworzono grê: \u773c\u4e2d\u7684\u4e16\u754c - Conviction - (app_id: 811070)
+2024-10-15 11:55:41,920 - INFO - Przetworzono grê: Total Esports Action Manager (app_id: 811080)
+2024-10-15 11:55:47,863 - INFO - Przetworzono grê: Ana The Game (app_id: 811090)
+2024-10-15 11:55:53,776 - INFO - Obiekt nie jest gr¹: app_id: 811100
+2024-10-15 11:55:59,700 - INFO - Przetworzono grê: BlackSimulator (app_id: 811110)
+2024-10-15 11:56:05,923 - INFO - Przetworzono grê: Forever Space (app_id: 811130)
+2024-10-15 11:56:11,794 - INFO - Przetworzono grê: Game of Stones (app_id: 811160)
+2024-10-15 11:56:17,737 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 811170
+2024-10-15 11:56:23,390 - INFO - Przetworzono grê: Farm Quest (app_id: 811180)
+2024-10-15 11:56:29,323 - INFO - Przetworzono grê: ORION (app_id: 811190)
+2024-10-15 11:56:35,200 - INFO - Obiekt nie jest gr¹: app_id: 811200
+2024-10-15 11:56:40,834 - INFO - Obiekt nie jest gr¹: app_id: 811210
+2024-10-15 11:56:46,545 - INFO - Przetworzono grê: Content Creator Simulator (app_id: 811250)
+2024-10-15 11:56:52,568 - INFO - Przetworzono grê: Impulsion (app_id: 811270)
+2024-10-15 11:56:58,458 - INFO - Przetworzono grê: Project Pastorate (app_id: 811290)
+2024-10-15 11:57:04,402 - INFO - Obiekt nie jest gr¹: app_id: 811300
+2024-10-15 11:57:10,010 - INFO - Przetworzono grê: Soviet Lunapark VR (app_id: 811310)
+2024-10-15 11:57:15,941 - INFO - Przetworzono grê: Jupiter Hell (app_id: 811320)
+2024-10-15 11:57:21,914 - INFO - Przetworzono grê: Archibald (app_id: 811360)
+2024-10-15 11:57:27,996 - INFO - Obiekt nie jest gr¹: app_id: 810490
+2024-10-15 11:57:33,817 - INFO - Przetworzono grê: Welcome Back Daddy (app_id: 810510)
+2024-10-15 11:57:39,815 - INFO - Obiekt nie jest gr¹: app_id: 810530
+2024-10-15 11:57:45,692 - INFO - Przetworzono grê: Monsters Attack (app_id: 810540)
+2024-10-15 11:57:51,807 - INFO - Przetworzono grê: Area 86 (app_id: 810590)
+2024-10-15 11:57:57,735 - INFO - Obiekt nie jest gr¹: app_id: 810600
+2024-10-15 11:58:03,639 - INFO - Przetworzono grê: Mission Of Hero (app_id: 810610)
+2024-10-15 11:58:09,818 - INFO - Przetworzono grê: Paint It Black (app_id: 810630)
+2024-10-15 11:58:15,954 - INFO - Przetworzono grê: Radiis (app_id: 810640)
+2024-10-15 11:58:22,091 - INFO - Przetworzono grê: The Next Day After Friday (app_id: 810650)
+2024-10-15 11:58:28,193 - INFO - Przetworzono grê: The Office Quest (app_id: 810660)
+2024-10-15 11:58:34,216 - INFO - Przetworzono grê: NALOGI (app_id: 810670)
+2024-10-15 11:58:40,191 - INFO - Przetworzono grê: Zombie Murder (app_id: 810680)
+2024-10-15 11:58:46,233 - INFO - Przetworzono grê: Colour Box (app_id: 810690)
+2024-10-15 11:58:52,261 - INFO - Przetworzono grê: The Final Days: Blood Dawn (app_id: 810700)
+2024-10-15 11:58:58,337 - INFO - Przetworzono grê: Zombie Murder Hell Arrives (app_id: 810720)
+2024-10-15 11:59:04,441 - INFO - Przetworzono grê: Turtle Lu (app_id: 810740)
+2024-10-15 11:59:10,499 - INFO - Przetworzono grê: Starman's VR Experience (app_id: 810760)
+2024-10-15 11:59:16,716 - INFO - Przetworzono grê: Frog Demon (app_id: 810770)
+2024-10-15 11:59:22,790 - INFO - Przetworzono grê: RAIN Project - a touhou fangame (app_id: 810780)
+2024-10-15 11:59:28,844 - INFO - Przetworzono grê: Action Alien: Tropical (app_id: 810800)
+2024-10-15 11:59:34,846 - INFO - Obiekt nie jest gr¹: app_id: 810820
+2024-10-15 11:59:40,780 - INFO - Obiekt nie jest gr¹: app_id: 810830
+2024-10-15 11:59:46,427 - INFO - Obiekt nie jest gr¹: app_id: 810840
+2024-10-15 11:59:52,274 - INFO - Obiekt nie jest gr¹: app_id: 810850
+2024-10-15 11:59:58,033 - INFO - Obiekt nie jest gr¹: app_id: 810860
+2024-10-15 12:00:03,943 - INFO - Obiekt nie jest gr¹: app_id: 810870
+2024-10-15 12:00:09,570 - INFO - Obiekt nie jest gr¹: app_id: 810880
+2024-10-15 12:00:15,267 - INFO - Obiekt nie jest gr¹: app_id: 810890
+2024-10-15 12:00:21,048 - INFO - Obiekt nie jest gr¹: app_id: 810900
+2024-10-15 12:00:26,924 - INFO - Obiekt nie jest gr¹: app_id: 809990
+2024-10-15 12:00:32,783 - INFO - Przetworzono grê: Manaya (app_id: 810000)
+2024-10-15 12:00:38,795 - INFO - Obiekt nie jest gr¹: app_id: 810010
+2024-10-15 12:00:44,420 - INFO - Przetworzono grê: Belle II in Virtual Reality (app_id: 810020)
+2024-10-15 12:00:50,583 - INFO - Przetworzono grê: Waldenses: In Search of Truth (app_id: 810030)
+2024-10-15 12:00:56,586 - INFO - Przetworzono grê: Starbucket (app_id: 810050)
+2024-10-15 12:01:02,617 - INFO - Przetworzono grê: Beautiful Bricks (app_id: 810060)
+2024-10-15 12:01:08,545 - INFO - Obiekt nie jest gr¹: app_id: 810070
+2024-10-15 12:01:14,777 - INFO - Przetworzono grê: DMD Branefold (app_id: 810080)
+2024-10-15 12:01:20,977 - INFO - Obiekt nie jest gr¹: app_id: 810090
+2024-10-15 12:01:26,648 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 810100
+2024-10-15 12:01:32,468 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 810110
+2024-10-15 12:01:38,282 - INFO - Obiekt nie jest gr¹: app_id: 810140
+2024-10-15 12:01:44,227 - INFO - Obiekt nie jest gr¹: app_id: 810150
+2024-10-15 12:01:49,957 - INFO - Przetworzono grê: Zombie Town : Online (app_id: 810190)
+2024-10-15 12:01:56,028 - INFO - Przetworzono grê: FAUCET VR (app_id: 810220)
+2024-10-15 12:02:02,107 - INFO - Przetworzono grê: Traum (app_id: 810230)
+2024-10-15 12:02:08,219 - INFO - Obiekt nie jest gr¹: app_id: 810240
+2024-10-15 12:02:14,043 - INFO - Przetworzono grê: RACING GAME (app_id: 810250)
+2024-10-15 12:02:20,315 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 810260
+2024-10-15 12:02:26,550 - INFO - Obiekt nie jest gr¹: app_id: 810280
+2024-10-15 12:02:32,583 - INFO - Obiekt nie jest gr¹: app_id: 810290
+2024-10-15 12:02:38,486 - INFO - Obiekt nie jest gr¹: app_id: 810300
+2024-10-15 12:02:44,406 - INFO - Obiekt nie jest gr¹: app_id: 810310
+2024-10-15 12:02:50,447 - INFO - Obiekt nie jest gr¹: app_id: 810320
+2024-10-15 12:02:56,195 - INFO - Przetworzono grê: Fast Food Rampage (app_id: 810330)
+2024-10-15 12:03:02,395 - INFO - Przetworzono grê: World of Islands - Treasure Hunt (app_id: 810340)
+2024-10-15 12:03:08,894 - INFO - Przetworzono grê: Masters of Puzzle (app_id: 810360)
+2024-10-15 12:03:15,123 - INFO - Obiekt nie jest gr¹: app_id: 810370
+2024-10-15 12:03:21,237 - INFO - Obiekt nie jest gr¹: app_id: 810380
+2024-10-15 12:03:27,284 - INFO - Obiekt nie jest gr¹: app_id: 810390
+2024-10-15 12:03:33,563 - INFO - Przetworzono grê: Find the Gnome (app_id: 810420)
+2024-10-15 12:03:39,894 - INFO - Przetworzono grê: The Idiot's Tale (app_id: 810450)
+2024-10-15 12:03:46,341 - INFO - Przetworzono grê: Riverhill Trials (app_id: 810460)
+2024-10-15 12:03:52,634 - INFO - Przetworzono grê: Black Dream Plus (app_id: 810470)
+2024-10-15 12:03:58,868 - INFO - Obiekt nie jest gr¹: app_id: 810480
+2024-10-15 12:04:04,949 - INFO - Przetworzono grê: Brazilian Root® (app_id: 809500)
+2024-10-15 12:04:11,324 - INFO - Przetworzono grê: Hypergate (app_id: 809530)
+2024-10-15 12:04:17,788 - INFO - Przetworzono grê: Mechs V Kaijus - Tower Defense (app_id: 809540)
+2024-10-15 12:04:24,342 - INFO - Przetworzono grê: Death from Unknown: Survival (app_id: 809550)
+2024-10-15 12:04:30,785 - INFO - Przetworzono grê: Ignis Avis Venatio (app_id: 809570)
+2024-10-15 12:04:37,463 - INFO - Przetworzono grê: RAMS (app_id: 809580)
+2024-10-15 12:04:44,181 - INFO - Przetworzono grê: Yacht Simulator VR (app_id: 809610)
+2024-10-15 12:04:50,795 - INFO - Obiekt nie jest gr¹: app_id: 809630
+2024-10-15 12:04:57,008 - INFO - Obiekt nie jest gr¹: app_id: 809631
+2024-10-15 12:05:03,248 - INFO - Obiekt nie jest gr¹: app_id: 809632
+2024-10-15 12:05:09,410 - INFO - Przetworzono grê: \u5c3a\u5b50\u548c\u6a61\u76ae (app_id: 809640)
+2024-10-15 12:05:15,956 - INFO - Obiekt nie jest gr¹: app_id: 809650
+2024-10-15 12:05:22,380 - INFO - Obiekt nie jest gr¹: app_id: 809670
+2024-10-15 12:05:28,821 - INFO - Przetworzono grê: Panzer Hearts - War Visual Novel (app_id: 809680)
+2024-10-15 12:05:36,276 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 809690
+2024-10-15 12:05:43,362 - INFO - Przetworzono grê: CubeRun (app_id: 809700)
+2024-10-15 12:05:50,166 - INFO - Przetworzono grê: Rescue HQ - The Tycoon (app_id: 809720)
+2024-10-15 12:05:57,008 - INFO - Przetworzono grê: FISHERY (app_id: 809730)
+2024-10-15 12:06:03,823 - INFO - Obiekt nie jest gr¹: app_id: 809740
+2024-10-15 12:06:10,044 - INFO - Przetworzono grê: JungleShoot (app_id: 809760)
+2024-10-15 12:06:16,548 - INFO - Przetworzono grê: DeerHunterX (app_id: 809770)
+2024-10-15 12:06:23,155 - INFO - Przetworzono grê: TheGunRunner (app_id: 809780)
+2024-10-15 12:06:30,005 - INFO - Przetworzono grê: Nightmare Simulator (app_id: 809790)
+2024-10-15 12:06:37,138 - INFO - Przetworzono grê: TheWraithTrails (app_id: 809800)
+2024-10-15 12:06:43,831 - INFO - Obiekt nie jest gr¹: app_id: 809820
+2024-10-15 12:06:50,203 - INFO - Przetworzono grê: China VS Roman (app_id: 809830)
+2024-10-15 12:06:56,818 - INFO - Przetworzono grê: Anime show \u52a8\u6f2b\u65f6\u88c5\u79c0 (app_id: 809840)
+2024-10-15 12:07:03,332 - INFO - Przetworzono grê: Sudoku Zenkai / \u6570\u72ec\u5168\u5361 (app_id: 809850)
+2024-10-15 12:07:10,111 - INFO - Obiekt nie jest gr¹: app_id: 809860
+2024-10-15 12:07:16,427 - INFO - Przetworzono grê: Ninjin: Clash of Carrots (app_id: 809870)
+2024-10-15 12:07:22,966 - INFO - Przetworzono grê: Degrees of Separation (app_id: 809880)
+2024-10-15 12:07:29,488 - INFO - Przetworzono grê: Shining Resonance Refrain (app_id: 809890)
+2024-10-15 12:07:36,052 - INFO - Przetworzono grê: Calvin Tucker's Farm Animal Racing (app_id: 809900)
+2024-10-15 12:07:42,559 - INFO - Obiekt nie jest gr¹: app_id: 809910
+2024-10-15 12:07:48,916 - INFO - Obiekt nie jest gr¹: app_id: 809930
+2024-10-15 12:07:55,144 - INFO - Przetworzono grê: Asemblance: Oversight (app_id: 809950)
+2024-10-15 12:08:01,845 - INFO - Przetworzono grê: Radical Heights (app_id: 809960)
+2024-10-15 12:08:08,237 - INFO - Obiekt nie jest gr¹: app_id: 809970
+2024-10-15 12:08:14,492 - INFO - Obiekt nie jest gr¹: app_id: 809980
+2024-10-15 12:08:20,561 - INFO - Przetworzono grê: Art of Murder - FBI Confidential (app_id: 809000)
+2024-10-15 12:08:26,892 - INFO - Przetworzono grê: Scrambled Galaxy (app_id: 809010)
+2024-10-15 12:08:33,315 - INFO - Przetworzono grê: ZeroRanger (app_id: 809020)
+2024-10-15 12:08:39,729 - INFO - Przetworzono grê: Hummingz - Retro Arcade action revised (app_id: 809040)
+2024-10-15 12:08:46,032 - INFO - Przetworzono grê: Detective Holmes: Trap for the Hunter. Hidden objects. \u63a2\u3057\u7269 (app_id: 809050)
+2024-10-15 12:08:52,409 - INFO - Przetworzono grê: REVEIL (app_id: 809060)
+2024-10-15 12:08:59,418 - INFO - Przetworzono grê: Dreamily (app_id: 809070)
+2024-10-15 12:09:05,805 - INFO - Przetworzono grê: Nanoui (app_id: 809080)
+2024-10-15 12:09:12,343 - INFO - Przetworzono grê: EvilVEvil (app_id: 809090)
+2024-10-15 12:09:18,811 - INFO - Obiekt nie jest gr¹: app_id: 809100
+2024-10-15 12:09:24,888 - INFO - Przetworzono grê: Cliff Empire (app_id: 809140)
+2024-10-15 12:09:31,375 - INFO - Przetworzono grê: Tesseract VR (app_id: 809150)
+2024-10-15 12:09:37,578 - INFO - Przetworzono grê: District 112 Incident: Bowling Alley (app_id: 809180)
+2024-10-15 12:09:43,952 - INFO - Obiekt nie jest gr¹: app_id: 809190
+2024-10-15 12:09:50,065 - INFO - Przetworzono grê: TRIGGERED (app_id: 809200)
+2024-10-15 12:09:56,473 - INFO - Przetworzono grê: LifeZ - Survival (app_id: 809210)
+2024-10-15 12:10:02,802 - INFO - Przetworzono grê: AlienSurvival (app_id: 809220)
+2024-10-15 12:10:09,502 - INFO - Przetworzono grê: Vandals (app_id: 809240)
+2024-10-15 12:10:15,895 - INFO - Przetworzono grê: BEKKOUAME (app_id: 809250)
+2024-10-15 12:10:22,320 - INFO - Obiekt nie jest gr¹: app_id: 809260
+2024-10-15 12:10:28,664 - INFO - Przetworzono grê: GameLibBooster (app_id: 809270)
+2024-10-15 12:10:35,283 - INFO - Przetworzono grê: Grimmwood - They Come at Night (app_id: 809280)
+2024-10-15 12:10:41,762 - INFO - Przetworzono grê: Sipho (app_id: 809310)
+2024-10-15 12:10:48,224 - INFO - Przetworzono grê: Silent Tweets (app_id: 809320)
+2024-10-15 12:10:54,801 - INFO - Przetworzono grê: Destiny of Light (app_id: 809330)
+2024-10-15 12:11:01,556 - INFO - Przetworzono grê: Extreme School Driving Simulator (app_id: 809340)
+2024-10-15 12:11:08,390 - INFO - Obiekt nie jest gr¹: app_id: 809350
+2024-10-15 12:11:14,613 - INFO - Przetworzono grê: COSMIC SNAKE 8473/3671(HAMLETs) (app_id: 809360)
+2024-10-15 12:11:21,008 - INFO - Przetworzono grê: MagicCat (app_id: 809380)
+2024-10-15 12:11:27,344 - INFO - Przetworzono grê: The Take (app_id: 809410)
+2024-10-15 12:11:34,010 - INFO - Przetworzono grê: The Floor is Lava (app_id: 809430)
+2024-10-15 12:11:40,241 - INFO - Przetworzono grê: Protolife (app_id: 809440)
+2024-10-15 12:11:46,799 - INFO - Przetworzono grê: \u2742 Hexaluga \u2742 Witch Hunter's Travelling Castle \u2649 (app_id: 809450)
+2024-10-15 12:11:53,240 - INFO - Przetworzono grê: Earth Muncher (app_id: 809460)
+2024-10-15 12:12:00,182 - INFO - Przetworzono grê: Survivor Island (app_id: 809470)
+2024-10-15 12:12:06,515 - INFO - Przetworzono grê: The Lone Chameleon (app_id: 808580)
+2024-10-15 12:12:12,886 - INFO - Przetworzono grê: Run TavernQuest (app_id: 808610)
+2024-10-15 12:12:19,189 - INFO - Obiekt nie jest gr¹: app_id: 808720
+2024-10-15 12:12:25,577 - INFO - Obiekt nie jest gr¹: app_id: 808760
+2024-10-15 12:12:32,128 - INFO - Przetworzono grê: Headspun (app_id: 808770)
+2024-10-15 12:12:38,615 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 808790
+2024-10-15 12:12:44,754 - INFO - Przetworzono grê: Star Singularity (app_id: 808800)
+2024-10-15 12:12:51,138 - INFO - Przetworzono grê: Robo Boop (app_id: 808810)
+2024-10-15 12:12:57,619 - INFO - Przetworzono grê: Multiple Views Objects \u591a\u89c6\u4f53 (app_id: 808870)
+2024-10-15 12:13:03,988 - INFO - Przetworzono grê: MiniTracks (app_id: 808880)
+2024-10-15 12:13:10,851 - WARNING - Nie uda³o siê pobraæ szczegó³ów dla app_id: 808890
+2024-10-15 12:13:17,360 - INFO - Obiekt nie jest gr¹: app_id: 808900
+2024-10-15 12:13:24,128 - INFO - Obiekt nie jest gr¹: app_id: 808901
+2024-10-15 12:13:30,895 - INFO - Obiekt nie jest gr¹: app_id: 808902
+2024-10-15 12:13:37,349 - INFO - Obiekt nie jest gr¹: app_id: 808903
+2024-10-15 12:13:43,554 - INFO - Przetworzono grê: STAR WARS™ Episode I Racer (app_id: 808910)
+2024-10-15 12:13:49,983 - INFO - Obiekt nie jest gr¹: app_id: 808931
+2024-10-15 12:13:56,073 - INFO - Obiekt nie jest gr¹: app_id: 808932
+2024-10-15 12:14:02,277 - INFO - Obiekt nie jest gr¹: app_id: 808934
+2024-10-15 12:14:08,640 - INFO - Obiekt nie jest gr¹: app_id: 808935
+2024-10-15 12:14:15,173 - INFO - Obiekt nie jest gr¹: app_id: 808936
+2024-10-15 12:14:21,453 - INFO - Obiekt nie jest gr¹: app_id: 808937
+2024-10-15 12:14:27,844 - INFO - Obiekt nie jest gr¹: app_id: 808938
