@@ -100,4 +100,3 @@ for game in game_list:
     iteration_count += 1
     time.sleep(0.5)
 
-print("The list has been updated, processed app_ids removed. Game details saved to steam_games_processed.json.")
