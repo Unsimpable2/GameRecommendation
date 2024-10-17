@@ -21,7 +21,7 @@ def get_app_details(app_id):
         logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
 
-with open('steam_game_list.json', 'r', encoding='utf-8') as file:
+with open('steam_game_listN.json', 'r', encoding='utf-8') as file:
     game_list = json.load(file)
 
 try:
@@ -34,7 +34,7 @@ processed_games = []
 
 def save_remaining_games():
     remaining_games = [game for game in game_list if game not in processed_games]
-    with open('steam_game_list.json', 'w', encoding='utf-8') as file:
+    with open('steam_game_listN.json', 'w', encoding='utf-8') as file:
         json.dump(remaining_games, file, ensure_ascii=False, indent=4)
 
 for game in game_list:
