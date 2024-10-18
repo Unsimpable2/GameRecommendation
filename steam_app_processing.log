@@ -1,0 +1,340 @@
+2024-10-18 09:07:57,921 - WARNING - Failed to fetch details for app_id: 216938
+2024-10-18 09:07:59,627 - WARNING - Failed to fetch details for app_id: 660010
+2024-10-18 09:08:01,378 - WARNING - Failed to fetch details for app_id: 660130
+2024-10-18 09:08:03,493 - WARNING - Failed to fetch details for app_id: 1118314
+2024-10-18 09:08:05,194 - WARNING - Failed to fetch details for app_id: 1275822
+2024-10-18 09:08:07,153 - WARNING - Failed to fetch details for app_id: 1343832
+2024-10-18 09:08:09,164 - WARNING - Failed to fetch details for app_id: 1828741
+2024-10-18 09:08:10,994 - WARNING - Failed to fetch details for app_id: 662172
+2024-10-18 09:08:12,902 - WARNING - Failed to fetch details for app_id: 1360782
+2024-10-18 09:08:14,714 - WARNING - Failed to fetch details for app_id: 1820332
+2024-10-18 09:08:16,542 - WARNING - Failed to fetch details for app_id: 1927051
+2024-10-18 09:08:18,396 - WARNING - Failed to fetch details for app_id: 1496152
+2024-10-18 09:08:20,128 - WARNING - Failed to fetch details for app_id: 1983382
+2024-10-18 09:08:22,050 - WARNING - Failed to fetch details for app_id: 1808781
+2024-10-18 09:08:24,039 - WARNING - Failed to fetch details for app_id: 1977312
+2024-10-18 09:08:25,976 - WARNING - Failed to fetch details for app_id: 1700632
+2024-10-18 09:08:27,743 - WARNING - Failed to fetch details for app_id: 1829051
+2024-10-18 09:08:29,528 - WARNING - Failed to fetch details for app_id: 1567401
+2024-10-18 09:08:31,423 - WARNING - Failed to fetch details for app_id: 2016512
+2024-10-18 09:08:33,203 - WARNING - Failed to fetch details for app_id: 2092072
+2024-10-18 09:08:35,031 - WARNING - Failed to fetch details for app_id: 2112761
+2024-10-18 09:08:36,812 - WARNING - Failed to fetch details for app_id: 2119422
+2024-10-18 09:08:38,769 - WARNING - Failed to fetch details for app_id: 596501
+2024-10-18 09:08:40,528 - WARNING - Failed to fetch details for app_id: 1897482
+2024-10-18 09:08:42,508 - WARNING - Failed to fetch details for app_id: 2177061
+2024-10-18 09:08:44,342 - WARNING - Failed to fetch details for app_id: 2156011
+2024-10-18 09:08:46,073 - WARNING - Failed to fetch details for app_id: 2170321
+2024-10-18 09:08:47,889 - WARNING - Failed to fetch details for app_id: 1825161
+2024-10-18 09:08:49,706 - WARNING - Failed to fetch details for app_id: 1383152
+2024-10-18 09:08:51,530 - WARNING - Failed to fetch details for app_id: 1941401
+2024-10-18 09:08:53,331 - WARNING - Failed to fetch details for app_id: 1496243
+2024-10-18 09:08:55,098 - WARNING - Failed to fetch details for app_id: 2121741
+2024-10-18 09:08:56,922 - WARNING - Failed to fetch details for app_id: 1375021
+2024-10-18 09:08:58,798 - WARNING - Failed to fetch details for app_id: 2292161
+2024-10-18 09:09:00,673 - WARNING - Failed to fetch details for app_id: 1312081
+2024-10-18 09:09:02,513 - WARNING - Failed to fetch details for app_id: 2216261
+2024-10-18 09:09:04,407 - INFO - Object is not a game: app_id: 2080730
+2024-10-18 09:09:06,232 - INFO - Processed game: HotRobot Playtest (app_id: 2080740)
+2024-10-18 09:09:08,911 - INFO - Object is not a game: app_id: 2080750
+2024-10-18 09:09:10,727 - WARNING - Failed to fetch details for app_id: 2080760
+2024-10-18 09:09:12,593 - WARNING - Failed to fetch details for app_id: 2080770
+2024-10-18 09:09:14,365 - INFO - Processed game: Glyph-Bound Playtest (app_id: 2080790)
+2024-10-18 09:09:17,004 - INFO - Processed game: Spirit Hunter: Death Mark II (app_id: 2080800)
+2024-10-18 09:09:19,835 - INFO - Processed game: SquadBlast (app_id: 2080820)
+2024-10-18 09:09:22,592 - INFO - Processed game: SquadBlast Playtest (app_id: 2080830)
+2024-10-18 09:09:25,269 - INFO - Object is not a game: app_id: 2080840
+2024-10-18 09:09:27,154 - INFO - Object is not a game: app_id: 2080850
+2024-10-18 09:09:29,043 - INFO - Object is not a game: app_id: 2080851
+2024-10-18 09:09:30,847 - WARNING - Failed to fetch details for app_id: 2080852
+2024-10-18 09:09:32,675 - INFO - Object is not a game: app_id: 2080860
+2024-10-18 09:09:34,617 - INFO - Processed game: Farmhand Go! (app_id: 2080880)
+2024-10-18 09:09:37,380 - INFO - Processed game: Gem Venture (app_id: 2080890)
+2024-10-18 09:09:40,157 - INFO - Processed game: Starry Navigator \u661f\u9645\u9886\u822a\u5458 (app_id: 2080900)
+2024-10-18 09:09:42,979 - INFO - Processed game: Whispering Abyss (app_id: 2080930)
+2024-10-18 09:09:45,772 - INFO - Processed game: Turbo Force (app_id: 2080940)
+2024-10-18 09:09:48,639 - INFO - Processed game: Phijkchu Quest (app_id: 2080960)
+2024-10-18 09:09:51,627 - INFO - Processed game: Ducky's Delivery Service (app_id: 2080970)
+2024-10-18 09:09:54,374 - INFO - Processed game: Mono Playground (app_id: 2080980)
+2024-10-18 09:09:57,141 - INFO - Object is not a game: app_id: 2081010
+2024-10-18 09:09:59,097 - INFO - Object is not a game: app_id: 2081030
+2024-10-18 09:10:00,964 - INFO - Object is not a game: app_id: 2081031
+2024-10-18 09:10:02,933 - INFO - Object is not a game: app_id: 2081032
+2024-10-18 09:10:04,877 - INFO - Object is not a game: app_id: 2081033
+2024-10-18 09:10:06,787 - INFO - Object is not a game: app_id: 2081040
+2024-10-18 09:10:08,656 - INFO - Object is not a game: app_id: 2081050
+2024-10-18 09:10:10,649 - INFO - Object is not a game: app_id: 2081051
+2024-10-18 09:10:12,643 - INFO - Object is not a game: app_id: 2081052
+2024-10-18 09:10:14,589 - INFO - Object is not a game: app_id: 2081053
+2024-10-18 09:10:16,495 - INFO - Object is not a game: app_id: 2081054
+2024-10-18 09:10:18,533 - INFO - Object is not a game: app_id: 2081055
+2024-10-18 09:10:20,488 - INFO - Object is not a game: app_id: 2081056
+2024-10-18 09:10:22,724 - INFO - Processed game: Capes (app_id: 2081080)
+2024-10-18 09:10:25,725 - INFO - Processed game: 4 The Elements (app_id: 2081090)
+2024-10-18 09:10:28,815 - INFO - Processed game: 69 Ember Hot (app_id: 2080290)
+2024-10-18 09:10:32,635 - INFO - Processed game: 69 Yuuko Hot (app_id: 2080300)
+2024-10-18 09:10:36,088 - INFO - Processed game: Wakatami Village (app_id: 2080310)
+2024-10-18 09:10:40,018 - INFO - Object is not a game: app_id: 2080330
+2024-10-18 09:10:42,511 - INFO - Processed game: European Football Dynasty 2023 (app_id: 2080340)
+2024-10-18 09:10:45,641 - INFO - Object is not a game: app_id: 2080350
+2024-10-18 09:10:47,671 - INFO - Object is not a game: app_id: 2080360
+2024-10-18 09:10:49,568 - WARNING - Failed to fetch details for app_id: 2080370
+2024-10-18 09:10:51,556 - INFO - Processed game: Retro Invasion (app_id: 2080380)
+2024-10-18 09:10:54,742 - WARNING - Failed to fetch details for app_id: 2080400
+2024-10-18 09:10:56,738 - INFO - Processed game: Vault Circuit (app_id: 2080420)
+2024-10-18 09:10:59,592 - INFO - Processed game: The Empress Quest : Full Moons Saga (app_id: 2080450)
+2024-10-18 09:11:02,367 - INFO - Processed game: Turing Quest (app_id: 2080470)
+2024-10-18 09:11:05,202 - INFO - Processed game: Harpoon (app_id: 2080480)
+2024-10-18 09:11:08,148 - INFO - Processed game: Leaving the formation (app_id: 2080490)
+2024-10-18 09:11:11,200 - INFO - Processed game: Mongrel Games Minigames (app_id: 2080510)
+2024-10-18 09:11:14,198 - WARNING - Failed to fetch details for app_id: 2080530
+2024-10-18 09:11:16,247 - INFO - Object is not a game: app_id: 2080550
+2024-10-18 09:11:18,259 - INFO - Processed game: Fly Tales (app_id: 2080560)
+2024-10-18 09:11:21,195 - INFO - Processed game: NoAmmo (app_id: 2080570)
+2024-10-18 09:11:24,260 - INFO - Processed game: Hell Madness (app_id: 2080580)
+2024-10-18 09:11:27,213 - INFO - Object is not a game: app_id: 2080600
+2024-10-18 09:11:29,339 - INFO - Processed game: After Corruption (app_id: 2080620)
+2024-10-18 09:11:32,498 - WARNING - Failed to fetch details for app_id: 2080630
+2024-10-18 09:11:34,858 - INFO - Processed game: First Date : Late To Date (app_id: 2080640)
+2024-10-18 09:11:37,902 - INFO - Object is not a game: app_id: 2080650
+2024-10-18 09:11:40,173 - INFO - Processed game: Bright Garden (app_id: 2080660)
+2024-10-18 09:11:43,769 - INFO - Processed game: Dark Lady (app_id: 2080670)
+2024-10-18 09:11:46,808 - INFO - Processed game: Junkienator (app_id: 2080700)
+2024-10-18 09:11:50,223 - WARNING - Failed to fetch details for app_id: 2080710
+2024-10-18 09:11:52,541 - WARNING - Failed to fetch details for app_id: 2079790
+2024-10-18 09:11:54,940 - INFO - Processed game: \u4f60\u4e0e\u6708\u5149\u540c\u7f6a-As Guilty As the Moon (app_id: 2079800)
+2024-10-18 09:11:58,147 - INFO - Processed game: Napped (app_id: 2079810)
+2024-10-18 09:12:01,254 - INFO - Processed game: Ctrl+Alt+Destroy (app_id: 2079820)
+2024-10-18 09:12:04,260 - WARNING - Failed to fetch details for app_id: 2079840
+2024-10-18 09:12:06,806 - INFO - Object is not a game: app_id: 2079850
+2024-10-18 09:12:09,004 - INFO - Processed game: Fragments of the Afterlife (app_id: 2079860)
+2024-10-18 09:12:12,080 - INFO - Object is not a game: app_id: 2079870
+2024-10-18 09:12:14,210 - INFO - Processed game: Outatime (app_id: 2079890)
+2024-10-18 09:12:17,253 - WARNING - Failed to fetch details for app_id: 2079900
+2024-10-18 09:12:19,427 - WARNING - Failed to fetch details for app_id: 2079910
+2024-10-18 09:12:22,007 - INFO - Processed game: Name of The Will (app_id: 2079920)
+2024-10-18 09:12:25,110 - INFO - Processed game: \u6211\u7684\u82f1\u96c4\u9632\u5b88\u9635\u5bb9\u7edd\u5bf9\u4e0d\u53ef\u80fd\u6709\u95ee\u9898 (app_id: 2079930)
+2024-10-18 09:12:28,346 - INFO - Processed game: Filthy us 2 (app_id: 2079950)
+2024-10-18 09:12:31,630 - INFO - Processed game: Light (app_id: 2079960)
+2024-10-18 09:12:35,149 - INFO - Processed game: Zardy's Cave (app_id: 2079980)
+2024-10-18 09:12:38,103 - INFO - Processed game: They Came From the Sky 2 (app_id: 2080010)
+2024-10-18 09:12:41,385 - INFO - Processed game: Home By The River (app_id: 2080020)
+2024-10-18 09:12:44,370 - INFO - Processed game: \u6d2a\u8352\u4e94\u884c\u754c Playtest (app_id: 2080050)
+2024-10-18 09:12:47,561 - INFO - Processed game: Better Off Dead - Life as a Prison Guard (app_id: 2080060)
+2024-10-18 09:12:50,659 - INFO - Processed game: Avocado Puzzle Quest (app_id: 2080070)
+2024-10-18 09:12:53,550 - INFO - Processed game: \u5929\u4e0b3 (app_id: 2080090)
+2024-10-18 09:12:56,664 - INFO - Processed game: Ruadh: Warbands (app_id: 2080100)
+2024-10-18 09:12:59,633 - INFO - Object is not a game: app_id: 2080110
+2024-10-18 09:13:01,715 - INFO - Object is not a game: app_id: 2080120
+2024-10-18 09:13:04,065 - INFO - Processed game: A Quest That Became Legend (app_id: 2080130)
+2024-10-18 09:13:06,985 - INFO - Processed game: Savage Age (app_id: 2080140)
+2024-10-18 09:13:10,144 - INFO - Processed game: Cosmic Cruiser (app_id: 2080160)
+2024-10-18 09:13:13,154 - INFO - Processed game: Stay Alive (app_id: 2080170)
+2024-10-18 09:13:16,304 - WARNING - Failed to fetch details for app_id: 2080180
+2024-10-18 09:13:18,744 - INFO - Processed game: My Hotel: Echoes of the Past (app_id: 2080210)
+2024-10-18 09:13:21,791 - INFO - Processed game: Summer Pleasure (app_id: 2080240)
+2024-10-18 09:13:25,212 - INFO - Processed game: Tower of Chaos (app_id: 2080250)
+2024-10-18 09:13:28,282 - WARNING - Failed to fetch details for app_id: 2080260
+2024-10-18 09:13:30,364 - INFO - Processed game: 69 Naomi Hot (app_id: 2080280)
+2024-10-18 09:13:33,396 - INFO - Processed game: Slingshot Adventure (app_id: 2079280)
+2024-10-18 09:13:36,757 - INFO - Processed game: Tales of Guards Elves(\u536b\u7075\u4f20\u8bf4) (app_id: 2079290)
+2024-10-18 09:13:39,854 - WARNING - Failed to fetch details for app_id: 2079300
+2024-10-18 09:13:42,205 - WARNING - Failed to fetch details for app_id: 2079301
+2024-10-18 09:13:44,478 - INFO - Object is not a game: app_id: 2079340
+2024-10-18 09:13:46,604 - INFO - Processed game: Bicycle Challenge - Wastelands (app_id: 2079370)
+2024-10-18 09:13:49,671 - INFO - Processed game: Old Retro Shooter (app_id: 2079380)
+2024-10-18 09:13:52,726 - INFO - Processed game: Sleepy Sheep (app_id: 2079400)
+2024-10-18 09:13:55,739 - INFO - Processed game: The Tsar's Secret (app_id: 2079410)
+2024-10-18 09:13:58,815 - INFO - Object is not a game: app_id: 2079420
+2024-10-18 09:14:01,060 - INFO - Processed game: Garden of Seif: Curse of Gravehollow Peaks (app_id: 2079430)
+2024-10-18 09:14:04,122 - INFO - Object is not a game: app_id: 2079450
+2024-10-18 09:14:06,285 - INFO - Processed game: Hill Dig: The Mysterious Signal (app_id: 2079460)
+2024-10-18 09:14:09,523 - INFO - Processed game: The Third Shift (app_id: 2079480)
+2024-10-18 09:14:12,710 - INFO - Processed game: Colorless World (app_id: 2079500)
+2024-10-18 09:14:15,770 - INFO - Processed game: PornBeat Hardcore: Hot Explicit Sex (app_id: 2079520)
+2024-10-18 09:14:18,865 - INFO - Processed game: Lewis Carroll's Alice (app_id: 2079530)
+2024-10-18 09:14:22,094 - INFO - Processed game: The Palace of Unrest (app_id: 2079540)
+2024-10-18 09:14:25,135 - INFO - Processed game: Classy Train (app_id: 2079570)
+2024-10-18 09:14:28,292 - INFO - Processed game: Birds of Paradise (app_id: 2079580)
+2024-10-18 09:14:31,271 - INFO - Processed game: Dark Sun (app_id: 2079590)
+2024-10-18 09:14:34,467 - INFO - Processed game: MOVAFORT (app_id: 2079600)
+2024-10-18 09:14:37,854 - INFO - Processed game: Wand Out - A 3D Magical Gay Novel (app_id: 2079610)
+2024-10-18 09:14:40,993 - INFO - Processed game: Conrad Stevenson's Paranormal P.I. Playtest (app_id: 2079630)
+2024-10-18 09:14:44,269 - INFO - Processed game: Lazers Hurt (app_id: 2079640)
+2024-10-18 09:14:47,730 - INFO - Processed game: Evolution Tale (app_id: 2079680)
+2024-10-18 09:14:50,826 - INFO - Processed game: UNABLES (app_id: 2079690)
+2024-10-18 09:14:53,926 - INFO - Object is not a game: app_id: 2079700
+2024-10-18 09:14:56,223 - INFO - Processed game: Fantôme (app_id: 2079710)
+2024-10-18 09:14:59,423 - INFO - Processed game: Warudo Playtest (app_id: 2079740)
+2024-10-18 09:15:04,317 - INFO - Object is not a game: app_id: 2079750
+2024-10-18 09:15:06,833 - INFO - Object is not a game: app_id: 2078840
+2024-10-18 09:15:09,461 - INFO - Object is not a game: app_id: 2078841
+2024-10-18 09:15:12,042 - INFO - Processed game: Counter-Stroke: Grand Building (app_id: 2078850)
+2024-10-18 09:15:15,527 - INFO - Object is not a game: app_id: 2078860
+2024-10-18 09:15:17,917 - INFO - Object is not a game: app_id: 2078870
+2024-10-18 09:15:20,119 - INFO - Object is not a game: app_id: 2078900
+2024-10-18 09:15:22,617 - INFO - Object is not a game: app_id: 2078901
+2024-10-18 09:15:24,942 - INFO - Object is not a game: app_id: 2078902
+2024-10-18 09:15:27,300 - INFO - Object is not a game: app_id: 2078903
+2024-10-18 09:15:29,607 - INFO - Processed game: \u6c49\u5c18\uff1a\u8150\u8349\u4e3a\u8424 (app_id: 2078910)
+2024-10-18 09:15:32,861 - INFO - Processed game: Larry the Dinosaur 2: Something in the Cola (app_id: 2078930)
+2024-10-18 09:15:36,314 - INFO - Object is not a game: app_id: 2078960
+2024-10-18 09:15:38,571 - INFO - Processed game: Totally Ratical Adventures (app_id: 2079000)
+2024-10-18 09:15:41,927 - INFO - Object is not a game: app_id: 2079010
+2024-10-18 09:15:44,184 - INFO - Processed game: Sippin Hot Blickety Block N Bop Those Bad Battle Boys Down To Size Supreme (app_id: 2079020)
+2024-10-18 09:15:47,428 - INFO - Object is not a game: app_id: 2079040
+2024-10-18 09:15:49,792 - INFO - Processed game: Frogs vs. Storks (app_id: 2079080)
+2024-10-18 09:15:53,011 - INFO - Processed game: Agent1218 (app_id: 2079110)
+2024-10-18 09:15:56,242 - INFO - Processed game: Warudo (app_id: 2079120)
+2024-10-18 09:15:59,421 - INFO - Processed game: NUDOMATIC (app_id: 2079130)
+2024-10-18 09:16:02,664 - INFO - Object is not a game: app_id: 2079140
+2024-10-18 09:16:05,037 - INFO - Processed game: Not Involved. Vermillion (app_id: 2079150)
+2024-10-18 09:16:08,386 - INFO - Processed game: Lust Dungeon (app_id: 2079160)
+2024-10-18 09:16:11,763 - INFO - Processed game: VIDEOVERSE (app_id: 2079180)
+2024-10-18 09:16:14,964 - INFO - Processed game: Resonance (app_id: 2079230)
+2024-10-18 09:16:18,192 - INFO - Processed game: Cavelon (app_id: 2079240)
+2024-10-18 09:16:21,387 - INFO - Processed game: A Very Corporate Escape Room Playtest (app_id: 2079250)
+2024-10-18 09:16:24,598 - INFO - Processed game: Doc the Destroyer (app_id: 2079260)
+2024-10-18 09:16:27,773 - INFO - Processed game: Tesla Legacy (app_id: 2078370)
+2024-10-18 09:16:31,199 - INFO - Object is not a game: app_id: 2078390
+2024-10-18 09:16:33,593 - WARNING - Failed to fetch details for app_id: 2078400
+2024-10-18 09:16:36,036 - INFO - Processed game: Space Trucker (app_id: 2078410)
+2024-10-18 09:16:39,359 - WARNING - Failed to fetch details for app_id: 2078420
+2024-10-18 09:16:41,957 - INFO - Processed game: Top Down Zombies Playtest (app_id: 2078430)
+2024-10-18 09:16:45,464 - INFO - Object is not a game: app_id: 2078440
+2024-10-18 09:16:47,877 - INFO - Processed game: Mirror Chains (app_id: 2078460)
+2024-10-18 09:16:51,306 - INFO - Processed game: The Harvest Playtest (app_id: 2078470)
+2024-10-18 09:16:54,693 - INFO - Processed game: Anomalia (app_id: 2078480)
+2024-10-18 09:16:58,166 - INFO - Object is not a game: app_id: 2078490
+2024-10-18 09:17:00,605 - INFO - Processed game: Firefly Cove (app_id: 2078500)
+2024-10-18 09:17:03,954 - INFO - Processed game: VIVIDLOPE (app_id: 2078510)
+2024-10-18 09:17:07,230 - INFO - Processed game: Light Kin (app_id: 2078530)
+2024-10-18 09:17:10,542 - INFO - Processed game: Just Shoot: Slimes (app_id: 2078540)
+2024-10-18 09:17:13,963 - INFO - Processed game: Espresso Tycoon Prologue: Underwater Playtest (app_id: 2078550)
+2024-10-18 09:17:17,404 - INFO - Processed game: Invadead (app_id: 2078580)
+2024-10-18 09:17:20,775 - INFO - Processed game: Afterslave (app_id: 2078600)
+2024-10-18 09:17:24,139 - INFO - Processed game: Super Nova Party (app_id: 2078610)
+2024-10-18 09:17:27,489 - INFO - Processed game: A Frog's Job (app_id: 2078640)
+2024-10-18 09:17:30,895 - INFO - Processed game: Ghost Tag (app_id: 2078650)
+2024-10-18 09:17:34,247 - INFO - Processed game: Idle Paladin Playtest (app_id: 2078660)
+2024-10-18 09:17:37,698 - INFO - Object is not a game: app_id: 2078670
+2024-10-18 09:17:40,398 - INFO - Processed game: In Your Nightmares! (app_id: 2078680)
+2024-10-18 09:17:43,853 - INFO - Processed game: Mage Lords of Brams (app_id: 2078710)
+2024-10-18 09:17:47,490 - INFO - Object is not a game: app_id: 2078740
+2024-10-18 09:17:50,019 - INFO - Object is not a game: app_id: 2078760
+2024-10-18 09:17:52,781 - INFO - Processed game: Lovelorn sanatorium\u2160 (app_id: 2078780)
+2024-10-18 09:17:56,210 - INFO - Processed game: Zombie Apocalypse - The Last Defense (app_id: 2078810)
+2024-10-18 09:17:59,993 - INFO - Processed game: Gummy Jump (app_id: 2078820)
+2024-10-18 09:18:03,528 - INFO - Processed game: \u5947\u8c2d\u6587\u5b57\u6e38\u620f (app_id: 2078830)
+2024-10-18 09:18:07,020 - INFO - Object is not a game: app_id: 2078142
+2024-10-18 09:18:09,677 - INFO - Object is not a game: app_id: 2078143
+2024-10-18 09:18:12,343 - INFO - Object is not a game: app_id: 2078144
+2024-10-18 09:18:14,852 - INFO - Object is not a game: app_id: 2078145
+2024-10-18 09:18:17,355 - INFO - Object is not a game: app_id: 2078146
+2024-10-18 09:18:20,063 - INFO - Object is not a game: app_id: 2078147
+2024-10-18 09:18:22,536 - INFO - Object is not a game: app_id: 2078148
+2024-10-18 09:18:25,047 - INFO - Object is not a game: app_id: 2078149
+2024-10-18 09:18:27,511 - INFO - Object is not a game: app_id: 2078150
+2024-10-18 09:18:29,963 - INFO - Object is not a game: app_id: 2078151
+2024-10-18 09:18:32,543 - INFO - Object is not a game: app_id: 2078152
+2024-10-18 09:18:35,398 - INFO - Object is not a game: app_id: 2078153
+2024-10-18 09:18:37,920 - INFO - Object is not a game: app_id: 2078154
+2024-10-18 09:18:40,461 - INFO - Object is not a game: app_id: 2078155
+2024-10-18 09:18:43,443 - INFO - Object is not a game: app_id: 2078156
+2024-10-18 09:18:46,189 - INFO - Object is not a game: app_id: 2078157
+2024-10-18 09:18:48,921 - INFO - Object is not a game: app_id: 2078158
+2024-10-18 09:18:51,777 - INFO - Object is not a game: app_id: 2078159
+2024-10-18 09:18:54,480 - INFO - Processed game: Poly Puzzle: Primates (app_id: 2078160)
+2024-10-18 09:18:58,486 - INFO - Object is not a game: app_id: 2078170
+2024-10-18 09:19:01,500 - INFO - Object is not a game: app_id: 2078171
+2024-10-18 09:19:04,332 - INFO - Object is not a game: app_id: 2078172
+2024-10-18 09:19:07,205 - INFO - Object is not a game: app_id: 2078173
+2024-10-18 09:19:10,356 - INFO - Object is not a game: app_id: 2078174
+2024-10-18 09:19:13,396 - INFO - Object is not a game: app_id: 2078175
+2024-10-18 09:19:16,390 - INFO - Object is not a game: app_id: 2078176
+2024-10-18 09:19:19,434 - INFO - Object is not a game: app_id: 2078177
+2024-10-18 09:19:22,679 - INFO - Object is not a game: app_id: 2078178
+2024-10-18 09:19:25,516 - INFO - Object is not a game: app_id: 2078179
+2024-10-18 09:19:28,300 - INFO - Object is not a game: app_id: 2078180
+2024-10-18 09:19:31,565 - INFO - Object is not a game: app_id: 2078190
+2024-10-18 09:19:34,952 - INFO - Object is not a game: app_id: 2078191
+2024-10-18 09:19:37,990 - INFO - Processed game: Bulls and Cows (app_id: 2078210)
+2024-10-18 09:19:41,440 - INFO - Object is not a game: app_id: 2078220
+2024-10-18 09:19:44,070 - INFO - Processed game: The Bugs Manor \U0001f98b (app_id: 2078280)
+2024-10-18 09:19:47,658 - INFO - Object is not a game: app_id: 2078340
+2024-10-18 09:19:50,337 - INFO - Processed game: PTRL Stockcar Edition (app_id: 2077700)
+2024-10-18 09:19:53,912 - INFO - Object is not a game: app_id: 2077710
+2024-10-18 09:19:56,466 - INFO - Processed game: Moth Lake: A Horror Story (app_id: 2077720)
+2024-10-18 09:20:00,061 - INFO - Object is not a game: app_id: 2077730
+2024-10-18 09:20:02,664 - INFO - Processed game: The Liminal Space (app_id: 2077770)
+2024-10-18 09:20:06,251 - INFO - Processed game: Streamer's Court (app_id: 2077800)
+2024-10-18 09:20:09,932 - INFO - Object is not a game: app_id: 2077810
+2024-10-18 09:20:12,533 - INFO - Object is not a game: app_id: 2077820
+2024-10-18 09:20:15,108 - INFO - Object is not a game: app_id: 2077821
+2024-10-18 09:20:17,608 - INFO - Object is not a game: app_id: 2077822
+2024-10-18 09:20:20,340 - INFO - Object is not a game: app_id: 2077830
+2024-10-18 09:20:22,951 - INFO - Object is not a game: app_id: 2077840
+2024-10-18 09:20:25,553 - INFO - Object is not a game: app_id: 2077850
+2024-10-18 09:20:28,143 - INFO - Processed game: Unanimy (app_id: 2077860)
+2024-10-18 09:20:31,757 - INFO - Processed game: My Dad Left Me (app_id: 2077870)
+2024-10-18 09:20:35,267 - INFO - Object is not a game: app_id: 2077880
+2024-10-18 09:20:37,812 - INFO - Processed game: Green Hawk Platoon (app_id: 2077890)
+2024-10-18 09:20:41,460 - INFO - Processed game: BloodPit: Skelton II (app_id: 2077910)
+2024-10-18 09:20:44,924 - INFO - Processed game: Sky Mammoths (app_id: 2077930)
+2024-10-18 09:20:48,445 - INFO - Processed game: Code Rivals: Robot Programming Battle (app_id: 2077940)
+2024-10-18 09:20:52,158 - INFO - Processed game: Pretty Girls Breakout! PLUS (app_id: 2077950)
+2024-10-18 09:20:55,624 - INFO - Processed game: Finding Felicia (app_id: 2077970)
+2024-10-18 09:20:59,151 - INFO - Object is not a game: app_id: 2077980
+2024-10-18 09:21:01,821 - INFO - Processed game: Junkyard Fury 2 (app_id: 2077990)
+2024-10-18 09:21:05,352 - INFO - Object is not a game: app_id: 2078000
+2024-10-18 09:21:07,948 - INFO - Processed game: Legends of Immortality (app_id: 2078010)
+2024-10-18 09:21:11,454 - INFO - Processed game: White Day 2: The Flower That Tells Lies - Complete Edition (app_id: 2078040)
+2024-10-18 09:21:15,125 - INFO - Object is not a game: app_id: 2078050
+2024-10-18 09:21:17,899 - INFO - Processed game: Puzzling Wild IQ Test (app_id: 2078070)
+2024-10-18 09:21:21,577 - INFO - Object is not a game: app_id: 2078100
+2024-10-18 09:21:24,167 - INFO - Processed game: Hot And Lovely 5 (app_id: 2078120)
+2024-10-18 09:21:27,673 - INFO - Object is not a game: app_id: 2078140
+2024-10-18 09:21:30,274 - INFO - Object is not a game: app_id: 2078141
+2024-10-18 09:21:32,808 - INFO - Processed game: Koa: The Forgotten Gods (app_id: 2077270)
+2024-10-18 09:21:36,477 - INFO - Processed game: GogMagog (app_id: 2077310)
+2024-10-18 09:21:39,948 - INFO - Processed game: Kentor and also Bloby in: Part 1 - The Krookening (app_id: 2077330)
+2024-10-18 09:21:43,504 - INFO - Processed game: Heavens' Revolution: A Lion Among the Cypress (app_id: 2077340)
+2024-10-18 09:21:47,023 - INFO - Processed game: Stellar Propeller (app_id: 2077370)
+2024-10-18 09:21:50,534 - INFO - Processed game: The Multi-Medium (app_id: 2077380)
+2024-10-18 09:21:53,968 - INFO - Processed game: Lust Trip \U0001f495 (app_id: 2077400)
+2024-10-18 09:21:57,505 - INFO - Object is not a game: app_id: 2077420
+2024-10-18 09:22:00,165 - INFO - Processed game: Vespa's Test (app_id: 2077430)
+2024-10-18 09:22:03,735 - INFO - Object is not a game: app_id: 2077450
+2024-10-18 09:22:06,435 - INFO - Processed game: Third Power (app_id: 2077460)
+2024-10-18 09:22:10,085 - INFO - Object is not a game: app_id: 2077480
+2024-10-18 09:22:12,761 - INFO - Processed game: \u5b5f\u94e3\uff08116\uff09 (app_id: 2077490)
+2024-10-18 09:22:16,407 - INFO - Object is not a game: app_id: 2077500
+2024-10-18 09:22:19,563 - INFO - Object is not a game: app_id: 2077510
+2024-10-18 09:22:22,465 - INFO - Object is not a game: app_id: 2077520
+2024-10-18 09:22:25,577 - INFO - Processed game: Mushroom Musical (app_id: 2077530)
+2024-10-18 09:22:29,195 - INFO - Object is not a game: app_id: 2077540
+2024-10-18 09:22:31,818 - INFO - Processed game: Eremidia - Archivist's Curse (app_id: 2077550)
+2024-10-18 09:22:35,581 - INFO - Object is not a game: app_id: 2077570
+2024-10-18 09:22:38,342 - INFO - Processed game: Destroiders (app_id: 2077580)
+2024-10-18 09:22:42,038 - INFO - Processed game: Sidestep Legends (app_id: 2077590)
+2024-10-18 09:22:45,814 - INFO - Object is not a game: app_id: 2077600
+2024-10-18 09:22:48,658 - INFO - Processed game: Can Gym Break This? (app_id: 2077610)
+2024-10-18 09:22:52,342 - INFO - Processed game: Amok Runner (app_id: 2077650)
+2024-10-18 09:22:56,236 - INFO - Processed game: Cargo Chaos (app_id: 2077660)
+2024-10-18 09:22:59,993 - INFO - Processed game: Grapple Glide (app_id: 2077670)
+2024-10-18 09:23:03,872 - INFO - Processed game: Lamia's Bambina (app_id: 2077680)
+2024-10-18 09:23:07,828 - INFO - Object is not a game: app_id: 2076751
+2024-10-18 09:23:10,572 - INFO - Object is not a game: app_id: 2076760
+2024-10-18 09:23:13,470 - INFO - Object is not a game: app_id: 2076790
+2024-10-18 09:23:16,343 - INFO - Processed game: Han'yo (app_id: 2076800)
+2024-10-18 09:23:20,444 - INFO - Processed game: Further Still: Survivors (app_id: 2076810)
+2024-10-18 09:23:24,640 - INFO - Processed game: VANQUISH (app_id: 2076820)
+2024-10-18 09:23:28,474 - INFO - Processed game: HAXWARE: Enforcer Games (app_id: 2076830)
+2024-10-18 09:23:32,360 - INFO - Processed game: Utomah (app_id: 2076840)
+2024-10-18 09:23:36,236 - INFO - Processed game: Keyboard Warrior: Dreamstate (app_id: 2076850)
+2024-10-18 09:23:40,198 - INFO - Processed game: Phantasia (app_id: 2076860)
+2024-10-18 09:23:45,128 - INFO - Processed game: Rapid Retort (app_id: 2076890)
+2024-10-18 09:23:49,227 - INFO - Processed game: The Last Metal Shooter (app_id: 2076910)
+2024-10-18 09:23:53,841 - INFO - Processed game: Our Hero! Last (app_id: 2076920)
+2024-10-18 09:23:58,185 - INFO - Processed game: Waifu Klondike Solitaire (app_id: 2076950)
+2024-10-18 09:24:02,162 - INFO - Processed game: Dave Dave Dave Playtest (app_id: 2076960)
