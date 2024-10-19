@@ -2,11 +2,17 @@ import json
 import requests
 import time
 import logging
+import os
 
 max_iterations = 80000
 iteration_count = 0
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='steam_app_processing.log', filemode='w')
+base_path = '../MasterDeg/Database/SteamDatabase'
+log_file_path = os.path.join(base_path, 'steam_app_processing.log')
+file_path_list = os.path.join(base_path, 'steam_game_list.json')
+file_path_processed = os.path.join(base_path, 'steam_games_processed.json')
+
+logging.basicConfig(level=logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s', filename=log_file_path, filemode='w')
 
 def get_app_details(app_id):
     url = f'http://store.steampowered.com/api/appdetails?appids={app_id}'
@@ -21,11 +27,11 @@ def get_app_details(app_id):
         logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
 
-with open('steam_game_list.json', 'r', encoding='utf-8') as file:
+with open(file_path_list, 'r', encoding='utf-8') as file:
     game_list = json.load(file)
 
 try:
-    with open('steam_games_processed.json', 'r', encoding='utf-8') as file:
+    with open(file_path_processed, 'r', encoding='utf-8') as file:
         existing_games = json.load(file)
 except FileNotFoundError:
     existing_games = []
@@ -34,8 +40,8 @@ processed_games = []
 
 def save_remaining_games():
     remaining_games = [game for game in game_list if game not in processed_games]
-    with open('steam_game_list.json', 'w', encoding='utf-8') as file:
-        json.dump(remaining_games, file, ensure_ascii=False, indent=4)
+    with open(file_path_list, 'w', encoding = 'utf-8') as file:
+        json.dump(remaining_games, file, ensure_ascii = False, indent = 4)
 
 for game in game_list:
     if iteration_count >= max_iterations:
@@ -83,8 +89,9 @@ for game in game_list:
             }
             
             existing_games.append(game_details)
-            with open('steam_games_processed.json', 'w', encoding='utf-8') as file:
-                json.dump(existing_games, file, ensure_ascii=False, indent=4)
+            
+            with open(file_path_processed, 'w', encoding = 'utf-8') as file:
+                json.dump(existing_games, file, ensure_ascii = False, indent = 4)
 
             processed_games.append(game)
             save_remaining_games()
@@ -99,4 +106,3 @@ for game in game_list:
     
     iteration_count += 1
     time.sleep(0.5)
-
