@@ -7,9 +7,10 @@ import os
 base_path = '../MasterDeg/Database/SteamDatabase'
 log_file_path = os.path.join(base_path, 'steam_app_processing.log')
 file_path_list = os.path.join(base_path, 'steam_game_listW.json')
-file_path_processed = os.path.join(base_path, 'steam_games_processedW.json')
+#file_path_processed = os.path.join(base_path, 'steam_games_processed.json')
+file_path_processed = os.path.join(base_path, 'steam_games_processed_part3.json')
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=log_file_path, filemode='w')
+logging.basicConfig(level = logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
 
 def get_app_details(app_id):
     url = f'http://store.steampowered.com/api/appdetails?appids={app_id}'
@@ -26,18 +27,18 @@ def get_app_details(app_id):
 
 def save_remaining_games(game_list, processed_games, file_path_list):
     remaining_games = [game for game in game_list if game not in processed_games]
-    with open(file_path_list, 'w', encoding='utf-8') as file:
-        json.dump(remaining_games, file, ensure_ascii=False, indent=4)
+    with open(file_path_list, 'w', encoding = 'utf-8') as file:
+        json.dump(remaining_games, file, ensure_ascii = False, indent=4)
 
-def download_all_steam_games(max_iterations = 80000):
+def download_steam_games(max_iterations = 80000):
     processed_games = []
     iteration_count = 0
 
-    with open(file_path_list, 'r', encoding='utf-8') as file:
+    with open(file_path_list, 'r', encoding = 'utf-8') as file:
         game_list = json.load(file)
 
     try:
-        with open(file_path_processed, 'r', encoding='utf-8') as file:
+        with open(file_path_processed, 'r', encoding = 'utf-8') as file:
             existing_games = json.load(file)
     except FileNotFoundError:
         existing_games = []
@@ -90,7 +91,7 @@ def download_all_steam_games(max_iterations = 80000):
                 existing_games.append(game_details)
 
                 with open(file_path_processed, 'w', encoding='utf-8') as file:
-                    json.dump(existing_games, file, ensure_ascii=False, indent=4)
+                    json.dump(existing_games, file, ensure_ascii = False, indent = 4)
 
                 processed_games.append(game)
                 save_remaining_games(game_list, processed_games, file_path_list)
@@ -106,4 +107,4 @@ def download_all_steam_games(max_iterations = 80000):
         iteration_count += 1
         time.sleep(0.5)
 
-download_all_steam_games()
+download_steam_games()
