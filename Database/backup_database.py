@@ -6,7 +6,7 @@ def backup_database():
     backup_dir = '../MasterDeg/Database/SteamDatabase/Backup'
     backup_file = os.path.join(backup_dir, 'steam_games_processed_backup.json')
 
-    os.makedirs(backup_dir, exist_ok=True)
+    os.makedirs(backup_dir, exist_ok = True)
 
     if os.path.exists(backup_file):
         print(f"Backup file already exists and will be overwritten: {backup_file}")

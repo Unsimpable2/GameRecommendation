@@ -8,7 +8,7 @@ from datetime import datetime
 #TO CHANGE AFTER FULL BASE IS DOWNLOADED!!!!!!!!!!!!!!!!!!!!!!!!1
 
 
-logging.basicConfig(filename='steam_game_updater.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename = 'steam_game_updater.log', level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s')
 
 base_file_path = 'steam_game_list_base.json'
 new_file_path = 'steam_game_list_new.json'
@@ -26,8 +26,8 @@ def fetch_steam_game_data():
         raise Exception(f"Error fetching data from Steam API: {response.status_code}")
 
 def save_to_json(data, file_path):
-    with open(file_path, 'w', encoding='utf-8') as json_file:
-        json.dump(data, json_file, indent=4)
+    with open(file_path, 'w', encoding = 'utf-8') as json_file:
+        json.dump(data, json_file, indent = 4)
     logging.info(f"Data saved to {file_path}")
 
 def compare_game_lists(base_data, new_data):
@@ -45,7 +45,7 @@ def main():
     save_to_json(new_data, new_file_path)
 
     if os.path.exists(base_file_path):
-        with open(base_file_path, 'r', encoding='utf-8') as base_file:
+        with open(base_file_path, 'r', encoding = 'utf-8') as base_file:
             base_data = json.load(base_file)
     else:
         logging.warning("No existing game database found, creating a new one.")
@@ -70,7 +70,7 @@ def main():
     os.rename(new_file_path, base_file_path)
     logging.info(f"Updated base file: {base_file_path}")
 
-    with open(last_update_file_path, 'a', encoding='utf-8') as last_update_file:
+    with open(last_update_file_path, 'a', encoding = 'utf-8') as last_update_file:
         last_update_file.write(f"Last Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         last_update_file.write(f"Games Added: {len(missing_games)}\n")
         last_update_file.write("Game Names:\n")

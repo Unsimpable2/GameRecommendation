@@ -9,7 +9,7 @@ def get_app_id_by_name(game_name):
         print(f"Error: The file '{file_path}' does not exist.")
         return None
 
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding = 'utf-8') as file:
         games_data = json.load(file)
 
         for game in games_data:
