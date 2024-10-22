@@ -7,7 +7,7 @@ def get_steam_database():
 
     response = requests.get(url)
     data = response.json()
-    new_database_path = os.path.join('../MasterDeg/Database/SteamDatabase', 'steam_game_list_new.json')
+    new_database_path = os.path.join('../MasterDeg/SteamData/SteamGames', 'steam_game_list_new.json')
     with open(new_database_path, 'w', encoding = 'utf-8') as file:
         json.dump(data['applist']['apps'], file, ensure_ascii = False, indent = 4)
 

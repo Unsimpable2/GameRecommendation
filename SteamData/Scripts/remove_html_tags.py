@@ -27,6 +27,6 @@ def clean_and_overwrite_json(file_path):
 
     print(f'Data has been cleaned and overwritten in the file {file_path}')
 
-file_path = os.path.join('../MasterDeg/Database/SteamDatabase', 'steam_games_processed_part3.json')
+file_path = os.path.join('../MasterDeg/SteamData/SteamGames/Games', 'steam_games_processed_part4.json')
 
 clean_and_overwrite_json(file_path)

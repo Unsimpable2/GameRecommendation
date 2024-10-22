@@ -3,14 +3,28 @@ import requests
 import time
 import logging
 import os
+import signal
+from datetime import datetime
 
-base_path = '../MasterDeg/Database/SteamDatabase'
-log_file_path = os.path.join(base_path, 'steam_app_processing.log')
-file_path_list = os.path.join(base_path, 'steam_game_listW.json')
-#file_path_processed = os.path.join(base_path, 'steam_games_processed.json')
-file_path_processed = os.path.join(base_path, 'steam_games_processed_part3.json')
+stop_requested = False
+base_path = '../MasterDeg/SteamData/SteamGames'
 
-logging.basicConfig(level = logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
+def signal_handler(sig, frame):
+    global stop_requested
+    logging.info('Stop requested. Finishing current iteration before exiting...')
+    stop_requested = True
+
+signal.signal(signal.SIGINT, signal_handler)
+
+if not os.path.exists(base_path + "/Logs"):
+    os.makedirs(base_path + "/Logs")
+
+current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+log_file_path = os.path.join(base_path + "/Logs", f'steam_app_processing_{current_time}.log')
+file_path_list = os.path.join(base_path + "/GameLists", 'steam_game_listW.json')
+file_path_processed = os.path.join(base_path + "/Games", 'steam_games_processed_part4.json')
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=log_file_path, filemode='w')
 
 def get_app_details(app_id):
     url = f'http://store.steampowered.com/api/appdetails?appids={app_id}'
@@ -27,24 +41,25 @@ def get_app_details(app_id):
 
 def save_remaining_games(game_list, processed_games, file_path_list):
     remaining_games = [game for game in game_list if game not in processed_games]
-    with open(file_path_list, 'w', encoding = 'utf-8') as file:
-        json.dump(remaining_games, file, ensure_ascii = False, indent=4)
+    with open(file_path_list, 'w', encoding='utf-8') as file:
+        json.dump(remaining_games, file, ensure_ascii=False, indent=4)
 
-def download_steam_games(max_iterations = 80000):
+def download_steam_games(max_iterations=80000):
     processed_games = []
     iteration_count = 0
 
-    with open(file_path_list, 'r', encoding = 'utf-8') as file:
+    with open(file_path_list, 'r', encoding='utf-8') as file:
         game_list = json.load(file)
 
     try:
-        with open(file_path_processed, 'r', encoding = 'utf-8') as file:
+        with open(file_path_processed, 'r', encoding='utf-8') as file:
             existing_games = json.load(file)
     except FileNotFoundError:
         existing_games = []
 
     for game in game_list:
-        if iteration_count >= max_iterations:
+        if iteration_count >= max_iterations or stop_requested:
+            logging.info("Stopping process after current iteration.")
             break
 
         app_id = game['appid']
@@ -91,7 +106,7 @@ def download_steam_games(max_iterations = 80000):
                 existing_games.append(game_details)
 
                 with open(file_path_processed, 'w', encoding='utf-8') as file:
-                    json.dump(existing_games, file, ensure_ascii = False, indent = 4)
+                    json.dump(existing_games, file, ensure_ascii=False, indent=4)
 
                 processed_games.append(game)
                 save_remaining_games(game_list, processed_games, file_path_list)
