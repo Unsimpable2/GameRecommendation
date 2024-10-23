@@ -1,0 +1,23 @@
+CREATE TABLE games (
+    app_id INTEGER PRIMARY KEY,
+    game_name TEXT,
+    type TEXT,
+    developer TEXT[],
+    publisher TEXT[],
+    is_free BOOLEAN,
+    price TEXT,
+    age_rating INTEGER,
+    detailed_description TEXT,
+    short_description TEXT,
+    about_the_game TEXT,
+    minimum_requirements TEXT,
+    recommended_requirements TEXT,
+    categories JSONB,
+    genres JSONB
+);
+
+CREATE TABLE people (
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL
+);
