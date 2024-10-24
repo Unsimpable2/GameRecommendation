@@ -5,6 +5,7 @@ import logging
 import os
 import signal
 from datetime import datetime
+import re
 
 stop_requested = False
 base_path = '../MasterDeg/SteamData/SteamGames'
@@ -16,13 +17,13 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-if not os.path.exists(base_path + "/Logs"):
-    os.makedirs(base_path + "/Logs")
+if not os.path.exists(base_path + "/Logs/Download"):
+    os.makedirs(base_path + "/Logs/Download")
 
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-log_file_path = os.path.join(base_path + "/Logs", f'steam_app_processing_{current_time}.log')
-file_path_list = os.path.join(base_path + "/GameLists", 'steam_game_listW.json')
-file_path_processed = os.path.join(base_path + "/Games", 'steam_games_processed_part4.json')
+log_file_path = os.path.join(base_path + "/Logs/Download", f'steam_app_processing_{current_time}.log')
+file_path_list = os.path.join(base_path + "/GameLists", 'steam_game_list.json')
+file_path_processed = os.path.join(base_path + "/Games", 'steam_games_processed_part6.json')
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=log_file_path, filemode='w')
 
@@ -38,6 +39,20 @@ def get_app_details(app_id):
     except Exception as e:
         logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
+
+def remove_html_tags(text):
+    clean = re.compile('<.*?>')
+    return re.sub(clean, '', text)
+
+def clean_json_data(json_data):
+    if isinstance(json_data, dict):
+        return {key: clean_json_data(value) for key, value in json_data.items()}
+    elif isinstance(json_data, list):
+        return [clean_json_data(item) for item in json_data]
+    elif isinstance(json_data, str):
+        return remove_html_tags(json_data)
+    else:
+        return json_data
 
 def save_remaining_games(game_list, processed_games, file_path_list):
     remaining_games = [game for game in game_list if game not in processed_games]
@@ -103,7 +118,9 @@ def download_steam_games(max_iterations=80000):
                     'Genres': details.get('genres', [])
                 }
 
-                existing_games.append(game_details)
+                cleaned_game_details = clean_json_data(game_details)
+
+                existing_games.append(cleaned_game_details)
 
                 with open(file_path_processed, 'w', encoding='utf-8') as file:
                     json.dump(existing_games, file, ensure_ascii=False, indent=4)

@@ -5,7 +5,7 @@ host = "localhost"
 port = "1234"
 dbname = "SteamGamesDB"
 user = "postgres"
-password = "haslo"
+password = "admin"
 
 def create_table():
     try:
