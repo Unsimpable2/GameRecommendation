@@ -5628,7 +5628,6 @@
 2024-10-26 16:50:05,657 - WARNING - Failed to fetch details for app_id: 2759810
 2024-10-26 16:50:06,742 - ERROR - Error while fetching data for app_id: 2775690 - 'NoneType' object is not subscriptable
 2024-10-26 16:50:06,743 - WARNING - Failed to fetch details for app_id: 2775690
-2024-10-26 16:50:07,795 - INFO - Object is not a game: app_id: 2786690
 2024-10-26 16:50:08,857 - ERROR - Error while fetching data for app_id: 2845170 - 'NoneType' object is not subscriptable
 2024-10-26 16:50:08,859 - WARNING - Failed to fetch details for app_id: 2845170
 2024-10-26 16:50:09,970 - ERROR - Error while fetching data for app_id: 2860590 - 'NoneType' object is not subscriptable
@@ -5657,3 +5656,783 @@
 2024-10-26 16:50:21,995 - WARNING - Failed to fetch details for app_id: 2974840
 2024-10-26 16:50:23,088 - ERROR - Error while fetching data for app_id: 3027480 - 'NoneType' object is not subscriptable
 2024-10-26 16:50:23,089 - WARNING - Failed to fetch details for app_id: 3027480
+2024-10-26 17:03:33,038 - ERROR - Error while fetching data for app_id: 2288530 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:33,038 - WARNING - Failed to fetch details for app_id: 2288530
+2024-10-26 17:03:34,200 - ERROR - Error while fetching data for app_id: 1584090 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:34,200 - WARNING - Failed to fetch details for app_id: 1584090
+2024-10-26 17:03:35,434 - ERROR - Error while fetching data for app_id: 2852200 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:35,434 - WARNING - Failed to fetch details for app_id: 2852200
+2024-10-26 17:03:36,559 - ERROR - Error while fetching data for app_id: 2887520 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:36,560 - WARNING - Failed to fetch details for app_id: 2887520
+2024-10-26 17:03:37,624 - ERROR - Error while fetching data for app_id: 3136460 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:37,624 - WARNING - Failed to fetch details for app_id: 3136460
+2024-10-26 17:03:38,806 - ERROR - Error while fetching data for app_id: 1934300 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:38,806 - WARNING - Failed to fetch details for app_id: 1934300
+2024-10-26 17:03:39,882 - ERROR - Error while fetching data for app_id: 1240440 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:39,882 - WARNING - Failed to fetch details for app_id: 1240440
+2024-10-26 17:03:41,165 - ERROR - Error while fetching data for app_id: 3129640 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:41,165 - WARNING - Failed to fetch details for app_id: 3129640
+2024-10-26 17:03:42,296 - ERROR - Error while fetching data for app_id: 1933930 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:42,296 - WARNING - Failed to fetch details for app_id: 1933930
+2024-10-26 17:03:43,523 - ERROR - Error while fetching data for app_id: 3204640 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:43,523 - WARNING - Failed to fetch details for app_id: 3204640
+2024-10-26 17:03:44,561 - ERROR - Error while fetching data for app_id: 2053120 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:44,561 - WARNING - Failed to fetch details for app_id: 2053120
+2024-10-26 17:03:45,672 - ERROR - Error while fetching data for app_id: 3228090 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:45,672 - WARNING - Failed to fetch details for app_id: 3228090
+2024-10-26 17:03:46,764 - ERROR - Error while fetching data for app_id: 2914190 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:46,764 - WARNING - Failed to fetch details for app_id: 2914190
+2024-10-26 17:03:47,905 - ERROR - Error while fetching data for app_id: 2769410 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:47,905 - WARNING - Failed to fetch details for app_id: 2769410
+2024-10-26 17:03:48,984 - ERROR - Error while fetching data for app_id: 2132850 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:48,984 - WARNING - Failed to fetch details for app_id: 2132850
+2024-10-26 17:03:50,081 - ERROR - Error while fetching data for app_id: 2809080 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:50,081 - WARNING - Failed to fetch details for app_id: 2809080
+2024-10-26 17:03:51,198 - ERROR - Error while fetching data for app_id: 2366130 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:51,198 - WARNING - Failed to fetch details for app_id: 2366130
+2024-10-26 17:03:52,329 - ERROR - Error while fetching data for app_id: 1991820 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:52,333 - WARNING - Failed to fetch details for app_id: 1991820
+2024-10-26 17:03:53,402 - ERROR - Error while fetching data for app_id: 2283800 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:53,402 - WARNING - Failed to fetch details for app_id: 2283800
+2024-10-26 17:03:54,578 - ERROR - Error while fetching data for app_id: 3041000 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:54,578 - WARNING - Failed to fetch details for app_id: 3041000
+2024-10-26 17:03:56,943 - ERROR - Error while fetching data for app_id: 3172080 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:56,943 - WARNING - Failed to fetch details for app_id: 3172080
+2024-10-26 17:03:58,097 - ERROR - Error while fetching data for app_id: 2569120 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:58,097 - WARNING - Failed to fetch details for app_id: 2569120
+2024-10-26 17:03:59,396 - ERROR - Error while fetching data for app_id: 3168260 - 'NoneType' object is not subscriptable
+2024-10-26 17:03:59,396 - WARNING - Failed to fetch details for app_id: 3168260
+2024-10-26 17:04:00,528 - ERROR - Error while fetching data for app_id: 2876720 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:00,528 - WARNING - Failed to fetch details for app_id: 2876720
+2024-10-26 17:04:01,604 - ERROR - Error while fetching data for app_id: 2797640 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:01,604 - WARNING - Failed to fetch details for app_id: 2797640
+2024-10-26 17:04:02,720 - ERROR - Error while fetching data for app_id: 3257300 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:02,728 - WARNING - Failed to fetch details for app_id: 3257300
+2024-10-26 17:04:03,892 - ERROR - Error while fetching data for app_id: 3080530 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:03,892 - WARNING - Failed to fetch details for app_id: 3080530
+2024-10-26 17:04:06,258 - ERROR - Error while fetching data for app_id: 3201880 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:06,258 - WARNING - Failed to fetch details for app_id: 3201880
+2024-10-26 17:04:07,323 - ERROR - Error while fetching data for app_id: 767560 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:07,331 - WARNING - Failed to fetch details for app_id: 767560
+2024-10-26 17:04:08,505 - ERROR - Error while fetching data for app_id: 3258330 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:08,507 - WARNING - Failed to fetch details for app_id: 3258330
+2024-10-26 17:04:09,738 - ERROR - Error while fetching data for app_id: 1815770 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:09,738 - WARNING - Failed to fetch details for app_id: 1815770
+2024-10-26 17:04:10,862 - ERROR - Error while fetching data for app_id: 2464280 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:10,866 - WARNING - Failed to fetch details for app_id: 2464280
+2024-10-26 17:04:11,974 - ERROR - Error while fetching data for app_id: 2549380 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:11,983 - WARNING - Failed to fetch details for app_id: 2549380
+2024-10-26 17:04:13,119 - ERROR - Error while fetching data for app_id: 3146120 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:13,119 - WARNING - Failed to fetch details for app_id: 3146120
+2024-10-26 17:04:14,242 - ERROR - Error while fetching data for app_id: 3147420 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:14,242 - WARNING - Failed to fetch details for app_id: 3147420
+2024-10-26 17:04:15,311 - ERROR - Error while fetching data for app_id: 2055590 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:15,311 - WARNING - Failed to fetch details for app_id: 2055590
+2024-10-26 17:04:16,510 - ERROR - Error while fetching data for app_id: 3128450 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:16,512 - WARNING - Failed to fetch details for app_id: 3128450
+2024-10-26 17:04:17,822 - ERROR - Error while fetching data for app_id: 2483670 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:17,822 - WARNING - Failed to fetch details for app_id: 2483670
+2024-10-26 17:04:18,850 - ERROR - Error while fetching data for app_id: 2498610 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:18,850 - WARNING - Failed to fetch details for app_id: 2498610
+2024-10-26 17:04:20,037 - ERROR - Error while fetching data for app_id: 2097150 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:20,038 - WARNING - Failed to fetch details for app_id: 2097150
+2024-10-26 17:04:21,198 - ERROR - Error while fetching data for app_id: 2749000 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:21,206 - WARNING - Failed to fetch details for app_id: 2749000
+2024-10-26 17:04:22,205 - ERROR - Error while fetching data for app_id: 1546080 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:22,205 - WARNING - Failed to fetch details for app_id: 1546080
+2024-10-26 17:04:23,354 - ERROR - Error while fetching data for app_id: 2337170 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:23,354 - WARNING - Failed to fetch details for app_id: 2337170
+2024-10-26 17:04:24,478 - ERROR - Error while fetching data for app_id: 3145320 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:24,478 - WARNING - Failed to fetch details for app_id: 3145320
+2024-10-26 17:04:25,707 - ERROR - Error while fetching data for app_id: 3201410 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:25,707 - WARNING - Failed to fetch details for app_id: 3201410
+2024-10-26 17:04:27,928 - ERROR - Error while fetching data for app_id: 2550990 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:27,928 - WARNING - Failed to fetch details for app_id: 2550990
+2024-10-26 17:04:29,186 - ERROR - Error while fetching data for app_id: 3280790 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:29,186 - WARNING - Failed to fetch details for app_id: 3280790
+2024-10-26 17:04:30,422 - ERROR - Error while fetching data for app_id: 2067920 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:30,423 - WARNING - Failed to fetch details for app_id: 2067920
+2024-10-26 17:04:31,548 - ERROR - Error while fetching data for app_id: 3215670 - 'NoneType' object is not subscriptable
+2024-10-26 17:04:31,548 - WARNING - Failed to fetch details for app_id: 3215670
+2024-10-26 17:08:29,001 - ERROR - Error while fetching data for app_id: 2966680 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:29,001 - WARNING - Failed to fetch details for app_id: 2966680
+2024-10-26 17:08:30,143 - ERROR - Error while fetching data for app_id: 2756920 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:30,143 - WARNING - Failed to fetch details for app_id: 2756920
+2024-10-26 17:08:31,220 - ERROR - Error while fetching data for app_id: 2174090 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:31,222 - WARNING - Failed to fetch details for app_id: 2174090
+2024-10-26 17:08:32,399 - ERROR - Error while fetching data for app_id: 2176070 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:32,399 - WARNING - Failed to fetch details for app_id: 2176070
+2024-10-26 17:08:33,436 - ERROR - Error while fetching data for app_id: 2845630 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:33,436 - WARNING - Failed to fetch details for app_id: 2845630
+2024-10-26 17:08:34,544 - ERROR - Error while fetching data for app_id: 2445990 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:34,548 - WARNING - Failed to fetch details for app_id: 2445990
+2024-10-26 17:08:35,622 - ERROR - Error while fetching data for app_id: 1492070 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:35,622 - WARNING - Failed to fetch details for app_id: 1492070
+2024-10-26 17:08:36,731 - ERROR - Error while fetching data for app_id: 1878730 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:36,731 - WARNING - Failed to fetch details for app_id: 1878730
+2024-10-26 17:08:37,867 - ERROR - Error while fetching data for app_id: 3274680 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:37,874 - WARNING - Failed to fetch details for app_id: 3274680
+2024-10-26 17:08:39,052 - ERROR - Error while fetching data for app_id: 2776780 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:39,052 - WARNING - Failed to fetch details for app_id: 2776780
+2024-10-26 17:08:40,107 - ERROR - Error while fetching data for app_id: 2776900 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:40,115 - WARNING - Failed to fetch details for app_id: 2776900
+2024-10-26 17:08:41,301 - ERROR - Error while fetching data for app_id: 2817600 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:41,308 - WARNING - Failed to fetch details for app_id: 2817600
+2024-10-26 17:08:42,366 - ERROR - Error while fetching data for app_id: 2898620 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:42,366 - WARNING - Failed to fetch details for app_id: 2898620
+2024-10-26 17:08:43,557 - ERROR - Error while fetching data for app_id: 1299290 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:43,561 - WARNING - Failed to fetch details for app_id: 1299290
+2024-10-26 17:08:44,787 - ERROR - Error while fetching data for app_id: 3019770 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:44,787 - WARNING - Failed to fetch details for app_id: 3019770
+2024-10-26 17:08:46,018 - ERROR - Error while fetching data for app_id: 1357210 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:46,018 - WARNING - Failed to fetch details for app_id: 1357210
+2024-10-26 17:08:47,143 - ERROR - Error while fetching data for app_id: 2494340 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:47,143 - WARNING - Failed to fetch details for app_id: 2494340
+2024-10-26 17:08:48,266 - ERROR - Error while fetching data for app_id: 2917730 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:48,266 - WARNING - Failed to fetch details for app_id: 2917730
+2024-10-26 17:08:49,342 - ERROR - Error while fetching data for app_id: 2962280 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:49,342 - WARNING - Failed to fetch details for app_id: 2962280
+2024-10-26 17:08:50,523 - ERROR - Error while fetching data for app_id: 3025870 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:50,523 - WARNING - Failed to fetch details for app_id: 3025870
+2024-10-26 17:08:51,578 - ERROR - Error while fetching data for app_id: 1785940 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:51,587 - WARNING - Failed to fetch details for app_id: 1785940
+2024-10-26 17:08:52,778 - ERROR - Error while fetching data for app_id: 2949810 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:52,778 - WARNING - Failed to fetch details for app_id: 2949810
+2024-10-26 17:08:53,852 - ERROR - Error while fetching data for app_id: 3181670 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:53,852 - WARNING - Failed to fetch details for app_id: 3181670
+2024-10-26 17:08:54,925 - ERROR - Error while fetching data for app_id: 3234440 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:54,925 - WARNING - Failed to fetch details for app_id: 3234440
+2024-10-26 17:08:56,005 - ERROR - Error while fetching data for app_id: 2238160 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:56,013 - WARNING - Failed to fetch details for app_id: 2238160
+2024-10-26 17:08:57,145 - ERROR - Error while fetching data for app_id: 2416420 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:57,145 - WARNING - Failed to fetch details for app_id: 2416420
+2024-10-26 17:08:58,291 - ERROR - Error while fetching data for app_id: 622970 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:58,299 - WARNING - Failed to fetch details for app_id: 622970
+2024-10-26 17:08:59,436 - ERROR - Error while fetching data for app_id: 3281640 - 'NoneType' object is not subscriptable
+2024-10-26 17:08:59,444 - WARNING - Failed to fetch details for app_id: 3281640
+2024-10-26 17:09:00,517 - ERROR - Error while fetching data for app_id: 1989070 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:00,525 - WARNING - Failed to fetch details for app_id: 1989070
+2024-10-26 17:09:01,685 - ERROR - Error while fetching data for app_id: 3200220 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:01,685 - WARNING - Failed to fetch details for app_id: 3200220
+2024-10-26 17:09:02,750 - ERROR - Error while fetching data for app_id: 2977620 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:02,750 - WARNING - Failed to fetch details for app_id: 2977620
+2024-10-26 17:09:03,931 - ERROR - Error while fetching data for app_id: 3236080 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:03,931 - WARNING - Failed to fetch details for app_id: 3236080
+2024-10-26 17:09:04,996 - ERROR - Error while fetching data for app_id: 3017190 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:05,004 - WARNING - Failed to fetch details for app_id: 3017190
+2024-10-26 17:09:06,082 - ERROR - Error while fetching data for app_id: 1763510 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:06,082 - WARNING - Failed to fetch details for app_id: 1763510
+2024-10-26 17:09:07,317 - ERROR - Error while fetching data for app_id: 3112730 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:07,317 - WARNING - Failed to fetch details for app_id: 3112730
+2024-10-26 17:09:08,445 - ERROR - Error while fetching data for app_id: 1136380 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:08,445 - WARNING - Failed to fetch details for app_id: 1136380
+2024-10-26 17:09:09,621 - ERROR - Error while fetching data for app_id: 3148790 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:09,621 - WARNING - Failed to fetch details for app_id: 3148790
+2024-10-26 17:09:10,794 - ERROR - Error while fetching data for app_id: 1063660 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:10,794 - WARNING - Failed to fetch details for app_id: 1063660
+2024-10-26 17:09:11,891 - ERROR - Error while fetching data for app_id: 1714100 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:11,891 - WARNING - Failed to fetch details for app_id: 1714100
+2024-10-26 17:09:12,946 - ERROR - Error while fetching data for app_id: 1372530 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:12,949 - WARNING - Failed to fetch details for app_id: 1372530
+2024-10-26 17:09:14,066 - ERROR - Error while fetching data for app_id: 2150920 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:14,066 - WARNING - Failed to fetch details for app_id: 2150920
+2024-10-26 17:09:15,199 - ERROR - Error while fetching data for app_id: 2985530 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:15,203 - WARNING - Failed to fetch details for app_id: 2985530
+2024-10-26 17:09:16,276 - ERROR - Error while fetching data for app_id: 1818480 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:16,284 - WARNING - Failed to fetch details for app_id: 1818480
+2024-10-26 17:09:17,558 - ERROR - Error while fetching data for app_id: 2887920 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:17,562 - WARNING - Failed to fetch details for app_id: 2887920
+2024-10-26 17:09:18,677 - ERROR - Error while fetching data for app_id: 2849080 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:18,677 - WARNING - Failed to fetch details for app_id: 2849080
+2024-10-26 17:09:19,810 - ERROR - Error while fetching data for app_id: 2861740 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:19,810 - WARNING - Failed to fetch details for app_id: 2861740
+2024-10-26 17:09:20,881 - ERROR - Error while fetching data for app_id: 2317560 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:20,881 - WARNING - Failed to fetch details for app_id: 2317560
+2024-10-26 17:09:21,946 - ERROR - Error while fetching data for app_id: 2865610 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:21,946 - WARNING - Failed to fetch details for app_id: 2865610
+2024-10-26 17:09:23,074 - ERROR - Error while fetching data for app_id: 1061550 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:23,074 - WARNING - Failed to fetch details for app_id: 1061550
+2024-10-26 17:09:24,203 - ERROR - Error while fetching data for app_id: 2400160 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:24,211 - WARNING - Failed to fetch details for app_id: 2400160
+2024-10-26 17:09:25,546 - ERROR - Error while fetching data for app_id: 3193830 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:25,546 - WARNING - Failed to fetch details for app_id: 3193830
+2024-10-26 17:09:26,672 - ERROR - Error while fetching data for app_id: 2615630 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:26,672 - WARNING - Failed to fetch details for app_id: 2615630
+2024-10-26 17:09:27,748 - ERROR - Error while fetching data for app_id: 1519490 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:27,748 - WARNING - Failed to fetch details for app_id: 1519490
+2024-10-26 17:09:28,923 - ERROR - Error while fetching data for app_id: 1252680 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:28,927 - WARNING - Failed to fetch details for app_id: 1252680
+2024-10-26 17:09:29,992 - ERROR - Error while fetching data for app_id: 2829020 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:30,000 - WARNING - Failed to fetch details for app_id: 2829020
+2024-10-26 17:09:31,172 - ERROR - Error while fetching data for app_id: 1736200 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:31,172 - WARNING - Failed to fetch details for app_id: 1736200
+2024-10-26 17:09:32,236 - ERROR - Error while fetching data for app_id: 3181350 - 'NoneType' object is not subscriptable
+2024-10-26 17:09:32,236 - WARNING - Failed to fetch details for app_id: 3181350
+2024-10-26 17:13:51,759 - ERROR - Error while fetching data for app_id: 2806410 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:51,759 - WARNING - Failed to fetch details for app_id: 2806410
+2024-10-26 17:13:52,878 - ERROR - Error while fetching data for app_id: 3066570 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:52,888 - WARNING - Failed to fetch details for app_id: 3066570
+2024-10-26 17:13:53,994 - ERROR - Error while fetching data for app_id: 1346390 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:53,994 - WARNING - Failed to fetch details for app_id: 1346390
+2024-10-26 17:13:55,131 - ERROR - Error while fetching data for app_id: 1347550 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:55,131 - WARNING - Failed to fetch details for app_id: 1347550
+2024-10-26 17:13:56,294 - ERROR - Error while fetching data for app_id: 1524400 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:56,294 - WARNING - Failed to fetch details for app_id: 1524400
+2024-10-26 17:13:57,425 - ERROR - Error while fetching data for app_id: 1581220 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:57,433 - WARNING - Failed to fetch details for app_id: 1581220
+2024-10-26 17:13:58,753 - ERROR - Error while fetching data for app_id: 1803190 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:58,753 - WARNING - Failed to fetch details for app_id: 1803190
+2024-10-26 17:13:59,873 - ERROR - Error while fetching data for app_id: 1810920 - 'NoneType' object is not subscriptable
+2024-10-26 17:13:59,873 - WARNING - Failed to fetch details for app_id: 1810920
+2024-10-26 17:14:01,139 - ERROR - Error while fetching data for app_id: 1861610 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:01,139 - WARNING - Failed to fetch details for app_id: 1861610
+2024-10-26 17:14:02,214 - ERROR - Error while fetching data for app_id: 1925400 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:02,222 - WARNING - Failed to fetch details for app_id: 1925400
+2024-10-26 17:14:03,357 - ERROR - Error while fetching data for app_id: 1976820 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:03,361 - WARNING - Failed to fetch details for app_id: 1976820
+2024-10-26 17:14:04,487 - ERROR - Error while fetching data for app_id: 1326270 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:04,487 - WARNING - Failed to fetch details for app_id: 1326270
+2024-10-26 17:14:05,714 - ERROR - Error while fetching data for app_id: 941972 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:05,714 - WARNING - Failed to fetch details for app_id: 941972
+2024-10-26 17:14:06,774 - ERROR - Error while fetching data for app_id: 3258130 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:06,774 - WARNING - Failed to fetch details for app_id: 3258130
+2024-10-26 17:14:07,962 - ERROR - Error while fetching data for app_id: 2890580 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:07,962 - WARNING - Failed to fetch details for app_id: 2890580
+2024-10-26 17:14:09,197 - ERROR - Error while fetching data for app_id: 1826490 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:09,197 - WARNING - Failed to fetch details for app_id: 1826490
+2024-10-26 17:14:10,323 - ERROR - Error while fetching data for app_id: 435790 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:10,323 - WARNING - Failed to fetch details for app_id: 435790
+2024-10-26 17:14:11,410 - ERROR - Error while fetching data for app_id: 1909100 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:11,410 - WARNING - Failed to fetch details for app_id: 1909100
+2024-10-26 17:14:12,573 - ERROR - Error while fetching data for app_id: 1926520 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:12,573 - WARNING - Failed to fetch details for app_id: 1926520
+2024-10-26 17:14:13,907 - ERROR - Error while fetching data for app_id: 1552760 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:13,907 - WARNING - Failed to fetch details for app_id: 1552760
+2024-10-26 17:14:15,031 - ERROR - Error while fetching data for app_id: 2972890 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:15,031 - WARNING - Failed to fetch details for app_id: 2972890
+2024-10-26 17:14:16,113 - ERROR - Error while fetching data for app_id: 2840110 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:16,113 - WARNING - Failed to fetch details for app_id: 2840110
+2024-10-26 17:14:17,222 - ERROR - Error while fetching data for app_id: 1726100 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:17,230 - WARNING - Failed to fetch details for app_id: 1726100
+2024-10-26 17:14:20,808 - ERROR - Error while fetching data for app_id: 1302240 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:20,808 - WARNING - Failed to fetch details for app_id: 1302240
+2024-10-26 17:14:21,960 - ERROR - Error while fetching data for app_id: 1504570 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:21,968 - WARNING - Failed to fetch details for app_id: 1504570
+2024-10-26 17:14:23,082 - ERROR - Error while fetching data for app_id: 1561340 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:23,082 - WARNING - Failed to fetch details for app_id: 1561340
+2024-10-26 17:14:24,240 - ERROR - Error while fetching data for app_id: 1731070 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:24,240 - WARNING - Failed to fetch details for app_id: 1731070
+2024-10-26 17:14:25,356 - ERROR - Error while fetching data for app_id: 1997330 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:25,357 - WARNING - Failed to fetch details for app_id: 1997330
+2024-10-26 17:14:26,474 - ERROR - Error while fetching data for app_id: 2334220 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:26,474 - WARNING - Failed to fetch details for app_id: 2334220
+2024-10-26 17:14:27,572 - ERROR - Error while fetching data for app_id: 2560240 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:27,572 - WARNING - Failed to fetch details for app_id: 2560240
+2024-10-26 17:14:28,755 - ERROR - Error while fetching data for app_id: 2898400 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:28,755 - WARNING - Failed to fetch details for app_id: 2898400
+2024-10-26 17:14:29,983 - ERROR - Error while fetching data for app_id: 2933360 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:29,983 - WARNING - Failed to fetch details for app_id: 2933360
+2024-10-26 17:14:31,209 - ERROR - Error while fetching data for app_id: 2944240 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:31,213 - WARNING - Failed to fetch details for app_id: 2944240
+2024-10-26 17:14:32,290 - ERROR - Error while fetching data for app_id: 3046830 - 'NoneType' object is not subscriptable
+2024-10-26 17:14:32,290 - WARNING - Failed to fetch details for app_id: 3046830
+2024-10-26 17:18:50,795 - ERROR - Error while fetching data for app_id: 860020 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:50,795 - WARNING - Failed to fetch details for app_id: 860020
+2024-10-26 17:18:51,925 - ERROR - Error while fetching data for app_id: 2844500 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:51,929 - WARNING - Failed to fetch details for app_id: 2844500
+2024-10-26 17:18:53,144 - ERROR - Error while fetching data for app_id: 2530490 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:53,152 - WARNING - Failed to fetch details for app_id: 2530490
+2024-10-26 17:18:54,600 - ERROR - Error while fetching data for app_id: 1380970 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:54,608 - WARNING - Failed to fetch details for app_id: 1380970
+2024-10-26 17:18:55,781 - ERROR - Error while fetching data for app_id: 3216330 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:55,789 - WARNING - Failed to fetch details for app_id: 3216330
+2024-10-26 17:18:57,087 - ERROR - Error while fetching data for app_id: 2135150 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:57,087 - WARNING - Failed to fetch details for app_id: 2135150
+2024-10-26 17:18:58,276 - ERROR - Error while fetching data for app_id: 1215320 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:58,276 - WARNING - Failed to fetch details for app_id: 1215320
+2024-10-26 17:18:59,445 - ERROR - Error while fetching data for app_id: 1530450 - 'NoneType' object is not subscriptable
+2024-10-26 17:18:59,453 - WARNING - Failed to fetch details for app_id: 1530450
+2024-10-26 17:19:00,623 - ERROR - Error while fetching data for app_id: 2384680 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:00,623 - WARNING - Failed to fetch details for app_id: 2384680
+2024-10-26 17:19:01,713 - ERROR - Error while fetching data for app_id: 3224230 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:01,713 - WARNING - Failed to fetch details for app_id: 3224230
+2024-10-26 17:19:02,882 - ERROR - Error while fetching data for app_id: 1527820 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:02,882 - WARNING - Failed to fetch details for app_id: 1527820
+2024-10-26 17:19:04,112 - ERROR - Error while fetching data for app_id: 2483560 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:04,112 - WARNING - Failed to fetch details for app_id: 2483560
+2024-10-26 17:19:05,335 - ERROR - Error while fetching data for app_id: 2578140 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:05,335 - WARNING - Failed to fetch details for app_id: 2578140
+2024-10-26 17:19:06,412 - ERROR - Error while fetching data for app_id: 2735220 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:06,412 - WARNING - Failed to fetch details for app_id: 2735220
+2024-10-26 17:19:07,594 - ERROR - Error while fetching data for app_id: 751350 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:07,594 - WARNING - Failed to fetch details for app_id: 751350
+2024-10-26 17:19:08,680 - ERROR - Error while fetching data for app_id: 3007390 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:08,680 - WARNING - Failed to fetch details for app_id: 3007390
+2024-10-26 17:19:09,843 - ERROR - Error while fetching data for app_id: 1048250 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:09,843 - WARNING - Failed to fetch details for app_id: 1048250
+2024-10-26 17:19:10,934 - ERROR - Error while fetching data for app_id: 1640300 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:10,942 - WARNING - Failed to fetch details for app_id: 1640300
+2024-10-26 17:19:12,098 - ERROR - Error while fetching data for app_id: 3221180 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:12,098 - WARNING - Failed to fetch details for app_id: 3221180
+2024-10-26 17:19:13,170 - ERROR - Error while fetching data for app_id: 3274810 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:13,170 - WARNING - Failed to fetch details for app_id: 3274810
+2024-10-26 17:19:14,352 - ERROR - Error while fetching data for app_id: 3247690 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:14,352 - WARNING - Failed to fetch details for app_id: 3247690
+2024-10-26 17:19:15,465 - ERROR - Error while fetching data for app_id: 2738000 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:15,473 - WARNING - Failed to fetch details for app_id: 2738000
+2024-10-26 17:19:16,699 - ERROR - Error while fetching data for app_id: 3189820 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:16,699 - WARNING - Failed to fetch details for app_id: 3189820
+2024-10-26 17:19:17,933 - ERROR - Error while fetching data for app_id: 1369700 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:17,936 - WARNING - Failed to fetch details for app_id: 1369700
+2024-10-26 17:19:19,165 - ERROR - Error while fetching data for app_id: 1173810 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:19,169 - WARNING - Failed to fetch details for app_id: 1173810
+2024-10-26 17:19:20,409 - ERROR - Error while fetching data for app_id: 1675900 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:20,409 - WARNING - Failed to fetch details for app_id: 1675900
+2024-10-26 17:19:21,481 - ERROR - Error while fetching data for app_id: 2288630 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:21,481 - WARNING - Failed to fetch details for app_id: 2288630
+2024-10-26 17:19:22,624 - ERROR - Error while fetching data for app_id: 2198150 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:22,624 - WARNING - Failed to fetch details for app_id: 2198150
+2024-10-26 17:19:23,773 - ERROR - Error while fetching data for app_id: 2956040 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:23,773 - WARNING - Failed to fetch details for app_id: 2956040
+2024-10-26 17:19:24,840 - ERROR - Error while fetching data for app_id: 2644590 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:24,847 - WARNING - Failed to fetch details for app_id: 2644590
+2024-10-26 17:19:26,125 - ERROR - Error while fetching data for app_id: 2553040 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:26,129 - WARNING - Failed to fetch details for app_id: 2553040
+2024-10-26 17:19:27,298 - ERROR - Error while fetching data for app_id: 3106770 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:27,305 - WARNING - Failed to fetch details for app_id: 3106770
+2024-10-26 17:19:28,482 - ERROR - Error while fetching data for app_id: 3221290 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:28,485 - WARNING - Failed to fetch details for app_id: 3221290
+2024-10-26 17:19:29,709 - ERROR - Error while fetching data for app_id: 2938430 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:29,712 - WARNING - Failed to fetch details for app_id: 2938430
+2024-10-26 17:19:30,937 - ERROR - Error while fetching data for app_id: 2517120 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:30,937 - WARNING - Failed to fetch details for app_id: 2517120
+2024-10-26 17:19:32,168 - ERROR - Error while fetching data for app_id: 3267660 - 'NoneType' object is not subscriptable
+2024-10-26 17:19:32,168 - WARNING - Failed to fetch details for app_id: 3267660
+2024-10-26 17:23:48,686 - ERROR - Error while fetching data for app_id: 2459530 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:48,686 - WARNING - Failed to fetch details for app_id: 2459530
+2024-10-26 17:23:49,837 - ERROR - Error while fetching data for app_id: 2377250 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:49,837 - WARNING - Failed to fetch details for app_id: 2377250
+2024-10-26 17:23:51,242 - ERROR - Error while fetching data for app_id: 1026050 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:51,242 - WARNING - Failed to fetch details for app_id: 1026050
+2024-10-26 17:23:52,322 - ERROR - Error while fetching data for app_id: 3062500 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:52,322 - WARNING - Failed to fetch details for app_id: 3062500
+2024-10-26 17:23:53,497 - ERROR - Error while fetching data for app_id: 2492330 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:53,497 - WARNING - Failed to fetch details for app_id: 2492330
+2024-10-26 17:23:54,724 - ERROR - Error while fetching data for app_id: 3168680 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:54,727 - WARNING - Failed to fetch details for app_id: 3168680
+2024-10-26 17:23:55,953 - ERROR - Error while fetching data for app_id: 1981840 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:55,953 - WARNING - Failed to fetch details for app_id: 1981840
+2024-10-26 17:23:57,018 - ERROR - Error while fetching data for app_id: 1430220 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:57,018 - WARNING - Failed to fetch details for app_id: 1430220
+2024-10-26 17:23:58,306 - ERROR - Error while fetching data for app_id: 2942780 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:58,306 - WARNING - Failed to fetch details for app_id: 2942780
+2024-10-26 17:23:59,432 - ERROR - Error while fetching data for app_id: 3259870 - 'NoneType' object is not subscriptable
+2024-10-26 17:23:59,432 - WARNING - Failed to fetch details for app_id: 3259870
+2024-10-26 17:24:00,657 - ERROR - Error while fetching data for app_id: 1589700 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:00,666 - WARNING - Failed to fetch details for app_id: 1589700
+2024-10-26 17:24:01,740 - ERROR - Error while fetching data for app_id: 2421410 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:01,740 - WARNING - Failed to fetch details for app_id: 2421410
+2024-10-26 17:24:02,916 - ERROR - Error while fetching data for app_id: 3245370 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:02,919 - WARNING - Failed to fetch details for app_id: 3245370
+2024-10-26 17:24:04,143 - ERROR - Error while fetching data for app_id: 1752530 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:04,143 - WARNING - Failed to fetch details for app_id: 1752530
+2024-10-26 17:24:05,470 - ERROR - Error while fetching data for app_id: 575720 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:05,470 - WARNING - Failed to fetch details for app_id: 575720
+2024-10-26 17:24:06,602 - ERROR - Error while fetching data for app_id: 3180000 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:06,602 - WARNING - Failed to fetch details for app_id: 3180000
+2024-10-26 17:24:07,832 - ERROR - Error while fetching data for app_id: 3261000 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:07,832 - WARNING - Failed to fetch details for app_id: 3261000
+2024-10-26 17:24:09,267 - ERROR - Error while fetching data for app_id: 2093940 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:09,267 - WARNING - Failed to fetch details for app_id: 2093940
+2024-10-26 17:24:10,492 - ERROR - Error while fetching data for app_id: 3279320 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:10,492 - WARNING - Failed to fetch details for app_id: 3279320
+2024-10-26 17:24:11,725 - ERROR - Error while fetching data for app_id: 1890100 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:11,725 - WARNING - Failed to fetch details for app_id: 1890100
+2024-10-26 17:24:12,956 - ERROR - Error while fetching data for app_id: 2878600 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:12,956 - WARNING - Failed to fetch details for app_id: 2878600
+2024-10-26 17:24:15,512 - ERROR - Error while fetching data for app_id: 3109100 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:15,516 - WARNING - Failed to fetch details for app_id: 3109100
+2024-10-26 17:24:16,741 - ERROR - Error while fetching data for app_id: 2439180 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:16,745 - WARNING - Failed to fetch details for app_id: 2439180
+2024-10-26 17:24:17,954 - ERROR - Error while fetching data for app_id: 2757270 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:17,954 - WARNING - Failed to fetch details for app_id: 2757270
+2024-10-26 17:24:19,197 - ERROR - Error while fetching data for app_id: 2537010 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:19,198 - WARNING - Failed to fetch details for app_id: 2537010
+2024-10-26 17:24:20,421 - ERROR - Error while fetching data for app_id: 2239870 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:20,421 - WARNING - Failed to fetch details for app_id: 2239870
+2024-10-26 17:24:21,505 - ERROR - Error while fetching data for app_id: 2479770 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:21,505 - WARNING - Failed to fetch details for app_id: 2479770
+2024-10-26 17:24:22,678 - ERROR - Error while fetching data for app_id: 2282980 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:22,681 - WARNING - Failed to fetch details for app_id: 2282980
+2024-10-26 17:24:23,909 - ERROR - Error while fetching data for app_id: 2282870 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:23,912 - WARNING - Failed to fetch details for app_id: 2282870
+2024-10-26 17:24:25,100 - ERROR - Error while fetching data for app_id: 2360950 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:25,100 - WARNING - Failed to fetch details for app_id: 2360950
+2024-10-26 17:24:26,220 - ERROR - Error while fetching data for app_id: 3293240 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:26,228 - WARNING - Failed to fetch details for app_id: 3293240
+2024-10-26 17:24:27,391 - ERROR - Error while fetching data for app_id: 2116060 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:27,391 - WARNING - Failed to fetch details for app_id: 2116060
+2024-10-26 17:24:28,619 - ERROR - Error while fetching data for app_id: 2268970 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:28,619 - WARNING - Failed to fetch details for app_id: 2268970
+2024-10-26 17:24:29,852 - ERROR - Error while fetching data for app_id: 2779750 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:29,852 - WARNING - Failed to fetch details for app_id: 2779750
+2024-10-26 17:24:31,077 - ERROR - Error while fetching data for app_id: 3152540 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:31,077 - WARNING - Failed to fetch details for app_id: 3152540
+2024-10-26 17:24:32,304 - ERROR - Error while fetching data for app_id: 2783850 - 'NoneType' object is not subscriptable
+2024-10-26 17:24:32,304 - WARNING - Failed to fetch details for app_id: 2783850
+2024-10-26 17:29:03,180 - ERROR - Error while fetching data for app_id: 2380050 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:03,187 - WARNING - Failed to fetch details for app_id: 2380050
+2024-10-26 17:29:04,390 - ERROR - Error while fetching data for app_id: 2493660 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:04,390 - WARNING - Failed to fetch details for app_id: 2493660
+2024-10-26 17:29:05,716 - ERROR - Error while fetching data for app_id: 2496830 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:05,716 - WARNING - Failed to fetch details for app_id: 2496830
+2024-10-26 17:29:06,892 - ERROR - Error while fetching data for app_id: 2572400 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:06,899 - WARNING - Failed to fetch details for app_id: 2572400
+2024-10-26 17:29:08,072 - ERROR - Error while fetching data for app_id: 2593580 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:08,072 - WARNING - Failed to fetch details for app_id: 2593580
+2024-10-26 17:29:09,403 - ERROR - Error while fetching data for app_id: 2595720 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:09,405 - WARNING - Failed to fetch details for app_id: 2595720
+2024-10-26 17:29:10,630 - ERROR - Error while fetching data for app_id: 2756470 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:10,631 - WARNING - Failed to fetch details for app_id: 2756470
+2024-10-26 17:29:11,860 - ERROR - Error while fetching data for app_id: 2782920 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:11,860 - WARNING - Failed to fetch details for app_id: 2782920
+2024-10-26 17:29:13,081 - ERROR - Error while fetching data for app_id: 2883610 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:13,081 - WARNING - Failed to fetch details for app_id: 2883610
+2024-10-26 17:29:14,316 - ERROR - Error while fetching data for app_id: 3027620 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:14,317 - WARNING - Failed to fetch details for app_id: 3027620
+2024-10-26 17:29:15,545 - ERROR - Error while fetching data for app_id: 3027940 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:15,545 - WARNING - Failed to fetch details for app_id: 3027940
+2024-10-26 17:29:16,771 - ERROR - Error while fetching data for app_id: 3135530 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:16,771 - WARNING - Failed to fetch details for app_id: 3135530
+2024-10-26 17:29:18,002 - ERROR - Error while fetching data for app_id: 3147220 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:18,002 - WARNING - Failed to fetch details for app_id: 3147220
+2024-10-26 17:29:19,338 - ERROR - Error while fetching data for app_id: 3150230 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:19,338 - WARNING - Failed to fetch details for app_id: 3150230
+2024-10-26 17:29:20,483 - ERROR - Error while fetching data for app_id: 3170420 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:20,483 - WARNING - Failed to fetch details for app_id: 3170420
+2024-10-26 17:29:21,641 - ERROR - Error while fetching data for app_id: 3192990 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:21,648 - WARNING - Failed to fetch details for app_id: 3192990
+2024-10-26 17:29:22,826 - ERROR - Error while fetching data for app_id: 3197050 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:22,826 - WARNING - Failed to fetch details for app_id: 3197050
+2024-10-26 17:29:24,047 - ERROR - Error while fetching data for app_id: 3225070 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:24,047 - WARNING - Failed to fetch details for app_id: 3225070
+2024-10-26 17:29:25,380 - ERROR - Error while fetching data for app_id: 3221120 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:25,380 - WARNING - Failed to fetch details for app_id: 3221120
+2024-10-26 17:29:26,534 - ERROR - Error while fetching data for app_id: 801800 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:26,542 - WARNING - Failed to fetch details for app_id: 801800
+2024-10-26 17:29:27,729 - ERROR - Error while fetching data for app_id: 1951780 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:27,729 - WARNING - Failed to fetch details for app_id: 1951780
+2024-10-26 17:29:28,956 - ERROR - Error while fetching data for app_id: 2829300 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:28,956 - WARNING - Failed to fetch details for app_id: 2829300
+2024-10-26 17:29:30,182 - ERROR - Error while fetching data for app_id: 3257320 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:30,190 - WARNING - Failed to fetch details for app_id: 3257320
+2024-10-26 17:29:31,419 - ERROR - Error while fetching data for app_id: 3234360 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:31,419 - WARNING - Failed to fetch details for app_id: 3234360
+2024-10-26 17:29:32,749 - ERROR - Error while fetching data for app_id: 2514960 - 'NoneType' object is not subscriptable
+2024-10-26 17:29:32,749 - WARNING - Failed to fetch details for app_id: 2514960
+2024-10-26 17:34:01,247 - ERROR - Error while fetching data for app_id: 1566840 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:01,247 - WARNING - Failed to fetch details for app_id: 1566840
+2024-10-26 17:34:02,681 - ERROR - Error while fetching data for app_id: 1162750 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:02,684 - WARNING - Failed to fetch details for app_id: 1162750
+2024-10-26 17:34:03,907 - ERROR - Error while fetching data for app_id: 2264340 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:03,907 - WARNING - Failed to fetch details for app_id: 2264340
+2024-10-26 17:34:05,138 - ERROR - Error while fetching data for app_id: 1890880 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:05,138 - WARNING - Failed to fetch details for app_id: 1890880
+2024-10-26 17:34:06,429 - ERROR - Error while fetching data for app_id: 3081500 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:06,429 - WARNING - Failed to fetch details for app_id: 3081500
+2024-10-26 17:34:07,801 - ERROR - Error while fetching data for app_id: 2250690 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:07,801 - WARNING - Failed to fetch details for app_id: 2250690
+2024-10-26 17:34:09,020 - ERROR - Error while fetching data for app_id: 2185060 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:09,020 - WARNING - Failed to fetch details for app_id: 2185060
+2024-10-26 17:34:10,257 - ERROR - Error while fetching data for app_id: 1965620 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:10,257 - WARNING - Failed to fetch details for app_id: 1965620
+2024-10-26 17:34:11,488 - ERROR - Error while fetching data for app_id: 1133500 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:11,488 - WARNING - Failed to fetch details for app_id: 1133500
+2024-10-26 17:34:12,810 - ERROR - Error while fetching data for app_id: 3147300 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:12,810 - WARNING - Failed to fetch details for app_id: 3147300
+2024-10-26 17:34:14,047 - ERROR - Error while fetching data for app_id: 1607250 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:14,047 - WARNING - Failed to fetch details for app_id: 1607250
+2024-10-26 17:34:15,224 - ERROR - Error while fetching data for app_id: 1583290 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:15,232 - WARNING - Failed to fetch details for app_id: 1583290
+2024-10-26 17:34:16,506 - ERROR - Error while fetching data for app_id: 3247160 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:16,506 - WARNING - Failed to fetch details for app_id: 3247160
+2024-10-26 17:34:17,732 - ERROR - Error while fetching data for app_id: 388860 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:17,736 - WARNING - Failed to fetch details for app_id: 388860
+2024-10-26 17:34:18,958 - ERROR - Error while fetching data for app_id: 2676160 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:18,966 - WARNING - Failed to fetch details for app_id: 2676160
+2024-10-26 17:34:20,185 - ERROR - Error while fetching data for app_id: 3089040 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:20,185 - WARNING - Failed to fetch details for app_id: 3089040
+2024-10-26 17:34:21,316 - ERROR - Error while fetching data for app_id: 3099530 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:21,319 - WARNING - Failed to fetch details for app_id: 3099530
+2024-10-26 17:34:22,428 - ERROR - Error while fetching data for app_id: 1833680 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:22,428 - WARNING - Failed to fetch details for app_id: 1833680
+2024-10-26 17:34:23,669 - ERROR - Error while fetching data for app_id: 3261510 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:23,669 - WARNING - Failed to fetch details for app_id: 3261510
+2024-10-26 17:34:24,842 - ERROR - Error while fetching data for app_id: 1990540 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:24,850 - WARNING - Failed to fetch details for app_id: 1990540
+2024-10-26 17:34:26,226 - ERROR - Error while fetching data for app_id: 3255820 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:26,226 - WARNING - Failed to fetch details for app_id: 3255820
+2024-10-26 17:34:27,385 - ERROR - Error while fetching data for app_id: 2954360 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:27,385 - WARNING - Failed to fetch details for app_id: 2954360
+2024-10-26 17:34:28,531 - ERROR - Error while fetching data for app_id: 1384660 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:28,539 - WARNING - Failed to fetch details for app_id: 1384660
+2024-10-26 17:34:29,684 - ERROR - Error while fetching data for app_id: 1453450 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:29,684 - WARNING - Failed to fetch details for app_id: 1453450
+2024-10-26 17:34:30,939 - ERROR - Error while fetching data for app_id: 1458590 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:30,939 - WARNING - Failed to fetch details for app_id: 1458590
+2024-10-26 17:34:32,158 - ERROR - Error while fetching data for app_id: 1513840 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:32,158 - WARNING - Failed to fetch details for app_id: 1513840
+2024-10-26 17:34:33,250 - ERROR - Error while fetching data for app_id: 1531606 - 'NoneType' object is not subscriptable
+2024-10-26 17:34:33,250 - WARNING - Failed to fetch details for app_id: 1531606
+2024-10-26 17:39:04,456 - ERROR - Error while fetching data for app_id: 397740 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:04,456 - WARNING - Failed to fetch details for app_id: 397740
+2024-10-26 17:39:05,683 - ERROR - Error while fetching data for app_id: 870600 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:05,683 - WARNING - Failed to fetch details for app_id: 870600
+2024-10-26 17:39:06,912 - ERROR - Error while fetching data for app_id: 949870 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:06,912 - WARNING - Failed to fetch details for app_id: 949870
+2024-10-26 17:39:08,049 - ERROR - Error while fetching data for app_id: 3203750 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:08,052 - WARNING - Failed to fetch details for app_id: 3203750
+2024-10-26 17:39:09,214 - ERROR - Error while fetching data for app_id: 2857800 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:09,214 - WARNING - Failed to fetch details for app_id: 2857800
+2024-10-26 17:39:10,396 - ERROR - Error while fetching data for app_id: 1227454 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:10,396 - WARNING - Failed to fetch details for app_id: 1227454
+2024-10-26 17:39:11,568 - ERROR - Error while fetching data for app_id: 1238840 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:11,576 - WARNING - Failed to fetch details for app_id: 1238840
+2024-10-26 17:39:12,747 - ERROR - Error while fetching data for app_id: 285920 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:12,750 - WARNING - Failed to fetch details for app_id: 285920
+2024-10-26 17:39:13,862 - ERROR - Error while fetching data for app_id: 721180 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:13,862 - WARNING - Failed to fetch details for app_id: 721180
+2024-10-26 17:39:15,047 - ERROR - Error while fetching data for app_id: 1227452 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:15,047 - WARNING - Failed to fetch details for app_id: 1227452
+2024-10-26 17:39:16,169 - ERROR - Error while fetching data for app_id: 1670920 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:16,172 - WARNING - Failed to fetch details for app_id: 1670920
+2024-10-26 17:39:17,354 - ERROR - Error while fetching data for app_id: 1843610 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:17,358 - WARNING - Failed to fetch details for app_id: 1843610
+2024-10-26 17:39:18,579 - ERROR - Error while fetching data for app_id: 1227457 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:18,579 - WARNING - Failed to fetch details for app_id: 1227457
+2024-10-26 17:39:19,815 - ERROR - Error while fetching data for app_id: 2754230 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:19,815 - WARNING - Failed to fetch details for app_id: 2754230
+2024-10-26 17:39:21,005 - ERROR - Error while fetching data for app_id: 1222638 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:21,005 - WARNING - Failed to fetch details for app_id: 1222638
+2024-10-26 17:39:22,273 - ERROR - Error while fetching data for app_id: 3202020 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:22,276 - WARNING - Failed to fetch details for app_id: 3202020
+2024-10-26 17:39:23,497 - ERROR - Error while fetching data for app_id: 1643310 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:23,497 - WARNING - Failed to fetch details for app_id: 1643310
+2024-10-26 17:39:24,723 - ERROR - Error while fetching data for app_id: 1721110 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:24,723 - WARNING - Failed to fetch details for app_id: 1721110
+2024-10-26 17:39:25,952 - ERROR - Error while fetching data for app_id: 1334010 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:25,952 - WARNING - Failed to fetch details for app_id: 1334010
+2024-10-26 17:39:27,188 - ERROR - Error while fetching data for app_id: 1429150 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:27,188 - WARNING - Failed to fetch details for app_id: 1429150
+2024-10-26 17:39:28,417 - ERROR - Error while fetching data for app_id: 1677970 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:28,417 - WARNING - Failed to fetch details for app_id: 1677970
+2024-10-26 17:39:29,643 - ERROR - Error while fetching data for app_id: 1844930 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:29,643 - WARNING - Failed to fetch details for app_id: 1844930
+2024-10-26 17:39:30,809 - ERROR - Error while fetching data for app_id: 1978150 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:30,812 - WARNING - Failed to fetch details for app_id: 1978150
+2024-10-26 17:39:31,996 - ERROR - Error while fetching data for app_id: 2091330 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:31,996 - WARNING - Failed to fetch details for app_id: 2091330
+2024-10-26 17:39:33,282 - ERROR - Error while fetching data for app_id: 1227484 - 'NoneType' object is not subscriptable
+2024-10-26 17:39:33,282 - WARNING - Failed to fetch details for app_id: 1227484
+2024-10-26 17:44:10,327 - ERROR - Error while fetching data for app_id: 1727910 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:10,327 - WARNING - Failed to fetch details for app_id: 1727910
+2024-10-26 17:44:11,556 - ERROR - Error while fetching data for app_id: 3022810 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:11,559 - WARNING - Failed to fetch details for app_id: 3022810
+2024-10-26 17:44:12,700 - ERROR - Error while fetching data for app_id: 1510330 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:12,707 - WARNING - Failed to fetch details for app_id: 1510330
+2024-10-26 17:44:14,014 - ERROR - Error while fetching data for app_id: 1307180 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:14,014 - WARNING - Failed to fetch details for app_id: 1307180
+2024-10-26 17:44:15,195 - ERROR - Error while fetching data for app_id: 1865770 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:15,195 - WARNING - Failed to fetch details for app_id: 1865770
+2024-10-26 17:44:16,469 - ERROR - Error while fetching data for app_id: 1316480 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:16,469 - WARNING - Failed to fetch details for app_id: 1316480
+2024-10-26 17:44:17,692 - ERROR - Error while fetching data for app_id: 2666550 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:17,700 - WARNING - Failed to fetch details for app_id: 2666550
+2024-10-26 17:44:18,928 - ERROR - Error while fetching data for app_id: 3140130 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:18,928 - WARNING - Failed to fetch details for app_id: 3140130
+2024-10-26 17:44:20,149 - ERROR - Error while fetching data for app_id: 2115760 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:20,157 - WARNING - Failed to fetch details for app_id: 2115760
+2024-10-26 17:44:21,487 - ERROR - Error while fetching data for app_id: 3273030 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:21,490 - WARNING - Failed to fetch details for app_id: 3273030
+2024-10-26 17:44:22,717 - ERROR - Error while fetching data for app_id: 1585180 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:22,717 - WARNING - Failed to fetch details for app_id: 1585180
+2024-10-26 17:44:23,947 - ERROR - Error while fetching data for app_id: 2235550 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:23,947 - WARNING - Failed to fetch details for app_id: 2235550
+2024-10-26 17:44:25,176 - ERROR - Error while fetching data for app_id: 1028310 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:25,176 - WARNING - Failed to fetch details for app_id: 1028310
+2024-10-26 17:44:26,298 - ERROR - Error while fetching data for app_id: 2904000 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:26,298 - WARNING - Failed to fetch details for app_id: 2904000
+2024-10-26 17:44:27,505 - ERROR - Error while fetching data for app_id: 495420 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:27,505 - WARNING - Failed to fetch details for app_id: 495420
+2024-10-26 17:44:28,757 - ERROR - Error while fetching data for app_id: 3223740 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:28,758 - WARNING - Failed to fetch details for app_id: 3223740
+2024-10-26 17:44:30,055 - ERROR - Error while fetching data for app_id: 1408610 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:30,055 - WARNING - Failed to fetch details for app_id: 1408610
+2024-10-26 17:44:31,320 - ERROR - Error while fetching data for app_id: 1489660 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:31,320 - WARNING - Failed to fetch details for app_id: 1489660
+2024-10-26 17:44:32,540 - ERROR - Error while fetching data for app_id: 3002370 - 'NoneType' object is not subscriptable
+2024-10-26 17:44:32,548 - WARNING - Failed to fetch details for app_id: 3002370
+2024-10-26 17:49:08,614 - ERROR - Error while fetching data for app_id: 2473890 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:08,614 - WARNING - Failed to fetch details for app_id: 2473890
+2024-10-26 17:49:09,845 - ERROR - Error while fetching data for app_id: 2471100 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:09,845 - WARNING - Failed to fetch details for app_id: 2471100
+2024-10-26 17:49:11,178 - ERROR - Error while fetching data for app_id: 1623730 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:11,178 - WARNING - Failed to fetch details for app_id: 1623730
+2024-10-26 17:49:12,314 - ERROR - Error while fetching data for app_id: 3260880 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:12,322 - WARNING - Failed to fetch details for app_id: 3260880
+2024-10-26 17:49:13,472 - ERROR - Error while fetching data for app_id: 2229940 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:13,480 - WARNING - Failed to fetch details for app_id: 2229940
+2024-10-26 17:49:14,766 - ERROR - Error while fetching data for app_id: 2182610 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:14,766 - WARNING - Failed to fetch details for app_id: 2182610
+2024-10-26 17:49:15,993 - ERROR - Error while fetching data for app_id: 2859800 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:15,996 - WARNING - Failed to fetch details for app_id: 2859800
+2024-10-26 17:49:17,322 - ERROR - Error while fetching data for app_id: 3252380 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:17,322 - WARNING - Failed to fetch details for app_id: 3252380
+2024-10-26 17:49:18,554 - ERROR - Error while fetching data for app_id: 2950640 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:18,554 - WARNING - Failed to fetch details for app_id: 2950640
+2024-10-26 17:49:19,881 - ERROR - Error while fetching data for app_id: 1270580 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:19,881 - WARNING - Failed to fetch details for app_id: 1270580
+2024-10-26 17:49:21,096 - ERROR - Error while fetching data for app_id: 3134200 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:21,096 - WARNING - Failed to fetch details for app_id: 3134200
+2024-10-26 17:49:22,442 - ERROR - Error while fetching data for app_id: 1351240 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:22,442 - WARNING - Failed to fetch details for app_id: 1351240
+2024-10-26 17:49:23,650 - ERROR - Error while fetching data for app_id: 3240300 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:23,650 - WARNING - Failed to fetch details for app_id: 3240300
+2024-10-26 17:49:24,905 - ERROR - Error while fetching data for app_id: 3257370 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:24,905 - WARNING - Failed to fetch details for app_id: 3257370
+2024-10-26 17:49:26,132 - ERROR - Error while fetching data for app_id: 1456290 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:26,135 - WARNING - Failed to fetch details for app_id: 1456290
+2024-10-26 17:49:27,362 - ERROR - Error while fetching data for app_id: 1496970 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:27,362 - WARNING - Failed to fetch details for app_id: 1496970
+2024-10-26 17:49:28,622 - ERROR - Error while fetching data for app_id: 2259210 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:28,622 - WARNING - Failed to fetch details for app_id: 2259210
+2024-10-26 17:49:29,817 - ERROR - Error while fetching data for app_id: 1622910 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:29,817 - WARNING - Failed to fetch details for app_id: 1622910
+2024-10-26 17:49:30,997 - ERROR - Error while fetching data for app_id: 2744050 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:30,997 - WARNING - Failed to fetch details for app_id: 2744050
+2024-10-26 17:49:32,275 - ERROR - Error while fetching data for app_id: 3124850 - 'NoneType' object is not subscriptable
+2024-10-26 17:49:32,275 - WARNING - Failed to fetch details for app_id: 3124850
+2024-10-26 17:54:13,663 - ERROR - Error while fetching data for app_id: 544920 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:13,663 - WARNING - Failed to fetch details for app_id: 544920
+2024-10-26 17:54:14,801 - ERROR - Error while fetching data for app_id: 454120 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:14,809 - WARNING - Failed to fetch details for app_id: 454120
+2024-10-26 17:54:16,027 - ERROR - Error while fetching data for app_id: 1977910 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:16,027 - WARNING - Failed to fetch details for app_id: 1977910
+2024-10-26 17:54:17,258 - ERROR - Error while fetching data for app_id: 2854350 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:17,258 - WARNING - Failed to fetch details for app_id: 2854350
+2024-10-26 17:54:18,590 - ERROR - Error while fetching data for app_id: 2050800 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:18,590 - WARNING - Failed to fetch details for app_id: 2050800
+2024-10-26 17:54:19,795 - ERROR - Error while fetching data for app_id: 2459820 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:19,795 - WARNING - Failed to fetch details for app_id: 2459820
+2024-10-26 17:54:21,046 - ERROR - Error while fetching data for app_id: 2867690 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:21,046 - WARNING - Failed to fetch details for app_id: 2867690
+2024-10-26 17:54:22,172 - ERROR - Error while fetching data for app_id: 2667950 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:22,172 - WARNING - Failed to fetch details for app_id: 2667950
+2024-10-26 17:54:23,376 - ERROR - Error while fetching data for app_id: 3144090 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:23,376 - WARNING - Failed to fetch details for app_id: 3144090
+2024-10-26 17:54:24,574 - ERROR - Error while fetching data for app_id: 1846700 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:24,574 - WARNING - Failed to fetch details for app_id: 1846700
+2024-10-26 17:54:25,857 - ERROR - Error while fetching data for app_id: 2342030 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:25,857 - WARNING - Failed to fetch details for app_id: 2342030
+2024-10-26 17:54:27,070 - ERROR - Error while fetching data for app_id: 2376580 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:27,070 - WARNING - Failed to fetch details for app_id: 2376580
+2024-10-26 17:54:28,417 - ERROR - Error while fetching data for app_id: 3111580 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:28,421 - WARNING - Failed to fetch details for app_id: 3111580
+2024-10-26 17:54:29,599 - ERROR - Error while fetching data for app_id: 1167630 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:29,599 - WARNING - Failed to fetch details for app_id: 1167630
+2024-10-26 17:54:30,818 - ERROR - Error while fetching data for app_id: 2657080 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:30,818 - WARNING - Failed to fetch details for app_id: 2657080
+2024-10-26 17:54:32,104 - ERROR - Error while fetching data for app_id: 2657050 - 'NoneType' object is not subscriptable
+2024-10-26 17:54:32,108 - WARNING - Failed to fetch details for app_id: 2657050
+2024-10-26 17:59:19,956 - ERROR - Error while fetching data for app_id: 3247050 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:19,956 - WARNING - Failed to fetch details for app_id: 3247050
+2024-10-26 17:59:21,128 - ERROR - Error while fetching data for app_id: 513710 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:21,128 - WARNING - Failed to fetch details for app_id: 513710
+2024-10-26 17:59:22,405 - ERROR - Error while fetching data for app_id: 2957670 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:22,405 - WARNING - Failed to fetch details for app_id: 2957670
+2024-10-26 17:59:25,014 - ERROR - Error while fetching data for app_id: 1395520 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:25,014 - WARNING - Failed to fetch details for app_id: 1395520
+2024-10-26 17:59:26,279 - ERROR - Error while fetching data for app_id: 3261610 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:26,279 - WARNING - Failed to fetch details for app_id: 3261610
+2024-10-26 17:59:27,628 - ERROR - Error while fetching data for app_id: 3270360 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:27,637 - WARNING - Failed to fetch details for app_id: 3270360
+2024-10-26 17:59:28,960 - ERROR - Error while fetching data for app_id: 716350 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:28,968 - WARNING - Failed to fetch details for app_id: 716350
+2024-10-26 17:59:30,196 - ERROR - Error while fetching data for app_id: 2597200 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:30,196 - WARNING - Failed to fetch details for app_id: 2597200
+2024-10-26 17:59:31,526 - ERROR - Error while fetching data for app_id: 1890870 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:31,526 - WARNING - Failed to fetch details for app_id: 1890870
+2024-10-26 17:59:32,870 - ERROR - Error while fetching data for app_id: 1879040 - 'NoneType' object is not subscriptable
+2024-10-26 17:59:32,870 - WARNING - Failed to fetch details for app_id: 1879040
+2024-10-26 18:04:30,326 - ERROR - Error while fetching data for app_id: 2603020 - 'NoneType' object is not subscriptable
+2024-10-26 18:04:30,327 - WARNING - Failed to fetch details for app_id: 2603020
+2024-10-26 18:04:31,563 - ERROR - Error while fetching data for app_id: 3268190 - 'NoneType' object is not subscriptable
+2024-10-26 18:04:31,563 - WARNING - Failed to fetch details for app_id: 3268190
+2024-10-26 18:04:32,856 - ERROR - Error while fetching data for app_id: 1955850 - 'NoneType' object is not subscriptable
+2024-10-26 18:04:32,856 - WARNING - Failed to fetch details for app_id: 1955850
+2024-10-26 18:04:34,095 - ERROR - Error while fetching data for app_id: 1498550 - 'NoneType' object is not subscriptable
+2024-10-26 18:04:34,095 - WARNING - Failed to fetch details for app_id: 1498550
+2024-10-26 18:09:24,110 - ERROR - Error while fetching data for app_id: 350490 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:24,110 - WARNING - Failed to fetch details for app_id: 350490
+2024-10-26 18:09:25,341 - ERROR - Error while fetching data for app_id: 412220 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:25,341 - WARNING - Failed to fetch details for app_id: 412220
+2024-10-26 18:09:26,674 - ERROR - Error while fetching data for app_id: 462730 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:26,678 - WARNING - Failed to fetch details for app_id: 462730
+2024-10-26 18:09:27,900 - ERROR - Error while fetching data for app_id: 3074110 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:27,900 - WARNING - Failed to fetch details for app_id: 3074110
+2024-10-26 18:09:29,129 - ERROR - Error while fetching data for app_id: 3046260 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:29,129 - WARNING - Failed to fetch details for app_id: 3046260
+2024-10-26 18:09:30,357 - ERROR - Error while fetching data for app_id: 1801950 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:30,357 - WARNING - Failed to fetch details for app_id: 1801950
+2024-10-26 18:09:31,539 - ERROR - Error while fetching data for app_id: 2889660 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:31,539 - WARNING - Failed to fetch details for app_id: 2889660
+2024-10-26 18:09:32,811 - ERROR - Error while fetching data for app_id: 2948730 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:32,811 - WARNING - Failed to fetch details for app_id: 2948730
+2024-10-26 18:09:34,251 - ERROR - Error while fetching data for app_id: 2960950 - 'NoneType' object is not subscriptable
+2024-10-26 18:09:34,255 - WARNING - Failed to fetch details for app_id: 2960950
+2024-10-26 18:14:28,502 - ERROR - Error while fetching data for app_id: 739790 - 'NoneType' object is not subscriptable
+2024-10-26 18:14:28,502 - WARNING - Failed to fetch details for app_id: 739790
+2024-10-26 18:14:29,783 - ERROR - Error while fetching data for app_id: 2174740 - 'NoneType' object is not subscriptable
+2024-10-26 18:14:29,783 - WARNING - Failed to fetch details for app_id: 2174740
+2024-10-26 18:14:31,010 - ERROR - Error while fetching data for app_id: 2599450 - 'NoneType' object is not subscriptable
+2024-10-26 18:14:31,010 - WARNING - Failed to fetch details for app_id: 2599450
+2024-10-26 18:14:32,233 - ERROR - Error while fetching data for app_id: 2772740 - 'NoneType' object is not subscriptable
+2024-10-26 18:14:32,233 - WARNING - Failed to fetch details for app_id: 2772740
+2024-10-26 18:14:33,411 - ERROR - Error while fetching data for app_id: 2158670 - 'NoneType' object is not subscriptable
+2024-10-26 18:14:33,411 - WARNING - Failed to fetch details for app_id: 2158670
+2024-10-26 18:14:34,697 - ERROR - Error while fetching data for app_id: 1487090 - 'NoneType' object is not subscriptable
+2024-10-26 18:14:34,697 - WARNING - Failed to fetch details for app_id: 1487090
+2024-10-26 18:19:25,820 - ERROR - Error while fetching data for app_id: 2641470 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:25,820 - WARNING - Failed to fetch details for app_id: 2641470
+2024-10-26 18:19:27,000 - ERROR - Error while fetching data for app_id: 2573790 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:27,000 - WARNING - Failed to fetch details for app_id: 2573790
+2024-10-26 18:19:28,273 - ERROR - Error while fetching data for app_id: 3006040 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:28,281 - WARNING - Failed to fetch details for app_id: 3006040
+2024-10-26 18:19:29,520 - ERROR - Error while fetching data for app_id: 2868500 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:29,522 - WARNING - Failed to fetch details for app_id: 2868500
+2024-10-26 18:19:30,840 - ERROR - Error while fetching data for app_id: 3146410 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:30,840 - WARNING - Failed to fetch details for app_id: 3146410
+2024-10-26 18:19:32,063 - ERROR - Error while fetching data for app_id: 1734320 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:32,063 - WARNING - Failed to fetch details for app_id: 1734320
+2024-10-26 18:19:33,295 - ERROR - Error while fetching data for app_id: 3277630 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:33,295 - WARNING - Failed to fetch details for app_id: 3277630
+2024-10-26 18:19:34,519 - ERROR - Error while fetching data for app_id: 3091340 - 'NoneType' object is not subscriptable
+2024-10-26 18:19:34,519 - WARNING - Failed to fetch details for app_id: 3091340
+2024-10-26 18:24:32,568 - ERROR - Error while fetching data for app_id: 1778030 - 'NoneType' object is not subscriptable
+2024-10-26 18:24:32,568 - WARNING - Failed to fetch details for app_id: 1778030
+2024-10-26 18:24:33,845 - ERROR - Error while fetching data for app_id: 3018960 - 'NoneType' object is not subscriptable
+2024-10-26 18:24:33,845 - WARNING - Failed to fetch details for app_id: 3018960
+2024-10-26 18:24:35,017 - ERROR - Error while fetching data for app_id: 1978690 - 'NoneType' object is not subscriptable
+2024-10-26 18:24:35,017 - WARNING - Failed to fetch details for app_id: 1978690
+2024-10-26 18:29:32,648 - ERROR - Error while fetching data for app_id: 1520500 - 'NoneType' object is not subscriptable
+2024-10-26 18:29:32,648 - WARNING - Failed to fetch details for app_id: 1520500
+2024-10-26 18:29:33,981 - ERROR - Error while fetching data for app_id: 1659040 - 'NoneType' object is not subscriptable
+2024-10-26 18:29:33,981 - WARNING - Failed to fetch details for app_id: 1659040
+2024-10-26 18:29:35,211 - ERROR - Error while fetching data for app_id: 2074920 - 'NoneType' object is not subscriptable
+2024-10-26 18:29:35,211 - WARNING - Failed to fetch details for app_id: 2074920
+2024-10-26 18:34:33,890 - ERROR - Error while fetching data for app_id: 107410 - 'NoneType' object is not subscriptable
+2024-10-26 18:34:33,890 - WARNING - Failed to fetch details for app_id: 107410
+2024-10-26 18:34:35,141 - ERROR - Error while fetching data for app_id: 1201540 - 'NoneType' object is not subscriptable
+2024-10-26 18:34:35,141 - WARNING - Failed to fetch details for app_id: 1201540
+2024-10-26 18:34:36,379 - ERROR - Error while fetching data for app_id: 2790360 - 'NoneType' object is not subscriptable
+2024-10-26 18:34:36,379 - WARNING - Failed to fetch details for app_id: 2790360
