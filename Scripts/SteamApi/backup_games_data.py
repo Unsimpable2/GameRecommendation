@@ -1,10 +1,10 @@
 import shutil
 import os
 
-def backup_database():
-    source_file = '../MasterDeg/Data/GamesData/steam_games_processed_part10.json'
+def backup_games_data(number):
+    source_file = f'../MasterDeg/Data/GamesData/steam_games_processed_part{number}.json'
     backup_dir = '../MasterDeg/Data/Backup'
-    backup_file = os.path.join(backup_dir, 'steam_games_processed_part10_backup.json')
+    backup_file = os.path.join(backup_dir, f'steam_games_processed_part{number}_backup.json')
 
     os.makedirs(backup_dir, exist_ok = True)
 
@@ -21,4 +21,4 @@ def backup_database():
     except Exception as e:
         print(f"An error occurred: {e}")
 
-backup_database()
+backup_games_data(6)

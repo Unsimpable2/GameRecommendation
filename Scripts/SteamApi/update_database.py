@@ -9,26 +9,45 @@ base_path = '../MasterDeg'
 data_list_path = '/Data/IDList'
 log_update_path = '/Scripts/Logs/Update'
 
-base_file_path = base_path + data_list_path + '/SteamGamesBase/steam_game_list_base.json'
-new_file_path = base_path + data_list_path + '/SteamGamesBase/steam_game_list_new.json'
+base_file_path = base_path + data_list_path + '/BaseList/steam_game_list_base.json'
+new_file_path = base_path + data_list_path + '/BaseList/steam_game_list_new.json'
 update_file_path = base_path + data_list_path + '/steam_game_list_to_update.json'
 last_update_file_path = base_path + log_update_path + '/last_database_update.txt'
 
-logging.basicConfig(filename = base_path + log_update_path + '/steam_game_updater.log', level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=base_path + log_update_path + '/steam_game_updater.log', level = logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def fetch_steam_game_data():
     url = 'https://api.steampowered.com/ISteamApps/GetAppList/v2/'
     response = requests.get(url)
     
     if response.status_code == 200:
-        return response.json()['applist']['apps']
+        return [{"appid": game["appid"], "name": game["name"]} for game in response.json()['applist']['apps']]
     else:
         logging.error(f"Error fetching data from Steam API: {response.status_code}")
         raise Exception(f"Error fetching data from Steam API: {response.status_code}")
 
 def save_to_json(data, file_path):
-    with open(file_path, 'w', encoding = 'utf-8') as json_file:
-        json.dump(data, json_file, indent = 4)
+    if os.path.exists(file_path):
+        with open(file_path, 'r+', encoding = 'utf-8') as json_file:
+            content = json_file.read().strip()
+            if content == "[]" or not content:
+                json_file.seek(0)
+                json_file.truncate()
+                json.dump(data, json_file, indent = 4)
+            else:
+                json_file.seek(0, os.SEEK_END)
+                json_file.seek(json_file.tell() - 1, os.SEEK_SET)
+                json_file.truncate()
+                
+                data_str = json.dumps(data, indent = 4)[1:-1]
+                
+                json_file.write(", ")
+                json_file.write(data_str)
+                json_file.write("\n]")
+    else:
+        with open(file_path, 'w', encoding = 'utf-8') as json_file:
+            json.dump(data, json_file, indent = 4)
+    
     logging.info(f"Data saved to {file_path}")
 
 def compare_game_lists(base_data, new_data):
@@ -78,7 +97,7 @@ def main():
         for game in missing_games:
             last_update_file.write(f"- {game['name']}\n")
         
-        last_update_file.write("------------End of update------------\n")
+        last_update_file.write("------------End of update------------\n\n")
     
     logging.info("Updated timestamp of the last database update with new games information.")
     logging.info("------------End of update------------\n")

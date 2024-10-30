@@ -21,21 +21,39 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
     os.makedirs(base_path + "/Scripts/Logs/Download")
 
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-log_file_path = os.path.join(base_path + "/Scripts/Logs/Download", f'steam_app_processing_{current_time}.log')
+log_file_path = os.path.join(base_path + "/Scripts/Logs/Download", f'downloaded_games_{current_time}.log')
+error_log_path = os.path.join(base_path + "/Scripts/Logs/Download", 'error_id.log')
 file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_game_list_to_update.json')
 file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part11.json')
 
-logging.basicConfig(level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
+logging.basicConfig(level = logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
+
+error_logger = logging.getLogger('error_logger')
+error_logger.setLevel(logging.ERROR)
+error_handler = logging.FileHandler(error_log_path, mode = 'a')
+error_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+error_logger.addHandler(error_handler)
 
 def get_app_details(app_id):
     url = f'http://store.steampowered.com/api/appdetails?appids={app_id}'
     try:
         response = requests.get(url)
         app_data = response.json()
+
         if app_data[str(app_id)]['success']:
             return app_data[str(app_id)]['data']
         else:
             return None
+
+    except TypeError as e:
+        if "'NoneType' object is not subscriptable" in str(e):
+            error_logger.error(f'Error while fetching data for app_id: {app_id} - {e}')
+            error_logger.warning(f'Failed to fetch details for app_id: {app_id}')
+            logging.info(f'Error for app_id: {app_id} has been logged in error_id.log')
+        else:
+            logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
+        return None
+
     except Exception as e:
         logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
@@ -56,7 +74,7 @@ def clean_json_data(json_data):
 
 def save_remaining_games(game_list, processed_games, file_path_list):
     remaining_games = [game for game in game_list if game not in processed_games]
-    with open(file_path_list, 'w', encoding='utf-8') as file:
+    with open(file_path_list, 'w', encoding = 'utf-8') as file:
         json.dump(remaining_games, file, ensure_ascii = False, indent = 4)
 
 def download_steam_games(max_iterations = 80000):

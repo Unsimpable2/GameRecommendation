@@ -19,7 +19,7 @@ def get_app_id_by_name(game_name):
     print(f"Game '{game_name}' not found in the database.")
     return None
 
-def active_players_by_name(game_name):
+def active_players(game_name):
     app_id = get_app_id_by_name(game_name)
 
     if app_id:
@@ -37,4 +37,4 @@ def active_players_by_name(game_name):
         print(f"Game '{game_name}' not found in the database.")
 
 
-active_players_by_name("The Witcher 3 REDkit")
+active_players("The Witcher 3 REDkit")
