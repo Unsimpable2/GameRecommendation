@@ -3,7 +3,7 @@ import os
 import requests
 
 def get_app_id_by_name(game_name):
-    file_path = os.path.join('../MasterDeg/SteamData/SteamGames/', 'steam_games_processed.json')
+    file_path = os.path.join('../MasterDeg/Data/IDList', 'steam_game_list_base.json')
 
     if not os.path.exists(file_path):
         print(f"Error: The file '{file_path}' does not exist.")
@@ -13,8 +13,8 @@ def get_app_id_by_name(game_name):
         games_data = json.load(file)
 
         for game in games_data:
-            if game_name.lower() == game['Game Name'].lower():
-                return game['App ID']
+            if game_name.lower() == game['name'].lower():
+                return game['appid']
 
     print(f"Game '{game_name}' not found in the database.")
     return None

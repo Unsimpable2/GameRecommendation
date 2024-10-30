@@ -2,8 +2,8 @@ import shutil
 import os
 
 def backup_database():
-    source_file = '../MasterDeg/SteamData/SteamGames/Games/steam_games_processed_part10.json'
-    backup_dir = '../MasterDeg/SteamData/SteamGames/Backup'
+    source_file = '../MasterDeg/Data/GamesData/steam_games_processed_part10.json'
+    backup_dir = '../MasterDeg/Data/Backup'
     backup_file = os.path.join(backup_dir, 'steam_games_processed_part10_backup.json')
 
     os.makedirs(backup_dir, exist_ok = True)

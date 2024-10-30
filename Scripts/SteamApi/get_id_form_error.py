@@ -22,9 +22,11 @@ def extract_app_ids(log_file_path, output_json_path):
                 app_ids.append({"appid": int(app_id_error)})
     
     with open(output_json_path, 'w') as json_file:
-        json.dump(app_ids, json_file, indent=4)
-        
-log_file_path = '../MasterDeg/SteamData/Scripts/steam_app_processing.log'
-output_json_path = '../MasterDeg/SteamData/Scripts/id_log_error.json'
+        json.dump(app_ids, json_file, indent = 4)
+
+    open(log_file_path, 'w').close()
+
+log_file_path = '../MasterDeg/Scripts/Logs/Download/error_id.log'
+output_json_path = '../MasterDeg/Data/IDList/id_log_error.json'
 
 extract_app_ids(log_file_path, output_json_path)

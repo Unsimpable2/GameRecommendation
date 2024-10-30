@@ -1,0 +1,24 @@
+2024-10-30 12:28:36,042 - INFO - Starting the update process.
+2024-10-30 12:28:37,442 - INFO - Data saved to ../MasterDeg/Data/IDList/steam_game_list_new.json
+2024-10-30 12:28:37,665 - INFO - Data saved to ../MasterDeg/Data/IDList/steam_game_list_to_update.json
+2024-10-30 12:28:37,667 - INFO - Removed old base file: ../MasterDeg/Data/IDList/steam_game_list_base.json
+2024-10-30 12:28:37,667 - INFO - Updated base file: ../MasterDeg/Data/IDList/steam_game_list_base.json
+2024-10-30 12:28:37,669 - INFO - Updated timestamp of the last database update with new games information.
+2024-10-30 12:28:37,701 - INFO - ------------End of update------------
+
+2024-10-30 13:02:40,662 - INFO - Starting the update process.
+2024-10-30 13:02:41,909 - INFO - Data saved to ../MasterDeg/Data/IDList/steam_game_list_new.json
+2024-10-30 13:02:42,048 - INFO - Data saved to ../MasterDeg/Data/IDList/steam_game_list_to_update.json
+2024-10-30 13:02:42,049 - INFO - Removed old base file: ../MasterDeg/Data/IDList/steam_game_list_base.json
+2024-10-30 13:02:42,050 - INFO - Updated base file: ../MasterDeg/Data/IDList/steam_game_list_base.json
+2024-10-30 13:02:42,051 - INFO - Updated timestamp of the last database update with new games information.
+2024-10-30 13:02:42,051 - INFO - ------------End of update------------
+
+2024-10-30 13:06:44,335 - INFO - Starting the update process.
+2024-10-30 13:06:45,512 - INFO - Data saved to ../MasterDeg/Data/IDList/steam_game_list_new.json
+2024-10-30 13:06:45,697 - INFO - Data saved to ../MasterDeg/Data/IDList/steam_game_list_to_update.json
+2024-10-30 13:06:45,698 - INFO - Removed old base file: ../MasterDeg/Data/IDList/steam_game_list_base.json
+2024-10-30 13:06:45,699 - INFO - Updated base file: ../MasterDeg/Data/IDList/steam_game_list_base.json
+2024-10-30 13:06:45,705 - INFO - Updated timestamp of the last database update with new games information.
+2024-10-30 13:06:45,705 - INFO - ------------End of update------------
+

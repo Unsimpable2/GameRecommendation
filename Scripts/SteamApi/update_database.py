@@ -4,16 +4,17 @@ import requests
 import logging
 from datetime import datetime
 
+base_path = '../MasterDeg'
 
-#TO CHANGE AFTER FULL BASE IS DOWNLOADED!!!!!!!!!!!!!!!!!!!!!!!!1
+data_list_path = '/Data/IDList'
+log_update_path = '/Scripts/Logs/Update'
 
+base_file_path = base_path + data_list_path + '/SteamGamesBase/steam_game_list_base.json'
+new_file_path = base_path + data_list_path + '/SteamGamesBase/steam_game_list_new.json'
+update_file_path = base_path + data_list_path + '/steam_game_list_to_update.json'
+last_update_file_path = base_path + log_update_path + '/last_database_update.txt'
 
-logging.basicConfig(filename = 'steam_game_updater.log', level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s')
-
-base_file_path = 'steam_game_list_base.json'
-new_file_path = 'steam_game_list_new.json'
-update_file_path = 'steam_game_list_to_update.json'
-last_update_file_path = 'last_database_update.txt'
+logging.basicConfig(filename = base_path + log_update_path + '/steam_game_updater.log', level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s')
 
 def fetch_steam_game_data():
     url = 'https://api.steampowered.com/ISteamApps/GetAppList/v2/'
@@ -72,14 +73,15 @@ def main():
 
     with open(last_update_file_path, 'a', encoding = 'utf-8') as last_update_file:
         last_update_file.write(f"Last Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        last_update_file.write(f"Games Added: {len(missing_games)}\n")
-        last_update_file.write("Game Names:\n")
+        last_update_file.write(f"Elements Added: {len(missing_games)}\n")
+        last_update_file.write("Names:\n")
         for game in missing_games:
             last_update_file.write(f"- {game['name']}\n")
         
-        last_update_file.write("---------------------------------------\n")
+        last_update_file.write("------------End of update------------\n")
     
     logging.info("Updated timestamp of the last database update with new games information.")
+    logging.info("------------End of update------------\n")
 
 if __name__ == "__main__":
     try:
