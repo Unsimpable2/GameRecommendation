@@ -3,7 +3,7 @@ import os
 import requests
 
 def get_app_id_by_name(game_name):
-    file_path = os.path.join('../MasterDeg/Data/IDList', 'steam_game_list_base.json')
+    file_path = os.path.join('../GameRecommendation/Data/IDList', 'steam_game_list_base.json')
 
     if not os.path.exists(file_path):
         print(f"Error: The file '{file_path}' does not exist.")
