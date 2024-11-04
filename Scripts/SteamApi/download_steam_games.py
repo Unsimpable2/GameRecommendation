@@ -6,9 +6,12 @@ import os
 import signal
 from datetime import datetime
 import re
+from langdetect import detect, DetectorFactory
+
+DetectorFactory.seed = 0
 
 stop_requested = False
-base_path = '../MasterDeg'
+base_path = '../GameRecommendation'
 
 def signal_handler(sig, frame):
     global stop_requested
@@ -23,10 +26,10 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 log_file_path = os.path.join(base_path + "/Scripts/Logs/Download", f'downloaded_games_{current_time}.log')
 error_log_path = os.path.join(base_path + "/Scripts/Logs/Download", 'error_id.log')
-file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_game_list_to_update.json')
-file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part11.json')
+file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_games_processed_part1_to_update.json')
+file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part1.json')
 
-logging.basicConfig(level = logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
+logging.basicConfig(level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
 
 error_logger = logging.getLogger('error_logger')
 error_logger.setLevel(logging.ERROR)
@@ -35,7 +38,7 @@ error_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(me
 error_logger.addHandler(error_handler)
 
 def get_app_details(app_id):
-    url = f'http://store.steampowered.com/api/appdetails?appids={app_id}'
+    url = f'http://store.steampowered.com/api/appdetails?appids={app_id}&l=english'
     try:
         response = requests.get(url)
         app_data = response.json()
@@ -60,7 +63,8 @@ def get_app_details(app_id):
 
 def remove_html_tags(text):
     clean = re.compile('<.*?>')
-    return re.sub(clean, '', text)
+    text_without_html = re.sub(clean, ' ', text)
+    return re.sub(r'\s+', ' ', text_without_html).strip()
 
 def clean_json_data(json_data):
     if isinstance(json_data, dict):
@@ -72,12 +76,19 @@ def clean_json_data(json_data):
     else:
         return json_data
 
+
 def save_remaining_games(game_list, processed_games, file_path_list):
     remaining_games = [game for game in game_list if game not in processed_games]
     with open(file_path_list, 'w', encoding = 'utf-8') as file:
         json.dump(remaining_games, file, ensure_ascii = False, indent = 4)
 
-def download_steam_games(max_iterations = 80000):
+def is_english(text):
+    try:
+        return detect(text) == 'en'
+    except Exception:
+        return False
+
+def download_steam_games(max_iterations = 90000):
     processed_games = []
     iteration_count = 0
 
@@ -92,7 +103,7 @@ def download_steam_games(max_iterations = 80000):
 
     for game in game_list:
         if iteration_count >= max_iterations or stop_requested:
-            logging.info("Stopping process after current iteration.")
+            logging.info("Stopping process after {max_iterations} iteration to avoid IP block from SteamApi")
             break
 
         app_id = game['appid']
@@ -102,12 +113,20 @@ def download_steam_games(max_iterations = 80000):
             if details.get('type') == 'game':
                 logging.info(f"Processed game: {details.get('name', 'No name')} (app_id: {app_id})")
 
+                detailed_description = details.get('detailed_description', '')
+                short_description = details.get('short_description', '')
+                about_game = details.get('about_the_game', '')
+
+                if not (is_english(detailed_description) or is_english(short_description) or is_english(about_game)):
+                    logging.info(f"Skipping app_id: {app_id} because description is not in English.")
+                    processed_games.append(game)
+                    save_remaining_games(game_list, processed_games, file_path_list)
+                    iteration_count += 1
+                    continue
+
                 is_free = details.get('is_free', False)
                 price_overview = details.get('price_overview', {})
                 price = price_overview.get('final_formatted', 'N/A') if price_overview else 'N/A'
-                detailed_description = details.get('detailed_description', 'No description')
-                short_description = details.get('short_description', 'No description')
-                about_game = details.get('about_the_game', 'No description')
                 pc_requirements_data = details.get('pc_requirements', [])
                 if isinstance(pc_requirements_data, list) and pc_requirements_data:
                     pc_requirements = pc_requirements_data[0]
@@ -117,13 +136,17 @@ def download_steam_games(max_iterations = 80000):
                     pc_requirements = {}
                 minimal_requirements = pc_requirements.get('minimum', 'No information')
                 recommended_requirements = pc_requirements.get('recommended', 'No information')
+                metacritic_score = details.get('metacritic', {}).get('score', 'No Information')
+                recommendations_total = details.get('recommendations', {}).get('total', 'No Information')
+                release_date_info = details.get('release_date', {})
+                release_date = release_date_info.get('date', 'No Information') if release_date_info else 'No Information'
 
                 game_details = {
                     'App ID': app_id,
                     'Game Name': details['name'],
                     'Type': details['type'],
-                    'Developer': details.get('developers', ['No information']),
-                    'Publisher': details.get('publishers', ['No information']),
+                    'Developer': details.get('developers', ['No Information']),
+                    'Publisher': details.get('publishers', ['No Information']),
                     'Is Free': is_free,
                     'Price': price,
                     'Age Rating': details.get('required_age', 'N/A'),
@@ -132,8 +155,11 @@ def download_steam_games(max_iterations = 80000):
                     'About the Game': about_game,
                     'Minimum Requirements': minimal_requirements,
                     'Recommended Requirements': recommended_requirements,
+                    'Metacritic': metacritic_score,
                     'Categories': details.get('categories', []),
-                    'Genres': details.get('genres', [])
+                    'Genres': details.get('genres', []),
+                    'Recommendations': recommendations_total,
+                    'Release Date': release_date
                 }
 
                 cleaned_game_details = clean_json_data(game_details)

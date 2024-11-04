@@ -2,8 +2,10 @@ import re
 import json
 import os
 
-def get_id_from_error(log_file_path = '../MasterDeg/Scripts/Logs/Download/error_id.log', output_json_path = '../MasterDeg/Data/IDList/steam_game_list_to_update.json'):
+def get_id_from_error():
     app_ids = []
+    log_file_path = '../GameRecommendation/Scripts/Logs/Download/error_id.log'
+    output_json_path = '../GameRecommendation/Data/IDList/steam_game_list_to_update.json'
     
     with open(log_file_path, 'r', encoding = 'utf-8') as log_file:
         lines = log_file.readlines()
