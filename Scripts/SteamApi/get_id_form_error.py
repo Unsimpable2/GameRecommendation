@@ -6,12 +6,14 @@ def get_id_from_error():
     app_ids = []
     log_file_path = '../GameRecommendation/Scripts/Logs/Download/error_id.log'
     output_json_path = '../GameRecommendation/Data/IDList/steam_game_list_to_update.json'
+    error_prompt = 'ERROR - Error while fetching data for app_id: '
+    warning_prompt = 'WARNING - Failed to fetch details for app_id: '
     
     with open(log_file_path, 'r', encoding = 'utf-8') as log_file:
         lines = log_file.readlines()
     
     for line in lines:
-        error_match = re.search(r'ERROR - Error while fetching data for app_id: (\d+)', line.strip())
+        error_match = re.search(error_prompt + r'(\d+)', line.strip()) or re.search(warning_prompt +  r'(\d+)', line.strip())
         
         if error_match:
             app_id_error = error_match.group(1)
@@ -39,5 +41,6 @@ def get_id_from_error():
             json.dump(app_ids, json_file, indent = 4)
 
     open(log_file_path, 'w').close()
+    print("All error was processed and added to steam_game_list_to_update.json file")
 
 get_id_from_error()
