@@ -15,7 +15,6 @@ base_path = '../GameRecommendation'
 
 def signal_handler(sig, frame):
     global stop_requested
-    logging.info('Stop requested. Finishing current iteration before exiting...')
     stop_requested = True
 
 signal.signal(signal.SIGINT, signal_handler)
@@ -26,8 +25,8 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 log_file_path = os.path.join(base_path + "/Scripts/Logs/Download", f'downloaded_games_{current_time}.log')
 error_log_path = os.path.join(base_path + "/Scripts/Logs/Download", 'error_id.log')
-file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_games_processed_part1_to_update.json')
-file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part1.json')
+file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_game_list_to_update.json')
+file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part5.json')
 
 logging.basicConfig(level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
 
@@ -51,7 +50,6 @@ def get_app_details(app_id):
     except TypeError as e:
         if "'NoneType' object is not subscriptable" in str(e):
             error_logger.error(f'Error while fetching data for app_id: {app_id} - {e}')
-            error_logger.warning(f'Failed to fetch details for app_id: {app_id}')
             logging.info(f'Error for app_id: {app_id} has been logged in error_id.log')
         else:
             logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
@@ -103,7 +101,10 @@ def download_steam_games(max_iterations = 90000):
 
     for game in game_list:
         if iteration_count >= max_iterations or stop_requested:
-            logging.info("Stopping process after {max_iterations} iteration to avoid IP block from SteamApi")
+            if stop_requested:
+                logging.info('Stop requested. Finishing current iteration before exiting...')
+            else:
+                logging.info(f"Stopping process after {max_iterations} iteration to avoid IP block from SteamApi")
             break
 
         app_id = game['appid']
