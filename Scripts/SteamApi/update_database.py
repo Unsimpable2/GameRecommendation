@@ -6,7 +6,7 @@ from datetime import datetime
 
 base_path = '../GameRecommendation'
 data_list_path = '/Data/IDList'
-log_update_path = '/Scripts/Logs/Update'
+log_update_path = '/Logs/Update'
 
 base_file_path = base_path + data_list_path + '/BaseList/steam_game_list_base.json'
 new_file_path = base_path + data_list_path + '/BaseList/steam_game_list_new.json'
