@@ -25,8 +25,8 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 log_file_path = os.path.join(base_path + "/Logs/Download", f'downloaded_games_{current_time}.log')
 error_log_path = os.path.join(base_path + "/Logs/Download", 'error_id.log')
-file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_game_list_to_update.json')
-file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part6.json')
+file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_games_processed_part7_to_update.json')
+file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part7.json')
 
 logging.basicConfig(level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
 
