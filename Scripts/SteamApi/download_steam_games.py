@@ -4,8 +4,9 @@ import time
 import logging
 import os
 import signal
-from datetime import datetime
 import re
+from datetime import datetime
+from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
 
 DetectorFactory.seed = 0
@@ -25,8 +26,8 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 log_file_path = os.path.join(base_path + "/Logs/Download", f'downloaded_games_{current_time}.log')
 error_log_path = os.path.join(base_path + "/Logs/Download", 'error_id.log')
-file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_games_processed_part7_to_update.json')
-file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part7.json')
+file_path_list = os.path.join(base_path + "/Data/IDList", 'test.json')
+file_path_processed = os.path.join(base_path + "/Data/GamesData", 'test_tags.json')
 
 logging.basicConfig(level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
 
@@ -59,9 +60,35 @@ def get_app_details(app_id):
         logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
 
+def get_steam_tags(app_id):
+    url = f"https://store.steampowered.com/app/{app_id}/?l=english"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+    }
+    response = requests.get(url, headers = headers)
+
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        tags = [tag.text.strip() for tag in soup.select('.app_tag')]
+
+        if tags and tags[-1] == '+':
+            tags.pop()
+
+        return tags if tags else ["No tags for game"]
+    else:
+        logging.warning(f"Failed to access the Steam page for app_id: {app_id}. Status: {response.status_code}")
+        return ["No tags for game because of error"]
+
+import re
+
 def remove_html_tags(text):
     clean = re.compile('<.*?>')
     text_without_html = re.sub(clean, ' ', text)
+
+    patterns_to_remove = [r'&quot;', r'!-&quot;', r'\?&quot;', r'!-&quot;', r'&amp;', r'&gt;', r'&lt;']
+    for pattern in patterns_to_remove:
+        text_without_html = re.sub(pattern, '', text_without_html)
+
     return re.sub(r'\s+', ' ', text_without_html).strip()
 
 def clean_json_data(json_data):
@@ -86,7 +113,7 @@ def is_english(text):
     except Exception:
         return False
 
-def download_steam_games(max_iterations = 90000):
+def download_steam_games(max_iterations=90000):
     processed_games = []
     iteration_count = 0
 
@@ -129,18 +156,15 @@ def download_steam_games(max_iterations = 90000):
                 price_overview = details.get('price_overview', {})
                 price = price_overview.get('final_formatted', 'N/A') if price_overview else 'N/A'
                 pc_requirements_data = details.get('pc_requirements', [])
-                if isinstance(pc_requirements_data, list) and pc_requirements_data:
-                    pc_requirements = pc_requirements_data[0]
-                elif isinstance(pc_requirements_data, dict):
-                    pc_requirements = pc_requirements_data
-                else:
-                    pc_requirements = {}
+                pc_requirements = pc_requirements_data[0] if isinstance(pc_requirements_data, list) and pc_requirements_data else pc_requirements_data
                 minimal_requirements = pc_requirements.get('minimum', 'No information')
                 recommended_requirements = pc_requirements.get('recommended', 'No information')
                 metacritic_score = details.get('metacritic', {}).get('score', 'No Information')
                 recommendations_total = details.get('recommendations', {}).get('total', 'No Information')
                 release_date_info = details.get('release_date', {})
                 release_date = release_date_info.get('date', 'No Information') if release_date_info else 'No Information'
+
+                tags = get_steam_tags(app_id)
 
                 game_details = {
                     'App ID': app_id,
@@ -158,13 +182,13 @@ def download_steam_games(max_iterations = 90000):
                     'Recommended Requirements': recommended_requirements,
                     'Metacritic': metacritic_score,
                     'Categories': details.get('categories', []),
+                    'Tags': tags,
                     'Genres': details.get('genres', []),
                     'Recommendations': recommendations_total,
                     'Release Date': release_date
                 }
 
                 cleaned_game_details = clean_json_data(game_details)
-
                 existing_games.append(cleaned_game_details)
 
                 with open(file_path_processed, 'w', encoding = 'utf-8') as file:
