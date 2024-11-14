@@ -26,8 +26,8 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 log_file_path = os.path.join(base_path + "/Logs/Download", f'downloaded_games_{current_time}.log')
 error_log_path = os.path.join(base_path + "/Logs/Download", 'error_id.log')
-file_path_list = os.path.join(base_path + "/Data/IDList", 'test.json')
-file_path_processed = os.path.join(base_path + "/Data/GamesData", 'test_tags.json')
+file_path_list = os.path.join(base_path + "/Data/IDList", 'steam_games_processed_part2_to_update.json')
+file_path_processed = os.path.join(base_path + "/Data/GamesData", 'steam_games_processed_part2.json')
 
 logging.basicConfig(level = logging.INFO, format = '%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
 
@@ -157,8 +157,14 @@ def download_steam_games(max_iterations=90000):
                 price = price_overview.get('final_formatted', 'N/A') if price_overview else 'N/A'
                 pc_requirements_data = details.get('pc_requirements', [])
                 pc_requirements = pc_requirements_data[0] if isinstance(pc_requirements_data, list) and pc_requirements_data else pc_requirements_data
-                minimal_requirements = pc_requirements.get('minimum', 'No information')
-                recommended_requirements = pc_requirements.get('recommended', 'No information')
+                
+                if isinstance(pc_requirements, dict):
+                    minimal_requirements = pc_requirements.get('minimum', 'No information')
+                    recommended_requirements = pc_requirements.get('recommended', 'No information')
+                else:
+                    minimal_requirements = 'No information'
+                    recommended_requirements = 'No information'
+                
                 metacritic_score = details.get('metacritic', {}).get('score', 'No Information')
                 recommendations_total = details.get('recommendations', {}).get('total', 'No Information')
                 release_date_info = details.get('release_date', {})
