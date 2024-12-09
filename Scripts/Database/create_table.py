@@ -1,6 +1,5 @@
 import psycopg
 
-
 host = "localhost"
 port = "1234"
 dbname = "SteamGamesDB"
