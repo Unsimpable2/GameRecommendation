@@ -1,0 +1,8 @@
+2024-12-04 12:00:44,438 - INFO - Starting the update process.
+2024-12-04 12:00:45,682 - INFO - Data saved to ../GameRecommendation/Data/IDList/BaseList/steam_game_list_new.json
+2024-12-04 12:00:45,869 - INFO - Data saved to ../GameRecommendation/Data/IDList/steam_game_list_to_update.json
+2024-12-04 12:00:45,871 - INFO - Removed old base file: ../GameRecommendation/Data/IDList/BaseList/steam_game_list_base.json
+2024-12-04 12:00:45,872 - INFO - Updated base file: ../GameRecommendation/Data/IDList/BaseList/steam_game_list_base.json
+2024-12-04 12:00:45,888 - INFO - Updated timestamp of the last database update with new games information.
+2024-12-04 12:00:45,888 - INFO - ------------End of update------------
+

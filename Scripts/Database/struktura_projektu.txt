@@ -15,9 +15,3 @@ CREATE TABLE games (
     categories JSONB,
     genres JSONB
 );
-
-CREATE TABLE people (
-    id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL,
-    age INTEGER NOT NULL
-);
