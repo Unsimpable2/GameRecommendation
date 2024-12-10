@@ -4,7 +4,7 @@ import requests
 from typing import Optional
 
 def get_app_id_by_name(game_name: str) -> Optional[int]:
-    file_path: str = os.path.join('../GameRecommendation/Data/IDList/BaseList', 'steam_game_list_base.json')
+    file_path: str = os.path.join('../GameRecommendation/Data/BaseList', 'steam_game_list_base.json')
 
     if not os.path.exists(file_path):
         print(f"Error: The file '{file_path}' does not exist.")

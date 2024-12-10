@@ -6,12 +6,12 @@ from datetime import datetime
 from typing import List, Dict, Any, Union
 
 base_path: str = '../GameRecommendation'
-data_list_path: str = '/Data/IDList'
+data_list_path: str = '/Data'
 log_update_path: str = '/Logs/Update'
 
 base_file_path: str = base_path + data_list_path + '/BaseList/steam_game_list_base.json'
 new_file_path: str = base_path + data_list_path + '/BaseList/steam_game_list_new.json'
-update_file_path: str = base_path + data_list_path + '/steam_game_list_to_update.json'
+update_file_path: str = base_path + data_list_path + '/DownloadList/steam_game_list_to_update.json'
 last_update_file_path: str = base_path + log_update_path + '/last_database_update.txt'
 
 logging.basicConfig(

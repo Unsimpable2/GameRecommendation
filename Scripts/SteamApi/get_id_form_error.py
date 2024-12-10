@@ -6,7 +6,8 @@ from typing import List, Dict
 def get_id_from_error() -> None:
     app_ids: List[Dict[str, int]] = []
     log_file_path: str = '../GameRecommendation/Logs/Download/error_log_late.log'
-    output_json_path: str = '../GameRecommendation/Data/IDList/steam_game_list_to_update.json'
+    output_json_path: str = '../GameRecommendation/Data/DownloadList/steam_game_list_to_update.json'
+    
     error_prompt: str = 'ERROR - Error while fetching data for app_id: '
     warning_prompt: str = 'WARNING - Failed to fetch details for app_id: '
     
