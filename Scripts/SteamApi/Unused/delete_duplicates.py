@@ -8,8 +8,8 @@ def make_hashable(item: Any) -> Union[Tuple, Any]:
         return tuple(make_hashable(elem) for elem in item)
     return item
 
-def delete_duplicates(file_name: str) -> None:
-    file_path: str = f'../GameRecommendation/Data/GamesData/{file_name}'
+def delete_duplicates(nr: str) -> None:
+    file_path: str = f'../GameRecommendation/Data/GamesData/steam_games_processed_part{nr}.json'
     with open(file_path, 'r', encoding = 'utf-8') as f:
         data: List[Dict[str, Any]] = json.load(f)
 
@@ -28,4 +28,4 @@ def delete_duplicates(file_name: str) -> None:
 
     print("Duplicates have been removed.")
 
-delete_duplicates('steam_games_processed_part7.json')
+delete_duplicates(10)
