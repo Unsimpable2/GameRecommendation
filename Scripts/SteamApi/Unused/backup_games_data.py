@@ -1,12 +1,11 @@
-import shutil
 import os
-from typing import NoReturn
+import shutil
 
-def backup_games_data(start: int, end: int) -> NoReturn:
+def backup_games_data(start, end):
     for i in range(start, end + 1):
-        source_file: str = f'../GameRecommendation/Data/GamesData/steam_games_processed_part{i}.json'
-        backup_dir: str = '../GameRecommendation/Data/Backup'
-        backup_file: str = os.path.join(backup_dir, f'steam_games_processed_part{i}_backup.json')
+        source_file = f'../GameRecommendation/Data/GamesData/steam_games_processed_part{i}.json'
+        backup_dir = '../GameRecommendation/Data/Backup'
+        backup_file = os.path.join(backup_dir, f'steam_games_processed_part{i}_backup.json')
 
         os.makedirs(backup_dir, exist_ok = True)
 
