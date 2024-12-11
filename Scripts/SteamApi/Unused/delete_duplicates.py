@@ -1,23 +1,22 @@
 import json
-from typing import Any, Union, Tuple, List, Dict
 
-def make_hashable(item: Any) -> Union[Tuple, Any]:
+def make_hashable(item):
     if isinstance(item, dict):
         return tuple((key, make_hashable(value)) for key, value in item.items())
     elif isinstance(item, list):
         return tuple(make_hashable(elem) for elem in item)
     return item
 
-def delete_duplicates(nr: str) -> None:
-    file_path: str = f'../GameRecommendation/Data/GamesData/steam_games_processed_part{nr}.json'
+def delete_duplicates(nr):
+    file_path = f'../GameRecommendation/Data/GamesData/steam_games_processed_part{nr}.json'
     with open(file_path, 'r', encoding = 'utf-8') as f:
-        data: List[Dict[str, Any]] = json.load(f)
+        data = json.load(f)
 
-    unique_data: List[Dict[str, Any]] = []
-    seen_sections: set = set()
+    unique_data = []
+    seen_sections = set()
 
     for entry in data:
-        entry_tuple: Tuple = make_hashable(entry)
+        entry_tuple = make_hashable(entry)
         
         if entry_tuple not in seen_sections:
             seen_sections.add(entry_tuple)

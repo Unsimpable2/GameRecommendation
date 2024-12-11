@@ -1,18 +1,17 @@
 import re
-import json
 import os
-from typing import List, Dict
+import json
 
-def get_id_from_error() -> None:
-    app_ids: List[Dict[str, int]] = []
-    log_file_path: str = '../GameRecommendation/Logs/Download/error_log_late.log'
-    output_json_path: str = '../GameRecommendation/Data/DownloadList/steam_game_list_to_update.json'
+def get_id_from_error():
+    app_ids = []
+    log_file_path = '../GameRecommendation/Logs/Download/error_log_late.log'
+    output_json_path = '../GameRecommendation/Data/DownloadList/steam_game_list_to_update.json'
     
-    error_prompt: str = 'ERROR - Error while fetching data for app_id: '
-    warning_prompt: str = 'WARNING - Failed to fetch details for app_id: '
+    error_prompt = 'ERROR - Error while fetching data for app_id: '
+    warning_prompt = 'WARNING - Failed to fetch details for app_id: '
     
     with open(log_file_path, 'r', encoding = 'utf-8') as log_file:
-        lines: List[str] = log_file.readlines()
+        lines = log_file.readlines()
     
     for line in lines:
         error_match = (
@@ -21,12 +20,12 @@ def get_id_from_error() -> None:
         )
         
         if error_match:
-            app_id_error: str = error_match.group(1)
+            app_id_error = error_match.group(1)
             app_ids.append({"appid": int(app_id_error)})
 
     if os.path.exists(output_json_path):
         with open(output_json_path, 'r+', encoding = 'utf-8') as json_file:
-            content: str = json_file.read().strip()
+            content = json_file.read().strip()
             if content == "[]" or not content:
                 json_file.seek(0)
                 json_file.truncate()
@@ -36,7 +35,7 @@ def get_id_from_error() -> None:
                 json_file.seek(json_file.tell() - 1, os.SEEK_SET)
                 json_file.truncate()
                 
-                app_ids_str: str = json.dumps(app_ids, indent = 4)[1:-1]
+                app_ids_str = json.dumps(app_ids, indent = 4)[1:-1]
                 
                 json_file.write(", ")
                 json_file.write(app_ids_str)

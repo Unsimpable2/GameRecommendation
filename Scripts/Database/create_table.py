@@ -19,8 +19,9 @@ def create_table():
         cursor = connection.cursor()
 
         create_table_query = """
-        CREATE TABLE games (
-            app_id INTEGER PRIMARY KEY,
+        CREATE TABLE IF NOT EXISTS games (
+            id SERIAL PRIMARY KEY,
+            app_id INTEGER NOT NULL,
             game_name TEXT,
             type TEXT,
             developer TEXT[],
@@ -34,7 +35,10 @@ def create_table():
             minimum_requirements TEXT,
             recommended_requirements TEXT,
             categories JSONB,
-            genres JSONB
+            tags JSONB,
+            genres JSONB,
+            recommendations INTEGER,
+            release_date DATE
         );
         """
 
@@ -42,15 +46,15 @@ def create_table():
 
         connection.commit()
 
-        print("Tabela 'people' została utworzona pomyślnie.")
+        print("The 'games' table has been created successfully.")
 
     except (Exception, psycopg.Error) as error:
-        print(f"Błąd podczas wykonywania zapytania: {error}")
+        print(f"Error while executing the query: {error}")
 
     finally:
         if connection:
             cursor.close()
             connection.close()
-            print("Połączenie z bazą danych zostało zamknięte.")
+            print("The connection to the database has been closed.")
 
 create_table()
