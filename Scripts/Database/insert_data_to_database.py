@@ -12,13 +12,13 @@ user = "postgres"
 password = "admin"
 
 log_dir = '../GameRecommendation/Logs/Database/'
-os.makedirs(log_dir, exist_ok=True)
+os.makedirs(log_dir, exist_ok = True)
 
 logging.basicConfig(
     filename=os.path.join(log_dir, 'data_import.log'),
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    filemode='a'
+    level = logging.INFO,
+    format = '%(asctime)s - %(levelname)s - %(message)s',
+    filemode = 'a'
 )
 
 def parse_release_date(release_date):
@@ -41,11 +41,11 @@ def validate_integer(value):
 def connect_to_postgres():
     try:
         connection = psycopg2.connect(
-            host=host,
-            port=port,
-            dbname=dbname,
-            user=user,
-            password=password
+            host = host,
+            port = port,
+            dbname = dbname,
+            user = user,
+            password = password
         )
 
         cursor = connection.cursor()
@@ -75,7 +75,7 @@ def insert_data_from_json(json_file):
         return
 
     try:
-        with open(json_file, 'r', encoding='utf-8') as f:
+        with open(json_file, 'r', encoding = 'utf-8') as f:
             data = json.load(f)
         logging.info(f"Successfully loaded JSON data from file: {json_file}")
     except Exception as e:
