@@ -21,7 +21,7 @@ def create_table():
         create_table_query = """
         CREATE TABLE IF NOT EXISTS games (
             id SERIAL PRIMARY KEY,
-            app_id INTEGER NOT NULL,
+            app_id INTEGER NOT NULL UNIQUE,
             game_name TEXT,
             type TEXT,
             developer TEXT[],
@@ -39,7 +39,7 @@ def create_table():
             genres JSONB,
             recommendations INTEGER,
             release_date DATE
-        );
+            );
         """
 
         cursor.execute(create_table_query)

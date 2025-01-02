@@ -151,4 +151,4 @@ def insert_data_from_json(json_file):
         logging.warning(f"Import completed with {success_count} successes and {error_count} errors.")
         logging.info(f"------------End of data importing------------\n")
 
-insert_data_from_json('test.json')
+insert_data_from_json('steam_games_processed_part10.json')
