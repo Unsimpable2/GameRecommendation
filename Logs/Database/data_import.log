@@ -1,0 +1,9 @@
+2025-01-02 19:10:12,743 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
+2025-01-02 19:10:12,746 - INFO - Successfully loaded JSON data from file: ../GameRecommendation/Data/GamesData\steam_games_processed_part11.json
+2025-01-02 19:10:12,762 - ERROR - Invalid date format: To be announced
+2025-01-02 19:10:12,773 - ERROR - Invalid date format: To be announced
+2025-01-02 19:10:12,777 - ERROR - Invalid date format: To be announced
+2025-01-02 19:10:12,777 - WARNING - Non-parsable release date: 
+2025-01-02 19:10:12,781 - INFO - Successfully imported all 48 games from the JSON file.
+2025-01-02 19:10:12,781 - INFO - ------------End of data importing------------
+
