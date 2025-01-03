@@ -31,14 +31,11 @@
 2025-01-02 19:22:42,266 - INFO - Removed old base file: ../GameRecommendation/Data/BaseList/steam_game_list_base.json
 2025-01-02 19:22:42,267 - INFO - Updated base file: ../GameRecommendation/Data/BaseList/steam_game_list_base.json
 2025-01-02 19:22:42,267 - INFO - Updated timestamp of the last database update with new games information.
-2025-01-02 19:22:42,267 - INFO - ------------End of update------------
 
-2025-01-02 19:24:55,392 - INFO - Starting the update process.
-2025-01-02 19:24:56,681 - INFO - Data saved to ../GameRecommendation/Data/BaseList/steam_game_list_new.json
-2025-01-02 19:24:56,838 - INFO - No missing games found. Database is up to date.
-2025-01-02 19:30:41,175 - INFO - Starting the update process.
-2025-01-02 19:30:42,351 - INFO - Data saved to ../GameRecommendation/Data/BaseList/steam_game_list_new.json
-2025-01-02 19:30:42,499 - INFO - No missing games found. Database is up to date.
-2025-01-02 19:32:29,325 - INFO - Starting the update process.
-2025-01-02 19:32:30,513 - INFO - Data saved to ../GameRecommendation/Data/BaseList/steam_game_list_new.json
-2025-01-02 19:32:30,657 - INFO - No missing games found. Database is up to date.
+2025-01-02 19:22:42,267 - INFO - ------------End of update------------
+2025-01-03 18:40:52,523 - INFO - Starting the update process.
+2025-01-03 18:40:53,633 - INFO - Data saved to ../GameRecommendation/Data/BaseList/steam_game_list_new.json
+2025-01-03 18:40:53,902 - INFO - No missing games found. Database is up to date.
+2025-01-03 19:45:27,434 - INFO - Starting the update process.
+2025-01-03 19:45:28,607 - INFO - Data saved to ../GameRecommendation/Data/BaseList/steam_game_list_new.json
+2025-01-03 19:45:28,888 - INFO - No missing games found. Database is up to date.

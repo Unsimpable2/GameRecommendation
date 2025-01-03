@@ -98,6 +98,13 @@ def get_app_details(app_id):
             return app_data[str(app_id)]['data']
         else:
             return None
+    except TypeError as e:
+        if "'NoneType' object is not subscriptable" in str(e):
+            error_logger.error(f'Error while fetching data for app_id: {app_id} - {e}')
+            logging.info(f'Error for app_id: {app_id} has been logged in error_id.log')
+        else:
+            logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
+        return None
     except Exception as e:
         logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
