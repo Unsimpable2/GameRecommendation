@@ -49,7 +49,7 @@ def delete_duplicates():
     try:
         with open(file_path, 'r', encoding = 'utf-8') as f:
             data = json.load(f)
-            logging.info(f"Original data: {data}")
+            logging.info(f"Read {len(data)} entries from the file before removing duplicates.")
 
         if not data:
             logging.warning("The file is empty. Skipping duplicate removal.")
@@ -91,6 +91,14 @@ def main():
             logging.warning("No existing game database found, creating a new one.")
             base_data = []
 
+        if os.path.exists(update_file_path):
+            with open(update_file_path, 'r', encoding = 'utf-8') as update_file:
+                current_update_data = json.load(update_file)
+        else:
+            current_update_data = []
+
+        initial_update_count = len(current_update_data)
+
         missing_games = compare_game_lists(base_data, new_data)
 
         if not missing_games:
@@ -100,7 +108,8 @@ def main():
                 os.remove(new_file_path)
             return
 
-        save_to_json(missing_games, update_file_path)
+        current_update_data.extend(missing_games)
+        save_to_json(current_update_data, update_file_path)
 
         if os.path.exists(base_file_path):
             os.remove(base_file_path)
@@ -110,9 +119,12 @@ def main():
 
         delete_duplicates()
 
+        final_update_count = len(current_update_data)
+        num_added_elements = final_update_count - initial_update_count
+
         with open(last_update_file_path, 'a', encoding = 'utf-8') as last_update_file:
             last_update_file.write(f"Last Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            last_update_file.write(f"Elements Added: {len(missing_games)}\n")
+            last_update_file.write(f"Elements Added: {num_added_elements}\n")
             last_update_file.write("------------End of update------------\n\n")
 
         logging.info("Updated timestamp of the last database update with new games information.")
