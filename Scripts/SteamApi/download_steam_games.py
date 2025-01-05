@@ -1,5 +1,6 @@
 import re
 import os
+import sys
 import json
 import time
 import signal
@@ -9,6 +10,10 @@ from glob import glob
 from datetime import datetime
 from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
+from Scripts.Database.insert_data_to_database import insert_data_from_object
 
 DetectorFactory.seed = 0
 
@@ -25,16 +30,18 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
     os.makedirs(base_path + "/Scripts/Logs/Download")
 
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-log_file_path = os.path.join(base_path + "/Logs/Download", f'downloaded_games_{current_time}.log')
-error_log_path = os.path.join(base_path + "/Logs/Download", 'error_id.log')
-data_directory = os.path.join(base_path, "Data/GamesData")
-os.makedirs(data_directory, exist_ok = True)
+log_dir = os.path.join(base_path, "Logs/Download")
+os.makedirs(log_dir, exist_ok = True)
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename = log_file_path, filemode = 'w')
+download_logger = logging.getLogger('download_logger')
+download_logger.setLevel(logging.INFO)
+download_handler = logging.FileHandler(os.path.join(log_dir, f'downloaded_games_{current_time}.log'))
+download_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+download_logger.addHandler(download_handler)
 
 error_logger = logging.getLogger('error_logger')
 error_logger.setLevel(logging.ERROR)
-error_handler = logging.FileHandler(error_log_path, mode = 'a')
+error_handler = logging.FileHandler(os.path.join(log_dir, 'error_id.log'), mode = 'a')
 error_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 error_logger.addHandler(error_handler)
 
@@ -85,9 +92,21 @@ def append_to_json_file(directory, new_object):
 
         new_file = os.path.join(directory, f"steam_games_processed_part{file_number}.json")
         save_json_file([new_object], new_file)
+
+        try:
+            insert_data_from_object([new_object])
+            download_logger.info("New object successfully inserted into the database.")
+        except Exception as e:
+            download_logger.error(f"Failed to insert new object into the database: {e}")
     else:
         data.append(new_object)
         save_json_file(data, last_file)
+
+        try:
+            insert_data_from_object([new_object])
+            download_logger.info("New object successfully inserted into the database.")
+        except Exception as e:
+            download_logger.error(f"Failed to insert new object into the database: {e}")
 
 def get_app_details(app_id):
     url = f'http://store.steampowered.com/api/appdetails?appids={app_id}&l=english'
@@ -101,12 +120,12 @@ def get_app_details(app_id):
     except TypeError as e:
         if "'NoneType' object is not subscriptable" in str(e):
             error_logger.error(f'Error while fetching data for app_id: {app_id} - {e}')
-            logging.info(f'Error for app_id: {app_id} has been logged in error_id.log')
+            download_logger.info(f'Error for app_id: {app_id} has been logged in error_id.log')
         else:
-            logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
+            download_logger.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
     except Exception as e:
-        logging.error(f'Error while fetching data for app_id: {app_id} - {e}')
+        download_logger.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
 
 def get_steam_tags(app_id):
@@ -159,24 +178,24 @@ def download_steam_games(file_path_list, max_iterations = 90000):
         game_list = json.load(file)
 
     iteration_count = 0
-    for game in game_list:
+    for game in game_list[:]:
         if iteration_count >= max_iterations or stop_requested:
             if stop_requested:
-                logging.info('Stop requested. Finishing current iteration before exiting...')
+                download_logger.info('Stop requested. Finishing current iteration before exiting...')
             break
 
         app_id = game['appid']
         details = get_app_details(app_id)
 
         if details and details.get('type') == 'game':
-            logging.info(f"Processed game: {details.get('name', 'No name')} (app_id: {app_id})")
+            download_logger.info(f"Processed game: {details.get('name', 'No name')} (app_id: {app_id})")
 
             detailed_description = details.get('detailed_description', '')
             short_description = details.get('short_description', '')
             about_game = details.get('about_the_game', '')
 
             if not (is_english(detailed_description) or is_english(short_description) or is_english(about_game) or is_english(details['name'])):
-                logging.info(f"Skipping app_id: {app_id} because description is not in English.")
+                download_logger.info(f"Skipping app_id: {app_id} because description is not in English.")
                 iteration_count += 1
                 continue
 
@@ -225,12 +244,15 @@ def download_steam_games(file_path_list, max_iterations = 90000):
             }
 
             cleaned_game_details = clean_json_data(game_details)
-            append_to_json_file(data_directory, cleaned_game_details)
+            append_to_json_file("Data/GamesData", cleaned_game_details)
         else:
-            logging.warning(f"Failed to fetch details or object is not a game: app_id: {app_id}")
+            download_logger.warning(f"Failed to fetch details or object is not a game: app_id: {app_id}")
 
+        game_list.remove(game)
+        save_json_file(game_list, file_path_list)
+        
         iteration_count += 1
         time.sleep(0.5)
 
-file_path_list = os.path.join(base_path, "Data/DownloadList", 'steam_game_list_to_update.json')
+file_path_list = os.path.join(base_path, "Data/DownloadList", 'test.json')
 download_steam_games(file_path_list)
