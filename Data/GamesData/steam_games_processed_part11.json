@@ -3246,5 +3246,935 @@
         ],
         "Recommendations": "No Information",
         "Release Date": "23 Sep, 2020"
+    },
+    {
+        "App ID": 2719720,
+        "Game Name": "Fly Hands",
+        "Type": "game",
+        "Developer": [
+            "Kuryakin"
+        ],
+        "Publisher": [
+            "Kuryakin Studios"
+        ],
+        "Is Free": false,
+        "Price": "63,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "Embark on an exhilarating journey in this solo racing indie game, uniquely crafted with physics-based flying, exclusively in VR. Navigate through checkpoints to reach the finish line, and here's the twist—pause the timer at any platform to savor the view and appreciate the scenery. So, rev up those engines and let the adventure begin! Just make sure you're not afraid of heights! Required: A SteamVR HMD and, HTC Controller or Valve Index Controller, or Meta Quests 3 and Meta Quest Controller",
+        "Short Description": "Embark on a journey through the skies in this immersive physics-based flying game – exclusively designed for VR enthusiasts",
+        "About the Game": "Embark on an exhilarating journey in this solo racing indie game, uniquely crafted with physics-based flying, exclusively in VR. Navigate through checkpoints to reach the finish line, and here's the twist—pause the timer at any platform to savor the view and appreciate the scenery. So, rev up those engines and let the adventure begin! Just make sure you're not afraid of heights! Required: A SteamVR HMD and, HTC Controller or Valve Index Controller, or Meta Quests 3 and Meta Quest Controller",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 52,
+                "description": "Tracked Controller Support"
+            },
+            {
+                "id": 54,
+                "description": "VR Only"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "Adventure",
+            "Racing",
+            "Simulation",
+            "VR",
+            "Casual",
+            "Indie",
+            "Nature",
+            "Singleplayer",
+            "Action-Adventure",
+            "Immersive Sim",
+            "Early Access",
+            "Controller",
+            "Linear",
+            "Physics"
+        ],
+        "Genres": [
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "4",
+                "description": "Casual"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            },
+            {
+                "id": "9",
+                "description": "Racing"
+            },
+            {
+                "id": "28",
+                "description": "Simulation"
+            },
+            {
+                "id": "70",
+                "description": "Early Access"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "26 Mar, 2024"
+    },
+    {
+        "App ID": 2718140,
+        "Game Name": "Christmas Fables: The Magic Snowflake Collector's Edition",
+        "Type": "game",
+        "Developer": [
+            "Do Games Limited"
+        ],
+        "Publisher": [
+            "Do Games Limited"
+        ],
+        "Is Free": false,
+        "Price": "45,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "This game consists of the best mini-games and item search scenes from DominiGames! Santa's Toy Factory is on holiday overload (happens every year, get used to it). In an effort not to let his co-workers down, one of the elves has refused to take a sick day (elves getting colds, imagine that), and now there's a vexed 10-year-old kid walking the streets of the city with a very (very!) dangerous artifact in his tiny sweet hands. Now what do a common cold and an impending catastrophe have to do with each other, you may ask? That is something to be kept just between you and the aforementioned elf! Above all, please-please-please don't tell Santa! Gather your wits for an unforgettable story in this pulse-pounded new Hidden-Object Puzzle Adventure! This Collector's Edition includes: 🎄 Uncover hidden objects! Explore the enchanting nooks and crannies of Santa's bustling toy factory as you search for hidden objects and gather essential clues. Your sharp eye will be your greatest asset as you piece together the puzzle of saving Christmas! 🎄 Magic puzzles! Look for new items, solve confusing puzzles, find answers, castigate and open boxes and mystery chests. This will all help move you further along in the storyline and even unlock new Christmas trails. Be on the lookout! 🎄 Game-changing choices! It's not just about finding objects, it's about making critical decisions that will shape the destinies of those involved. Will you have the courage and wisdom to influence people's fates and bring back the joy of the holiday season? 🎄 Exclusive collections! This enchanting story is filled with various magical items and mysterious artifacts that you can get as you progress through the game. Hurry up and start playing to fully immerse yourself in the magical atmosphere!",
+        "Short Description": "A magical snowflake of infinite power is lost, but not hope or holiday spirit! Save Christmas and rescue the dangerous artifact from the hands of a small troublemaker!",
+        "About the Game": "This game consists of the best mini-games and item search scenes from DominiGames! Santa's Toy Factory is on holiday overload (happens every year, get used to it). In an effort not to let his co-workers down, one of the elves has refused to take a sick day (elves getting colds, imagine that), and now there's a vexed 10-year-old kid walking the streets of the city with a very (very!) dangerous artifact in his tiny sweet hands. Now what do a common cold and an impending catastrophe have to do with each other, you may ask? That is something to be kept just between you and the aforementioned elf! Above all, please-please-please don't tell Santa! Gather your wits for an unforgettable story in this pulse-pounded new Hidden-Object Puzzle Adventure! This Collector's Edition includes: 🎄 Uncover hidden objects! Explore the enchanting nooks and crannies of Santa's bustling toy factory as you search for hidden objects and gather essential clues. Your sharp eye will be your greatest asset as you piece together the puzzle of saving Christmas! 🎄 Magic puzzles! Look for new items, solve confusing puzzles, find answers, castigate and open boxes and mystery chests. This will all help move you further along in the storyline and even unlock new Christmas trails. Be on the lookout! 🎄 Game-changing choices! It's not just about finding objects, it's about making critical decisions that will shape the destinies of those involved. Will you have the courage and wisdom to influence people's fates and bring back the joy of the holiday season? 🎄 Exclusive collections! This enchanting story is filled with various magical items and mysterious artifacts that you can get as you progress through the game. Hurry up and start playing to fully immerse yourself in the magical atmosphere!",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "Adventure",
+            "Casual",
+            "Atmospheric",
+            "Colorful",
+            "Drama",
+            "Fantasy",
+            "First-Person",
+            "Hand-drawn",
+            "Hidden Object",
+            "Interactive Fiction",
+            "Investigation",
+            "Logic",
+            "Minigames",
+            "Mystery",
+            "Point & Click",
+            "Puzzle",
+            "Snow",
+            "Story Rich",
+            "Visual Novel"
+        ],
+        "Genres": [
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "4",
+                "description": "Casual"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "27 Dec, 2023"
+    },
+    {
+        "App ID": 2717790,
+        "Game Name": "Evolve",
+        "Type": "game",
+        "Developer": [
+            "Traverse Research"
+        ],
+        "Publisher": [
+            "Traverse Research"
+        ],
+        "Is Free": false,
+        "Price": "N/A",
+        "Age Rating": 0,
+        "Detailed Description": "Evolve is a cutting-edge benchmarking suite designed to push the limits of modern GPUs, we've implemented state of the art rendering techniques that are both seen in high-end games as well as techniques found more often in offline (movie) rendering while trying to bring them to real time. We hope to impress you with our graphics, while we're measuring all there is to know about your GPU! Evolve provides the ultimate toolkit for pushing your hardware to its limits: Comprehensive scoring : evaluate your overclocking prowess across multiple categories, including acceleration structure build performance, ray tracing / traversal, rasterization, compute, and more Detailed performance breakdown : gain deep insights into your system's performance with our frame-by-frame analysis On screen display: give you a breakdown of vital GPU statistics such as temperature, voltage and wattage during a benchmark run! Experience the future of gaming benchmarks: Next-gen graphics : assess your rig's capabilities with cutting-edge ray tracing and path tracing technologies Game-like workloads : EVOLVE focuses on delivering performance metrics that matter in real gaming scenarios, and has implemented techniques found in real games Online leaderboards : compare your scores against gamers worldwide and climb the ranks Dive deep into hardware performance with Evolve: Multiple rendering techniques : explore path tracing and hybrid rendering methods Energy consumption metrics : understand your system's power efficiency Driver overhead analysis : gain insights into how different drivers impact your system's performance Community engagement : join our Discord community to share results, tips, discuss hardware performance and overclocking techniques.",
+        "Short Description": "Evolve is a cross-platform ray tracing benchmark for gamers, researchers, influencers, developers, and overclockers who want to get the most out of their hardware.",
+        "About the Game": "Evolve is a cutting-edge benchmarking suite designed to push the limits of modern GPUs, we've implemented state of the art rendering techniques that are both seen in high-end games as well as techniques found more often in offline (movie) rendering while trying to bring them to real time. We hope to impress you with our graphics, while we're measuring all there is to know about your GPU! Evolve provides the ultimate toolkit for pushing your hardware to its limits: Comprehensive scoring : evaluate your overclocking prowess across multiple categories, including acceleration structure build performance, ray tracing / traversal, rasterization, compute, and more Detailed performance breakdown : gain deep insights into your system's performance with our frame-by-frame analysis On screen display: give you a breakdown of vital GPU statistics such as temperature, voltage and wattage during a benchmark run! Experience the future of gaming benchmarks: Next-gen graphics : assess your rig's capabilities with cutting-edge ray tracing and path tracing technologies Game-like workloads : EVOLVE focuses on delivering performance metrics that matter in real gaming scenarios, and has implemented techniques found in real games Online leaderboards : compare your scores against gamers worldwide and climb the ranks Dive deep into hardware performance with Evolve: Multiple rendering techniques : explore path tracing and hybrid rendering methods Energy consumption metrics : understand your system's power efficiency Driver overhead analysis : gain insights into how different drivers impact your system's performance Community engagement : join our Discord community to share results, tips, discuss hardware performance and overclocking techniques.",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [],
+        "Tags": [
+            "Utilities",
+            "Early Access",
+            "3D",
+            "Benchmark",
+            "Software"
+        ],
+        "Genres": [
+            {
+                "id": "57",
+                "description": "Utilities"
+            },
+            {
+                "id": "70",
+                "description": "Early Access"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "Coming soon"
+    },
+    {
+        "App ID": 2717480,
+        "Game Name": "Envelope",
+        "Type": "game",
+        "Developer": [
+            "Skaar Game Productions",
+            "Numme"
+        ],
+        "Publisher": [
+            "Skaar Game Productions"
+        ],
+        "Is Free": false,
+        "Price": "33,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "Envelope is a psychological thriller game that puts you in the shoes of an unfortunate soul who finds himself getting pushed to do something beyond anything he could possibly imagine. Immersive gameplay and storytelling. Work your way through the night shift to explore an odd world full of strange people. The second part of the game has an open world for you to explore, and every choice you make could affect how the ending of the game plays out. FEATURES Multiple endings Freedom of choice Features a minimal indie chic graphic style Strange characters that may help you in your journey",
+        "Short Description": "Envelope is a psychological thriller game that puts you in the shoes of an unfortunate soul who finds himself getting pushed to do something beyond anything he could possibly imagine.",
+        "About the Game": "Envelope is a psychological thriller game that puts you in the shoes of an unfortunate soul who finds himself getting pushed to do something beyond anything he could possibly imagine. Immersive gameplay and storytelling. Work your way through the night shift to explore an odd world full of strange people. The second part of the game has an open world for you to explore, and every choice you make could affect how the ending of the game plays out. FEATURES Multiple endings Freedom of choice Features a minimal indie chic graphic style Strange characters that may help you in your journey",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 13,
+                "description": "Captions available"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "Immersive Sim",
+            "Mystery",
+            "Gore",
+            "Thriller",
+            "Multiple Endings",
+            "Horror",
+            "Violent",
+            "Retro",
+            "Survival Horror",
+            "Exploration",
+            "Interactive Fiction",
+            "Walking Simulator",
+            "First-Person",
+            "Minimalist",
+            "Stealth",
+            "Adventure",
+            "Indie",
+            "Psychedelic",
+            "Singleplayer",
+            "Realistic"
+        ],
+        "Genres": [
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "4 Sep, 2024"
+    },
+    {
+        "App ID": 2716820,
+        "Game Name": "The Cursed Tower of Lust",
+        "Type": "game",
+        "Developer": [
+            "totomel"
+        ],
+        "Publisher": [
+            "Dieselmine"
+        ],
+        "Is Free": false,
+        "Price": "64,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "■STORY A mysterious tower suddenly appeared near the town of Stadt. As the (self-claimed) Number One adventurer of the guild, Chris the Swordmaiden is eager to take up a challenge, meanwhile Anita the shy loner Mage somehow got herself dragged into Chris's quest. Can the duo conquer The Cursed Tower of Lust!? ※Both characters can be freely swapped from beginning, however they will not act together as a party. ■SYSTEM Game progress by card selection. Each card has their own event, such as Battle, Item, Trap, Abnormal Status, and more! Pick cards wisely according to your situation! ■BATTLE H! RESTRAINT! HUMILIATION! MOANS! In battle, monsters will attempt to break your armor/clothes and restrain you. Continuously taking restraining attacks and you will be unable to fight back, and get humiliated... There will be character voice for humiliation scenes! ■PLENTY OF BAD STATUSES!! Ranging from the basic 【Armor Break】 and 【Naked】, to more challenging 【Masochism】, 【Jinx】, 【Womb Crest】 etc. Many also affect your appearance such as 【Blindfold】, 【Gag】, 【Bukkake】, 【Lactation】, 【Swollen Clit】, 【Futanari】 etc etc... There are just tons and TONS of bad statuses to look for! ※There will be accessory to negate certain statuses, in case they make you feel uncomfortable. ■H TRAPS!! Within the Cursed Tower lies not only monsters but also traps!! Swallowed whole by a tentacle pot falling from the ceiling, restrained by countless mechanical arms, immobilized on all fours... And getting caught is never the end of it, for those tentacles and machines will take their chances on a disabled prey!! ■AND MANY OTHER H EVENTS! Letting a Merchant have his way with your body for a discount, watching reminiscences of other fallen adventurers, and many more!!",
+        "Short Description": "Self-claimed Number One adventurer Chris the Swordmaiden is eager to challenge a new mysterious dungeon, dragging Anita the loner Mage along with her. Can the duo conquer The Cursed Tower of Lust!?",
+        "About the Game": "■STORY A mysterious tower suddenly appeared near the town of Stadt. As the (self-claimed) Number One adventurer of the guild, Chris the Swordmaiden is eager to take up a challenge, meanwhile Anita the shy loner Mage somehow got herself dragged into Chris's quest. Can the duo conquer The Cursed Tower of Lust!? ※Both characters can be freely swapped from beginning, however they will not act together as a party. ■SYSTEM Game progress by card selection. Each card has their own event, such as Battle, Item, Trap, Abnormal Status, and more! Pick cards wisely according to your situation! ■BATTLE H! RESTRAINT! HUMILIATION! MOANS! In battle, monsters will attempt to break your armor/clothes and restrain you. Continuously taking restraining attacks and you will be unable to fight back, and get humiliated... There will be character voice for humiliation scenes! ■PLENTY OF BAD STATUSES!! Ranging from the basic 【Armor Break】 and 【Naked】, to more challenging 【Masochism】, 【Jinx】, 【Womb Crest】 etc. Many also affect your appearance such as 【Blindfold】, 【Gag】, 【Bukkake】, 【Lactation】, 【Swollen Clit】, 【Futanari】 etc etc... There are just tons and TONS of bad statuses to look for! ※There will be accessory to negate certain statuses, in case they make you feel uncomfortable. ■H TRAPS!! Within the Cursed Tower lies not only monsters but also traps!! Swallowed whole by a tentacle pot falling from the ceiling, restrained by countless mechanical arms, immobilized on all fours... And getting caught is never the end of it, for those tentacles and machines will take their chances on a disabled prey!! ■AND MANY OTHER H EVENTS! Letting a Merchant have his way with your body for a discount, watching reminiscences of other fallen adventurers, and many more!!",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 22,
+                "description": "Steam Achievements"
+            },
+            {
+                "id": 18,
+                "description": "Partial Controller Support"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "No tags for game"
+        ],
+        "Genres": [
+            {
+                "id": "23",
+                "description": "Indie"
+            },
+            {
+                "id": "3",
+                "description": "RPG"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "9 Feb, 2024"
+    },
+    {
+        "App ID": 2716940,
+        "Game Name": "Battle Sister Leah",
+        "Type": "game",
+        "Developer": [
+            "キラ☆タマ"
+        ],
+        "Publisher": [
+            "072 Project",
+            "News"
+        ],
+        "Is Free": false,
+        "Price": "91,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "💕ONANIましょう👉👌 About the Game Monastery of Adelia Abbey, a group of exorcism experts known as the Battle Sister gather. One day, they receive a commission. The commission requests them to clear the emerging evil spirits in a cave, which has now become a mining site. The appearance of these evil spirits poses a threat to the kingdom's economic lifeline. Many miners have gathered there, urgently needing rescue. The one appointed for this task is the strongest battle sister, Leah. Leah is an exorcist who has been fighting evil spirits since childhood. She first arrives at the checkpoint near the cave entrance. There, temporary accommodation for miners and various facilities for preparing tools are set up. There is a natural hot spring, with male and female bath areas separated by only a curtain. In addition, there is a Brothel created to satisfy male needs, and more... Sister Leah, a devout sister dedicated to exorcism, whose life takes a sinful turn with lustful! This is a simple adult RPG based on exploring bases and dungeons. In the dungeon, there is no combat; you only need to chant magic to defeat enemies. However, in the cave, due to the influence of evil spirits, the air is filled with pheromone gas, and as you progress, the erotic becomes easier to increase. As the erotic increases, the consumption of magic points will sharply increase. (To make you defeat, super lusty poisonous swamps are placed throughout.) Use the skill to exorcise evil spirits with one blow. Erotic status - undergoes obvious changes with each H event! Change outfits obtained in the equipment screen, influencing character illustrations.",
+        "Short Description": "The strongest battle sister, Leah, sent by the church to the haunted cave occupied by evil spirits! Within the dungeon, numerous lewd events await Leah. Will she be able to save the miners without violating the divine commandments?",
+        "About the Game": "Monastery of Adelia Abbey, a group of exorcism experts known as the Battle Sister gather. One day, they receive a commission. The commission requests them to clear the emerging evil spirits in a cave, which has now become a mining site. The appearance of these evil spirits poses a threat to the kingdom's economic lifeline. Many miners have gathered there, urgently needing rescue. The one appointed for this task is the strongest battle sister, Leah. Leah is an exorcist who has been fighting evil spirits since childhood. She first arrives at the checkpoint near the cave entrance. There, temporary accommodation for miners and various facilities for preparing tools are set up. There is a natural hot spring, with male and female bath areas separated by only a curtain. In addition, there is a Brothel created to satisfy male needs, and more... Sister Leah, a devout sister dedicated to exorcism, whose life takes a sinful turn with lustful! This is a simple adult RPG based on exploring bases and dungeons. In the dungeon, there is no combat; you only need to chant magic to defeat enemies. However, in the cave, due to the influence of evil spirits, the air is filled with pheromone gas, and as you progress, the erotic becomes easier to increase. As the erotic increases, the consumption of magic points will sharply increase. (To make you defeat, super lusty poisonous swamps are placed throughout.) Use the skill to exorcise evil spirits with one blow. Erotic status - undergoes obvious changes with each H event! Change outfits obtained in the equipment screen, influencing character illustrations.",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 23,
+                "description": "Steam Cloud"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "No tags for game"
+        ],
+        "Genres": [
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "4",
+                "description": "Casual"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            },
+            {
+                "id": "3",
+                "description": "RPG"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "4 Oct, 2024"
+    },
+    {
+        "App ID": 2715910,
+        "Game Name": "Astro Hunters VR",
+        "Type": "game",
+        "Developer": [
+            "Wenkly Studio Sp. z o.o."
+        ],
+        "Publisher": [
+            "Wenkly Studio Sp. z o.o."
+        ],
+        "Is Free": false,
+        "Price": "91,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "Astro Hunters VR is a PvPvE extraction shooter set in space. Immerse yourself in the exploration of a unique planet, fight with different enemies, craft, gather resources, and upgrade your weapons. But remember, there are also other hunters on the planet. Will you ally, fight, or betray - it's up to you! Become one of the mercenaries called Hunters and help the Mothership achieve its objectives on the hostile planets. Undertake dangerous missions and challenge other players and in exchange freely scavenge the planets. You can join forces with other players, but be careful, hunting down other players to seize their valuable equipment is also an option! Going on an expedition comes with a high reward if you find valuable items, but it’s also high risk - if you die, you lose everything you have with you! Collect resources such as gases, liquids, metals, and others. Each of the resources has its special gathering tool . Use the collected items to craft new and better equipment. The Mothership provides you with crafting stations , on which you can craft inhalers, weapon parts, ammo and more. Do you want to store them, sell for good money, or trade with other players? The choice is yours! Gather a diverse range of weapons : pistols, rifles, rocket launchers, machine guns, shotguns, and snipers. Upgrade stats and customize them with elemental modifications : fire, plasma, electricity, and acid. Beware of other players lurking on the planets for your loot. To avoid being left with nothing, store some of them in your storage room to be ready for your next expedition. Take up the challenge and fight for the loot on the uncharted territories of a unique planet , brimming with diverse landscapes, challenging terrains, and protected bases full of precious items. Discover a wealth of resources, hunt, and engage in an intense fight against a multitude of enemies each presenting distinct challenges. Become one of the Hunters, and be the best!",
+        "Short Description": "Become one of the Hunters in Astro Hunters VR - PvPvE extraction shooter set in space. Explore a unique planet, fight with different enemies, craft, gather resources, and upgrade your weapons. But remember there are also other hunters on the planet. Will you ally, fight, or betray - it's up to you!",
+        "About the Game": "Astro Hunters VR is a PvPvE extraction shooter set in space. Immerse yourself in the exploration of a unique planet, fight with different enemies, craft, gather resources, and upgrade your weapons. But remember, there are also other hunters on the planet. Will you ally, fight, or betray - it's up to you! Become one of the mercenaries called Hunters and help the Mothership achieve its objectives on the hostile planets. Undertake dangerous missions and challenge other players and in exchange freely scavenge the planets. You can join forces with other players, but be careful, hunting down other players to seize their valuable equipment is also an option! Going on an expedition comes with a high reward if you find valuable items, but it’s also high risk - if you die, you lose everything you have with you! Collect resources such as gases, liquids, metals, and others. Each of the resources has its special gathering tool . Use the collected items to craft new and better equipment. The Mothership provides you with crafting stations , on which you can craft inhalers, weapon parts, ammo and more. Do you want to store them, sell for good money, or trade with other players? The choice is yours! Gather a diverse range of weapons : pistols, rifles, rocket launchers, machine guns, shotguns, and snipers. Upgrade stats and customize them with elemental modifications : fire, plasma, electricity, and acid. Beware of other players lurking on the planets for your loot. To avoid being left with nothing, store some of them in your storage room to be ready for your next expedition. Take up the challenge and fight for the loot on the uncharted territories of a unique planet , brimming with diverse landscapes, challenging terrains, and protected bases full of precious items. Discover a wealth of resources, hunt, and engage in an intense fight against a multitude of enemies each presenting distinct challenges. Become one of the Hunters, and be the best!",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 1,
+                "description": "Multi-player"
+            },
+            {
+                "id": 49,
+                "description": "PvP"
+            },
+            {
+                "id": 36,
+                "description": "Online PvP"
+            },
+            {
+                "id": 9,
+                "description": "Co-op"
+            },
+            {
+                "id": 38,
+                "description": "Online Co-op"
+            },
+            {
+                "id": 27,
+                "description": "Cross-Platform Multiplayer"
+            },
+            {
+                "id": 52,
+                "description": "Tracked Controller Support"
+            },
+            {
+                "id": 54,
+                "description": "VR Only"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "Extraction Shooter",
+            "VR",
+            "PvP",
+            "PvE",
+            "Multiplayer",
+            "Looter Shooter",
+            "Action",
+            "Shooter",
+            "Crafting",
+            "Exploration",
+            "Open World",
+            "Aliens",
+            "Space",
+            "Futuristic",
+            "Sci-fi",
+            "FPS",
+            "Trading",
+            "First-Person",
+            "Inventory Management",
+            "Online Co-Op"
+        ],
+        "Genres": [
+            {
+                "id": "1",
+                "description": "Action"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "8 Aug, 2024"
+    },
+    {
+        "App ID": 2715910,
+        "Game Name": "Astro Hunters VR",
+        "Type": "game",
+        "Developer": [
+            "Wenkly Studio Sp. z o.o."
+        ],
+        "Publisher": [
+            "Wenkly Studio Sp. z o.o."
+        ],
+        "Is Free": false,
+        "Price": "91,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "Astro Hunters VR is a PvPvE extraction shooter set in space. Immerse yourself in the exploration of a unique planet, fight with different enemies, craft, gather resources, and upgrade your weapons. But remember, there are also other hunters on the planet. Will you ally, fight, or betray - it's up to you! Become one of the mercenaries called Hunters and help the Mothership achieve its objectives on the hostile planets. Undertake dangerous missions and challenge other players and in exchange freely scavenge the planets. You can join forces with other players, but be careful, hunting down other players to seize their valuable equipment is also an option! Going on an expedition comes with a high reward if you find valuable items, but it’s also high risk - if you die, you lose everything you have with you! Collect resources such as gases, liquids, metals, and others. Each of the resources has its special gathering tool . Use the collected items to craft new and better equipment. The Mothership provides you with crafting stations , on which you can craft inhalers, weapon parts, ammo and more. Do you want to store them, sell for good money, or trade with other players? The choice is yours! Gather a diverse range of weapons : pistols, rifles, rocket launchers, machine guns, shotguns, and snipers. Upgrade stats and customize them with elemental modifications : fire, plasma, electricity, and acid. Beware of other players lurking on the planets for your loot. To avoid being left with nothing, store some of them in your storage room to be ready for your next expedition. Take up the challenge and fight for the loot on the uncharted territories of a unique planet , brimming with diverse landscapes, challenging terrains, and protected bases full of precious items. Discover a wealth of resources, hunt, and engage in an intense fight against a multitude of enemies each presenting distinct challenges. Become one of the Hunters, and be the best!",
+        "Short Description": "Become one of the Hunters in Astro Hunters VR - PvPvE extraction shooter set in space. Explore a unique planet, fight with different enemies, craft, gather resources, and upgrade your weapons. But remember there are also other hunters on the planet. Will you ally, fight, or betray - it's up to you!",
+        "About the Game": "Astro Hunters VR is a PvPvE extraction shooter set in space. Immerse yourself in the exploration of a unique planet, fight with different enemies, craft, gather resources, and upgrade your weapons. But remember, there are also other hunters on the planet. Will you ally, fight, or betray - it's up to you! Become one of the mercenaries called Hunters and help the Mothership achieve its objectives on the hostile planets. Undertake dangerous missions and challenge other players and in exchange freely scavenge the planets. You can join forces with other players, but be careful, hunting down other players to seize their valuable equipment is also an option! Going on an expedition comes with a high reward if you find valuable items, but it’s also high risk - if you die, you lose everything you have with you! Collect resources such as gases, liquids, metals, and others. Each of the resources has its special gathering tool . Use the collected items to craft new and better equipment. The Mothership provides you with crafting stations , on which you can craft inhalers, weapon parts, ammo and more. Do you want to store them, sell for good money, or trade with other players? The choice is yours! Gather a diverse range of weapons : pistols, rifles, rocket launchers, machine guns, shotguns, and snipers. Upgrade stats and customize them with elemental modifications : fire, plasma, electricity, and acid. Beware of other players lurking on the planets for your loot. To avoid being left with nothing, store some of them in your storage room to be ready for your next expedition. Take up the challenge and fight for the loot on the uncharted territories of a unique planet , brimming with diverse landscapes, challenging terrains, and protected bases full of precious items. Discover a wealth of resources, hunt, and engage in an intense fight against a multitude of enemies each presenting distinct challenges. Become one of the Hunters, and be the best!",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 1,
+                "description": "Multi-player"
+            },
+            {
+                "id": 49,
+                "description": "PvP"
+            },
+            {
+                "id": 36,
+                "description": "Online PvP"
+            },
+            {
+                "id": 9,
+                "description": "Co-op"
+            },
+            {
+                "id": 38,
+                "description": "Online Co-op"
+            },
+            {
+                "id": 27,
+                "description": "Cross-Platform Multiplayer"
+            },
+            {
+                "id": 52,
+                "description": "Tracked Controller Support"
+            },
+            {
+                "id": 54,
+                "description": "VR Only"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "Extraction Shooter",
+            "VR",
+            "PvP",
+            "PvE",
+            "Multiplayer",
+            "Looter Shooter",
+            "Action",
+            "Shooter",
+            "Crafting",
+            "Exploration",
+            "Open World",
+            "Aliens",
+            "Space",
+            "Futuristic",
+            "Sci-fi",
+            "FPS",
+            "Trading",
+            "First-Person",
+            "Inventory Management",
+            "Online Co-Op"
+        ],
+        "Genres": [
+            {
+                "id": "1",
+                "description": "Action"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "8 Aug, 2024"
+    },
+    {
+        "App ID": 2714620,
+        "Game Name": "Duck Detective: The Ghost of Glamping",
+        "Type": "game",
+        "Developer": [
+            "Happy Broccoli Games"
+        ],
+        "Publisher": [
+            "Happy Broccoli Games"
+        ],
+        "Is Free": false,
+        "Price": "N/A",
+        "Age Rating": 0,
+        "Detailed Description": "The Duck Detective is back! Get ready to interview suspects, inspect evidence, and deduce the truth in another stand-alone mystery! This campsite might have ghosts, but the real thing haunting Eugene McQuacklin is his failed marriage and bread addiction. Can he escape the shadows of his past? To the annoyance of the Duck Detective, he is joined by a new partner in (solving) crime. Work together to unravel the truth and nibble on the crumbs of justice! A 2-3 hour long cozy mystery game! A stand-alone sequel to the acclaimed ‘Duck Detective: The Secret Salami!‘ Interview suspects, fill in the blanks and crack the case! Fully voice-acted cast of suspiciously secretive characters! Dive into a murky pond of delinquency and dredge up the truth! Throw bread to the fine beak of lady justice!",
+        "Short Description": "When spookiness strikes a luxury campsite, the one and only Duck Detective is summoned to quack the case. Inspect evidence, make de-duck-tions, and solve this no-murder mystery!",
+        "About the Game": "The Duck Detective is back! Get ready to interview suspects, inspect evidence, and deduce the truth in another stand-alone mystery! This campsite might have ghosts, but the real thing haunting Eugene McQuacklin is his failed marriage and bread addiction. Can he escape the shadows of his past? To the annoyance of the Duck Detective, he is joined by a new partner in (solving) crime. Work together to unravel the truth and nibble on the crumbs of justice! A 2-3 hour long cozy mystery game! A stand-alone sequel to the acclaimed ‘Duck Detective: The Secret Salami!‘ Interview suspects, fill in the blanks and crack the case! Fully voice-acted cast of suspiciously secretive characters! Dive into a murky pond of delinquency and dredge up the truth! Throw bread to the fine beak of lady justice!",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 22,
+                "description": "Steam Achievements"
+            },
+            {
+                "id": 28,
+                "description": "Full controller support"
+            },
+            {
+                "id": 23,
+                "description": "Steam Cloud"
+            }
+        ],
+        "Tags": [
+            "Casual",
+            "Adventure",
+            "Detective",
+            "Investigation",
+            "Short",
+            "Cute",
+            "Indie",
+            "Noir",
+            "Mystery",
+            "Singleplayer",
+            "Point & Click",
+            "Story Rich",
+            "Interactive Fiction",
+            "Puzzle",
+            "2.5D",
+            "Birds",
+            "Funny",
+            "Cozy",
+            "Isometric",
+            "Comedy"
+        ],
+        "Genres": [
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "4",
+                "description": "Casual"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "2025"
+    },
+    {
+        "App ID": 2711680,
+        "Game Name": "GymFistprint",
+        "Type": "game",
+        "Developer": [
+            "devKuroro"
+        ],
+        "Publisher": [
+            "devKuroro"
+        ],
+        "Is Free": false,
+        "Price": "8,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "In this gym run by old Martín, former professional boxer, he will be the one who trains you to get the best out of you, you will test your agility, reflexes, concentration, coordination, patience, perseverance... in the three types of training it offers Until now the gym, he trains with the punching bag, the speed bag and the boxing ball. Improve your stats such as your strength, critical blows, aiming, defense and dodge blows to see them in action above the ring in each sparring match. Your gym mates will always give you good advice to lift your spirits and improve as a boxer, even though they are very rude in practice (sparring against the CPU). Notes from old Martin: Each boxer must complete rigorous training to get into the ring: Train with the punching bag to improve your strength and your critical blows. Train with the speed bag to improve your aiming and your defense. Train with the boxing ball to improve your dodge blows. Each training increases your energy and lowers your fatigue to improve your health recovery in sparring, improve your recovery after receiving a KO, improve your breathing to launch consecutive blows. If you want to face someone in sparring you need to train with the punching bag, the speed bag and the boxing ball to achieve at least: 15% of your strength on average. 25% of your aiming on average. 5% of your dodge blows on average. Despite the protections and rules of sparring... not being properly prepared would be dangerous and you wouldn't last a round. If you train hard, exceeding the minimum of your statistics to get into the ring, you will be more aware of your physical condition and that of your rival in sparring: 22.5% of your strength, 37.5% of your aiming and 7.5% of your dodge blows on average to display your health in combat. 30% of your strength, 50% of your aiming and 10% of your dodge blows on average to visualize your opponent's health and fatigue in combat. Try to get 100% of your potential and fill your fight history with victories.",
+        "Short Description": "GymFistprint is a boxing gym where we train hard to measure our skills with people from all over the world, do old Martín's training, test your limits and get your maximum potential.",
+        "About the Game": "In this gym run by old Martín, former professional boxer, he will be the one who trains you to get the best out of you, you will test your agility, reflexes, concentration, coordination, patience, perseverance... in the three types of training it offers Until now the gym, he trains with the punching bag, the speed bag and the boxing ball. Improve your stats such as your strength, critical blows, aiming, defense and dodge blows to see them in action above the ring in each sparring match. Your gym mates will always give you good advice to lift your spirits and improve as a boxer, even though they are very rude in practice (sparring against the CPU). Notes from old Martin: Each boxer must complete rigorous training to get into the ring: Train with the punching bag to improve your strength and your critical blows. Train with the speed bag to improve your aiming and your defense. Train with the boxing ball to improve your dodge blows. Each training increases your energy and lowers your fatigue to improve your health recovery in sparring, improve your recovery after receiving a KO, improve your breathing to launch consecutive blows. If you want to face someone in sparring you need to train with the punching bag, the speed bag and the boxing ball to achieve at least: 15% of your strength on average. 25% of your aiming on average. 5% of your dodge blows on average. Despite the protections and rules of sparring... not being properly prepared would be dangerous and you wouldn't last a round. If you train hard, exceeding the minimum of your statistics to get into the ring, you will be more aware of your physical condition and that of your rival in sparring: 22.5% of your strength, 37.5% of your aiming and 7.5% of your dodge blows on average to display your health in combat. 30% of your strength, 50% of your aiming and 10% of your dodge blows on average to visualize your opponent's health and fatigue in combat. Try to get 100% of your potential and fill your fight history with victories.",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 1,
+                "description": "Multi-player"
+            },
+            {
+                "id": 49,
+                "description": "PvP"
+            },
+            {
+                "id": 36,
+                "description": "Online PvP"
+            },
+            {
+                "id": 28,
+                "description": "Full controller support"
+            },
+            {
+                "id": 13,
+                "description": "Captions available"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "Spectacle fighter",
+            "3D Platformer",
+            "Sports",
+            "Boxing",
+            "PvP",
+            "eSports",
+            "3D Fighter",
+            "Character Customization",
+            "First-Person",
+            "Third Person",
+            "Anime",
+            "Score Attack",
+            "Combat",
+            "Multiplayer",
+            "Singleplayer",
+            "Family Friendly",
+            "Indie",
+            "Psychological Horror",
+            "Simulation",
+            "Comic Book"
+        ],
+        "Genres": [
+            {
+                "id": "18",
+                "description": "Sports"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "8 Jan, 2024"
+    },
+    {
+        "App ID": 2710950,
+        "Game Name": "Revenge Of The Colon",
+        "Type": "game",
+        "Developer": [
+            "Lilou Studio"
+        ],
+        "Publisher": [
+            "Lilou Studio"
+        ],
+        "Is Free": false,
+        "Price": "36,99zł",
+        "Age Rating": 0,
+        "Detailed Description": "You are a respected gastroenterologist at the height of your profession. You have seen it all and treated it all. There is nothing you cannot handle. You do not know it yet but this is your final week. Gameplay You will spend your time deep in the claustrophobic colons of your patients. You will have to identify and treat any and all ailments you discover in order to ensure the future health of your patients. You will have access to a range of specialized medical instruments to aid you in this task. Story Driven The game is played in five chapters. Each chapter focuses on treating the ailments of a different patient. The week starts off normally but as the week progresses you encounter the things of a gastroenterologist's nightmares. Multiple Endings How you play the game makes a difference to the ending of each chapter and to the ending of the game as a whole. Body Horror It is not just about generic blood and guts. Each chapter of the game focuses on different aspects of body horror so that players will have something different to encounter with every patient. Visual Style We chose the retro PS1 style because we know it is much enjoyed by fans of the indie horror genre. The crudeness of the visual style combined with the game's subject matter helps to create an atmosphere of nostalgic unease.",
+        "Short Description": "Revenge of the colon is a story driven, single-player, atmospheric, body horror game with multiple endings. Perform colonoscopies on five patients and discover the horrors concealed deep within them. PS1 horror style!",
+        "About the Game": "You are a respected gastroenterologist at the height of your profession. You have seen it all and treated it all. There is nothing you cannot handle. You do not know it yet but this is your final week. Gameplay You will spend your time deep in the claustrophobic colons of your patients. You will have to identify and treat any and all ailments you discover in order to ensure the future health of your patients. You will have access to a range of specialized medical instruments to aid you in this task. Story Driven The game is played in five chapters. Each chapter focuses on treating the ailments of a different patient. The week starts off normally but as the week progresses you encounter the things of a gastroenterologist's nightmares. Multiple Endings How you play the game makes a difference to the ending of each chapter and to the ending of the game as a whole. Body Horror It is not just about generic blood and guts. Each chapter of the game focuses on different aspects of body horror so that players will have something different to encounter with every patient. Visual Style We chose the retro PS1 style because we know it is much enjoyed by fans of the indie horror genre. The crudeness of the visual style combined with the game's subject matter helps to create an atmosphere of nostalgic unease.",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 22,
+                "description": "Steam Achievements"
+            },
+            {
+                "id": 28,
+                "description": "Full controller support"
+            },
+            {
+                "id": 23,
+                "description": "Steam Cloud"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "Horror",
+            "Atmospheric",
+            "Surreal",
+            "Psychological Horror",
+            "Psychological",
+            "Supernatural",
+            "Story Rich",
+            "Singleplayer",
+            "Walking Simulator",
+            "Choices Matter",
+            "Retro",
+            "Dark Humor",
+            "Multiple Endings",
+            "Old School",
+            "Casual",
+            "Medical Sim",
+            "Linear",
+            "First-Person",
+            "Dark",
+            "Blood"
+        ],
+        "Genres": [
+            {
+                "id": "4",
+                "description": "Casual"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            },
+            {
+                "id": "3",
+                "description": "RPG"
+            },
+            {
+                "id": "28",
+                "description": "Simulation"
+            }
+        ],
+        "Recommendations": 258,
+        "Release Date": "22 Dec, 2023"
+    },
+    {
+        "App ID": 2710970,
+        "Game Name": "Dungeon Vixens: A Tale of Temptation",
+        "Type": "game",
+        "Developer": [
+            "Dualarcade"
+        ],
+        "Publisher": [
+            "Shady Corner Games"
+        ],
+        "Is Free": false,
+        "Price": "27,50zł",
+        "Age Rating": 0,
+        "Detailed Description": "Inspired by Monster Girl's Labyrinth, Dungeon Vixens is a dungeon crawling rouge-like monster girl adventure with retro graphics. You play as a lone protagonist with a quest to reclaim his love. The dungeon he is about to enter however is filled with a lot of temptations and challenges. Such as the Succubus Lilura and many other sexy vixens that roam the halls. Using your attack and defense slider system timing is everything. Will you mend your heart or be lost forever in a Vixen filled dungeon of lust and pleasure? - Mysterious and intricate labyrinth setting, filled with hidden secrets and challenges. - 18 Challenging Levels with over 90 minutes of gameplay and even more to obtain all treasures of the dungeon. - Over 20 monster girls each with their own styles and sex scenes! - Many challenges and secrets buried within the tunnels to discover! - Minigames within the walls of the dungeon: Slot Machines other interactive elements. - Multiple Endings depending on the players choices including a SECRET ending. - 5 Trading Cards 6 Achievments! All characters of Dungeon Vixens: A Tale of Temptation are 18+ and over",
+        "Short Description": "Will you mend your heart or be lost forever in a Vixen filled dungeon of lust and pleasure?",
+        "About the Game": "Inspired by Monster Girl's Labyrinth, Dungeon Vixens is a dungeon crawling rouge-like monster girl adventure with retro graphics. You play as a lone protagonist with a quest to reclaim his love. The dungeon he is about to enter however is filled with a lot of temptations and challenges. Such as the Succubus Lilura and many other sexy vixens that roam the halls. Using your attack and defense slider system timing is everything. Will you mend your heart or be lost forever in a Vixen filled dungeon of lust and pleasure? - Mysterious and intricate labyrinth setting, filled with hidden secrets and challenges. - 18 Challenging Levels with over 90 minutes of gameplay and even more to obtain all treasures of the dungeon. - Over 20 monster girls each with their own styles and sex scenes! - Many challenges and secrets buried within the tunnels to discover! - Minigames within the walls of the dungeon: Slot Machines other interactive elements. - Multiple Endings depending on the players choices including a SECRET ending. - 5 Trading Cards 6 Achievments! All characters of Dungeon Vixens: A Tale of Temptation are 18+ and over",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 22,
+                "description": "Steam Achievements"
+            },
+            {
+                "id": 28,
+                "description": "Full controller support"
+            },
+            {
+                "id": 62,
+                "description": "Family Sharing"
+            }
+        ],
+        "Tags": [
+            "No tags for game"
+        ],
+        "Genres": [
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "4",
+                "description": "Casual"
+            }
+        ],
+        "Recommendations": 116,
+        "Release Date": "8 Apr, 2024"
+    },
+    {
+        "App ID": 2710040,
+        "Game Name": "Delverium",
+        "Type": "game",
+        "Developer": [
+            "Sagestone Games"
+        ],
+        "Publisher": [
+            "Sagestone Games"
+        ],
+        "Is Free": false,
+        "Price": "N/A",
+        "Age Rating": 0,
+        "Detailed Description": "JOIN OUR DISCORD About the Game Explore a vast procedurally generated world in this survival sandbox adventure for 1-4 players. Gather resources, build shelters, tend your farm, recruit NPC's, craft items or take on high risk dungeon crawling as you delve into the unknown. Be warned: Only the most courageous hero can uncover the secrets to Delverium. Could this be you? CRAFT AND BUILD Unlock and craft a huge array of items including food, tools, weapons, armor and building materials. Build shelters for safety and recruit NPC's who provide valuable trading options. Enjoy many quality of life features like nested crafting and an expandable player inventory. TEND YOUR FARM Till the soil, plant seeds, water your crops and watch your farm grow. Breed animals, catch fish and gather wild ingredients to combine with your harvest in a wide range of cooking recipes to eat and trade. DELVE DEEP Discover exotic biomes, hidden caves and dangerous dungeons that abound the land. Explore far and wide to mine ores, collect rare materials, unearth lost treasures, defeat foes and loot unique items. UNCOVER THE HIDDEN TRUTH There is a great peril infecting the land and you are the only hero who can restore stability. Uncover lost fragments of lore and hunt down the 'Faults' to piece together the hidden truth of Delverium. PLAY YOUR WAY Be it casual farming, settlement building, exploring the unknown or delving into dangerous dungeons; Play how you like and enjoy Delverium either solo or with up to 3 friends in split screen and online multiplayer.",
+        "Short Description": "Explore, Build, Farm, Craft and Fight in this survival sandbox adventure for up to 4 players. Delve deep to uncover the secret of the invading 'Faults' and restore stability to the land.",
+        "About the Game": "Explore a vast procedurally generated world in this survival sandbox adventure for 1-4 players. Gather resources, build shelters, tend your farm, recruit NPC's, craft items or take on high risk dungeon crawling as you delve into the unknown. Be warned: Only the most courageous hero can uncover the secrets to Delverium. Could this be you? CRAFT AND BUILD Unlock and craft a huge array of items including food, tools, weapons, armor and building materials. Build shelters for safety and recruit NPC's who provide valuable trading options. Enjoy many quality of life features like nested crafting and an expandable player inventory. TEND YOUR FARM Till the soil, plant seeds, water your crops and watch your farm grow. Breed animals, catch fish and gather wild ingredients to combine with your harvest in a wide range of cooking recipes to eat and trade. DELVE DEEP Discover exotic biomes, hidden caves and dangerous dungeons that abound the land. Explore far and wide to mine ores, collect rare materials, unearth lost treasures, defeat foes and loot unique items. UNCOVER THE HIDDEN TRUTH There is a great peril infecting the land and you are the only hero who can restore stability. Uncover lost fragments of lore and hunt down the 'Faults' to piece together the hidden truth of Delverium. PLAY YOUR WAY Be it casual farming, settlement building, exploring the unknown or delving into dangerous dungeons; Play how you like and enjoy Delverium either solo or with up to 3 friends in split screen and online multiplayer.",
+        "Minimum Requirements": "No information",
+        "Recommended Requirements": "No information",
+        "Metacritic": "No Information",
+        "Categories": [
+            {
+                "id": 2,
+                "description": "Single-player"
+            },
+            {
+                "id": 1,
+                "description": "Multi-player"
+            },
+            {
+                "id": 9,
+                "description": "Co-op"
+            },
+            {
+                "id": 38,
+                "description": "Online Co-op"
+            },
+            {
+                "id": 39,
+                "description": "Shared/Split Screen Co-op"
+            },
+            {
+                "id": 24,
+                "description": "Shared/Split Screen"
+            },
+            {
+                "id": 28,
+                "description": "Full controller support"
+            }
+        ],
+        "Tags": [
+            "Open World Survival Craft",
+            "Survival",
+            "Farming Sim",
+            "Sandbox",
+            "Adventure",
+            "Multiplayer",
+            "Procedural Generation",
+            "Pixel Graphics",
+            "Crafting",
+            "Building",
+            "Exploration",
+            "Open World",
+            "Co-op",
+            "Online Co-Op",
+            "2D",
+            "RPG",
+            "Singleplayer",
+            "Local Co-Op",
+            "Action",
+            "Atmospheric"
+        ],
+        "Genres": [
+            {
+                "id": "1",
+                "description": "Action"
+            },
+            {
+                "id": "25",
+                "description": "Adventure"
+            },
+            {
+                "id": "23",
+                "description": "Indie"
+            }
+        ],
+        "Recommendations": "No Information",
+        "Release Date": "2025"
     }
 ]

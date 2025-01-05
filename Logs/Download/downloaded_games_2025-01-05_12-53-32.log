@@ -1,0 +1,7 @@
+2025-01-05 12:53:32,910 - WARNING - Failed to fetch details or object is not a game: app_id: 2711100
+2025-01-05 12:53:34,130 - INFO - Processed game: Revenge Of The Colon (app_id: 2710950)
+2025-01-05 12:53:35,049 - INFO - New object successfully inserted into the database.
+2025-01-05 12:53:36,102 - INFO - Processed game: Dungeon Vixens: A Tale of Temptation (app_id: 2710970)
+2025-01-05 12:53:36,721 - INFO - New object successfully inserted into the database.
+2025-01-05 12:53:37,709 - INFO - Processed game: Delverium (app_id: 2710040)
+2025-01-05 12:53:38,187 - INFO - New object successfully inserted into the database.

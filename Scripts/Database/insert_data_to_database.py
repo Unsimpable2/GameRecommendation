@@ -14,22 +14,23 @@ password = "admin"
 log_dir = '../GameRecommendation/Logs/Database/'
 os.makedirs(log_dir, exist_ok = True)
 
-logging.basicConfig(
-    filename=os.path.join(log_dir, 'data_import.log'),
-    level = logging.INFO,
-    format = '%(asctime)s - %(levelname)s - %(message)s',
-    filemode = 'a'
-)
+log_file_path = os.path.join(log_dir, 'data_import.log')
+database_logger = logging.getLogger('database_logger')
+database_logger.setLevel(logging.INFO)
+
+file_handler = logging.FileHandler(log_file_path)
+file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+database_logger.addHandler(file_handler)
 
 def parse_release_date(release_date):
     if release_date and release_date.lower() != "coming soon":
         try:
             return datetime.strptime(release_date, "%d %b, %Y").date()
         except ValueError:
-            logging.error(f"Invalid date format: {release_date}")
+            database_logger.error(f"Invalid date format: {release_date}")
             return None
     else:
-        logging.warning(f"Non-parsable release date: {release_date}")
+        database_logger.warning(f"Non-parsable release date: {release_date}")
         return None
 
 def validate_integer(value):
@@ -49,37 +50,20 @@ def connect_to_postgres():
         )
 
         cursor = connection.cursor()
-
         cursor.execute("SELECT version();")
         postgres_version = cursor.fetchone()
-        logging.info(f"Connected to PostgreSQL, version: {postgres_version}")
-
+        database_logger.info(f"Connected to PostgreSQL, version: {postgres_version}")
         return connection, cursor
 
     except Exception as error:
-        logging.error(f"Error connecting to PostgreSQL: {error}")
+        database_logger.error(f"Error connecting to PostgreSQL: {error}")
         return None, None
 
-def insert_data_from_json(json_file):
-
-    json_file = os.path.join('../GameRecommendation/Data/GamesData', json_file)
-
+def insert_data_from_object(data):
     connection, cursor = connect_to_postgres()
 
     if connection is None or cursor is None:
-        logging.error("Failed to connect to the database. Terminating data insertion.")
-        return
-
-    if not os.path.exists(json_file):
-        logging.error(f"JSON file not found: {json_file}")
-        return
-
-    try:
-        with open(json_file, 'r', encoding = 'utf-8') as f:
-            data = json.load(f)
-        logging.info(f"Successfully loaded JSON data from file: {json_file}")
-    except Exception as e:
-        logging.error(f"Failed to load JSON data from file: {json_file}. Error: {e}")
+        database_logger.error("Failed to connect to the database. Terminating data insertion.")
         return
 
     success_count = 0
@@ -89,7 +73,7 @@ def insert_data_from_json(json_file):
     for idx, game in enumerate(data):
         try:
             if not game.get('App ID') or not game.get('Game Name'):
-                logging.error(f"Missing required fields for game: {game}")
+                database_logger.error(f"Missing required fields for game: {game}")
                 error_count += 1
                 continue
 
@@ -133,10 +117,10 @@ def insert_data_from_json(json_file):
 
             if success_count % batch_size == 0:
                 connection.commit()
-                logging.info(f"Committed batch of {batch_size} records.")
+                database_logger.info(f"Committed batch of {batch_size} records.")
 
         except Exception as e:
-            logging.error(f"Error while inserting data for game with App ID {game.get('App ID')}. Error: {e}")
+            database_logger.error(f"Error while inserting data for game with App ID {game.get('App ID')}. Error: {e}")
             error_count += 1
             connection.rollback()
 
@@ -145,10 +129,8 @@ def insert_data_from_json(json_file):
     connection.close()
 
     if error_count == 0:
-        logging.info(f"Successfully imported all {success_count} games from the JSON file.")
-        logging.info(f"------------End of data importing------------\n")
+        database_logger.info(f"Successfully imported all {success_count} games.")
+        database_logger.info(f"------------End of data importing------------\n")
     else:
-        logging.warning(f"Import completed with {success_count} successes and {error_count} errors.")
-        logging.info(f"------------End of data importing------------\n")
-
-insert_data_from_json('steam_games_processed_part11.json')
+        database_logger.warning(f"Import completed with {success_count} successes and {error_count} errors.")
+        database_logger.info(f"------------End of data importing------------\n")
