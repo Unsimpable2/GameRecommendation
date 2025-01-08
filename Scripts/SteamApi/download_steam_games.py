@@ -13,8 +13,9 @@ from langdetect import detect, DetectorFactory
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
-from Scripts.Database.insert_data_to_database import insert_data_from_object
+from update_game_list import update_game_list
 from get_id_form_error import get_id_from_error
+from Scripts.Database.insert_data_to_database import insert_data_from_object
 
 DetectorFactory.seed = 0
 
@@ -175,6 +176,9 @@ def is_english(text):
         return False
 
 def download_steam_games(file_path_list, max_iterations = 90000):
+
+    update_game_list()
+
     with open(file_path_list, 'r', encoding = 'utf-8') as file:
         game_list = json.load(file)
 
