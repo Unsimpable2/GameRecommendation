@@ -4,9 +4,13 @@ import json
 
 def get_id_from_error():
     app_ids = []
-    log_file_path = '../GameRecommendation/Logs/Download/error_log_late.log'
+    log_file_path = '../GameRecommendation/Logs/Download/error_id.log'
     output_json_path = '../GameRecommendation/Data/DownloadList/steam_game_list_to_update.json'
     
+    if os.path.getsize(log_file_path) == 0:
+        print("Plik error_id.log is empty. End of a script.")
+        return
+
     error_prompt = 'ERROR - Error while fetching data for app_id: '
     warning_prompt = 'WARNING - Failed to fetch details for app_id: '
     
@@ -46,5 +50,3 @@ def get_id_from_error():
 
     open(log_file_path, 'w').close()
     print("All errors were processed and added to steam_game_list_to_update.json file")
-
-get_id_from_error()

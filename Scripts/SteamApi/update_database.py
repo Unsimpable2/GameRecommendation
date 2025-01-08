@@ -14,9 +14,9 @@ update_file_path = base_path + data_list_path + '/DownloadList/steam_game_list_t
 last_update_file_path = base_path + log_update_path + '/last_database_update.txt'
 
 logging.basicConfig(
-    filename=base_path + log_update_path + '/steam_game_updater.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    filename = base_path + log_update_path + '/steam_game_updater.log',
+    level = logging.INFO,
+    format = '%(asctime)s - %(levelname)s - %(message)s'
 )
 
 def fetch_steam_game_data():

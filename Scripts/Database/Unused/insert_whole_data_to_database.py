@@ -53,6 +53,7 @@ def connect_to_postgres():
         )
 
         cursor = connection.cursor()
+
         cursor.execute("SELECT version();")
         postgres_version = cursor.fetchone()
         database_logger.info(f"Connected to PostgreSQL, version: {postgres_version}")
@@ -62,11 +63,26 @@ def connect_to_postgres():
         database_logger.error(f"Error connecting to PostgreSQL: {error}")
         return None, None
 
-def insert_data_from_object(data):
+def insert_data_from_json(json_file):
+
+    json_file = os.path.join('../GameRecommendation/Data/GamesData', json_file)
+
     connection, cursor = connect_to_postgres()
 
     if connection is None or cursor is None:
         database_logger.error("Failed to connect to the database. Terminating data insertion.")
+        return
+
+    if not os.path.exists(json_file):
+        database_logger.error(f"JSON file not found: {json_file}")
+        return
+
+    try:
+        with open(json_file, 'r', encoding = 'utf-8') as f:
+            data = json.load(f)
+        database_logger.info(f"Successfully loaded JSON data from file: {json_file}")
+    except Exception as e:
+        database_logger.error(f"Failed to load JSON data from file: {json_file}. Error: {e}")
         return
 
     success_count = 0
@@ -132,8 +148,10 @@ def insert_data_from_object(data):
     connection.close()
 
     if error_count == 0:
-        database_logger.info(f"Successfully imported all {success_count} games.")
+        database_logger.info(f"Successfully imported all {success_count} games from the JSON file.")
         database_logger.info(f"------------End of data importing------------\n")
     else:
         database_logger.warning(f"Import completed with {success_count} successes and {error_count} errors.")
         database_logger.info(f"------------End of data importing------------\n")
+
+insert_data_from_json('steam_games_processed_part10.json')

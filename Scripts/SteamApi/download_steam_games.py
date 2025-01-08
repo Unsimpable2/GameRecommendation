@@ -14,6 +14,7 @@ from langdetect import detect, DetectorFactory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
 from Scripts.Database.insert_data_to_database import insert_data_from_object
+from get_id_form_error import get_id_from_error
 
 DetectorFactory.seed = 0
 
@@ -253,6 +254,8 @@ def download_steam_games(file_path_list, max_iterations = 90000):
         
         iteration_count += 1
         time.sleep(0.5)
+    
+    get_id_from_error()
 
-file_path_list = os.path.join(base_path, "Data/DownloadList", 'test.json')
+file_path_list = os.path.join(base_path, "Data/DownloadList", 'steam_game_list_to_update.json')
 download_steam_games(file_path_list)
