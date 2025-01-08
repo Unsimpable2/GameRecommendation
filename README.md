@@ -3,4 +3,5 @@ Projekt ma w założeniu wykorzystac AI i ML do inteligentego oraz dokładnego p
 
 Zalecany Python do używania to wersja 3.10-3.11.
 
+Schemat Bazy Danych
 ![Schemat Bazy Danych](Scripts/Database/Schemat%20Bazy%20Danych.svg)
