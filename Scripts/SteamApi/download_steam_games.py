@@ -11,11 +11,11 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
 from update_game_list import update_game_list
 from get_id_form_error import get_id_from_error
 from Scripts.Database.insert_data_to_database import insert_data_from_object
+from Scripts.Database.db_connection_pool import create_connection_pool, close_connection_pool
 
 DetectorFactory.seed = 0
 
@@ -175,91 +175,97 @@ def is_english(text):
     except Exception:
         return False
 
-def download_steam_games(file_path_list, max_iterations = 90000):
+def download_steam_games(file_path_list, max_iterations=90000):
 
-    update_game_list()
+    create_connection_pool(minconn = 1, maxconn = 10)
 
-    with open(file_path_list, 'r', encoding = 'utf-8') as file:
-        game_list = json.load(file)
+    try:
+        update_game_list()
 
-    iteration_count = 0
-    for game in game_list[:]:
-        if iteration_count >= max_iterations or stop_requested:
-            if stop_requested:
-                download_logger.info('Stop requested. Finishing current iteration before exiting...')
-            break
+        with open(file_path_list, 'r', encoding = 'utf-8') as file:
+            game_list = json.load(file)
 
-        app_id = game['appid']
-        details = get_app_details(app_id)
+        iteration_count = 0
+        for game in game_list[:]:
+            if iteration_count >= max_iterations or stop_requested:
+                if stop_requested:
+                    download_logger.info('Stop requested. Finishing current iteration before exiting...')
+                break
 
-        if details and details.get('type') == 'game':
-            download_logger.info(f"Processed game: {details.get('name', 'No name')} (app_id: {app_id})")
+            app_id = game['appid']
+            details = get_app_details(app_id)
 
-            detailed_description = details.get('detailed_description', '')
-            short_description = details.get('short_description', '')
-            about_game = details.get('about_the_game', '')
+            if details and details.get('type') == 'game':
+                download_logger.info(f"Processed game: {details.get('name', 'No name')} (app_id: {app_id})")
 
-            if not (is_english(detailed_description) or is_english(short_description) or is_english(about_game) or is_english(details['name'])):
-                download_logger.info(f"Skipping app_id: {app_id} because description is not in English.")
-                iteration_count += 1
-                continue
+                detailed_description = details.get('detailed_description', '')
+                short_description = details.get('short_description', '')
+                about_game = details.get('about_the_game', '')
 
-            is_free = details.get('is_free', False)
-            price_overview = details.get('price_overview', {})
-            price = price_overview.get('final_formatted', 'N/A') if price_overview else 'N/A'
+                if not (is_english(detailed_description) or is_english(short_description) or is_english(about_game) or is_english(details['name'])):
+                    download_logger.info(f"Skipping app_id: {app_id} because description is not in English.")
+                    iteration_count += 1
+                    continue
 
-            pc_requirements = 'No information'
-            pc_requirements_data = details.get('pc_requirements', [])
-            pc_requirements = pc_requirements_data[0] if isinstance(pc_requirements_data, list) and pc_requirements_data else pc_requirements
+                is_free = details.get('is_free', False)
+                price_overview = details.get('price_overview', {})
+                price = price_overview.get('final_formatted', 'N/A') if price_overview else 'N/A'
 
-            minimal_requirements = 'No information'
-            recommended_requirements = 'No information'
+                pc_requirements = 'No information'
+                pc_requirements_data = details.get('pc_requirements', [])
+                pc_requirements = pc_requirements_data[0] if isinstance(pc_requirements_data, list) and pc_requirements_data else pc_requirements
 
-            if isinstance(pc_requirements, dict):
-                minimal_requirements = pc_requirements.get('minimum', 'No information')
-                recommended_requirements = pc_requirements.get('recommended', 'No information')
+                minimal_requirements = 'No information'
+                recommended_requirements = 'No information'
 
-            metacritic_score = details.get('metacritic', {}).get('score', 'No Information')
-            recommendations_total = details.get('recommendations', {}).get('total', 'No Information')
-            release_date_info = details.get('release_date', {})
-            release_date = release_date_info.get('date', 'No Information') if release_date_info else 'No Information'
+                if isinstance(pc_requirements, dict):
+                    minimal_requirements = pc_requirements.get('minimum', 'No information')
+                    recommended_requirements = pc_requirements.get('recommended', 'No information')
 
-            tags = get_steam_tags(app_id)
+                metacritic_score = details.get('metacritic', {}).get('score', 'No Information')
+                recommendations_total = details.get('recommendations', {}).get('total', 'No Information')
+                release_date_info = details.get('release_date', {})
+                release_date = release_date_info.get('date', 'No Information') if release_date_info else 'No Information'
 
-            game_details = {
-                'App ID': app_id,
-                'Game Name': details['name'],
-                'Type': details['type'],
-                'Developer': details.get('developers', ['No Information']),
-                'Publisher': details.get('publishers', ['No Information']),
-                'Is Free': is_free,
-                'Price': price,
-                'Age Rating': details.get('required_age', 'N/A'),
-                'Detailed Description': detailed_description,
-                'Short Description': short_description,
-                'About the Game': about_game,
-                'Minimum Requirements': minimal_requirements,
-                'Recommended Requirements': recommended_requirements,
-                'Metacritic': metacritic_score,
-                'Categories': details.get('categories', []),
-                'Tags': tags,
-                'Genres': details.get('genres', []),
-                'Recommendations': recommendations_total,
-                'Release Date': release_date
-            }
+                tags = get_steam_tags(app_id)
 
-            cleaned_game_details = clean_json_data(game_details)
-            append_to_json_file("Data/GamesData", cleaned_game_details)
-        else:
-            download_logger.warning(f"Failed to fetch details or object is not a game: app_id: {app_id}")
+                game_details = {
+                    'App ID': app_id,
+                    'Game Name': details['name'],
+                    'Type': details['type'],
+                    'Developer': details.get('developers', ['No Information']),
+                    'Publisher': details.get('publishers', ['No Information']),
+                    'Is Free': is_free,
+                    'Price': price,
+                    'Age Rating': details.get('required_age', 'N/A'),
+                    'Detailed Description': detailed_description,
+                    'Short Description': short_description,
+                    'About the Game': about_game,
+                    'Minimum Requirements': minimal_requirements,
+                    'Recommended Requirements': recommended_requirements,
+                    'Metacritic': metacritic_score,
+                    'Categories': details.get('categories', []),
+                    'Tags': tags,
+                    'Genres': details.get('genres', []),
+                    'Recommendations': recommendations_total,
+                    'Release Date': release_date
+                }
 
-        game_list.remove(game)
-        save_json_file(game_list, file_path_list)
-        
-        iteration_count += 1
-        time.sleep(0.5)
-    
-    get_id_from_error()
+                cleaned_game_details = clean_json_data(game_details)
+                append_to_json_file("Data/GamesData", cleaned_game_details)
+            else:
+                download_logger.warning(f"Failed to fetch details or object is not a game: app_id: {app_id}")
+
+            game_list.remove(game)
+            save_json_file(game_list, file_path_list)
+
+            iteration_count += 1
+            time.sleep(0.5)
+
+        get_id_from_error()
+
+    finally:
+        close_connection_pool()
 
 file_path_list = os.path.join(base_path, "Data/DownloadList", 'steam_game_list_to_update.json')
 download_steam_games(file_path_list)
