@@ -22,8 +22,8 @@ def create_connection_pool(minconn = 1, maxconn = 10):
     global db_pool
     try:
         db_pool = pool.SimpleConnectionPool(
-            minconn=minconn,
-            maxconn=maxconn,
+            minconn = minconn,
+            maxconn = maxconn,
             host = "localhost",
             port = "1234",
             dbname = "SteamGamesDB",
@@ -39,6 +39,7 @@ def create_connection_pool(minconn = 1, maxconn = 10):
 def get_connection():
     global db_pool
     if not db_pool:
+        logger.error("Connection pool has not been initialized. Please call create_connection_pool first.")
         raise Exception("Connection pool has not been initialized.")
     logger.info("Connection retrieved from pool.")
     return db_pool.getconn()

@@ -5,7 +5,7 @@ from psycopg2 import sql
 from datetime import datetime
 
 
-from db_connection_pool import get_connection, return_connection
+from ..db_connection_pool import create_connection_pool, get_connection, return_connection
 
 def setup_logger():
     log_dir = '../GameRecommendation/Logs/Database'
@@ -24,7 +24,7 @@ def setup_logger():
 database_logger = setup_logger()
 
 def parse_release_date(release_date):
-    if not release_date or release_date.lower() == "coming soon":
+    if not release_date or release_date.lower() in ["coming soon", "to be announced"]:
         database_logger.warning(f"Non-parsable release date: {release_date}")
         current_year = datetime.now().year
         return datetime(current_year + 1, 1, 1).date()
@@ -44,9 +44,11 @@ def validate_integer(value):
         return None
 
 def insert_data_from_json(json_file):
+    create_connection_pool (minconn = 1, maxconn = 10)
     json_file = os.path.join('../GameRecommendation/Data/GamesData', json_file)
 
     connection = None
+
     try:
         connection = get_connection()
         cursor = connection.cursor()
@@ -138,4 +140,6 @@ def insert_data_from_json(json_file):
         if connection:
             return_connection(connection)
 
-insert_data_from_json('steam_games_processed_part10.json')
+for i in range(1, 12):
+    insert_data_from_json(f'steam_games_processed_part{i}.json')
+

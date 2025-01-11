@@ -6,7 +6,7 @@ from psycopg2 import sql
 from datetime import datetime
 
 
-from db_connection_pool import get_connection, return_connection
+from Scripts.Database.db_connection_pool import get_connection, return_connection
 
 def setup_logger():
     log_dir = '../GameRecommendation/Logs/Database'
@@ -23,7 +23,7 @@ def setup_logger():
 database_logger = setup_logger()
 
 def parse_release_date(release_date):
-    if not release_date or release_date.lower() == "coming soon":
+    if not release_date or release_date.lower() in ["coming soon", "to be announced"]:
         database_logger.warning(f"Non-parsable release date: {release_date}")
         current_year = datetime.now().year
         return datetime(current_year + 1, 1, 1).date()
@@ -43,7 +43,9 @@ def validate_integer(value):
         return None
 
 def insert_data_from_object(data):
+
     connection = None
+
     try:
         connection = get_connection()
         cursor = connection.cursor()
