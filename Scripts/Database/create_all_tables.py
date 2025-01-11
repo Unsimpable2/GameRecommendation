@@ -9,11 +9,11 @@ password = "admin"
 def create_tables():
     try:
         connection = psycopg.connect(
-            host=host,
-            port=port,
-            dbname=dbname,
-            user=user,
-            password=password
+            host = host,
+            port = port,
+            dbname = dbname,
+            user = user,
+            password = password
         )
         cursor = connection.cursor()
 

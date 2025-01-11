@@ -11,11 +11,12 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from update_game_list import update_game_list
 from get_id_form_error import get_id_from_error
-from Scripts.Database.insert_data_to_database import insert_data_from_object
 from Scripts.Database.db_connection_pool import create_connection_pool, close_connection_pool
+from Scripts.Database.insert_data_to_database import insert_data_from_object
 
 DetectorFactory.seed = 0
 
@@ -175,7 +176,7 @@ def is_english(text):
     except Exception:
         return False
 
-def download_steam_games(file_path_list, max_iterations=90000):
+def download_steam_games(file_path_list, max_iterations = 90000):
 
     create_connection_pool(minconn = 1, maxconn = 10)
 

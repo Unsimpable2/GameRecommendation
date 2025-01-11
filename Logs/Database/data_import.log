@@ -1,54 +1,29 @@
-2025-01-02 19:10:12,743 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-02 19:10:12,746 - INFO - Successfully loaded JSON data from file: ../GameRecommendation/Data/GamesData\steam_games_processed_part11.json
-2025-01-02 19:10:12,762 - ERROR - Invalid date format: To be announced
-2025-01-02 19:10:12,773 - ERROR - Invalid date format: To be announced
-2025-01-02 19:10:12,777 - ERROR - Invalid date format: To be announced
-2025-01-02 19:10:12,777 - WARNING - Non-parsable release date: 
-2025-01-02 19:10:12,781 - INFO - Successfully imported all 48 games from the JSON file.
-2025-01-02 19:10:12,781 - INFO - ------------End of data importing------------
+2025-01-11 14:54:07,391 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:07,391 - INFO - ------------End of data importing------------
 
-2025-01-05 12:10:57,505 - INFO - Processed game: Fly Hands (app_id: 2719720)
-2025-01-05 12:10:58,926 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:10:58,933 - INFO - Successfully imported all 1 games.
-2025-01-05 12:10:58,934 - INFO - ------------End of data importing------------
+2025-01-11 14:54:10,424 - ERROR - Invalid date format: To be announced
+2025-01-11 14:54:10,424 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:10,424 - INFO - ------------End of data importing------------
 
-2025-01-05 12:10:58,934 - INFO - New object successfully inserted into the database.
-2025-01-05 12:11:00,079 - INFO - Processed game: Christmas Fables: The Magic Snowflake Collector's Edition (app_id: 2718140)
-2025-01-05 12:11:00,722 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:11:00,726 - INFO - Successfully imported all 1 games.
-2025-01-05 12:11:00,726 - INFO - ------------End of data importing------------
+2025-01-11 14:54:13,373 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:13,373 - INFO - ------------End of data importing------------
 
-2025-01-05 12:11:00,726 - INFO - New object successfully inserted into the database.
-2025-01-05 12:11:01,745 - INFO - Processed game: Evolve (app_id: 2717790)
-2025-01-05 12:11:02,188 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:11:02,189 - WARNING - Non-parsable release date: Coming soon
-2025-01-05 12:11:02,195 - INFO - Successfully imported all 1 games.
-2025-01-05 12:11:02,195 - INFO - ------------End of data importing------------
+2025-01-11 14:54:18,095 - ERROR - Invalid date format: To be announced
+2025-01-11 14:54:18,095 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:18,095 - INFO - ------------End of data importing------------
 
-2025-01-05 12:39:08,342 - INFO - Processed game: Astro Hunters VR (app_id: 2715910)
-2025-01-05 12:39:09,361 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:39:09,365 - INFO - Successfully imported all 1 games.
-2025-01-05 12:39:09,365 - INFO - ------------End of data importing------------
+2025-01-11 14:54:21,370 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:21,370 - INFO - ------------End of data importing------------
 
-2025-01-05 12:44:01,371 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:44:01,373 - ERROR - Invalid date format: 2025
-2025-01-05 12:44:01,376 - INFO - Successfully imported all 1 games.
-2025-01-05 12:44:01,377 - INFO - ------------End of data importing------------
+2025-01-11 14:54:24,570 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:24,570 - INFO - ------------End of data importing------------
 
-2025-01-05 12:44:04,265 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:44:04,268 - INFO - Successfully imported all 1 games.
-2025-01-05 12:44:04,268 - INFO - ------------End of data importing------------
+2025-01-11 14:54:27,338 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:27,338 - INFO - ------------End of data importing------------
 
-2025-01-05 12:53:35,045 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:53:35,049 - INFO - Successfully imported all 1 games.
-2025-01-05 12:53:35,049 - INFO - ------------End of data importing------------
+2025-01-11 14:54:29,855 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:29,855 - INFO - ------------End of data importing------------
 
-2025-01-05 12:53:36,718 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:53:36,721 - INFO - Successfully imported all 1 games.
-2025-01-05 12:53:36,721 - INFO - ------------End of data importing------------
-
-2025-01-05 12:53:38,185 - INFO - Connected to PostgreSQL, version: ('PostgreSQL 17.0 on x86_64-windows, compiled by msvc-19.41.34120, 64-bit',)
-2025-01-05 12:53:38,185 - ERROR - Invalid date format: 2025
-2025-01-05 12:53:38,187 - INFO - Successfully imported all 1 games.
-2025-01-05 12:53:38,187 - INFO - ------------End of data importing------------
+2025-01-11 14:54:32,954 - INFO - Successfully imported all 1 games.
+2025-01-11 14:54:32,954 - INFO - ------------End of data importing------------
 
