@@ -30,6 +30,7 @@ def get_id_from_error():
     if os.path.exists(output_json_path):
         with open(output_json_path, 'r+', encoding = 'utf-8') as json_file:
             content = json_file.read().strip()
+            
             if content == "[]" or not content:
                 json_file.seek(0)
                 json_file.truncate()

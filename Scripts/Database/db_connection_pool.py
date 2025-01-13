@@ -7,7 +7,7 @@ def setup_logger():
     os.makedirs(log_dir, exist_ok = True)
     log_file_path = os.path.join(log_dir, 'database_connection.log')
     logger = logging.getLogger(__name__)
-    handler = logging.FileHandler(log_file_path, mode = 'a')
+    handler = logging.FileHandler(log_file_path, mode = 'w')
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
