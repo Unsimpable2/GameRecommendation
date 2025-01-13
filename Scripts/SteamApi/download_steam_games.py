@@ -179,7 +179,7 @@ def is_english(text):
 def download_steam_games(file_path_list, max_iterations = 90000):
 
     create_connection_pool(minconn = 1, maxconn = 10)
-
+    
     try:
         update_game_list()
 
@@ -187,6 +187,7 @@ def download_steam_games(file_path_list, max_iterations = 90000):
             game_list = json.load(file)
 
         iteration_count = 0
+
         for game in game_list[:]:
             if iteration_count >= max_iterations or stop_requested:
                 if stop_requested:

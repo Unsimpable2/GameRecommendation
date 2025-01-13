@@ -75,7 +75,7 @@ def delete_duplicates():
 
         with open(file_path, 'w', encoding = 'utf-8') as f:
             json.dump(unique_data, f, indent = 4, ensure_ascii = False)
-            logger.info(f"Unique data saved: {unique_data}")
+            logger.info(f"Unique data saved: {len(unique_data)}")
 
     except json.JSONDecodeError:
         logger.error(f"File {file_path} is not a valid JSON. Skipping duplicate removal.")
@@ -85,6 +85,7 @@ def delete_duplicates():
 
 def update_game_list():
     logger.info("Starting the update process.")
+    
     try:
         new_data = fetch_steam_game_data()
         save_to_json(new_data, new_file_path)
