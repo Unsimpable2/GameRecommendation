@@ -9,7 +9,7 @@ os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-def round_vector(vector, precision=4):
+def round_vector(vector, precision = 4):
     return [round(x, precision) for x in vector]
 
 def generate_feature_vector(game_data, all_tags, all_genres):
@@ -57,7 +57,7 @@ def process_text_to_vector(text):
     return round_vector(model.encode(text).tolist(), precision=4)
 
 def process_json_file(input_file_path, output_file_path):
-    with open(input_file_path, 'r', encoding='utf-8') as file:
+    with open(input_file_path, 'r', encoding = 'utf-8') as file:
         data = json.load(file)
 
     all_tags = list({tag for game in data for tag in game.get("Tags", [])})
@@ -88,10 +88,10 @@ def process_json_file(input_file_path, output_file_path):
 
         processed_data.append(game)
 
-    with open(output_file_path, 'w', encoding='utf-8') as file:
-        json.dump(processed_data, file, ensure_ascii=False, separators=(',', ':'))
+    with open(output_file_path, 'w', encoding = 'utf-8') as file:
+        json.dump(processed_data, file, ensure_ascii = False, separators = (',', ':'))
 
-input_file_path = "../GameRecommendation/Data/GamesData/steam_games_processed_part2.json"
-output_file_path = "../GameRecommendation/Data/GamesData/steam_games_processed_part2_data_change.json"
+input_file_path = f"../GameRecommendation/Data/GamesData/steam_games_processed_part11.json"
+output_file_path = f"../GameRecommendation/Data/GamesData/VectorData/steam_games_processed_part11_data_change.json"
 
 process_json_file(input_file_path, output_file_path)
