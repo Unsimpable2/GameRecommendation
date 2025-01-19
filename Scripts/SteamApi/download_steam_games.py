@@ -81,7 +81,7 @@ def append_to_json_file(directory, new_object):
         data = []
         current_count = 0
 
-    if current_count >= 10000:
+    if current_count >= 6000:
         save_json_file(data, last_file)
 
         if last_file:
