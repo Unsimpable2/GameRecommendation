@@ -17,6 +17,8 @@ def create_tables():
         )
         cursor = connection.cursor()
 
+        cursor.execute("CREATE EXTENSION IF NOT EXISTS vector;")
+
         create_games_table_query = """
         CREATE TABLE IF NOT EXISTS games (
             id SERIAL PRIMARY KEY,
@@ -26,7 +28,7 @@ def create_tables():
             developer TEXT[],
             publisher TEXT[],
             is_free BOOLEAN,
-            price TEXT,
+            price NUMERIC,
             age_rating INTEGER,
             detailed_description TEXT,
             short_description TEXT,
@@ -37,7 +39,12 @@ def create_tables():
             tags JSONB,
             genres JSONB,
             recommendations INTEGER,
-            release_date DATE
+            release_date DATE,
+            release_date_days INTEGER,
+            features vector(384),
+            detailed_description_vector vector(384),
+            about_the_game_vector vector(384),
+            short_description_vector vector(384)
         );
         """
         cursor.execute(create_games_table_query)
