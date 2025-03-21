@@ -17,6 +17,7 @@ from update_game_list import update_game_list
 from get_id_form_error import get_id_from_error
 from Scripts.Database.db_connection_pool import create_connection_pool, close_connection_pool
 from Scripts.Database.insert_data_to_database import insert_data_from_object
+from game_data_to_vector import game_data_to_vector
 
 DetectorFactory.seed = 0
 
@@ -34,7 +35,7 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
 
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 log_dir = os.path.join(base_path, "Logs/Download")
-os.makedirs(log_dir, exist_ok = True)
+os.makedirs(log_dir, exist_ok=True)
 
 download_logger = logging.getLogger('download_logger')
 download_logger.setLevel(logging.INFO)
@@ -44,24 +45,24 @@ download_logger.addHandler(download_handler)
 
 error_logger = logging.getLogger('error_logger')
 error_logger.setLevel(logging.ERROR)
-error_handler = logging.FileHandler(os.path.join(log_dir, 'error_id.log'), mode = 'a')
+error_handler = logging.FileHandler(os.path.join(log_dir, 'error_id.log'), mode='a')
 error_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 error_logger.addHandler(error_handler)
 
 def get_last_json_file(directory):
-    json_files = glob(os.path.join(directory, "steam_games_processed_part*.json"))
+    json_files = glob(os.path.join(directory, "steam_games_processed_vector_part*.json"))
     if not json_files:
         return None
 
     file_numbers = [
-        int(re.search(r"steam_games_processed_part(\d+).json", f).group(1))
-        for f in json_files if re.search(r"steam_games_processed_part(\d+).json", f)
+        int(re.search(r"steam_games_processed_vector_part(\d+).json", f).group(1))
+        for f in json_files if re.search(r"steam_games_processed_vector_part(\d+).json", f)
     ]
     if not file_numbers:
         return None
 
     max_file_number = max(file_numbers)
-    return os.path.join(directory, f"steam_games_processed_part{max_file_number}.json")
+    return os.path.join(directory, f"steam_games_processed_vector_part{max_file_number}.json")
 
 def load_json_file(file_path):
     with open(file_path, "r", encoding = "utf-8") as f:
@@ -85,7 +86,7 @@ def append_to_json_file(directory, new_object):
         save_json_file(data, last_file)
 
         if last_file:
-            match = re.search(r"steam_games_processed_part(\d+).json", last_file)
+            match = re.search(r"steam_games_processed_vector_part(\d+).json", last_file)
             if match:
                 file_number = int(match.group(1)) + 1
             else:
@@ -93,7 +94,7 @@ def append_to_json_file(directory, new_object):
         else:
             file_number = 1
 
-        new_file = os.path.join(directory, f"steam_games_processed_part{file_number}.json")
+        new_file = os.path.join(directory, f"steam_games_processed_vector_part{file_number}.json")
         save_json_file([new_object], new_file)
 
         try:
@@ -176,17 +177,33 @@ def is_english(text):
     except Exception:
         return False
 
-def download_steam_games(file_path_list, max_iterations = 90000):
-
-    create_connection_pool(minconn = 1, maxconn = 10)
+def download_steam_games(file_path_list, max_iterations=90000):
+    create_connection_pool(minconn=1, maxconn=10)
     
     try:
         update_game_list()
 
-        with open(file_path_list, 'r', encoding = 'utf-8') as file:
+        with open(file_path_list, 'r', encoding='utf-8') as file:
             game_list = json.load(file)
 
         iteration_count = 0
+
+        all_tags = set()
+        all_genres = set()
+
+        json_files = glob(os.path.join("Data/GamesData", "steam_games_processed_vector_part*.json"))
+        for file in json_files:
+            try:
+                data = load_json_file(file)
+                for game in data:
+                    all_tags.update(game.get("Tags", []))
+                    for genre in game.get("Genres", []):
+                        all_genres.add(genre["description"])
+            except:
+                pass
+
+        all_tags = list(all_tags)
+        all_genres = list(all_genres)
 
         for game in game_list[:]:
             if iteration_count >= max_iterations or stop_requested:
@@ -254,7 +271,9 @@ def download_steam_games(file_path_list, max_iterations = 90000):
                 }
 
                 cleaned_game_details = clean_json_data(game_details)
-                append_to_json_file("Data/GamesData", cleaned_game_details)
+                processed_game = game_data_to_vector(cleaned_game_details, all_tags, all_genres)
+                append_to_json_file("Data/GamesData", processed_game)
+
             else:
                 download_logger.warning(f"Failed to fetch details or object is not a game: app_id: {app_id}")
 

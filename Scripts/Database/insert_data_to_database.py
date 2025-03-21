@@ -5,15 +5,16 @@ import psycopg2
 from psycopg2 import sql
 from datetime import datetime
 
-
 from Scripts.Database.db_connection_pool import get_connection, return_connection
+
+VECTOR_SIZE = 384
 
 def setup_logger():
     log_dir = '../GameRecommendation/Logs/Database'
     os.makedirs(log_dir, exist_ok = True)
     log_file_path = os.path.join(log_dir, 'data_import.log')
     logger = logging.getLogger(__name__)
-    handler = logging.FileHandler(log_file_path, mode = 'a')
+    handler = logging.FileHandler(log_file_path, mode = 'w')
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
@@ -23,27 +24,49 @@ def setup_logger():
 database_logger = setup_logger()
 
 def parse_release_date(release_date):
-    if not release_date or release_date.lower() in ["coming soon", "to be announced"]:
+    if not release_date:
+        return None, None
+
+    clean_value = str(release_date).strip().lower()
+    invalid_values = ["coming soon", "to be announced", "tba", "soon", "unavailable"]
+
+    if clean_value in invalid_values:
         database_logger.warning(f"Non-parsable release date: {release_date}")
-        current_year = datetime.now().year
-        return datetime(current_year + 1, 1, 1).date()
+        return None, None
+
     try:
-        return datetime.strptime(release_date, "%d %b, %Y").date()
+        release_date_obj = datetime.strptime(release_date, "%d %b, %Y")
+        epoch = datetime(1970, 1, 1)
+        release_date_days = (release_date_obj - epoch).days
+        return release_date_obj.date(), release_date_days
     except ValueError:
-        try:
-            return datetime.strptime(release_date, "%Y").date()
-        except ValueError:
-            database_logger.error(f"Invalid date format: {release_date}")
-            return datetime.now().date()
+        pass
+
+    try:
+        if len(release_date) == 4 and release_date.isdigit():
+            year_obj = datetime.strptime(release_date, "%Y")
+            return year_obj.date(), None
+    except Exception:
+        pass
+
+    database_logger.error(f"Invalid date format: {release_date}")
+    return None, None
 
 def validate_integer(value):
-    try:
-        return int(value)
-    except (ValueError, TypeError):
-        return None
+    if isinstance(value, int):
+        return value
+    if isinstance(value, str) and value.strip().isdigit():
+        return int(value.strip())
+    return None
+
+def ensure_vector_size(vector, size = VECTOR_SIZE):
+    if not isinstance(vector, list):
+        return [0.0] * size
+    if len(vector) > size:
+        return vector[:size]
+    return vector + [0.0] * (size - len(vector))
 
 def insert_data_from_object(data):
-
     connection = None
 
     try:
@@ -61,20 +84,24 @@ def insert_data_from_object(data):
                     error_count += 1
                     continue
 
-                query = sql.SQL("""
+                query = """
                     INSERT INTO games (
                         app_id, game_name, type, developer, publisher, is_free, price, 
                         age_rating, detailed_description, short_description, about_the_game, 
                         minimum_requirements, recommended_requirements, categories, tags, genres,
-                        recommendations, release_date
+                        recommendations, release_date, release_date_days,
+                        features, detailed_description_vector, about_the_game_vector, short_description_vector
                     ) VALUES (
                         %(App ID)s, %(Game Name)s, %(Type)s, %(Developer)s, %(Publisher)s, %(Is Free)s, %(Price)s,
                         %(Age Rating)s, %(Detailed Description)s, %(Short Description)s, %(About the Game)s,
                         %(Minimum Requirements)s, %(Recommended Requirements)s, %(Categories)s, %(Tags)s, %(Genres)s,
-                        %(Recommendations)s, %(Release Date)s
+                        %(Recommendations)s, %(Release Date)s, %(Release Date Days)s,
+                        %(Features)s, %(Detailed Description Vector)s, %(About the Game Vector)s, %(Short Description Vector)s
                     )
                     ON CONFLICT (app_id) DO NOTHING;
-                """)
+                """
+
+                release_date, release_date_days = parse_release_date(game.get('Release Date'))
 
                 cursor.execute(query, {
                     'App ID': game.get('App ID'),
@@ -94,7 +121,12 @@ def insert_data_from_object(data):
                     'Tags': json.dumps(game.get('Tags')),
                     'Genres': json.dumps(game.get('Genres')),
                     'Recommendations': validate_integer(game.get('Recommendations')),
-                    'Release Date': parse_release_date(game.get('Release Date'))
+                    'Release Date': release_date,
+                    'Release Date Days': release_date_days,
+                    'Features': ensure_vector_size(game.get('Features', []), VECTOR_SIZE),
+                    'Detailed Description Vector': ensure_vector_size(game.get('Detailed Description Vector', []), VECTOR_SIZE),
+                    'About the Game Vector': ensure_vector_size(game.get('About the Game Vector', []), VECTOR_SIZE),
+                    'Short Description Vector': ensure_vector_size(game.get('Short Description Vector', []), VECTOR_SIZE)
                 })
 
                 success_count += 1
