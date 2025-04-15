@@ -6,9 +6,9 @@ from datetime import datetime
 
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('BAAI/bge-base-en-v1.5')
 
-VECTOR_SIZE = 384
+VECTOR_SIZE = 768
 
 def round_vector(vector, precision = 4, target_length = VECTOR_SIZE):
     rounded = [round(x, precision) for x in vector]
@@ -38,6 +38,13 @@ def generate_feature_vector(game_data, all_tags, all_genres):
 
     feature_vector = np.concatenate([tag_vector, genre_vector, [recommendations_normalized]])
     return round_vector(feature_vector, precision = 4, target_length = VECTOR_SIZE)
+
+def generate_metadata_vector(game_data):
+    tags = game_data.get("Tags", [])
+    genres = [g.get("description", "") for g in game_data.get("Genres", [])]
+    categories = [c.get("description", "") for c in game_data.get("Categories", [])]
+    combined_text = " ".join(tags + genres + categories)
+    return round_vector(model.encode(combined_text).tolist(), precision = 4, target_length = VECTOR_SIZE)
 
 def process_release_date(date_str):
     if not date_str:
@@ -71,17 +78,21 @@ def process_json_file(input_file_path, output_file_path):
     all_genres = list({genre["description"] for game in data for genre in game.get("Genres", [])})
 
     processed_data = []
+
     for game in data:
         feature_vector = generate_feature_vector(game, all_tags, all_genres)
 
         detailed_description_vector = process_text_to_vector(game.get("Detailed Description", ""))
         about_game_vector = process_text_to_vector(game.get("About the Game", ""))
         short_description_vector = process_text_to_vector(game.get("Short Description", ""))
+        metadata_vector = generate_metadata_vector(game)
 
-        price_str = game.get("Price", "").replace("zł", "").replace(",", ".").strip()
         try:
-            game["Price"] = float(price_str)
-        except ValueError:
+            price_value = game.get("Price")
+            if isinstance(price_value, str):
+                price_value = price_value.replace("zł", "").replace(",", ".").strip()
+            game["Price"] = float(price_value)
+        except (ValueError, TypeError, AttributeError):
             game["Price"] = None
 
         release_date, release_date_days = process_release_date(game.get("Release Date", None))
@@ -92,15 +103,14 @@ def process_json_file(input_file_path, output_file_path):
         game["Detailed Description Vector"] = detailed_description_vector
         game["About the Game Vector"] = about_game_vector
         game["Short Description Vector"] = short_description_vector
+        game["Metadata Vector"] = metadata_vector
 
         processed_data.append(game)
 
     with open(output_file_path, 'w', encoding = 'utf-8') as file:
         json.dump(processed_data, file, ensure_ascii = False, separators = (',', ':'))
 
-for n in range(2, 24):
-    input_file_path = f"../GameRecommendation/Data/OldData/steam_games_processed_part{n}.json"
+for n in range(19, 24):
+    input_file_path = f"../GameRecommendation/Data/GamesData/steam_games_processed_part{n}.json"
     output_file_path = f"../GameRecommendation/Data/GamesData/steam_games_processed_vector_part{n}.json"
     process_json_file(input_file_path, output_file_path)
-
-
