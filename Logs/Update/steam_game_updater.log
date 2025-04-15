@@ -1,0 +1,10 @@
+2025-04-15 14:24:11,019 - INFO - Starting safe update of the game list...
+2025-04-15 14:24:11,800 - INFO - New games: 77442
+2025-04-15 14:24:11,988 - INFO - Data saved to ../GameRecommendation/Data/BaseList/steam_game_list_removed.json
+2025-04-15 14:24:11,988 - INFO - Removed games saved to: ../GameRecommendation/Data/BaseList/steam_game_list_removed.json
+2025-04-15 14:24:12,964 - INFO - Data saved to ../GameRecommendation/Data/DownloadList/steam_game_list_to_update.json
+2025-04-15 14:24:12,964 - INFO - Appended 14630 new unique games to update list.
+2025-04-15 14:24:14,647 - INFO - Removed duplicates. Unique entries: 207714
+2025-04-15 14:24:15,527 - INFO - Data saved to ../GameRecommendation/Data/BaseList/steam_game_list_base.json
+2025-04-15 14:24:15,549 - INFO - Backup created at ../GameRecommendation/Data/BaseList/steam_game_list_base_backup.json
+2025-04-15 14:24:15,549 - INFO - Update completed successfully.
