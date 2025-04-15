@@ -1,0 +1,16 @@
+2025-04-15 21:04:04,095 - INFO - Connection pool created successfully.
+2025-04-15 21:04:08,196 - INFO - Connection retrieved from pool.
+2025-04-15 21:04:08,211 - INFO - Connection returned to pool.
+2025-04-15 21:04:11,092 - INFO - Connection retrieved from pool.
+2025-04-15 21:04:11,100 - INFO - Connection returned to pool.
+2025-04-15 21:04:13,930 - INFO - Connection retrieved from pool.
+2025-04-15 21:04:13,940 - INFO - Connection returned to pool.
+2025-04-15 21:04:17,315 - INFO - Connection retrieved from pool.
+2025-04-15 21:04:17,325 - INFO - Connection returned to pool.
+2025-04-15 21:04:20,325 - INFO - Connection retrieved from pool.
+2025-04-15 21:04:20,332 - INFO - Connection returned to pool.
+2025-04-15 21:04:23,563 - INFO - Connection retrieved from pool.
+2025-04-15 21:04:23,574 - INFO - Connection returned to pool.
+2025-04-15 21:04:26,321 - INFO - Connection retrieved from pool.
+2025-04-15 21:04:26,331 - INFO - Connection returned to pool.
+2025-04-15 21:04:39,789 - INFO - Connection pool closed.

@@ -1,6 +1,9 @@
-import logging
 import os
+import sys
+import logging
 from psycopg2 import pool
+
+sys.stdout.reconfigure(encoding = 'utf-8', errors = 'replace')
 
 def setup_logger():
     log_dir = '../GameRecommendation/Logs/Database'

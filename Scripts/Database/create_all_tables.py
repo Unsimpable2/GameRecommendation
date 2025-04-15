@@ -41,10 +41,11 @@ def create_tables():
             recommendations INTEGER,
             release_date DATE,
             release_date_days INTEGER,
-            features vector(384),
-            detailed_description_vector vector(384),
-            about_the_game_vector vector(384),
-            short_description_vector vector(384)
+            features vector(768),
+            detailed_description_vector vector(768),
+            about_the_game_vector vector(768),
+            short_description_vector vector(768),
+            metadata_vector vector(768)
         );
         """
         cursor.execute(create_games_table_query)
