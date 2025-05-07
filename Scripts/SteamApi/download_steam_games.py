@@ -374,7 +374,7 @@ def download_steam_games(file_path_list, max_iterations = 90000):
                     game_list = [g for g in game_list if g['appid'] != app_id]
                     save_update_list(game_list, file_path_list)
                 iteration_count += 1
-                time.sleep(0.5)
+                time.sleep(0.2)
 
         get_id_from_error()
         log_end_of_insert_session(total_inserted_counter)

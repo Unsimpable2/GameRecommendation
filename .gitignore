@@ -1,1 +1,32 @@
 **/__pycache__/
+
+# Ignoruj wszystkie .log i .txt w Logs/ i podfolderach
+Logs/*
+!Logs/.gitkeep
+
+#Naprawa po redukcji folderu .git.... głupi błąd...
+Data/GamesData/steam_games_processed_vector_part1.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part2.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part3.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part4.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part5.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part6.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part7.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part8.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part9.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part10.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part11.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part12.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part13.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part14.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part15.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part16.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part17.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part18.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part19.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part20.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part21.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part22.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part23.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part24.jsonl.gz
+Data/GamesData/steam_games_processed_vector_part25.jsonl.gz
