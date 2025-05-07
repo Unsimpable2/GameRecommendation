@@ -1,4 +1,0 @@
-2025-05-07 11:46:59,547 - INFO - Connection pool created successfully.
-2025-05-07 11:47:05,470 - INFO - Connection retrieved from pool.
-2025-05-07 11:47:05,492 - INFO - Connection returned to pool.
-2025-05-07 11:47:06,714 - INFO - Connection pool closed.
