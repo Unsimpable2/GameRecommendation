@@ -12,7 +12,7 @@ from Scripts.Database.db_connection_pool import get_connection, return_connectio
 
 VECTOR_SIZE = 768
 
-def setup_logger():
+def setup_logger_data():
     log_dir = '../GameRecommendation/Logs/Database'
     os.makedirs(log_dir, exist_ok = True)
     log_file_path = os.path.join(log_dir, 'data_import.log')
@@ -24,7 +24,7 @@ def setup_logger():
     logger.setLevel(logging.INFO)
     return logger
 
-database_logger = setup_logger()
+database_logger = setup_logger_data()
 
 def log_start_of_insert_session():
     database_logger.info("Started inserting games in streaming mode (one by one)...")
@@ -120,14 +120,16 @@ def insert_data_from_object(data, silent = False):
                         minimum_requirements, recommended_requirements, categories, tags, genres,
                         recommendations, release_date, release_date_days,
                         features, detailed_description_vector, about_the_game_vector, short_description_vector,
-                        metadata_vector
+                        metadata_vector, excluded_titles, release_year, has_metacritic_score,
+                        hardware_analysis, vector_norms
                     ) VALUES (
                         %(App ID)s, %(Game Name)s, %(Type)s, %(Developer)s, %(Publisher)s, %(Is Free)s, %(Price)s,
                         %(Age Rating)s, %(Detailed Description)s, %(Short Description)s, %(About the Game)s,
                         %(Minimum Requirements)s, %(Recommended Requirements)s, %(Categories)s, %(Tags)s, %(Genres)s,
                         %(Recommendations)s, %(Release Date)s, %(Release Date Days)s,
                         %(Features)s, %(Detailed Description Vector)s, %(About the Game Vector)s, %(Short Description Vector)s,
-                        %(Metadata Vector)s
+                        %(Metadata Vector)s, %(Excluded Titles)s, %(Release Year)s, %(Has Metacritic Score)s,
+                        %(Hardware Analysis)s, %(Vector Norms)s
                     )
                     ON CONFLICT (app_id) DO NOTHING;
                 """
@@ -151,14 +153,19 @@ def insert_data_from_object(data, silent = False):
                     'Categories': json.dumps(game.get('Categories')),
                     'Tags': json.dumps(game.get('Tags')),
                     'Genres': json.dumps(game.get('Genres')),
-                    'Recommendations': validate_integer(game.get('Recommendations')),
+                    'Recommendations': json.dumps(game.get('Recommendations')),
                     'Release Date': release_date,
                     'Release Date Days': release_date_days,
                     'Features': normalize_vector(game.get('Features', []), VECTOR_SIZE),
                     'Detailed Description Vector': normalize_vector(game.get('Detailed Description Vector', []), VECTOR_SIZE),
                     'About the Game Vector': normalize_vector(game.get('About the Game Vector', []), VECTOR_SIZE),
                     'Short Description Vector': normalize_vector(game.get('Short Description Vector', []), VECTOR_SIZE),
-                    'Metadata Vector': normalize_vector(game.get('Metadata Vector', []), VECTOR_SIZE)
+                    'Metadata Vector': normalize_vector(game.get('Metadata Vector', []), VECTOR_SIZE),
+                    'Excluded Titles': game.get('excluded_titles'),
+                    'Release Year': game.get('release_year'),
+                    'Has Metacritic Score': game.get('has_metacritic_score'),
+                    'Hardware Analysis': json.dumps(game.get('hardware_analysis')),
+                    'Vector Norms': json.dumps(game.get('vector_norms'))
                 })
 
                 success_count += 1

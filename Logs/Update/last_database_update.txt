@@ -3,3 +3,28 @@ Elements Added: 14630
 Removed App IDs: 56981
 ------------End of update------------
 
+Last Update: 2025-04-16 18:52:24
+Elements Added: 16871
+Removed App IDs: 89347
+------------End of update------------
+
+Last Update: 2025-04-18 08:36:40
+Elements Added: 11251
+------------End of update------------
+
+Last Update: 2025-04-26 17:28:11
+Elements Added: 24702
+------------End of update------------
+
+Last Update: 2025-04-27 19:44:57
+Elements Added: 5361
+------------End of update------------
+
+Last Update: 2025-05-05 09:23:48
+Elements Added: 6024
+------------End of update------------
+
+Last Update: 2025-05-07 11:28:50
+Elements Added: 5095
+------------End of update------------
+

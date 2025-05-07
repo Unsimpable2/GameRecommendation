@@ -1,0 +1,42 @@
+2025-04-18 19:01:41 - Opening: https://www.videocardbenchmark.net/gpu_list.php
+2025-04-18 19:01:41 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-04-18 19:01:52 - Saved HTML to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:01:52 - Parsing: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:01:52 - Saved 2674 records to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\benchmark_gpu.jsonl
+2025-04-18 19:01:52 - Opening: https://www.cpubenchmark.net/cpu_list.php
+2025-04-18 19:01:52 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-04-18 19:02:04 - Saved HTML to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:02:05 - Parsing: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:02:05 - Saved 5064 records to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\benchmark_cpu.jsonl
+2025-04-18 19:02:05 - Deleted: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:02:05 - Deleted: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:02:05 - End of update
+
+2025-04-18 19:07:18 - Opening: https://www.videocardbenchmark.net/gpu_list.php
+2025-04-18 19:07:18 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-04-18 19:07:29 - Saved HTML to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:07:30 - Parsing: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:07:30 - Saved 2674 records to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\benchmark_gpu.jsonl
+2025-04-18 19:07:30 - Opening: https://www.cpubenchmark.net/cpu_list.php
+2025-04-18 19:07:30 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-04-18 19:07:42 - Saved HTML to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:07:43 - Parsing: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:07:43 - Saved 5064 records to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\benchmark_cpu.jsonl
+2025-04-18 19:07:43 - Deleted: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:07:43 - Deleted: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:07:43 - ------------End of update------------
+
+2025-04-18 19:33:24 - Starting component update and tier assignment
+2025-04-18 19:33:24 - Opening: https://www.videocardbenchmark.net/gpu_list.php
+2025-04-18 19:33:24 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-04-18 19:33:35 - Saved HTML to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:33:35 - Parsing: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:33:35 - Saved 2674 records to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\benchmark_gpu.jsonl
+2025-04-18 19:33:35 - Opening: https://www.cpubenchmark.net/cpu_list.php
+2025-04-18 19:33:35 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-04-18 19:33:47 - Saved HTML to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:33:48 - Parsing: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:33:48 - Saved 5064 records to: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\benchmark_cpu.jsonl
+2025-04-18 19:33:48 - Deleted: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\GPU_list.html
+2025-04-18 19:33:48 - Deleted: c:\Users\Witek\Documents\GitHub\GameRecommendation\Data\ComponentsData\CPU_list.html
+2025-04-18 19:33:48 - ------------End of update------------

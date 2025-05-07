@@ -13,7 +13,6 @@ data_list_path = '/Data'
 log_update_path = '/Logs/Update'
 
 base_file_path = base_path + data_list_path + '/BaseList/steam_game_list_base.json'
-removed_file_path = base_path + data_list_path + '/BaseList/steam_game_list_removed.json'
 update_file_path = base_path + data_list_path + '/DownloadList/steam_game_list_to_update.json'
 last_update_file_path = base_path + log_update_path + '/last_database_update.txt'
 
@@ -61,8 +60,7 @@ def compare_game_lists(base_data, new_data):
     base_ids = {game['appid'] for game in base_data}
     new_ids = {game['appid'] for game in new_data}
     missing_games = [g for g in new_data if g['appid'] not in base_ids]
-    removed_games = [g for g in base_data if g['appid'] not in new_ids]
-    return missing_games, removed_games
+    return missing_games
 
 def backup_base_file():
     if os.path.exists(base_file_path):
@@ -106,16 +104,12 @@ def update_game_list():
             logger.warning("New data looks suspiciously short. Aborting update.")
             return
 
-        missing_games, removed_games = compare_game_lists(base_data, new_data)
+        missing_games = compare_game_lists(base_data, new_data)
 
         if not missing_games:
             logger.info("No new games found.")
         else:
             logger.info(f"New games: {len(missing_games)}")
-
-        if removed_games:
-            save_to_json(removed_games, removed_file_path)
-            logger.info(f"Removed games saved to: {removed_file_path}")
 
         if os.path.exists(update_file_path):
             with open(update_file_path, 'r', encoding = 'utf-8') as f:
@@ -137,11 +131,10 @@ def update_game_list():
         with open(last_update_file_path, 'a', encoding = 'utf-8') as f:
             f.write(f"Last Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write(f"Elements Added: {len(new_unique_games)}\n")
-            f.write(f"Removed App IDs: {len(removed_games)}\n")
             f.write("------------End of update------------\n\n")
 
         logger.info("Update completed successfully.\n")
-        logger.info("------------End of update------------\n\n")
+        logger.info("------------End of update------------\n")
 
     except Exception as e:
         logger.error(f"Update failed: {e}")

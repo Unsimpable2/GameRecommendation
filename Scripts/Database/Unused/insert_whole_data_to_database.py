@@ -14,7 +14,7 @@ from Scripts.Database.db_connection_pool import create_connection_pool, get_conn
 
 VECTOR_SIZE = 768
 
-def setup_logger():
+def setup_logger_whole():
     log_dir = '../GameRecommendation/Logs/Database'
     os.makedirs(log_dir, exist_ok = True)
     log_file_path = os.path.join(log_dir, 'data_import.log')
@@ -27,7 +27,7 @@ def setup_logger():
     logger.setLevel(logging.INFO)
     return logger
 
-database_logger = setup_logger()
+database_logger = setup_logger_whole()
 
 def parse_release_date(release_date):
     if not release_date:
@@ -90,20 +90,28 @@ def normalize_vector(vector, size = VECTOR_SIZE):
 def load_json_file(base_filename):
     base_path = os.path.join('../GameRecommendation/Data/GamesData', base_filename)
 
-    json_path = base_path + ".json"
-    gz_path = base_path + ".gz"
+    for ext in [".jsonl", ".jsonl.gz", ".gz", ".json"]:
+        full_path = base_path + ext
+        if os.path.exists(full_path):
+            if ext.endswith(".gz"):
+                open_func = gzip.open
+            else:
+                open_func = open
 
-    if os.path.exists(json_path):
-        with open(json_path, 'r', encoding = 'utf-8') as f:
-            return json.load(f), json_path
-    elif os.path.exists(gz_path):
-        with gzip.open(gz_path, 'rt', encoding = 'utf-8') as f:
-            return json.load(f), gz_path
-    else:
-        raise FileNotFoundError(f"Neither {json_path} nor {gz_path} found.")
+            try:
+                if "jsonl" in ext:
+                    with open_func(full_path, "rt", encoding="utf-8") as f:
+                        return [json.loads(line) for line in f if line.strip()], full_path
+                else:
+                    with open_func(full_path, "rt", encoding="utf-8") as f:
+                        return json.load(f), full_path
+            except Exception as e:
+                raise ValueError(f"Error while reading file {full_path}: {e}")
+
+    raise FileNotFoundError(f"No JSONL.GZ file found for base: {base_filename}")
 
 def insert_data_from_json(base_filename):
-    create_connection_pool(minconn=1, maxconn=10)
+    create_connection_pool(minconn = 1, maxconn = 10)
 
     connection = None
 
@@ -113,9 +121,9 @@ def insert_data_from_json(base_filename):
 
         try:
             data, file_used = load_json_file(base_filename)
-            database_logger.info(f"Successfully loaded JSON/GZ data from file: {file_used}")
+            database_logger.info(f"Successfully loaded JSONL.GZ data from file: {file_used}")
         except Exception as e:
-            database_logger.error(f"Failed to load JSON/GZ data for base: {base_filename}. Error: {e}")
+            database_logger.error(f"Failed to load JSONL.GZ data for base: {base_filename}. Error: {e}")
             return
 
         success_count = 0
@@ -144,14 +152,16 @@ def insert_data_from_json(base_filename):
                         minimum_requirements, recommended_requirements, categories, tags, genres,
                         recommendations, release_date, release_date_days,
                         features, detailed_description_vector, about_the_game_vector, short_description_vector,
-                        metadata_vector
+                        metadata_vector, excluded_titles, release_year, has_metacritic_score,
+                        hardware_analysis, vector_norms
                     ) VALUES (
                         %(App ID)s, %(Game Name)s, %(Type)s, %(Developer)s, %(Publisher)s, %(Is Free)s, %(Price)s,
                         %(Age Rating)s, %(Detailed Description)s, %(Short Description)s, %(About the Game)s,
                         %(Minimum Requirements)s, %(Recommended Requirements)s, %(Categories)s, %(Tags)s, %(Genres)s,
                         %(Recommendations)s, %(Release Date)s, %(Release Date Days)s,
                         %(Features)s, %(Detailed Description Vector)s, %(About the Game Vector)s, %(Short Description Vector)s,
-                        %(Metadata Vector)s
+                        %(Metadata Vector)s, %(Excluded Titles)s, %(Release Year)s, %(Has Metacritic Score)s,
+                        %(Hardware Analysis)s, %(Vector Norms)s
                     )
                     ON CONFLICT (app_id) DO NOTHING;
                 """
@@ -173,14 +183,19 @@ def insert_data_from_json(base_filename):
                     'Categories': json.dumps(game.get('Categories')),
                     'Tags': json.dumps(game.get('Tags')),
                     'Genres': json.dumps(game.get('Genres')),
-                    'Recommendations': validate_integer(game.get('Recommendations')),
+                    'Recommendations': json.dumps(game.get('Recommendations')),
                     'Release Date': release_date,
                     'Release Date Days': release_date_days,
                     'Features': normalize_vector(game.get('Features', []), VECTOR_SIZE),
                     'Detailed Description Vector': normalize_vector(game.get('Detailed Description Vector', []), VECTOR_SIZE),
                     'About the Game Vector': normalize_vector(game.get('About the Game Vector', []), VECTOR_SIZE),
                     'Short Description Vector': normalize_vector(game.get('Short Description Vector', []), VECTOR_SIZE),
-                    'Metadata Vector': normalize_vector(game.get('Metadata Vector', []), VECTOR_SIZE)
+                    'Metadata Vector': normalize_vector(game.get('Metadata Vector', []), VECTOR_SIZE),
+                    'Excluded Titles': game.get('excluded_titles'),
+                    'Release Year': game.get('release_year'),
+                    'Has Metacritic Score': game.get('has_metacritic_score'),
+                    'Hardware Analysis': json.dumps(game.get('hardware_analysis')),
+                    'Vector Norms': json.dumps(game.get('vector_norms'))
                 })
 
                 success_count += 1
@@ -197,7 +212,7 @@ def insert_data_from_json(base_filename):
         connection.commit()
 
         if error_count == 0:
-            database_logger.info(f"Successfully imported all {success_count} games from the JSON/GZ file.")
+            database_logger.info(f"Successfully imported all {success_count} games from the JSONL/GZ file.")
         else:
             database_logger.warning(f"Import completed with {success_count} successes and {error_count} errors.")
 
@@ -216,9 +231,9 @@ folder_path = '../GameRecommendation/Data/GamesData'
 all_files = os.listdir(folder_path)
 
 base_names = sorted(set(
-    re.sub(r"\.(json|gz)$", "", f)
+    re.sub(r"\.jsonl(\.gz)?$", "", f)
     for f in all_files
-    if re.match(r"steam_games_processed_vector_part\d+\.(json|gz)$", f)
+    if re.match(r"steam_games_processed_vector_part\d+\.jsonl(\.gz)?$", f)
 ))
 
 for base_name in base_names:

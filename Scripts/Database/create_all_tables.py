@@ -38,16 +38,22 @@ def create_tables():
             categories JSONB,
             tags JSONB,
             genres JSONB,
-            recommendations INTEGER,
+            recommendations JSONB,
             release_date DATE,
             release_date_days INTEGER,
             features vector(768),
             detailed_description_vector vector(768),
             about_the_game_vector vector(768),
             short_description_vector vector(768),
-            metadata_vector vector(768)
+            metadata_vector vector(768),
+            excluded_titles TEXT[],
+            release_year INTEGER,
+            has_metacritic_score BOOLEAN,
+            hardware_analysis JSONB,
+            vector_norms JSONB
         );
         """
+
         cursor.execute(create_games_table_query)
         print("The 'games' table has been created successfully.")
 

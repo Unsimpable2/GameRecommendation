@@ -8,19 +8,20 @@ import signal
 import logging
 import requests
 from glob import glob
+from html import unescape
 from datetime import datetime
 from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
-sys.stdout = open(os.devnull, 'w', encoding = 'utf-8')
-sys.stderr = open(os.devnull, 'w', encoding = 'utf-8')
 
-from update_game_list import should_update_database, update_game_list
 from get_id_form_error import get_id_from_error
+from game_data_to_vector import process_game_data
+from get_gpu_cpu_data import update_component_data_if_needed
+from update_game_list import should_update_database, update_game_list
+
 from Scripts.Database.db_connection_pool import create_connection_pool, close_connection_pool
 from Scripts.Database.insert_data_to_database import insert_data_from_object, log_start_of_insert_session, log_end_of_insert_session
-from game_data_to_vector import game_data_to_vector
 
 DetectorFactory.seed = 0
 
@@ -41,7 +42,7 @@ if not os.path.exists(base_path + "/Scripts/Logs/Download"):
 
 current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 log_dir = os.path.join(base_path, "Logs/Download")
-os.makedirs(log_dir, exist_ok=True)
+os.makedirs(log_dir, exist_ok = True)
 
 logging.StreamHandler(sys.stdout).setStream(open(os.devnull, 'w', encoding = 'utf-8'))
 download_logger = logging.getLogger('download_logger')
@@ -83,11 +84,14 @@ def get_last_json_file(directory):
     max_file_number = max(file_numbers)
     return os.path.join(directory, f"steam_games_processed_vector_part{max_file_number}.jsonl")
 
+def safe_dict(obj):
+    return obj if isinstance(obj, dict) else {}
+
 def append_to_jsonl_file(base_name, obj, directory = DATA_DIR):
     os.makedirs(directory, exist_ok = True)
 
     jsonl_files = sorted(glob(os.path.join(directory, f"{base_name}*.jsonl")))
-    gz_files = sorted(glob(os.path.join(directory, f"{base_name}*.gz")))
+    gz_files = sorted(glob(os.path.join(directory, f"{base_name}*.jsonl.gz")))
 
     used_numbers = set()
     for path in jsonl_files + gz_files:
@@ -111,22 +115,22 @@ def append_to_jsonl_file(base_name, obj, directory = DATA_DIR):
 
 def merge_jsonl_parts(base_name, directory = DATA_DIR):
     jsonl_files = sorted(glob(os.path.join(directory, f"{base_name}*.jsonl")))
-    
+
     while len(jsonl_files) >= MERGE_THRESHOLD:
         to_merge = jsonl_files[:MERGE_THRESHOLD]
-        
+
         all_full = all(
             sum(1 for _ in open(path, encoding = "utf-8")) >= PART_LIMIT
             for path in to_merge
         )
-        
+
         if not all_full:
             return
 
         merged_index = int(re.search(r"part(\d+)", to_merge[0]).group(1))
-        merged_filename = os.path.join(directory, f"{base_name}{merged_index}")
+        merged_filename = os.path.join(directory, f"{base_name}{merged_index}.jsonl.gz")
 
-        with gzip.open(merged_filename + ".gz", "wt", encoding = "utf-8") as gz_file:
+        with gzip.open(merged_filename, "wt", encoding = "utf-8") as gz_file:
             for file in to_merge:
                 with open(file, "r", encoding = "utf-8") as f:
                     for line in f:
@@ -139,18 +143,18 @@ def merge_jsonl_parts(base_name, directory = DATA_DIR):
 
 def find_next_jsonl_filename_after_merge(base_name, directory = DATA_DIR):
     existing_jsonl = sorted(glob(os.path.join(directory, f"{base_name}*.jsonl")))
-    existing_gz = sorted(glob(os.path.join(directory, f"{base_name}*.gz")))
+    existing_jsonl_gz = sorted(glob(os.path.join(directory, f"{base_name}*.jsonl.gz")))
 
     used_numbers = set()
 
-    for path in existing_jsonl + existing_gz:
+    for path in existing_jsonl + existing_jsonl_gz:
         match = re.search(r"part(\d+)", path)
         if match:
             used_numbers.add(int(match.group(1)))
 
     if not used_numbers:
         return os.path.join(directory, f"{base_name}0.jsonl")
-    
+
     next_free = max(used_numbers) + 1
     while os.path.exists(os.path.join(directory, f"{base_name}{next_free}.jsonl")):
         next_free += 1
@@ -177,33 +181,59 @@ def get_app_details(app_id):
         download_logger.error(f'Error while fetching data for app_id: {app_id} - {e}')
         return None
 
-def get_steam_tags(app_id):
+def get_steam_tags_and_recommendation(app_id):
     url = f"https://store.steampowered.com/app/{app_id}/?l=english"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
     }
-    response = requests.get(url, headers = headers)
+    response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
-        tags = [tag.text.strip() for tag in soup.select('.app_tag')]
 
+        tags = [tag.text.strip() for tag in soup.select('.app_tag')]
         if tags and tags[-1] == '+':
             tags.pop()
+        if not tags:
+            tags = ["No tags for game"]
 
-        return tags if tags else ["No tags for game"]
+        recommendation_text = "No recommendation info"
+        recommendation_count = "No count"
+
+        review_blocks = soup.select('div.user_reviews_summary_row')
+        for block in review_blocks:
+            subtitle = block.select_one('div.subtitle')
+            if subtitle and 'All Reviews' in subtitle.text:
+                summary = block.select_one('span.game_review_summary')
+                if summary:
+                    recommendation_text = summary.text.strip()
+
+                count_span = block.select_one('span.responsive_hidden')
+                if count_span:
+                    match = re.search(r'(\d[\d,]*)', count_span.text)
+                    if match:
+                        recommendation_count = int(match.group(1).replace(',', ''))
+                break
+
+        recommendations = [recommendation_text, recommendation_count]
+        return tags, recommendations
+
     else:
         logging.warning(f"Failed to access the Steam page for app_id: {app_id}. Status: {response.status_code}")
-        return ["No tags for game because of error"]
+        return ["No tags for game because of error"], ["No recommendation info", "No count"]
 
 def remove_html_tags(text):
+    if not isinstance(text, str):
+        return ""
+
     clean = re.compile('<.*?>')
     text_without_html = re.sub(clean, ' ', text)
-
-    patterns_to_remove = [r'&quot;', r'!-&quot;', r'\?&quot;', r'!-&quot;', r'&amp;', r'&gt;', r'&lt;']
+    text_without_html = unescape(text_without_html)
+    patterns_to_remove = [r'&quot;', r'!-&quot;', r'\?&quot;', r'&amp;', r'&gt;', r'&lt;', r'&nbsp;']
     for pattern in patterns_to_remove:
         text_without_html = re.sub(pattern, '', text_without_html)
 
+    text_without_html = text_without_html.replace('\n', ' ').replace('\r', ' ')
     return re.sub(r'\s+', ' ', text_without_html).strip()
 
 def clean_json_data(json_data):
@@ -215,6 +245,14 @@ def clean_json_data(json_data):
         return remove_html_tags(json_data)
     else:
         return json_data
+    
+def clean_requirements_text(text):
+    if not isinstance(text, str) or "No information" in text:
+        return "No Information"
+
+    text = re.sub(r'<br\s*/?>', '\n', text, flags = re.IGNORECASE)
+    text = remove_html_tags(text)
+    return text
 
 def is_english(text):
     try:
@@ -228,6 +266,8 @@ def download_steam_games(file_path_list, max_iterations = 90000):
     try:
         if should_update_database(hours = 24):
             update_game_list()
+
+        update_component_data_if_needed(days = 7)
 
         log_start_of_insert_session()
         total_inserted_counter = [0]
@@ -263,7 +303,6 @@ def download_steam_games(file_path_list, max_iterations = 90000):
                     if stop_requested:
                         download_logger.info('Stop requested. Finishing current iteration before exiting...')
                     break
-                
                 game = game_list.pop(0)
                 app_id = game['appid']
                 details = get_app_details(app_id)
@@ -284,23 +323,15 @@ def download_steam_games(file_path_list, max_iterations = 90000):
                     price_overview = details.get('price_overview', {})
                     price = price_overview.get('final_formatted', 'N/A') if price_overview else 'N/A'
 
-                    pc_requirements = 'No information'
-                    pc_requirements_data = details.get('pc_requirements', [])
-                    pc_requirements = pc_requirements_data[0] if isinstance(pc_requirements_data, list) and pc_requirements_data else pc_requirements
-
-                    minimal_requirements = 'No information'
-                    recommended_requirements = 'No information'
-
-                    if isinstance(pc_requirements, dict):
-                        minimal_requirements = pc_requirements.get('minimum', 'No information')
-                        recommended_requirements = pc_requirements.get('recommended', 'No information')
+                    pc_requirements_data = safe_dict(details.get('pc_requirements'))
+                    minimal_requirements = clean_requirements_text(pc_requirements_data.get("minimum", "No Information"))
+                    recommended_requirements = clean_requirements_text(pc_requirements_data.get("recommended", "No Information"))
 
                     metacritic_score = details.get('metacritic', {}).get('score', 'No Information')
-                    recommendations_total = details.get('recommendations', {}).get('total', 'No Information')
                     release_date_info = details.get('release_date', {})
                     release_date = release_date_info.get('date', 'No Information') if release_date_info else 'No Information'
 
-                    tags = get_steam_tags(app_id)
+                    tags, recommendations_total = get_steam_tags_and_recommendation(app_id)
 
                     game_details = {
                         'App ID': app_id,
@@ -325,7 +356,7 @@ def download_steam_games(file_path_list, max_iterations = 90000):
                     }
 
                     cleaned_game_details = clean_json_data(game_details)
-                    processed_game = game_data_to_vector(cleaned_game_details, all_tags, all_genres)
+                    processed_game = process_game_data(cleaned_game_details, all_tags, all_genres)
                     append_to_jsonl_file("steam_games_processed_vector_part", processed_game)
                     merge_jsonl_parts("steam_games_processed_vector_part")
                     try:

@@ -5,7 +5,7 @@ from psycopg2 import pool
 
 sys.stdout.reconfigure(encoding = 'utf-8', errors = 'replace')
 
-def setup_logger():
+def setup_logger_connection():
     log_dir = '../GameRecommendation/Logs/Database'
     os.makedirs(log_dir, exist_ok = True)
     log_file_path = os.path.join(log_dir, 'database_connection.log')
@@ -17,7 +17,7 @@ def setup_logger():
     logger.setLevel(logging.INFO)
     return logger
 
-logger = setup_logger()
+logger = setup_logger_connection()
 
 db_pool = None
 
