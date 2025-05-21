@@ -10,7 +10,6 @@
 {"type": "GPU", "name": "A16-2B", "score": 2442, "tier": "medium"}
 {"type": "GPU", "name": "A16-2Q", "score": 4747, "tier": "medium"}
 {"type": "GPU", "name": "A16-4Q", "score": 4327, "tier": "medium"}
-{"type": "GPU", "name": "A16-16Q", "score": 4451, "tier": "medium"}
 {"type": "GPU", "name": "A40-24Q", "score": 3317, "tier": "medium"}
 {"type": "GPU", "name": "ABIT Siluro T400", "score": 3, "tier": "low"}
 {"type": "GPU", "name": "ALL-IN-WONDER 9000", "score": 4, "tier": "low"}
@@ -19,7 +18,7 @@
 {"type": "GPU", "name": "ALL-IN-WONDER X800 GT", "score": 84, "tier": "low"}
 {"type": "GPU", "name": "All-in-Wonder X1800XL", "score": 30, "tier": "low"}
 {"type": "GPU", "name": "All-in-Wonder X1900", "score": 127, "tier": "low"}
-{"type": "GPU", "name": "AMD Ryzen Z1 Extreme", "score": 6524, "tier": "high"}
+{"type": "GPU", "name": "AMD Ryzen Z1 Extreme", "score": 6525, "tier": "high"}
 {"type": "GPU", "name": "AMIGAMERLIN 3.1-R1 For Voodoo 4 4500 PCI", "score": 3, "tier": "low"}
 {"type": "GPU", "name": "ASUS A7000", "score": 9, "tier": "low"}
 {"type": "GPU", "name": "ASUS AGP-V3800PRO v31.40H", "score": 4, "tier": "low"}
@@ -38,18 +37,18 @@
 {"type": "GPU", "name": "Barco MXRT 7500", "score": 3753, "tier": "medium"}
 {"type": "GPU", "name": "Barco MXRT 7600", "score": 4943, "tier": "medium"}
 {"type": "GPU", "name": "BASICDISPLAY", "score": 69, "tier": "low"}
+{"type": "GPU", "name": "CARRIZO 9874", "score": 226, "tier": "low"}
 {"type": "GPU", "name": "Citrix Indirect Display Adapter", "score": 1888, "tier": "low"}
-{"type": "GPU", "name": "CMP 30HX", "score": 8135, "tier": "high"}
+{"type": "GPU", "name": "CMP 30HX", "score": 6806, "tier": "high"}
 {"type": "GPU", "name": "CMP 40HX", "score": 9136, "tier": "high"}
 {"type": "GPU", "name": "CONNECT 3D RADEON X300", "score": 36, "tier": "low"}
-{"type": "GPU", "name": "Custom GPU 0405", "score": 2917, "tier": "medium"}
-{"type": "GPU", "name": "Custom GPU 0932", "score": 3242, "tier": "medium"}
+{"type": "GPU", "name": "Custom GPU 0405", "score": 2921, "tier": "medium"}
+{"type": "GPU", "name": "Custom GPU 0932", "score": 3249, "tier": "medium"}
 {"type": "GPU", "name": "Dell 8100", "score": 2, "tier": "low"}
 {"type": "GPU", "name": "Dell 8200", "score": 4, "tier": "low"}
 {"type": "GPU", "name": "Diamond X1300-PCIE 256MB", "score": 70, "tier": "low"}
 {"type": "GPU", "name": "EAH5450", "score": 134, "tier": "low"}
-{"type": "GPU", "name": "EIZO Quadro MED-XN31LP", "score": 1648, "tier": "low"}
-{"type": "GPU", "name": "EIZO Quadro MED-XN51LP", "score": 5048, "tier": "medium"}
+{"type": "GPU", "name": "EIZO Quadro MED-XN51LP", "score": 4951, "tier": "medium"}
 {"type": "GPU", "name": "Embedded Radeon E9173", "score": 1772, "tier": "low"}
 {"type": "GPU", "name": "Eng Sample: 100-000000560-40_Y", "score": 5655, "tier": "medium"}
 {"type": "GPU", "name": "Eng Sample: 100-000000561-40_Y", "score": 4206, "tier": "medium"}
@@ -106,7 +105,7 @@
 {"type": "GPU", "name": "FirePro M5950", "score": 1314, "tier": "low"}
 {"type": "GPU", "name": "FirePro M6000", "score": 1820, "tier": "low"}
 {"type": "GPU", "name": "FirePro M6000 Mobility Pro", "score": 1712, "tier": "low"}
-{"type": "GPU", "name": "FirePro M6100", "score": 2337, "tier": "medium"}
+{"type": "GPU", "name": "FirePro M6100", "score": 2351, "tier": "medium"}
 {"type": "GPU", "name": "FirePro M6100 FireGL V", "score": 2875, "tier": "medium"}
 {"type": "GPU", "name": "FirePro M7740", "score": 665, "tier": "low"}
 {"type": "GPU", "name": "FirePro M40003", "score": 1364, "tier": "low"}
@@ -129,15 +128,15 @@
 {"type": "GPU", "name": "FirePro V8700", "score": 1538, "tier": "low"}
 {"type": "GPU", "name": "FirePro V8800", "score": 2280, "tier": "medium"}
 {"type": "GPU", "name": "FirePro V9800", "score": 2726, "tier": "medium"}
-{"type": "GPU", "name": "FirePro W600", "score": 1682, "tier": "low"}
-{"type": "GPU", "name": "FirePro W2100", "score": 857, "tier": "low"}
-{"type": "GPU", "name": "FirePro W4100", "score": 1504, "tier": "low"}
-{"type": "GPU", "name": "FirePro W4170M", "score": 1057, "tier": "low"}
-{"type": "GPU", "name": "Firepro W4190M", "score": 1149, "tier": "low"}
-{"type": "GPU", "name": "FirePro W4300", "score": 2800, "tier": "medium"}
-{"type": "GPU", "name": "FirePro W5000", "score": 2988, "tier": "medium"}
+{"type": "GPU", "name": "FirePro W600", "score": 1685, "tier": "low"}
+{"type": "GPU", "name": "FirePro W2100", "score": 852, "tier": "low"}
+{"type": "GPU", "name": "FirePro W4100", "score": 1500, "tier": "low"}
+{"type": "GPU", "name": "FirePro W4170M", "score": 1063, "tier": "low"}
+{"type": "GPU", "name": "Firepro W4190M", "score": 1155, "tier": "low"}
+{"type": "GPU", "name": "FirePro W4300", "score": 2770, "tier": "medium"}
+{"type": "GPU", "name": "FirePro W5000", "score": 2955, "tier": "medium"}
 {"type": "GPU", "name": "FirePro W5100", "score": 2977, "tier": "medium"}
-{"type": "GPU", "name": "FirePro W5130M", "score": 1405, "tier": "low"}
+{"type": "GPU", "name": "FirePro W5130M", "score": 1343, "tier": "low"}
 {"type": "GPU", "name": "Firepro W5170M", "score": 1814, "tier": "low"}
 {"type": "GPU", "name": "FirePro W6150M", "score": 2358, "tier": "medium"}
 {"type": "GPU", "name": "FirePro W7000", "score": 4255, "tier": "medium"}
@@ -192,7 +191,7 @@
 {"type": "GPU", "name": "GeForce 256", "score": 5, "tier": "low"}
 {"type": "GPU", "name": "GeForce 305M", "score": 150, "tier": "low"}
 {"type": "GPU", "name": "GeForce 310", "score": 143, "tier": "low"}
-{"type": "GPU", "name": "GeForce 310M", "score": 124, "tier": "low"}
+{"type": "GPU", "name": "GeForce 310M", "score": 126, "tier": "low"}
 {"type": "GPU", "name": "GeForce 315", "score": 198, "tier": "low"}
 {"type": "GPU", "name": "GeForce 315M", "score": 114, "tier": "low"}
 {"type": "GPU", "name": "GeForce 320M", "score": 209, "tier": "low"}
@@ -201,7 +200,7 @@
 {"type": "GPU", "name": "GeForce 505", "score": 143, "tier": "low"}
 {"type": "GPU", "name": "GeForce 510", "score": 290, "tier": "low"}
 {"type": "GPU", "name": "GeForce 605", "score": 320, "tier": "low"}
-{"type": "GPU", "name": "GeForce 610M", "score": 291, "tier": "low"}
+{"type": "GPU", "name": "GeForce 610M", "score": 292, "tier": "low"}
 {"type": "GPU", "name": "GeForce 615", "score": 507, "tier": "low"}
 {"type": "GPU", "name": "GeForce 705M", "score": 455, "tier": "low"}
 {"type": "GPU", "name": "GeForce 710A", "score": 472, "tier": "low"}
@@ -214,12 +213,12 @@
 {"type": "GPU", "name": "GeForce 810A", "score": 655, "tier": "low"}
 {"type": "GPU", "name": "GeForce 810M", "score": 419, "tier": "low"}
 {"type": "GPU", "name": "GeForce 820A", "score": 555, "tier": "low"}
-{"type": "GPU", "name": "GeForce 820M", "score": 490, "tier": "low"}
+{"type": "GPU", "name": "GeForce 820M", "score": 489, "tier": "low"}
 {"type": "GPU", "name": "GeForce 825M", "score": 770, "tier": "low"}
-{"type": "GPU", "name": "GeForce 830A", "score": 1170, "tier": "low"}
+{"type": "GPU", "name": "GeForce 830A", "score": 1186, "tier": "low"}
 {"type": "GPU", "name": "GeForce 830M", "score": 1010, "tier": "low"}
 {"type": "GPU", "name": "GeForce 840A", "score": 1123, "tier": "low"}
-{"type": "GPU", "name": "GeForce 840M", "score": 1096, "tier": "low"}
+{"type": "GPU", "name": "GeForce 840M", "score": 1097, "tier": "low"}
 {"type": "GPU", "name": "GeForce 845M", "score": 1488, "tier": "low"}
 {"type": "GPU", "name": "GeForce 910M", "score": 588, "tier": "low"}
 {"type": "GPU", "name": "GeForce 920A", "score": 833, "tier": "low"}
@@ -227,10 +226,10 @@
 {"type": "GPU", "name": "GeForce 920MX", "score": 1068, "tier": "low"}
 {"type": "GPU", "name": "GeForce 930A", "score": 1263, "tier": "low"}
 {"type": "GPU", "name": "GeForce 930M", "score": 1010, "tier": "low"}
-{"type": "GPU", "name": "GeForce 930MX", "score": 1286, "tier": "low"}
+{"type": "GPU", "name": "GeForce 930MX", "score": 1288, "tier": "low"}
 {"type": "GPU", "name": "GeForce 940A", "score": 1106, "tier": "low"}
 {"type": "GPU", "name": "GeForce 940M", "score": 1127, "tier": "low"}
-{"type": "GPU", "name": "GeForce 940MX", "score": 1515, "tier": "low"}
+{"type": "GPU", "name": "GeForce 940MX", "score": 1514, "tier": "low"}
 {"type": "GPU", "name": "GeForce 945A", "score": 1852, "tier": "low"}
 {"type": "GPU", "name": "GeForce 945M", "score": 2108, "tier": "medium"}
 {"type": "GPU", "name": "GeForce 999 GTX", "score": 83, "tier": "low"}
@@ -262,7 +261,7 @@
 {"type": "GPU", "name": "GeForce 6800 LE", "score": 109, "tier": "low"}
 {"type": "GPU", "name": "GeForce 6800 Ultra", "score": 138, "tier": "low"}
 {"type": "GPU", "name": "GeForce 6800 XE", "score": 58, "tier": "low"}
-{"type": "GPU", "name": "GeForce 6800 XT", "score": 123, "tier": "low"}
+{"type": "GPU", "name": "GeForce 6800 XT", "score": 120, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7000M", "score": 13, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7000M / nForce 610M", "score": 12, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7025 / nForce 630a", "score": 33, "tier": "low"}
@@ -284,7 +283,7 @@
 {"type": "GPU", "name": "GeForce 7350 LE", "score": 74, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7500 LE", "score": 84, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7600 GS", "score": 158, "tier": "low"}
-{"type": "GPU", "name": "GeForce 7600 GT", "score": 231, "tier": "low"}
+{"type": "GPU", "name": "GeForce 7600 GT", "score": 237, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7650 GS", "score": 134, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7800 GS", "score": 177, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7800 GT", "score": 244, "tier": "low"}
@@ -293,7 +292,7 @@
 {"type": "GPU", "name": "GeForce 7900 GT", "score": 258, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7900 GT/GTO", "score": 247, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7900 GTX", "score": 387, "tier": "low"}
-{"type": "GPU", "name": "GeForce 7950 GT", "score": 347, "tier": "low"}
+{"type": "GPU", "name": "GeForce 7950 GT", "score": 346, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7950 GX2", "score": 201, "tier": "low"}
 {"type": "GPU", "name": "GeForce 7950 Xtreme", "score": 287, "tier": "low"}
 {"type": "GPU", "name": "GeForce 8100 / nForce 720a", "score": 79, "tier": "low"}
@@ -312,7 +311,7 @@
 {"type": "GPU", "name": "GeForce 8600 GT", "score": 131, "tier": "low"}
 {"type": "GPU", "name": "GeForce 8600 GTS", "score": 169, "tier": "low"}
 {"type": "GPU", "name": "GeForce 8600M GS", "score": 88, "tier": "low"}
-{"type": "GPU", "name": "GeForce 8600M GT", "score": 112, "tier": "low"}
+{"type": "GPU", "name": "GeForce 8600M GT", "score": 153, "tier": "low"}
 {"type": "GPU", "name": "GeForce 8700M GT", "score": 124, "tier": "low"}
 {"type": "GPU", "name": "GeForce 8800 GS", "score": 330, "tier": "low"}
 {"type": "GPU", "name": "GeForce 8800 GT", "score": 462, "tier": "low"}
@@ -335,13 +334,13 @@
 {"type": "GPU", "name": "GeForce 9300GE", "score": 97, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9300M G", "score": 84, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9300M GS", "score": 118, "tier": "low"}
-{"type": "GPU", "name": "GeForce 9400", "score": 125, "tier": "low"}
+{"type": "GPU", "name": "GeForce 9400", "score": 143, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9400 GT", "score": 168, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9400M", "score": 101, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9400M G", "score": 67, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9450", "score": 104, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9500 GS", "score": 215, "tier": "low"}
-{"type": "GPU", "name": "GeForce 9500 GT", "score": 173, "tier": "low"}
+{"type": "GPU", "name": "GeForce 9500 GT", "score": 174, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9500M", "score": 103, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9500M G", "score": 121, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9500M GS", "score": 134, "tier": "low"}
@@ -356,7 +355,7 @@
 {"type": "GPU", "name": "GeForce 9650M GT", "score": 137, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9700M GT", "score": 208, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9700M GTS", "score": 278, "tier": "low"}
-{"type": "GPU", "name": "GeForce 9800 GT", "score": 454, "tier": "low"}
+{"type": "GPU", "name": "GeForce 9800 GT", "score": 453, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9800 GT 1024MB", "score": 134, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9800 GTX", "score": 769, "tier": "low"}
 {"type": "GPU", "name": "GeForce 9800 GTX+", "score": 494, "tier": "low"}
@@ -396,7 +395,7 @@
 {"type": "GPU", "name": "GeForce G200", "score": 136, "tier": "low"}
 {"type": "GPU", "name": "GeForce G205M", "score": 91, "tier": "low"}
 {"type": "GPU", "name": "GeForce G210", "score": 124, "tier": "low"}
-{"type": "GPU", "name": "GeForce G210M", "score": 128, "tier": "low"}
+{"type": "GPU", "name": "GeForce G210M", "score": 129, "tier": "low"}
 {"type": "GPU", "name": "GeForce G 103M", "score": 62, "tier": "low"}
 {"type": "GPU", "name": "GeForce G 105M", "score": 62, "tier": "low"}
 {"type": "GPU", "name": "GeForce Go 6100", "score": 17, "tier": "low"}
@@ -418,7 +417,7 @@
 {"type": "GPU", "name": "GeForce Go 7900 GS", "score": 177, "tier": "low"}
 {"type": "GPU", "name": "GeForce Go 7900 GTX", "score": 270, "tier": "low"}
 {"type": "GPU", "name": "GeForce Go 7950 GTX", "score": 263, "tier": "low"}
-{"type": "GPU", "name": "GeForce GPU", "score": 1166, "tier": "low"}
+{"type": "GPU", "name": "GeForce GPU", "score": 1161, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT625M", "score": 451, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 120", "score": 165, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 120 / 9500 GT", "score": 324, "tier": "low"}
@@ -426,7 +425,7 @@
 {"type": "GPU", "name": "GeForce GT 130", "score": 381, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 130M", "score": 145, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 140", "score": 657, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 220", "score": 219, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 220", "score": 221, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 220M", "score": 121, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 230", "score": 323, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 230M", "score": 215, "tier": "low"}
@@ -443,63 +442,63 @@
 {"type": "GPU", "name": "GeForce GT 415M", "score": 286, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 420", "score": 425, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 420M", "score": 393, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 425M", "score": 515, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 430", "score": 603, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 425M", "score": 514, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 430", "score": 602, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 435M", "score": 535, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 440", "score": 773, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 445M", "score": 811, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 520", "score": 319, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 520M", "score": 285, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 520MX", "score": 284, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 525M", "score": 455, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 530", "score": 667, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 525M", "score": 454, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 530", "score": 666, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 540M", "score": 478, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 545", "score": 1101, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 545", "score": 1109, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 550M", "score": 569, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 555M", "score": 653, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 610", "score": 322, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 555M", "score": 652, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 610", "score": 323, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 610M / GT 620M / GT 710M / GT 720M / GT", "score": 368, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 620", "score": 382, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 620M", "score": 431, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 625", "score": 355, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 620M", "score": 430, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 625", "score": 359, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 625M", "score": 497, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 630", "score": 680, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 630", "score": 681, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 630M", "score": 532, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 635", "score": 818, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 635", "score": 816, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 635M", "score": 551, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 640", "score": 1168, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 640", "score": 1169, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 640M", "score": 930, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 640M LE", "score": 703, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 640M LE", "score": 704, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 645", "score": 2005, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GT 645M", "score": 936, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 645M", "score": 937, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 650M", "score": 1201, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 705", "score": 350, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 710", "score": 623, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 710", "score": 622, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 710M", "score": 437, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 720", "score": 630, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 720", "score": 638, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 720A", "score": 573, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 720M", "score": 449, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 730", "score": 829, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 730", "score": 827, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 730A", "score": 742, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 730M", "score": 811, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 730M", "score": 812, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 735M", "score": 652, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 740", "score": 1470, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 740", "score": 1467, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 740A", "score": 667, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 740M", "score": 792, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 745A", "score": 1237, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 745M", "score": 1097, "tier": "low"}
-{"type": "GPU", "name": "GeForce GT 750M", "score": 1329, "tier": "low"}
+{"type": "GPU", "name": "GeForce GT 750M", "score": 1328, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 755M", "score": 1712, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 820M", "score": 553, "tier": "low"}
 {"type": "GPU", "name": "GeForce GT 1030", "score": 2431, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTS 150M", "score": 504, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTS 160M", "score": 678, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTS 240", "score": 556, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTS 250", "score": 591, "tier": "low"}
+{"type": "GPU", "name": "GeForce GTS 250", "score": 588, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTS 250M", "score": 553, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTS 350M", "score": 380, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTS 360M", "score": 644, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTS 450", "score": 1322, "tier": "low"}
+{"type": "GPU", "name": "GeForce GTS 450", "score": 1321, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 260", "score": 1208, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 260M", "score": 380, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 275", "score": 1377, "tier": "low"}
@@ -508,7 +507,7 @@
 {"type": "GPU", "name": "GeForce GTX 285", "score": 1500, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 285M", "score": 636, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 295", "score": 1200, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 460", "score": 2271, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 460", "score": 2272, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 460 SE", "score": 1990, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 460 v2", "score": 1865, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 460M", "score": 1214, "tier": "low"}
@@ -518,183 +517,183 @@
 {"type": "GPU", "name": "GeForce GTX 480", "score": 4121, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 480M", "score": 1617, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 485M", "score": 2359, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 550 Ti", "score": 1557, "tier": "low"}
+{"type": "GPU", "name": "GeForce GTX 550 Ti", "score": 1558, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 555", "score": 1571, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 560", "score": 2765, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 560 SE", "score": 1850, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 560 Ti", "score": 3063, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 560 SE", "score": 1847, "tier": "low"}
+{"type": "GPU", "name": "GeForce GTX 560 Ti", "score": 3065, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 560M", "score": 1275, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 570", "score": 3929, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 570", "score": 3922, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 570M", "score": 1877, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 580", "score": 4630, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 580M", "score": 2074, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 590", "score": 3341, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 645", "score": 1880, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 650", "score": 1748, "tier": "low"}
+{"type": "GPU", "name": "GeForce GTX 650", "score": 1749, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 650 Ti", "score": 2527, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 650 Ti BOOST", "score": 3388, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 660", "score": 4016, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 660 Ti", "score": 4415, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 650 Ti BOOST", "score": 3389, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 660", "score": 4021, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 660 Ti", "score": 4408, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 660M", "score": 1445, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 670", "score": 5346, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 670", "score": 5341, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 670M", "score": 1745, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 670MX", "score": 1969, "tier": "low"}
+{"type": "GPU", "name": "GeForce GTX 670MX", "score": 1971, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 675M", "score": 1925, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 675MX", "score": 2884, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 680", "score": 5591, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 675MX", "score": 2969, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 680", "score": 5593, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 680M", "score": 3277, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 680M KY_Bullet Edition", "score": 3568, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 680MX", "score": 3686, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 690", "score": 5466, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 745", "score": 2134, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 750", "score": 3338, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 750 Ti", "score": 3902, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 760", "score": 4801, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 760 Ti", "score": 5328, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 690", "score": 5485, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 745", "score": 2133, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 750", "score": 3336, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 750 Ti", "score": 3899, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 760", "score": 4804, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 760 Ti", "score": 5317, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 760 Ti OEM", "score": 5427, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 760A", "score": 1226, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 760M", "score": 1715, "tier": "low"}
 {"type": "GPU", "name": "GeForce GTX 765M", "score": 2015, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 770", "score": 5941, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 770M", "score": 2801, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 775M", "score": 3698, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 780", "score": 7993, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 770M", "score": 2798, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 775M", "score": 3708, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 780", "score": 7994, "tier": "high"}
 {"type": "GPU", "name": "GeForce GTX 780 Ti", "score": 9459, "tier": "high"}
 {"type": "GPU", "name": "GeForce GTX 780M", "score": 3807, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 850A", "score": 1049, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 850M", "score": 2520, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 850M", "score": 2524, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 850M - MODDED", "score": 1091, "tier": "low"}
-{"type": "GPU", "name": "GeForce GTX 860M", "score": 3075, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 860M", "score": 3077, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 870M", "score": 3496, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 880M", "score": 3811, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 950", "score": 5339, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 880M", "score": 3817, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 950", "score": 5343, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 950A", "score": 2593, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 950M", "score": 2577, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 960", "score": 6112, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 950M", "score": 2575, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 960", "score": 6114, "tier": "high"}
 {"type": "GPU", "name": "GeForce GTX 960A", "score": 3464, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 960M", "score": 3363, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 965M", "score": 3820, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 970", "score": 9641, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 970M", "score": 5691, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 965M", "score": 3823, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 970", "score": 9642, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 970M", "score": 5689, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 970XM FORCE", "score": 6706, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 980", "score": 11109, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 980 Ti", "score": 13752, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 980M", "score": 7342, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1050", "score": 5030, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 980", "score": 11110, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 980 Ti", "score": 13747, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 980M", "score": 7351, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1050", "score": 5032, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 1050 3GB", "score": 5118, "tier": "medium"}
 {"type": "GPU", "name": "GeForce GTX 1050 (Mobile)", "score": 4462, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 1050 Ti", "score": 6333, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1050 Ti", "score": 6337, "tier": "high"}
 {"type": "GPU", "name": "GeForce GTX 1050 Ti (Mobile)", "score": 5917, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 1050 Ti with Max-Q Design", "score": 5310, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 1050 with Max-Q Design", "score": 4020, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 1060", "score": 10077, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1060 3GB", "score": 9796, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1060 5GB", "score": 9082, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1050 Ti with Max-Q Design", "score": 5306, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 1050 with Max-Q Design", "score": 4018, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 1060", "score": 10078, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1060 3GB", "score": 9799, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1060 5GB", "score": 9087, "tier": "high"}
 {"type": "GPU", "name": "GeForce GTX 1060 (Mobile)", "score": 8160, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1060 with Max-Q Design", "score": 7853, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1070", "score": 13504, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1060 with Max-Q Design", "score": 7859, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1070", "score": 13502, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce GTX 1070 (Mobile)", "score": 10465, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1070 Ti", "score": 14686, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1070 Ti", "score": 14677, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce GTX 1070 with Max-Q Design", "score": 9847, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1080", "score": 15581, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1080", "score": 15580, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce GTX 1080 Ti", "score": 18596, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce GTX 1080 with Max-Q Design", "score": 11422, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1630", "score": 4975, "tier": "medium"}
-{"type": "GPU", "name": "GeForce GTX 1650", "score": 7880, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1630", "score": 4976, "tier": "medium"}
+{"type": "GPU", "name": "GeForce GTX 1650", "score": 7878, "tier": "high"}
 {"type": "GPU", "name": "GeForce GTX 1650 (Mobile)", "score": 6968, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1650 SUPER", "score": 10179, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1650 Ti", "score": 7540, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1650 Ti with Max-Q Design", "score": 6519, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1650 with Max-Q Design", "score": 6222, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX 1660", "score": 11660, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1660 SUPER", "score": 12712, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1660 Ti", "score": 12901, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1660 Ti (Mobile)", "score": 10154, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce GTX 1660 Ti with Max-Q Design", "score": 8606, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX Titan", "score": 8204, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX TITAN Black", "score": 9177, "tier": "high"}
-{"type": "GPU", "name": "GeForce GTX TITAN X", "score": 12757, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1650 SUPER", "score": 10183, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1650 Ti", "score": 7539, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1650 Ti with Max-Q Design", "score": 6505, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1650 with Max-Q Design", "score": 6229, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX 1660", "score": 11657, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1660 SUPER", "score": 12709, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1660 Ti", "score": 12908, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1660 Ti (Mobile)", "score": 10143, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce GTX 1660 Ti with Max-Q Design", "score": 8587, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX Titan", "score": 8195, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX TITAN Black", "score": 9184, "tier": "high"}
+{"type": "GPU", "name": "GeForce GTX TITAN X", "score": 12759, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce GTX TITAN Z", "score": 8904, "tier": "high"}
 {"type": "GPU", "name": "GeForce MX110", "score": 1416, "tier": "low"}
-{"type": "GPU", "name": "GeForce MX130", "score": 1813, "tier": "low"}
-{"type": "GPU", "name": "GeForce MX150", "score": 2259, "tier": "medium"}
+{"type": "GPU", "name": "GeForce MX130", "score": 1818, "tier": "low"}
+{"type": "GPU", "name": "GeForce MX150", "score": 2260, "tier": "medium"}
 {"type": "GPU", "name": "GeForce MX230", "score": 1830, "tier": "low"}
-{"type": "GPU", "name": "GeForce MX250", "score": 2392, "tier": "medium"}
-{"type": "GPU", "name": "GeForce MX330", "score": 2402, "tier": "medium"}
-{"type": "GPU", "name": "GeForce MX350", "score": 2805, "tier": "medium"}
-{"type": "GPU", "name": "GeForce MX450", "score": 3753, "tier": "medium"}
-{"type": "GPU", "name": "GeForce MX550", "score": 4531, "tier": "medium"}
+{"type": "GPU", "name": "GeForce MX250", "score": 2390, "tier": "medium"}
+{"type": "GPU", "name": "GeForce MX330", "score": 2393, "tier": "medium"}
+{"type": "GPU", "name": "GeForce MX350", "score": 2808, "tier": "medium"}
+{"type": "GPU", "name": "GeForce MX450", "score": 3747, "tier": "medium"}
+{"type": "GPU", "name": "GeForce MX550", "score": 4540, "tier": "medium"}
 {"type": "GPU", "name": "GeForce MX570", "score": 5783, "tier": "medium"}
-{"type": "GPU", "name": "GeForce MX570 A", "score": 6162, "tier": "high"}
+{"type": "GPU", "name": "GeForce MX570 A", "score": 6191, "tier": "high"}
 {"type": "GPU", "name": "GeForce PCX 5300", "score": 6, "tier": "low"}
 {"type": "GPU", "name": "GeForce PCX 5750", "score": 34, "tier": "low"}
 {"type": "GPU", "name": "GeForce PCX 5900", "score": 34, "tier": "low"}
-{"type": "GPU", "name": "GeForce RTX 2050", "score": 7756, "tier": "high"}
-{"type": "GPU", "name": "GeForce RTX 2060", "score": 14115, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2060 12GB", "score": 15989, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2050", "score": 7754, "tier": "high"}
+{"type": "GPU", "name": "GeForce RTX 2060", "score": 14116, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2060 12GB", "score": 15946, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce RTX 2060 (Mobile)", "score": 11352, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2060 SUPER", "score": 16476, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2060 with Max-Q Design", "score": 9723, "tier": "high"}
-{"type": "GPU", "name": "GeForce RTX 2070", "score": 16113, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2060 SUPER", "score": 16472, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2060 with Max-Q Design", "score": 9742, "tier": "high"}
+{"type": "GPU", "name": "GeForce RTX 2070", "score": 16108, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce RTX 2070 (Mobile)", "score": 12357, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2070 SUPER", "score": 18197, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2070 Super with Max-Q Design", "score": 13616, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2070 with Max-Q Design", "score": 11548, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2080", "score": 18748, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2070 SUPER", "score": 18194, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2070 Super with Max-Q Design", "score": 13606, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2070 with Max-Q Design", "score": 11529, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2080", "score": 18752, "tier": "ultra"}
 {"type": "GPU", "name": "GeForce RTX 2080 (Mobile)", "score": 15013, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2080 SUPER", "score": 19506, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2080 Super with Max-Q Design", "score": 13610, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2080 Ti", "score": 21597, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 2080 with Max-Q Design", "score": 12936, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3050 4GB Laptop GPU", "score": 6834, "tier": "high"}
-{"type": "GPU", "name": "GeForce RTX 3050 6GB", "score": 10703, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3050 6GB Laptop GPU", "score": 10271, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3050 8GB", "score": 12596, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3050 A Laptop GPU", "score": 11820, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3050 Laptop GPU", "score": 9506, "tier": "high"}
-{"type": "GPU", "name": "GeForce RTX 3050 OEM", "score": 11879, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3050 Ti Laptop GPU", "score": 10116, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3060 8GB", "score": 15285, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3060 12GB", "score": 16854, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3060 Laptop GPU", "score": 13252, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3060 Ti", "score": 20388, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3070", "score": 22250, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3070 Laptop GPU", "score": 15363, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3070 Ti", "score": 23405, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3070 Ti Laptop GPU", "score": 17807, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3080", "score": 25142, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3080 12GB", "score": 26568, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3080 Laptop GPU", "score": 16419, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3080 Ti", "score": 26929, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3080 Ti Laptop GPU", "score": 19430, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3090", "score": 26665, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 3090 Ti", "score": 29512, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4050 Laptop GPU", "score": 14434, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4060", "score": 19724, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4060 Laptop GPU", "score": 17553, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4060 Ti", "score": 22739, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4060 Ti 16GB", "score": 22755, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4070", "score": 26950, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4070 Laptop GPU", "score": 19580, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4070 SUPER", "score": 29973, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4070 Ti", "score": 31639, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4070 Ti SUPER", "score": 31735, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4080", "score": 34491, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4080 Laptop GPU", "score": 24976, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4080 SUPER", "score": 34265, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4090", "score": 38274, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4090 D", "score": 29203, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 4090 Laptop GPU", "score": 27388, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5060 Ti", "score": 22807, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5070", "score": 28837, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5070 Laptop GPU", "score": 17501, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5070 Ti", "score": 32764, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5070 Ti Laptop GPU", "score": 22177, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5080", "score": 36119, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5080 Laptop GPU", "score": 29148, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5090", "score": 40020, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5090 D", "score": 41140, "tier": "ultra"}
-{"type": "GPU", "name": "GeForce RTX 5090 Laptop GPU", "score": 31539, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2080 SUPER", "score": 19505, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2080 Super with Max-Q Design", "score": 13575, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2080 Ti", "score": 21590, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 2080 with Max-Q Design", "score": 12878, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3050 4GB Laptop GPU", "score": 9462, "tier": "high"}
+{"type": "GPU", "name": "GeForce RTX 3050 6GB", "score": 10723, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3050 6GB Laptop GPU", "score": 10274, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3050 8GB", "score": 12586, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3050 A Laptop GPU", "score": 11781, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3050 OEM", "score": 11848, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3050 Ti Laptop GPU", "score": 10118, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3060 8GB", "score": 15266, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3060 12GB", "score": 16847, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3060 Laptop GPU", "score": 13244, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3060 Ti", "score": 20382, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3070", "score": 22242, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3070 Laptop GPU", "score": 15359, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3070 Ti", "score": 23391, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3070 Ti Laptop GPU", "score": 17792, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3080", "score": 25134, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3080 12GB", "score": 26574, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3080 Laptop GPU", "score": 16421, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3080 Ti", "score": 26930, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3080 Ti Laptop GPU", "score": 19398, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3090", "score": 26656, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 3090 Ti", "score": 29523, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4050 Laptop GPU", "score": 14437, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4060", "score": 19709, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4060 Laptop GPU", "score": 17536, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4060 Ti", "score": 22734, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4060 Ti 16GB", "score": 22758, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4070", "score": 26947, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4070 Laptop GPU", "score": 19587, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4070 SUPER", "score": 29980, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4070 Ti", "score": 31644, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4070 Ti SUPER", "score": 31739, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4080", "score": 34455, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4080 Laptop GPU", "score": 24994, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4080 SUPER", "score": 34269, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4090", "score": 38266, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4090 D", "score": 31935, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 4090 Laptop GPU", "score": 27341, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5060 Laptop GPU", "score": 19707, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5060 Ti", "score": 22432, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5070", "score": 29062, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5070 Laptop GPU", "score": 19437, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5070 Ti", "score": 32802, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5070 Ti Laptop GPU", "score": 24092, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5080", "score": 35986, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5080 Laptop GPU", "score": 28422, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5090", "score": 39876, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5090 D", "score": 39850, "tier": "ultra"}
+{"type": "GPU", "name": "GeForce RTX 5090 Laptop GPU", "score": 31301, "tier": "ultra"}
 {"type": "GPU", "name": "GF117", "score": 554, "tier": "low"}
 {"type": "GPU", "name": "Glenfly Arise-GT-10C0", "score": 1007, "tier": "low"}
 {"type": "GPU", "name": "GRID GTX P40-6", "score": 4340, "tier": "medium"}
@@ -747,16 +746,14 @@
 {"type": "GPU", "name": "GRID P100-16Q", "score": 5944, "tier": "medium"}
 {"type": "GPU", "name": "GRID RTX6000-1B", "score": 8473, "tier": "high"}
 {"type": "GPU", "name": "GRID RTX6000-6Q", "score": 21986, "tier": "ultra"}
-{"type": "GPU", "name": "GRID RTX6000-8Q", "score": 4514, "tier": "medium"}
 {"type": "GPU", "name": "GRID RTX6000P-6Q", "score": 4777, "tier": "medium"}
 {"type": "GPU", "name": "GRID T4-1Q", "score": 3302, "tier": "medium"}
 {"type": "GPU", "name": "GRID T4-2B", "score": 2785, "tier": "medium"}
 {"type": "GPU", "name": "GRID T4-2Q", "score": 3765, "tier": "medium"}
-{"type": "GPU", "name": "GRID T4-4Q", "score": 3485, "tier": "medium"}
+{"type": "GPU", "name": "GRID T4-4Q", "score": 3608, "tier": "medium"}
 {"type": "GPU", "name": "GRID T4-8Q", "score": 5565, "tier": "medium"}
 {"type": "GPU", "name": "GRID T4-16Q", "score": 4910, "tier": "medium"}
 {"type": "GPU", "name": "GRID V100-8Q", "score": 16, "tier": "low"}
-{"type": "GPU", "name": "GRID V100-16Q", "score": 1271, "tier": "low"}
 {"type": "GPU", "name": "GRID V100D-8Q", "score": 4155, "tier": "medium"}
 {"type": "GPU", "name": "GT 430", "score": 223, "tier": "low"}
 {"type": "GPU", "name": "IncrediblE HD", "score": 389, "tier": "low"}
@@ -784,47 +781,48 @@
 {"type": "GPU", "name": "Intel 82945G Express-Chipsatzfamilie", "score": 8, "tier": "low"}
 {"type": "GPU", "name": "Intel - Express Chipset G41", "score": 56, "tier": "low"}
 {"type": "GPU", "name": "Intel - Express Chipset Q45/Q43", "score": 57, "tier": "low"}
-{"type": "GPU", "name": "Intel Arc", "score": 5483, "tier": "medium"}
-{"type": "GPU", "name": "Intel Arc 130T GPU", "score": 6224, "tier": "high"}
-{"type": "GPU", "name": "Intel Arc 130V GPU", "score": 4610, "tier": "medium"}
-{"type": "GPU", "name": "Intel Arc 140T", "score": 5553, "tier": "medium"}
-{"type": "GPU", "name": "Intel Arc 140T GPU", "score": 6844, "tier": "high"}
-{"type": "GPU", "name": "Intel Arc 140V GPU", "score": 5218, "tier": "medium"}
+{"type": "GPU", "name": "Intel Arc", "score": 5498, "tier": "medium"}
+{"type": "GPU", "name": "Intel Arc 130T GPU", "score": 6312, "tier": "high"}
+{"type": "GPU", "name": "Intel Arc 130V GPU", "score": 4632, "tier": "medium"}
+{"type": "GPU", "name": "Intel Arc 140T", "score": 5634, "tier": "medium"}
+{"type": "GPU", "name": "Intel Arc 140T GPU", "score": 6904, "tier": "high"}
+{"type": "GPU", "name": "Intel Arc 140V GPU", "score": 5231, "tier": "medium"}
 {"type": "GPU", "name": "Intel Arc A310", "score": 5436, "tier": "medium"}
-{"type": "GPU", "name": "Intel Arc A310 LP", "score": 4749, "tier": "medium"}
+{"type": "GPU", "name": "Intel Arc A310 LP", "score": 4787, "tier": "medium"}
 {"type": "GPU", "name": "Intel Arc A370M", "score": 5115, "tier": "medium"}
-{"type": "GPU", "name": "Intel Arc A380", "score": 6258, "tier": "high"}
-{"type": "GPU", "name": "Intel Arc A530M", "score": 7575, "tier": "high"}
-{"type": "GPU", "name": "Intel Arc A580", "score": 11908, "tier": "ultra"}
+{"type": "GPU", "name": "Intel Arc A380", "score": 6260, "tier": "high"}
+{"type": "GPU", "name": "Intel Arc A530M", "score": 7624, "tier": "high"}
+{"type": "GPU", "name": "Intel Arc A580", "score": 11924, "tier": "ultra"}
 {"type": "GPU", "name": "Intel Arc A730M", "score": 9808, "tier": "high"}
-{"type": "GPU", "name": "Intel Arc A750", "score": 12381, "tier": "ultra"}
-{"type": "GPU", "name": "Intel Arc A770", "score": 13174, "tier": "ultra"}
-{"type": "GPU", "name": "Intel Arc A770M", "score": 11986, "tier": "ultra"}
-{"type": "GPU", "name": "Intel Arc B570", "score": 13806, "tier": "ultra"}
-{"type": "GPU", "name": "Intel Arc B580", "score": 15685, "tier": "ultra"}
-{"type": "GPU", "name": "Intel Arc Pro", "score": 5680, "tier": "medium"}
-{"type": "GPU", "name": "Intel Arc Pro A60", "score": 8993, "tier": "high"}
+{"type": "GPU", "name": "Intel Arc A750", "score": 12420, "tier": "ultra"}
+{"type": "GPU", "name": "Intel Arc A770", "score": 13181, "tier": "ultra"}
+{"type": "GPU", "name": "Intel Arc A770M", "score": 11983, "tier": "ultra"}
+{"type": "GPU", "name": "Intel Arc B570", "score": 13821, "tier": "ultra"}
+{"type": "GPU", "name": "Intel Arc B580", "score": 15727, "tier": "ultra"}
+{"type": "GPU", "name": "Intel Arc Pro", "score": 5701, "tier": "medium"}
+{"type": "GPU", "name": "Intel Arc Pro 140T GPU", "score": 6672, "tier": "high"}
+{"type": "GPU", "name": "Intel Arc Pro A60", "score": 9194, "tier": "high"}
 {"type": "GPU", "name": "Intel B43 Express Chipset", "score": 138, "tier": "low"}
 {"type": "GPU", "name": "Intel Coffee Lake UHD", "score": 1158, "tier": "low"}
 {"type": "GPU", "name": "Intel Extreme Controller", "score": 1, "tier": "low"}
-{"type": "GPU", "name": "Intel G33/G31 Express", "score": 40, "tier": "low"}
+{"type": "GPU", "name": "Intel G33/G31 Express", "score": 39, "tier": "low"}
 {"type": "GPU", "name": "Intel G35 Express", "score": 2097, "tier": "medium"}
-{"type": "GPU", "name": "Intel G41 Express Chipset", "score": 139, "tier": "low"}
+{"type": "GPU", "name": "Intel G41 Express Chipset", "score": 140, "tier": "low"}
 {"type": "GPU", "name": "Intel G41 Express-Chipsatz", "score": 57, "tier": "low"}
 {"type": "GPU", "name": "Intel G45/G43 Express Chipset", "score": 137, "tier": "low"}
 {"type": "GPU", "name": "Intel G45/G43/G41 Express Chipset", "score": 67, "tier": "low"}
 {"type": "GPU", "name": "Intel G965 Express", "score": 222, "tier": "low"}
 {"type": "GPU", "name": "Intel GMA 3150 Express", "score": 2, "tier": "low"}
-{"type": "GPU", "name": "Intel Graphics", "score": 3150, "tier": "medium"}
+{"type": "GPU", "name": "Intel Graphics", "score": 3162, "tier": "medium"}
 {"type": "GPU", "name": "Intel Haswell HD - GT1", "score": 123, "tier": "low"}
 {"type": "GPU", "name": "Intel Haswell HD - GT2", "score": 139, "tier": "low"}
-{"type": "GPU", "name": "Intel HD 500", "score": 299, "tier": "low"}
+{"type": "GPU", "name": "Intel HD 500", "score": 300, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 505", "score": 360, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 510", "score": 621, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 515", "score": 637, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 520", "score": 864, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 530", "score": 994, "tier": "low"}
-{"type": "GPU", "name": "Intel HD 610", "score": 692, "tier": "low"}
+{"type": "GPU", "name": "Intel HD 610", "score": 691, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 615", "score": 701, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 630", "score": 1113, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 2000", "score": 213, "tier": "low"}
@@ -835,8 +833,8 @@
 {"type": "GPU", "name": "Intel HD 4600 manual-gen9_2015-134121", "score": 619, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 5000", "score": 585, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 5200", "score": 830, "tier": "low"}
-{"type": "GPU", "name": "Intel HD 5300", "score": 404, "tier": "low"}
-{"type": "GPU", "name": "Intel HD 5500", "score": 593, "tier": "low"}
+{"type": "GPU", "name": "Intel HD 5300", "score": 405, "tier": "low"}
+{"type": "GPU", "name": "Intel HD 5500", "score": 594, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 5600", "score": 1868, "tier": "low"}
 {"type": "GPU", "name": "Intel HD 6000", "score": 874, "tier": "low"}
 {"type": "GPU", "name": "Intel HD Family", "score": 463, "tier": "low"}
@@ -844,9 +842,9 @@
 {"type": "GPU", "name": "Intel HD manual-15.28-1861", "score": 62, "tier": "low"}
 {"type": "GPU", "name": "Intel HD manual-gen9_2015-133271", "score": 165, "tier": "low"}
 {"type": "GPU", "name": "Intel HD Modded", "score": 112, "tier": "low"}
-{"type": "GPU", "name": "Intel HD P530", "score": 1161, "tier": "low"}
+{"type": "GPU", "name": "Intel HD P530", "score": 1162, "tier": "low"}
 {"type": "GPU", "name": "Intel HD P630", "score": 1219, "tier": "low"}
-{"type": "GPU", "name": "Intel HD P3000", "score": 280, "tier": "low"}
+{"type": "GPU", "name": "Intel HD P3000", "score": 282, "tier": "low"}
 {"type": "GPU", "name": "Intel HD P4000", "score": 516, "tier": "low"}
 {"type": "GPU", "name": "Intel HD P4600", "score": 505, "tier": "low"}
 {"type": "GPU", "name": "Intel HD P4600/P4700", "score": 632, "tier": "low"}
@@ -854,20 +852,20 @@
 {"type": "GPU", "name": "Intel Iris 540", "score": 1260, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris 550", "score": 1439, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris 650", "score": 1432, "tier": "low"}
-{"type": "GPU", "name": "Intel Iris 5100", "score": 737, "tier": "low"}
-{"type": "GPU", "name": "Intel Iris 6100", "score": 900, "tier": "low"}
+{"type": "GPU", "name": "Intel Iris 5100", "score": 740, "tier": "low"}
+{"type": "GPU", "name": "Intel Iris 6100", "score": 899, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Plus", "score": 1808, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Plus 640", "score": 1357, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Plus 645", "score": 1749, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Plus 650", "score": 1615, "tier": "low"}
-{"type": "GPU", "name": "Intel Iris Plus 655", "score": 1721, "tier": "low"}
+{"type": "GPU", "name": "Intel Iris Plus 655", "score": 1720, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Pro 580", "score": 1998, "tier": "low"}
-{"type": "GPU", "name": "Intel Iris Pro 5200", "score": 1179, "tier": "low"}
+{"type": "GPU", "name": "Intel Iris Pro 5200", "score": 1180, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Pro 6100", "score": 925, "tier": "low"}
-{"type": "GPU", "name": "Intel Iris Pro Graphics 6200", "score": 1523, "tier": "low"}
+{"type": "GPU", "name": "Intel Iris Pro Graphics 6200", "score": 1525, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Pro P580", "score": 1845, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Pro P6300", "score": 1596, "tier": "low"}
-{"type": "GPU", "name": "Intel Iris Xe", "score": 2664, "tier": "medium"}
+{"type": "GPU", "name": "Intel Iris Xe", "score": 2660, "tier": "medium"}
 {"type": "GPU", "name": "Intel Iris Xe MAX", "score": 1971, "tier": "low"}
 {"type": "GPU", "name": "Intel Iris Xe MAX 100", "score": 1964, "tier": "low"}
 {"type": "GPU", "name": "Intel Media Accelerator", "score": 32, "tier": "low"}
@@ -879,24 +877,24 @@
 {"type": "GPU", "name": "Intel Q33 Express", "score": 7, "tier": "low"}
 {"type": "GPU", "name": "Intel Q35 Embedded", "score": 8, "tier": "low"}
 {"type": "GPU", "name": "Intel Q35 Express", "score": 65, "tier": "low"}
-{"type": "GPU", "name": "Intel Q45/Q43 Express Chipset", "score": 200, "tier": "low"}
+{"type": "GPU", "name": "Intel Q45/Q43 Express Chipset", "score": 201, "tier": "low"}
 {"type": "GPU", "name": "Intel Q45/Q43 Express-Chipsatz", "score": 57, "tier": "low"}
 {"type": "GPU", "name": "Intel Q965/Q963 Express", "score": 135, "tier": "low"}
 {"type": "GPU", "name": "Intel Skylake HD DT GT2", "score": 576, "tier": "low"}
 {"type": "GPU", "name": "Intel UHD 630", "score": 614, "tier": "low"}
 {"type": "GPU", "name": "Intel UHD Graphics", "score": 1494, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 600", "score": 318, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 605", "score": 367, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 610", "score": 691, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 615", "score": 723, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 600", "score": 317, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 605", "score": 368, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 610", "score": 688, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 615", "score": 722, "tier": "low"}
 {"type": "GPU", "name": "Intel UHD Graphics 617", "score": 855, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 620", "score": 1041, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 630", "score": 1235, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 710", "score": 1082, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 730", "score": 1571, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 750", "score": 1721, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics 770", "score": 1907, "tier": "low"}
-{"type": "GPU", "name": "Intel UHD Graphics P630", "score": 2074, "tier": "medium"}
+{"type": "GPU", "name": "Intel UHD Graphics 620", "score": 1042, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 630", "score": 1237, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 710", "score": 1077, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 730", "score": 1565, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 750", "score": 1719, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics 770", "score": 1906, "tier": "low"}
+{"type": "GPU", "name": "Intel UHD Graphics P630", "score": 2059, "tier": "medium"}
 {"type": "GPU", "name": "Intel UHD Graphics P750", "score": 1662, "tier": "low"}
 {"type": "GPU", "name": "Intel US15 Embedded Media and Controller", "score": 7, "tier": "low"}
 {"type": "GPU", "name": "ION", "score": 108, "tier": "low"}
@@ -907,10 +905,9 @@
 {"type": "GPU", "name": "L4-4Q", "score": 4926, "tier": "medium"}
 {"type": "GPU", "name": "L4-6Q", "score": 4473, "tier": "medium"}
 {"type": "GPU", "name": "L20", "score": 13429, "tier": "ultra"}
-{"type": "GPU", "name": "L40", "score": 22466, "tier": "ultra"}
 {"type": "GPU", "name": "L40-8Q", "score": 11670, "tier": "ultra"}
 {"type": "GPU", "name": "L40S", "score": 20022, "tier": "ultra"}
-{"type": "GPU", "name": "L40S-24Q", "score": 4659, "tier": "medium"}
+{"type": "GPU", "name": "L40S-12Q", "score": 4500, "tier": "medium"}
 {"type": "GPU", "name": "L40S-48Q", "score": 3868, "tier": "medium"}
 {"type": "GPU", "name": "M860G with Mobility Radeon 4100", "score": 75, "tier": "low"}
 {"type": "GPU", "name": "M880G with Mobility Radeon HD 4200", "score": 92, "tier": "low"}
@@ -924,7 +921,7 @@
 {"type": "GPU", "name": "Matrox G200e WDDM 2.0", "score": 100, "tier": "low"}
 {"type": "GPU", "name": "Matrox G200eh", "score": 40, "tier": "low"}
 {"type": "GPU", "name": "Matrox G200eh WDDM 1.2", "score": 51, "tier": "low"}
-{"type": "GPU", "name": "Matrox G200eh WDDM 2.0", "score": 46, "tier": "low"}
+{"type": "GPU", "name": "Matrox G200eh WDDM 2.0", "score": 49, "tier": "low"}
 {"type": "GPU", "name": "Matrox G200eR", "score": 36, "tier": "low"}
 {"type": "GPU", "name": "Matrox G200eR WDDM 1.2", "score": 45, "tier": "low"}
 {"type": "GPU", "name": "Matrox G200eR WDDM 2.0", "score": 67, "tier": "low"}
@@ -952,10 +949,11 @@
 {"type": "GPU", "name": "MEDION RADEON X740XL", "score": 94, "tier": "low"}
 {"type": "GPU", "name": "Meta Virtual Monitor", "score": 7142, "tier": "high"}
 {"type": "GPU", "name": "Mi Pad 5 Adreno 640 GPU", "score": 657, "tier": "low"}
+{"type": "GPU", "name": "Mirage Driver", "score": 2038, "tier": "medium"}
 {"type": "GPU", "name": "MIRRORV3", "score": 1080, "tier": "low"}
 {"type": "GPU", "name": "Mobile Intel965 Express", "score": 17, "tier": "low"}
 {"type": "GPU", "name": "Mobile Intel 4 Express-Chipsatzfamilie", "score": 44, "tier": "low"}
-{"type": "GPU", "name": "Mobile Intel 45 Express", "score": 41, "tier": "low"}
+{"type": "GPU", "name": "Mobile Intel 45 Express", "score": 39, "tier": "low"}
 {"type": "GPU", "name": "Mobile Intel 45 Express-Chipsatzfamilie", "score": 117, "tier": "low"}
 {"type": "GPU", "name": "Mobile Intel 915GM/GMS/910GML Express", "score": 1, "tier": "low"}
 {"type": "GPU", "name": "Mobile Intel 945 Express", "score": 1, "tier": "low"}
@@ -1034,7 +1032,7 @@
 {"type": "GPU", "name": "Mobility Radeon HD 5470", "score": 236, "tier": "low"}
 {"type": "GPU", "name": "Mobility Radeon HD 5570", "score": 525, "tier": "low"}
 {"type": "GPU", "name": "Mobility Radeon HD 5650", "score": 443, "tier": "low"}
-{"type": "GPU", "name": "Mobility Radeon HD 5730", "score": 507, "tier": "low"}
+{"type": "GPU", "name": "Mobility Radeon HD 5730", "score": 508, "tier": "low"}
 {"type": "GPU", "name": "Mobility Radeon HD 5850", "score": 763, "tier": "low"}
 {"type": "GPU", "name": "Mobility Radeon HD 5870", "score": 1091, "tier": "low"}
 {"type": "GPU", "name": "Mobility Radeon HD serie 4200", "score": 96, "tier": "low"}
@@ -1065,33 +1063,34 @@
 {"type": "GPU", "name": "nForce 750a SLI", "score": 83, "tier": "low"}
 {"type": "GPU", "name": "nForce 760i SLI", "score": 140, "tier": "low"}
 {"type": "GPU", "name": "nForce 780a SLI", "score": 92, "tier": "low"}
-{"type": "GPU", "name": "nForce 980a/780a SLI", "score": 81, "tier": "low"}
+{"type": "GPU", "name": "nForce 980a/780a SLI", "score": 164, "tier": "low"}
 {"type": "GPU", "name": "NV44", "score": 15, "tier": "low"}
 {"type": "GPU", "name": "NVIDIA A10", "score": 22064, "tier": "ultra"}
-{"type": "GPU", "name": "NVIDIA A10-4Q", "score": 2778, "tier": "medium"}
+{"type": "GPU", "name": "NVIDIA A10-4Q", "score": 2756, "tier": "medium"}
 {"type": "GPU", "name": "NVIDIA A10G", "score": 17660, "tier": "ultra"}
 {"type": "GPU", "name": "NVIDIA A40", "score": 13900, "tier": "ultra"}
+{"type": "GPU", "name": "NVIDIA A40-4Q", "score": 4504, "tier": "medium"}
 {"type": "GPU", "name": "NVIDIA A40-8Q", "score": 4681, "tier": "medium"}
-{"type": "GPU", "name": "NVIDIA A40-12Q", "score": 4866, "tier": "medium"}
+{"type": "GPU", "name": "NVIDIA A40-12Q", "score": 4335, "tier": "medium"}
 {"type": "GPU", "name": "NVIDIA GeForce3 Ti200", "score": 5, "tier": "low"}
 {"type": "GPU", "name": "NVIDIA TITAN X", "score": 13659, "tier": "ultra"}
-{"type": "GPU", "name": "NVIDIA TITAN Xp", "score": 18763, "tier": "ultra"}
+{"type": "GPU", "name": "NVIDIA TITAN Xp", "score": 18760, "tier": "ultra"}
 {"type": "GPU", "name": "NVS 300", "score": 121, "tier": "low"}
 {"type": "GPU", "name": "NVS 310", "score": 266, "tier": "low"}
 {"type": "GPU", "name": "NVS 315", "score": 320, "tier": "low"}
-{"type": "GPU", "name": "NVS 510", "score": 684, "tier": "low"}
+{"type": "GPU", "name": "NVS 510", "score": 682, "tier": "low"}
 {"type": "GPU", "name": "NVS 810", "score": 1190, "tier": "low"}
 {"type": "GPU", "name": "NVS 2100M", "score": 139, "tier": "low"}
 {"type": "GPU", "name": "NVS 3100M", "score": 118, "tier": "low"}
 {"type": "GPU", "name": "NVS 4200M", "score": 297, "tier": "low"}
 {"type": "GPU", "name": "NVS 5100M", "score": 199, "tier": "low"}
-{"type": "GPU", "name": "NVS 5200M", "score": 506, "tier": "low"}
-{"type": "GPU", "name": "NVS 5400M", "score": 619, "tier": "low"}
+{"type": "GPU", "name": "NVS 5200M", "score": 505, "tier": "low"}
+{"type": "GPU", "name": "NVS 5400M", "score": 617, "tier": "low"}
 {"type": "GPU", "name": "OPAL XT/GL", "score": 1053, "tier": "low"}
 {"type": "GPU", "name": "P102-100", "score": 2911, "tier": "medium"}
 {"type": "GPU", "name": "P104-100", "score": 3602, "tier": "medium"}
 {"type": "GPU", "name": "P106-090", "score": 2520, "tier": "medium"}
-{"type": "GPU", "name": "P106-100", "score": 6740, "tier": "high"}
+{"type": "GPU", "name": "P106-100", "score": 6646, "tier": "high"}
 {"type": "GPU", "name": "Parsec Virtual Display Adapter", "score": 6089, "tier": "high"}
 {"type": "GPU", "name": "PCI\\VEN_1002&DEV_164E&SUBSYS_D0001458&REV_C3 Ryzen", "score": 1653, "tier": "low"}
 {"type": "GPU", "name": "PCI\\VEN_1002&DEV_164E&SUBSYS_D0001458&REV_C7 Ryzen", "score": 1642, "tier": "low"}
@@ -1111,7 +1110,7 @@
 {"type": "GPU", "name": "Quadro 400", "score": 148, "tier": "low"}
 {"type": "GPU", "name": "Quadro 410", "score": 438, "tier": "low"}
 {"type": "GPU", "name": "Quadro 500M", "score": 570, "tier": "low"}
-{"type": "GPU", "name": "Quadro 600", "score": 526, "tier": "low"}
+{"type": "GPU", "name": "Quadro 600", "score": 525, "tier": "low"}
 {"type": "GPU", "name": "Quadro 1000M", "score": 559, "tier": "low"}
 {"type": "GPU", "name": "Quadro 1100M", "score": 755, "tier": "low"}
 {"type": "GPU", "name": "Quadro 2000", "score": 946, "tier": "low"}
@@ -1120,8 +1119,8 @@
 {"type": "GPU", "name": "Quadro 2000M", "score": 765, "tier": "low"}
 {"type": "GPU", "name": "Quadro 2100M", "score": 1100, "tier": "low"}
 {"type": "GPU", "name": "Quadro 3000M", "score": 998, "tier": "low"}
-{"type": "GPU", "name": "Quadro 4000", "score": 1476, "tier": "low"}
-{"type": "GPU", "name": "Quadro 4000M", "score": 1282, "tier": "low"}
+{"type": "GPU", "name": "Quadro 4000", "score": 1475, "tier": "low"}
+{"type": "GPU", "name": "Quadro 4000M", "score": 1287, "tier": "low"}
 {"type": "GPU", "name": "Quadro 5000", "score": 1957, "tier": "low"}
 {"type": "GPU", "name": "Quadro 5000M", "score": 2059, "tier": "medium"}
 {"type": "GPU", "name": "Quadro 5010M", "score": 1691, "tier": "low"}
@@ -1144,7 +1143,7 @@
 {"type": "GPU", "name": "Quadro FX 550", "score": 63, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 560", "score": 113, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 570", "score": 248, "tier": "low"}
-{"type": "GPU", "name": "Quadro FX 570M", "score": 104, "tier": "low"}
+{"type": "GPU", "name": "Quadro FX 570M", "score": 99, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 580", "score": 173, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 770M", "score": 220, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 880M", "score": 230, "tier": "low"}
@@ -1178,7 +1177,7 @@
 {"type": "GPU", "name": "Quadro FX 4000", "score": 101, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 4500", "score": 227, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 4500 X2", "score": 236, "tier": "low"}
-{"type": "GPU", "name": "Quadro FX 4600", "score": 418, "tier": "low"}
+{"type": "GPU", "name": "Quadro FX 4600", "score": 413, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 4700 X2", "score": 676, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 4800", "score": 995, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX 5500", "score": 242, "tier": "low"}
@@ -1186,50 +1185,50 @@
 {"type": "GPU", "name": "Quadro FX 5800", "score": 1210, "tier": "low"}
 {"type": "GPU", "name": "Quadro FX Go1400", "score": 101, "tier": "low"}
 {"type": "GPU", "name": "Quadro GP100", "score": 15149, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro GV100", "score": 19824, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro GV100", "score": 19832, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro K420", "score": 732, "tier": "low"}
 {"type": "GPU", "name": "Quadro K510M", "score": 641, "tier": "low"}
 {"type": "GPU", "name": "Quadro K600", "score": 727, "tier": "low"}
-{"type": "GPU", "name": "Quadro K610M", "score": 712, "tier": "low"}
+{"type": "GPU", "name": "Quadro K610M", "score": 711, "tier": "low"}
 {"type": "GPU", "name": "Quadro K620", "score": 2219, "tier": "medium"}
 {"type": "GPU", "name": "Quadro K620M", "score": 1163, "tier": "low"}
 {"type": "GPU", "name": "Quadro K1000M", "score": 771, "tier": "low"}
 {"type": "GPU", "name": "Quadro K1100M", "score": 1087, "tier": "low"}
-{"type": "GPU", "name": "Quadro K1200", "score": 2951, "tier": "medium"}
-{"type": "GPU", "name": "Quadro K2000", "score": 1578, "tier": "low"}
+{"type": "GPU", "name": "Quadro K1200", "score": 2955, "tier": "medium"}
+{"type": "GPU", "name": "Quadro K2000", "score": 1579, "tier": "low"}
 {"type": "GPU", "name": "Quadro K2000D", "score": 1590, "tier": "low"}
-{"type": "GPU", "name": "Quadro K2000M", "score": 1005, "tier": "low"}
+{"type": "GPU", "name": "Quadro K2000M", "score": 1003, "tier": "low"}
 {"type": "GPU", "name": "Quadro K2100M", "score": 1365, "tier": "low"}
-{"type": "GPU", "name": "Quadro K2200", "score": 3573, "tier": "medium"}
+{"type": "GPU", "name": "Quadro K2200", "score": 3574, "tier": "medium"}
 {"type": "GPU", "name": "Quadro K2200M", "score": 3501, "tier": "medium"}
-{"type": "GPU", "name": "Quadro K3000M", "score": 1640, "tier": "low"}
+{"type": "GPU", "name": "Quadro K3000M", "score": 1643, "tier": "low"}
 {"type": "GPU", "name": "Quadro K3100M", "score": 2261, "tier": "medium"}
-{"type": "GPU", "name": "Quadro K4000", "score": 2720, "tier": "medium"}
+{"type": "GPU", "name": "Quadro K4000", "score": 2721, "tier": "medium"}
 {"type": "GPU", "name": "Quadro K4000M", "score": 1977, "tier": "low"}
 {"type": "GPU", "name": "Quadro K4100M", "score": 2775, "tier": "medium"}
 {"type": "GPU", "name": "Quadro K4200", "score": 4340, "tier": "medium"}
-{"type": "GPU", "name": "Quadro K5000", "score": 3986, "tier": "medium"}
-{"type": "GPU", "name": "Quadro K5000M", "score": 2806, "tier": "medium"}
-{"type": "GPU", "name": "Quadro K5100M", "score": 3217, "tier": "medium"}
+{"type": "GPU", "name": "Quadro K5000", "score": 3976, "tier": "medium"}
+{"type": "GPU", "name": "Quadro K5000M", "score": 2804, "tier": "medium"}
+{"type": "GPU", "name": "Quadro K5100M", "score": 3209, "tier": "medium"}
 {"type": "GPU", "name": "Quadro K5200", "score": 6135, "tier": "high"}
 {"type": "GPU", "name": "Quadro K6000", "score": 8095, "tier": "high"}
-{"type": "GPU", "name": "Quadro M500M", "score": 1171, "tier": "low"}
+{"type": "GPU", "name": "Quadro M500M", "score": 1176, "tier": "low"}
 {"type": "GPU", "name": "Quadro M520", "score": 1898, "tier": "low"}
 {"type": "GPU", "name": "Quadro M600M", "score": 2190, "tier": "medium"}
 {"type": "GPU", "name": "Quadro M620", "score": 2774, "tier": "medium"}
-{"type": "GPU", "name": "Quadro M1000M", "score": 2836, "tier": "medium"}
-{"type": "GPU", "name": "Quadro M1200", "score": 3215, "tier": "medium"}
-{"type": "GPU", "name": "Quadro M2000", "score": 4000, "tier": "medium"}
-{"type": "GPU", "name": "Quadro M2000M", "score": 3443, "tier": "medium"}
-{"type": "GPU", "name": "Quadro M2200", "score": 4286, "tier": "medium"}
-{"type": "GPU", "name": "Quadro M3000M", "score": 5570, "tier": "medium"}
-{"type": "GPU", "name": "Quadro M4000", "score": 6680, "tier": "high"}
-{"type": "GPU", "name": "Quadro M4000M", "score": 6153, "tier": "high"}
-{"type": "GPU", "name": "Quadro M5000", "score": 9439, "tier": "high"}
-{"type": "GPU", "name": "Quadro M5000M", "score": 7021, "tier": "high"}
+{"type": "GPU", "name": "Quadro M1000M", "score": 2834, "tier": "medium"}
+{"type": "GPU", "name": "Quadro M1200", "score": 3206, "tier": "medium"}
+{"type": "GPU", "name": "Quadro M2000", "score": 4006, "tier": "medium"}
+{"type": "GPU", "name": "Quadro M2000M", "score": 3445, "tier": "medium"}
+{"type": "GPU", "name": "Quadro M2200", "score": 4283, "tier": "medium"}
+{"type": "GPU", "name": "Quadro M3000M", "score": 5572, "tier": "medium"}
+{"type": "GPU", "name": "Quadro M4000", "score": 6686, "tier": "high"}
+{"type": "GPU", "name": "Quadro M4000M", "score": 6144, "tier": "high"}
+{"type": "GPU", "name": "Quadro M5000", "score": 9438, "tier": "high"}
+{"type": "GPU", "name": "Quadro M5000M", "score": 7031, "tier": "high"}
 {"type": "GPU", "name": "Quadro M5500", "score": 7915, "tier": "high"}
 {"type": "GPU", "name": "Quadro M6000", "score": 11768, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro M6000 24GB", "score": 11919, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro M6000 24GB", "score": 11925, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro NVS 55/280 PCI", "score": 6, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 110M", "score": 47, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 120M", "score": 46, "tier": "low"}
@@ -1245,100 +1244,102 @@
 {"type": "GPU", "name": "Quadro NVS 285", "score": 43, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 285 128MB", "score": 38, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 290", "score": 228, "tier": "low"}
-{"type": "GPU", "name": "Quadro NVS 295", "score": 111, "tier": "low"}
+{"type": "GPU", "name": "Quadro NVS 295", "score": 110, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 320M", "score": 208, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 420", "score": 120, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 440", "score": 37, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 450", "score": 66, "tier": "low"}
 {"type": "GPU", "name": "Quadro NVS 510M", "score": 238, "tier": "low"}
-{"type": "GPU", "name": "Quadro P400", "score": 1650, "tier": "low"}
+{"type": "GPU", "name": "Quadro P400", "score": 1652, "tier": "low"}
 {"type": "GPU", "name": "Quadro P500", "score": 1650, "tier": "low"}
-{"type": "GPU", "name": "Quadro P520", "score": 2087, "tier": "medium"}
-{"type": "GPU", "name": "Quadro P600", "score": 3328, "tier": "medium"}
-{"type": "GPU", "name": "Quadro P620", "score": 3668, "tier": "medium"}
-{"type": "GPU", "name": "Quadro P1000", "score": 4496, "tier": "medium"}
-{"type": "GPU", "name": "Quadro P2000", "score": 6957, "tier": "high"}
-{"type": "GPU", "name": "Quadro P2000 with Max-Q Design", "score": 5245, "tier": "medium"}
-{"type": "GPU", "name": "Quadro P2200", "score": 9369, "tier": "high"}
-{"type": "GPU", "name": "Quadro P3000", "score": 6404, "tier": "high"}
-{"type": "GPU", "name": "Quadro P3200", "score": 8698, "tier": "high"}
-{"type": "GPU", "name": "Quadro P3200 with Max-Q Design", "score": 9155, "tier": "high"}
-{"type": "GPU", "name": "Quadro P4000", "score": 11542, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro P520", "score": 2079, "tier": "medium"}
+{"type": "GPU", "name": "Quadro P600", "score": 3324, "tier": "medium"}
+{"type": "GPU", "name": "Quadro P620", "score": 3666, "tier": "medium"}
+{"type": "GPU", "name": "Quadro P1000", "score": 4503, "tier": "medium"}
+{"type": "GPU", "name": "Quadro P2000", "score": 6945, "tier": "high"}
+{"type": "GPU", "name": "Quadro P2000 with Max-Q Design", "score": 5263, "tier": "medium"}
+{"type": "GPU", "name": "Quadro P2200", "score": 9363, "tier": "high"}
+{"type": "GPU", "name": "Quadro P3000", "score": 6425, "tier": "high"}
+{"type": "GPU", "name": "Quadro P3200", "score": 8670, "tier": "high"}
+{"type": "GPU", "name": "Quadro P3200 with Max-Q Design", "score": 8989, "tier": "high"}
+{"type": "GPU", "name": "Quadro P4000", "score": 11528, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro P4000 with Max-Q Design", "score": 9082, "tier": "high"}
-{"type": "GPU", "name": "Quadro P4200", "score": 10686, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro P4200", "score": 10708, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro P4200 with Max-Q Design", "score": 11703, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro P5000", "score": 12653, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro P5200", "score": 11907, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro P5000", "score": 12637, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro P5200", "score": 11841, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro P5200 with Max-Q Design", "score": 12308, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro P6000", "score": 15435, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro RTX 3000", "score": 10967, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro RTX 3000 with Max-Q Design", "score": 8170, "tier": "high"}
-{"type": "GPU", "name": "Quadro RTX 4000", "score": 15193, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro RTX 4000 (Mobile)", "score": 11725, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro RTX 4000 with Max-Q Design", "score": 12343, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro RTX 5000", "score": 15685, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro RTX 3000", "score": 10958, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro RTX 3000 with Max-Q Design", "score": 8230, "tier": "high"}
+{"type": "GPU", "name": "Quadro RTX 4000", "score": 15181, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro RTX 4000 (Mobile)", "score": 11676, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro RTX 4000 with Max-Q Design", "score": 12425, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro RTX 5000", "score": 15671, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro RTX 5000 (Mobile)", "score": 14832, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro RTX 5000 with Max-Q Design", "score": 13011, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro RTX 6000", "score": 18497, "tier": "ultra"}
+{"type": "GPU", "name": "Quadro RTX 6000", "score": 18493, "tier": "ultra"}
 {"type": "GPU", "name": "Quadro RTX 8000", "score": 19861, "tier": "ultra"}
-{"type": "GPU", "name": "Quadro T1000", "score": 6494, "tier": "high"}
-{"type": "GPU", "name": "Quadro T1000 with Max-Q Design", "score": 6751, "tier": "high"}
-{"type": "GPU", "name": "Quadro T2000", "score": 7232, "tier": "high"}
-{"type": "GPU", "name": "Quadro T2000 with Max-Q Design", "score": 6877, "tier": "high"}
-{"type": "GPU", "name": "Qualcomm Adreno 7c Gen 3 GPU", "score": 748, "tier": "low"}
-{"type": "GPU", "name": "Qualcomm Adreno 7c+ Gen 3", "score": 685, "tier": "low"}
+{"type": "GPU", "name": "Quadro T1000", "score": 6491, "tier": "high"}
+{"type": "GPU", "name": "Quadro T1000 with Max-Q Design", "score": 6762, "tier": "high"}
+{"type": "GPU", "name": "Quadro T2000", "score": 7230, "tier": "high"}
+{"type": "GPU", "name": "Quadro T2000 with Max-Q Design", "score": 6873, "tier": "high"}
+{"type": "GPU", "name": "Qualcomm Adreno 7c Gen 3 GPU", "score": 763, "tier": "low"}
+{"type": "GPU", "name": "Qualcomm Adreno 7c+ Gen 3", "score": 688, "tier": "low"}
 {"type": "GPU", "name": "Qualcomm Adreno 8cx Gen 3", "score": 1962, "tier": "low"}
 {"type": "GPU", "name": "Qualcomm Adreno 540 GPU", "score": 126, "tier": "low"}
 {"type": "GPU", "name": "Qualcomm Adreno 618 GPU", "score": 127, "tier": "low"}
 {"type": "GPU", "name": "Qualcomm Adreno 630 GPU", "score": 282, "tier": "low"}
 {"type": "GPU", "name": "Qualcomm Adreno 675 GPU", "score": 539, "tier": "low"}
-{"type": "GPU", "name": "Qualcomm Adreno 680 GPU", "score": 867, "tier": "low"}
+{"type": "GPU", "name": "Qualcomm Adreno 680 GPU", "score": 868, "tier": "low"}
 {"type": "GPU", "name": "Qualcomm Adreno 685 GPU", "score": 975, "tier": "low"}
 {"type": "GPU", "name": "Qualcomm Adreno 690 GPU", "score": 1052, "tier": "low"}
-{"type": "GPU", "name": "Qualcomm Adreno X1-45 GPU", "score": 1740, "tier": "low"}
-{"type": "GPU", "name": "Qualcomm Adreno X1-85 GPU", "score": 2889, "tier": "medium"}
+{"type": "GPU", "name": "Qualcomm Adreno X1-45 GPU", "score": 1764, "tier": "low"}
+{"type": "GPU", "name": "Qualcomm Adreno X1-85 GPU", "score": 2918, "tier": "medium"}
 {"type": "GPU", "name": "QXL KMDOD", "score": 18, "tier": "low"}
 {"type": "GPU", "name": "Radeon 520", "score": 865, "tier": "low"}
-{"type": "GPU", "name": "Radeon 530", "score": 1029, "tier": "low"}
+{"type": "GPU", "name": "Radeon 530", "score": 1027, "tier": "low"}
 {"type": "GPU", "name": "Radeon 535", "score": 1062, "tier": "low"}
 {"type": "GPU", "name": "Radeon 535DX", "score": 773, "tier": "low"}
-{"type": "GPU", "name": "Radeon 540", "score": 1403, "tier": "low"}
+{"type": "GPU", "name": "Radeon 540", "score": 1412, "tier": "low"}
 {"type": "GPU", "name": "Radeon 540X", "score": 1471, "tier": "low"}
-{"type": "GPU", "name": "Radeon 550", "score": 2112, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 550X", "score": 1404, "tier": "low"}
+{"type": "GPU", "name": "Radeon 550", "score": 2124, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 550X", "score": 1419, "tier": "low"}
 {"type": "GPU", "name": "Radeon 610M", "score": 1104, "tier": "low"}
 {"type": "GPU", "name": "Radeon 610M Ryzen 9 7845HX", "score": 11463, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon 610M Ryzen 9 7940HX", "score": 1525, "tier": "low"}
-{"type": "GPU", "name": "Radeon 610M Ryzen 9 7945HX", "score": 1609, "tier": "low"}
+{"type": "GPU", "name": "Radeon 610M Ryzen 9 7945HX", "score": 1603, "tier": "low"}
+{"type": "GPU", "name": "Radeon 610M Ryzen 9 7945HX3D", "score": 1752, "tier": "low"}
 {"type": "GPU", "name": "Radeon 620", "score": 933, "tier": "low"}
 {"type": "GPU", "name": "Radeon 625", "score": 1073, "tier": "low"}
 {"type": "GPU", "name": "Radeon 630", "score": 1514, "tier": "low"}
 {"type": "GPU", "name": "Radeon 660M", "score": 3341, "tier": "medium"}
 {"type": "GPU", "name": "Radeon 660M Ryzen 3 7335U", "score": 2112, "tier": "medium"}
 {"type": "GPU", "name": "Radeon 660M Ryzen 5 6600H", "score": 4461, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 660M Ryzen 5 7535HS", "score": 2995, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 680M Ryzen 7 7735HS", "score": 4685, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 740M", "score": 3211, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 760M", "score": 5645, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 780M", "score": 6999, "tier": "high"}
-{"type": "GPU", "name": "Radeon 840M", "score": 4341, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 860M", "score": 4823, "tier": "medium"}
-{"type": "GPU", "name": "Radeon 880M", "score": 7740, "tier": "high"}
-{"type": "GPU", "name": "Radeon 890M", "score": 8541, "tier": "high"}
+{"type": "GPU", "name": "Radeon 660M Ryzen 5 7535HS", "score": 2968, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 680M Ryzen 7 7735HS", "score": 4596, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 680M Ryzen 9 6900HX", "score": 5613, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 740M", "score": 3216, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 760M", "score": 5602, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 780M", "score": 6988, "tier": "high"}
+{"type": "GPU", "name": "Radeon 840M", "score": 4046, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 860M", "score": 4770, "tier": "medium"}
+{"type": "GPU", "name": "Radeon 880M", "score": 7757, "tier": "high"}
+{"type": "GPU", "name": "Radeon 890M", "score": 8433, "tier": "high"}
 {"type": "GPU", "name": "Radeon 2100", "score": 59, "tier": "low"}
 {"type": "GPU", "name": "Radeon 3000", "score": 98, "tier": "low"}
 {"type": "GPU", "name": "Radeon 3015e", "score": 370, "tier": "low"}
-{"type": "GPU", "name": "Radeon 3020e", "score": 472, "tier": "low"}
+{"type": "GPU", "name": "Radeon 3020e", "score": 471, "tier": "low"}
 {"type": "GPU", "name": "Radeon 3100", "score": 73, "tier": "low"}
-{"type": "GPU", "name": "Radeon 6600M", "score": 531, "tier": "low"}
+{"type": "GPU", "name": "Radeon 6600M", "score": 532, "tier": "low"}
 {"type": "GPU", "name": "Radeon 6750M", "score": 911, "tier": "low"}
 {"type": "GPU", "name": "Radeon 7000 / Radeon VE", "score": 2, "tier": "low"}
 {"type": "GPU", "name": "RADEON 7000 / RADEON VE Family", "score": 3, "tier": "low"}
 {"type": "GPU", "name": "RADEON 7200", "score": 2, "tier": "low"}
 {"type": "GPU", "name": "RADEON 7500", "score": 3, "tier": "low"}
 {"type": "GPU", "name": "RADEON 7500 Family", "score": 4, "tier": "low"}
-{"type": "GPU", "name": "Radeon 8050S", "score": 15914, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon 8060S", "score": 16842, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon 8050S", "score": 15885, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon 8060S", "score": 17104, "tier": "ultra"}
 {"type": "GPU", "name": "RADEON 8500 Family", "score": 6, "tier": "low"}
 {"type": "GPU", "name": "RADEON 9000", "score": 4, "tier": "low"}
 {"type": "GPU", "name": "RADEON 9000 Family", "score": 3, "tier": "low"}
@@ -1369,7 +1370,7 @@
 {"type": "GPU", "name": "Radeon Athlon Gold 3150U", "score": 781, "tier": "low"}
 {"type": "GPU", "name": "Radeon Athlon Gold PRO 4150GE", "score": 1573, "tier": "low"}
 {"type": "GPU", "name": "Radeon Athlon PRO 3045B", "score": 563, "tier": "low"}
-{"type": "GPU", "name": "Radeon Athlon Silver 3050U", "score": 674, "tier": "low"}
+{"type": "GPU", "name": "Radeon Athlon Silver 3050U", "score": 671, "tier": "low"}
 {"type": "GPU", "name": "RADEON E2400", "score": 51, "tier": "low"}
 {"type": "GPU", "name": "RADEON E4690", "score": 405, "tier": "low"}
 {"type": "GPU", "name": "Radeon E6460", "score": 323, "tier": "low"}
@@ -1377,13 +1378,13 @@
 {"type": "GPU", "name": "Radeon E6760", "score": 876, "tier": "low"}
 {"type": "GPU", "name": "Radeon E8860", "score": 1686, "tier": "low"}
 {"type": "GPU", "name": "Radeon E8870PCIe", "score": 3368, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Eng Sample: 100-000000144-40_38/38_Y", "score": 1781, "tier": "low"}
-{"type": "GPU", "name": "Radeon Eng Sample: 100-000000146-20_37/30_Y", "score": 2184, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Eng Sample: 100-000000144-40_38/38_Y", "score": 1753, "tier": "low"}
+{"type": "GPU", "name": "Radeon Eng Sample: 100-000000146-20_37/30_Y", "score": 2123, "tier": "medium"}
 {"type": "GPU", "name": "Radeon EPYC 4124P 4-Core", "score": 1614, "tier": "low"}
 {"type": "GPU", "name": "Radeon EPYC 4244P 6-Core", "score": 1424, "tier": "low"}
 {"type": "GPU", "name": "Radeon EPYC 4344P 8-Core", "score": 1634, "tier": "low"}
 {"type": "GPU", "name": "Radeon EPYC 4364P 8-Core", "score": 1002, "tier": "low"}
-{"type": "GPU", "name": "Radeon EPYC 4464P 12-Core", "score": 1613, "tier": "low"}
+{"type": "GPU", "name": "Radeon EPYC 4464P 12-Core", "score": 1331, "tier": "low"}
 {"type": "GPU", "name": "Radeon EPYC 4484PX 12-Core", "score": 1619, "tier": "low"}
 {"type": "GPU", "name": "Radeon EPYC 4564P 16-Core", "score": 1374, "tier": "low"}
 {"type": "GPU", "name": "Radeon EPYC 4584PX 16-Core", "score": 1661, "tier": "low"}
@@ -1423,13 +1424,13 @@
 {"type": "GPU", "name": "Radeon HD 4270", "score": 109, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4290", "score": 140, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4300/4500 Serisi", "score": 155, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 4330", "score": 134, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 4330", "score": 135, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4350", "score": 161, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4550", "score": 235, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 4650", "score": 249, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 4650", "score": 248, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4650 AGP", "score": 207, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 4670", "score": 382, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 4770", "score": 904, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 4670", "score": 381, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 4770", "score": 907, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4810", "score": 769, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4830", "score": 844, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 4850", "score": 941, "tier": "low"}
@@ -1442,13 +1443,13 @@
 {"type": "GPU", "name": "Radeon HD 5550", "score": 376, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 5570", "score": 478, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 5600/5700", "score": 615, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 5670", "score": 801, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 5670", "score": 800, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 5750", "score": 1168, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 5770", "score": 1344, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 5770", "score": 1345, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 5830", "score": 1732, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 5850", "score": 1966, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 5870", "score": 2199, "tier": "medium"}
-{"type": "GPU", "name": "Radeon HD 5970", "score": 2263, "tier": "medium"}
+{"type": "GPU", "name": "Radeon HD 5850", "score": 1967, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 5870", "score": 2194, "tier": "medium"}
+{"type": "GPU", "name": "Radeon HD 5970", "score": 2275, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 6230", "score": 179, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6250", "score": 93, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6290", "score": 104, "tier": "low"}
@@ -1481,23 +1482,23 @@
 {"type": "GPU", "name": "Radeon HD 6630M", "score": 684, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6650A", "score": 835, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6650M", "score": 755, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 6670", "score": 725, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 6670", "score": 726, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6670 + 6670 Dual", "score": 646, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6670 + 7660D Dual", "score": 1492, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6670/7670", "score": 945, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6700M", "score": 1016, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 6750", "score": 1044, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 6750", "score": 1034, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6750M", "score": 937, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6770", "score": 1261, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6770M", "score": 964, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6790", "score": 1552, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6800M", "score": 772, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 6850", "score": 1952, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 6850", "score": 1951, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 6850 X2", "score": 2534, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 6870", "score": 2208, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 6900M", "score": 1701, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 6950", "score": 2601, "tier": "medium"}
-{"type": "GPU", "name": "Radeon HD 6970", "score": 2839, "tier": "medium"}
+{"type": "GPU", "name": "Radeon HD 6950", "score": 2599, "tier": "medium"}
+{"type": "GPU", "name": "Radeon HD 6970", "score": 2840, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 6970M", "score": 2270, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 6990", "score": 3013, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 7290", "score": 111, "tier": "low"}
@@ -1548,7 +1549,7 @@
 {"type": "GPU", "name": "Radeon HD 7540D + HD 6450 Dual", "score": 643, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7550M", "score": 464, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7550M/7650M", "score": 728, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 7560D", "score": 457, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 7560D", "score": 454, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7560D + 6450 Dual", "score": 568, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7560D + 6570 Dual", "score": 833, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7560D + 6670 Dual", "score": 1130, "tier": "low"}
@@ -1664,21 +1665,21 @@
 {"type": "GPU", "name": "Radeon HD 7660G N HD 7660G + HD 7600M N HD 7600M D", "score": 722, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7660G N HD 7660G + HD 7670M Dual", "score": 704, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D", "score": 966, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 7670", "score": 811, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 7670", "score": 817, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7670A", "score": 1050, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 7670M", "score": 468, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 7670M", "score": 473, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7670M + 7670M Dual", "score": 738, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 7690M", "score": 876, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 7690M", "score": 847, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7690M XT", "score": 1009, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7700-serie", "score": 1899, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 7730", "score": 1195, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 7730", "score": 1188, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7730M", "score": 780, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 7750", "score": 1693, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 7750", "score": 1692, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7750M", "score": 1191, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7770", "score": 2173, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 7790", "score": 3090, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 7800-serie", "score": 4029, "tier": "medium"}
-{"type": "GPU", "name": "Radeon HD 7850", "score": 3882, "tier": "medium"}
+{"type": "GPU", "name": "Radeon HD 7850", "score": 3885, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 7850M", "score": 1372, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 7870", "score": 4602, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 7870 XT", "score": 4469, "tier": "medium"}
@@ -1688,7 +1689,7 @@
 {"type": "GPU", "name": "Radeon HD 7970M", "score": 3568, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 7990", "score": 5565, "tier": "medium"}
 {"type": "GPU", "name": "Radeon HD 8180", "score": 134, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8210", "score": 191, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8210", "score": 192, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8210E", "score": 193, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8240", "score": 246, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8250", "score": 212, "tier": "low"}
@@ -1701,10 +1702,10 @@
 {"type": "GPU", "name": "Radeon HD 8350", "score": 162, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8350G", "score": 258, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8370D", "score": 316, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8400", "score": 270, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8400", "score": 273, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8400E", "score": 275, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8410G", "score": 435, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8450G", "score": 337, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8450G", "score": 338, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8450G + 8600/8700M Dual", "score": 1070, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8450G + 8600M Dual", "score": 545, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8450G + 8670M Dual", "score": 474, "tier": "low"}
@@ -1721,13 +1722,13 @@
 {"type": "GPU", "name": "Radeon HD 8470D + HD 6670 Dual", "score": 1435, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8470D + HD 7500 Dual", "score": 1545, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8490", "score": 263, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8500M", "score": 435, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8500M", "score": 437, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8500M/8700M", "score": 852, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8510G", "score": 371, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8510G + 8500M Dual", "score": 596, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8510G + HD 8500M Dual", "score": 629, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8550D", "score": 566, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8550G", "score": 416, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8550G", "score": 417, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8550G + 7600M Dual", "score": 901, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8550G + 8500M Dual", "score": 602, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8550G + 8570M Dual", "score": 532, "tier": "low"}
@@ -1749,7 +1750,7 @@
 {"type": "GPU", "name": "Radeon HD 8570", "score": 939, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8570 + 8670D Dual", "score": 620, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8570 + HD 7660D Dual", "score": 949, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8570D", "score": 428, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8570D", "score": 431, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8570D + 6570 Dual", "score": 1239, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8570D + 6670 Dual", "score": 1039, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8570D + HD8490 Dual", "score": 374, "tier": "low"}
@@ -1797,7 +1798,7 @@
 {"type": "GPU", "name": "Radeon HD 8650G N HD 8650G + HD 8570M Dual", "score": 773, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8650G N HD 8650G + HD 8600/8700M Dual", "score": 796, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8650G N HD 8650G + HD 8600M N HD 8600M D", "score": 679, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8670D", "score": 532, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8670D", "score": 531, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8670D + 6670 Dual", "score": 1361, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8670D + 7000 Dual", "score": 811, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8670D + 7700 Dual", "score": 1788, "tier": "low"}
@@ -1812,10 +1813,10 @@
 {"type": "GPU", "name": "Radeon HD 8670D + R7 240 Dual", "score": 1020, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8670D N HD 8670D + HD 8670D Dual", "score": 488, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8670M", "score": 520, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8690A", "score": 509, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8690A", "score": 510, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8690M", "score": 984, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8730M", "score": 809, "tier": "low"}
-{"type": "GPU", "name": "Radeon HD 8750M", "score": 1021, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8730M", "score": 811, "tier": "low"}
+{"type": "GPU", "name": "Radeon HD 8750M", "score": 1020, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8790M", "score": 1305, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8790M / R9 M290X", "score": 1210, "tier": "low"}
 {"type": "GPU", "name": "Radeon HD 8850M", "score": 973, "tier": "low"}
@@ -1834,7 +1835,7 @@
 {"type": "GPU", "name": "RADEON IGP 345M", "score": 2, "tier": "low"}
 {"type": "GPU", "name": "RADEON IGP 350M", "score": 6, "tier": "low"}
 {"type": "GPU", "name": "Radeon Infoshock 3000", "score": 106, "tier": "low"}
-{"type": "GPU", "name": "Radeon Instinct MI25 MxGPU", "score": 4653, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Instinct MI25 MxGPU", "score": 4403, "tier": "medium"}
 {"type": "GPU", "name": "Radeon M535DX", "score": 749, "tier": "low"}
 {"type": "GPU", "name": "Radeon Pro", "score": 2365, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro 450", "score": 2722, "tier": "medium"}
@@ -1848,19 +1849,20 @@
 {"type": "GPU", "name": "Radeon Pro 580", "score": 7753, "tier": "high"}
 {"type": "GPU", "name": "Radeon Pro 580X", "score": 7540, "tier": "high"}
 {"type": "GPU", "name": "Radeon Pro 5300", "score": 7125, "tier": "high"}
-{"type": "GPU", "name": "Radeon Pro 5300M", "score": 5929, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Pro 5500 XT", "score": 7942, "tier": "high"}
-{"type": "GPU", "name": "Radeon Pro 5500M", "score": 6762, "tier": "high"}
-{"type": "GPU", "name": "Radeon Pro 5600M", "score": 9234, "tier": "high"}
-{"type": "GPU", "name": "Radeon Pro 5700", "score": 11844, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon Pro 5300M", "score": 5926, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Pro 5500 XT", "score": 7940, "tier": "high"}
+{"type": "GPU", "name": "Radeon Pro 5500M", "score": 6753, "tier": "high"}
+{"type": "GPU", "name": "Radeon Pro 5600M", "score": 9278, "tier": "high"}
+{"type": "GPU", "name": "Radeon Pro 5700", "score": 11582, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro 5700 XT", "score": 12557, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro Duo", "score": 8298, "tier": "high"}
 {"type": "GPU", "name": "Radeon PRO Ryzen 5 PRO 6650U", "score": 4066, "tier": "medium"}
-{"type": "GPU", "name": "Radeon PRO Ryzen 7 PRO 6850U", "score": 5630, "tier": "medium"}
+{"type": "GPU", "name": "Radeon PRO Ryzen 7 PRO 6850U", "score": 5582, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro SSG", "score": 10971, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro V340 MxGPU", "score": 2853, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro V520 MxGPU", "score": 12257, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro V620 MxGPU", "score": 15632, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon PRO V710 MxGPU", "score": 13129, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro Vega 16", "score": 4809, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro Vega 20", "score": 5039, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro Vega 48", "score": 11289, "tier": "ultra"}
@@ -1869,39 +1871,39 @@
 {"type": "GPU", "name": "Radeon Pro Vega 64X", "score": 13369, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro Vega II", "score": 15596, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro Vega II Duo", "score": 14018, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon Pro VII", "score": 13082, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon Pro W5500", "score": 9058, "tier": "high"}
+{"type": "GPU", "name": "Radeon Pro VII", "score": 13031, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon Pro W5500", "score": 8979, "tier": "high"}
 {"type": "GPU", "name": "Radeon Pro W5500M", "score": 3469, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro W5500X", "score": 7350, "tier": "high"}
-{"type": "GPU", "name": "Radeon Pro W5700", "score": 14644, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon Pro W5700", "score": 14648, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon PRO W6300", "score": 5559, "tier": "medium"}
-{"type": "GPU", "name": "Radeon PRO W6400", "score": 8047, "tier": "high"}
+{"type": "GPU", "name": "Radeon PRO W6400", "score": 8126, "tier": "high"}
 {"type": "GPU", "name": "Radeon PRO W6600", "score": 15382, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon PRO W6600M", "score": 11287, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon PRO W6600X", "score": 13113, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon PRO W6800", "score": 19952, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon PRO W7500", "score": 13346, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon PRO W7600", "score": 15953, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon PRO W7700", "score": 23150, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon PRO W7800", "score": 28101, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon PRO W7900", "score": 29008, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon Pro WX 2100", "score": 1873, "tier": "low"}
-{"type": "GPU", "name": "Radeon Pro WX 3100", "score": 2629, "tier": "medium"}
+{"type": "GPU", "name": "Radeon PRO W6800", "score": 19969, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon PRO W7500", "score": 13436, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon PRO W7600", "score": 16058, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon PRO W7700", "score": 23327, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon PRO W7800", "score": 27499, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon PRO W7900", "score": 28871, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon Pro WX 2100", "score": 1872, "tier": "low"}
+{"type": "GPU", "name": "Radeon Pro WX 3100", "score": 2628, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro WX 3200", "score": 2398, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Pro WX 4100", "score": 3685, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Pro WX 4100", "score": 3683, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro WX 4130", "score": 2086, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro WX 4150", "score": 2728, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Pro WX 4170", "score": 2732, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Pro WX 5100", "score": 5489, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Pro WX 7100", "score": 7799, "tier": "high"}
-{"type": "GPU", "name": "Radeon Pro WX 7130", "score": 6715, "tier": "high"}
+{"type": "GPU", "name": "Radeon Pro WX 5100", "score": 5493, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Pro WX 7100", "score": 7795, "tier": "high"}
+{"type": "GPU", "name": "Radeon Pro WX 7130", "score": 6553, "tier": "high"}
 {"type": "GPU", "name": "Radeon Pro WX 8200", "score": 13046, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro WX 9100", "score": 12285, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon Pro WX Vega M GL", "score": 4768, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R1E", "score": 301, "tier": "low"}
-{"type": "GPU", "name": "Radeon R2", "score": 250, "tier": "low"}
+{"type": "GPU", "name": "Radeon R2", "score": 249, "tier": "low"}
 {"type": "GPU", "name": "Radeon R2E", "score": 208, "tier": "low"}
-{"type": "GPU", "name": "Radeon R3", "score": 309, "tier": "low"}
+{"type": "GPU", "name": "Radeon R3", "score": 311, "tier": "low"}
 {"type": "GPU", "name": "Radeon R3E", "score": 224, "tier": "low"}
 {"type": "GPU", "name": "Radeon R4", "score": 341, "tier": "low"}
 {"type": "GPU", "name": "Radeon R4E", "score": 487, "tier": "low"}
@@ -1911,13 +1913,13 @@
 {"type": "GPU", "name": "Radeon R5 235 + HD 7560D Dual", "score": 743, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 235 + HD 8570D Dual", "score": 737, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 235X", "score": 277, "tier": "low"}
-{"type": "GPU", "name": "Radeon R5 240", "score": 548, "tier": "low"}
+{"type": "GPU", "name": "Radeon R5 240", "score": 550, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 310", "score": 331, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 330", "score": 520, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 340", "score": 935, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 420", "score": 574, "tier": "low"}
-{"type": "GPU", "name": "Radeon R5 430", "score": 896, "tier": "low"}
-{"type": "GPU", "name": "Radeon R5 435", "score": 850, "tier": "low"}
+{"type": "GPU", "name": "Radeon R5 430", "score": 895, "tier": "low"}
+{"type": "GPU", "name": "Radeon R5 435", "score": 761, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A6-7480", "score": 704, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A6-8500P", "score": 586, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A6-9400 RADEON R5, 6 COMPUTE CORES 2C+4G", "score": 605, "tier": "low"}
@@ -1926,7 +1928,7 @@
 {"type": "GPU", "name": "Radeon R5 A6-9500E 2C+4G", "score": 1014, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A6-9500E RADEON R5, 6 COMPUTE CORES 2C+4", "score": 692, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A10-9600P 4C+6G", "score": 619, "tier": "low"}
-{"type": "GPU", "name": "Radeon R5 A10-9600P RADEON R5, 10 COMPUTE CORES 4C", "score": 714, "tier": "low"}
+{"type": "GPU", "name": "Radeon R5 A10-9600P RADEON R5, 10 COMPUTE CORES 4C", "score": 712, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A10-9620P 4C+6G", "score": 731, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A10-9620P RADEON R5, 10 COMPUTE CORES 4C", "score": 659, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 A10-9630P 4C+6G", "score": 977, "tier": "low"}
@@ -1934,12 +1936,12 @@
 {"type": "GPU", "name": "Radeon R5 A240", "score": 576, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M230", "score": 418, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M240", "score": 467, "tier": "low"}
-{"type": "GPU", "name": "Radeon R5 M255", "score": 542, "tier": "low"}
+{"type": "GPU", "name": "Radeon R5 M255", "score": 544, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M315", "score": 478, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M320", "score": 467, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M330", "score": 595, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M335", "score": 548, "tier": "low"}
-{"type": "GPU", "name": "Radeon R5 M420", "score": 502, "tier": "low"}
+{"type": "GPU", "name": "Radeon R5 M420", "score": 505, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M430", "score": 648, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 M435", "score": 847, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 Opteron X3216", "score": 415, "tier": "low"}
@@ -1960,8 +1962,8 @@
 {"type": "GPU", "name": "Radeon R5 PRO A8-9600B R5, 10 COMPUTE CORES 4C+6G", "score": 574, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 PRO A10-8730B 4C+6G", "score": 695, "tier": "low"}
 {"type": "GPU", "name": "Radeon R5 PRO A10-8730B R5, 10 COMPUTE CORES 4C+6G", "score": 602, "tier": "low"}
-{"type": "GPU", "name": "Radeon R5E", "score": 309, "tier": "low"}
-{"type": "GPU", "name": "Radeon R6", "score": 615, "tier": "low"}
+{"type": "GPU", "name": "Radeon R5E", "score": 315, "tier": "low"}
+{"type": "GPU", "name": "Radeon R6", "score": 614, "tier": "low"}
 {"type": "GPU", "name": "Radeon R6 + R7 M265DX Dual", "score": 570, "tier": "low"}
 {"type": "GPU", "name": "Radeon R6 A8-8600P", "score": 474, "tier": "low"}
 {"type": "GPU", "name": "Radeon R6 A10-8700P", "score": 546, "tier": "low"}
@@ -1975,13 +1977,13 @@
 {"type": "GPU", "name": "Radeon R7 240", "score": 901, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 240 + HD 8570D Dual", "score": 917, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 240 + HD 8670D Dual", "score": 930, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 250", "score": 1048, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 250", "score": 1051, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 250X", "score": 2268, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R7 260", "score": 2891, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R7 260X", "score": 3190, "tier": "medium"}
+{"type": "GPU", "name": "Radeon R7 260X", "score": 3189, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R7 340", "score": 1000, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 360", "score": 3140, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R7 370", "score": 4498, "tier": "medium"}
+{"type": "GPU", "name": "Radeon R7 370", "score": 4495, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R7 430", "score": 1089, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 450", "score": 1891, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 7850A10-7850K", "score": 551, "tier": "low"}
@@ -1995,29 +1997,29 @@
 {"type": "GPU", "name": "Radeon R7 + R7 240 Dual", "score": 1045, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 + R7 250 Dual", "score": 1232, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 + R7 350 Dual", "score": 1982, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A8 PRO-7600B", "score": 663, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A8 PRO-7600B", "score": 666, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A8-7500", "score": 860, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A8-7500 4C+6G", "score": 853, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A8-7600", "score": 777, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A8-7600", "score": 776, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A8-7650K", "score": 745, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A8-7670K", "score": 846, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A8-7680", "score": 820, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A8-7680", "score": 826, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A8-8650", "score": 912, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A8-9600 RADEON", "score": 829, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10 Extreme Edition", "score": 821, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A10 PRO-7800B", "score": 771, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A10 PRO-7800B", "score": 775, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10 PRO-7850B", "score": 822, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10-7700K", "score": 786, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A10-7800", "score": 725, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A10-7800", "score": 728, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10-7850K", "score": 945, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A10-7860K", "score": 911, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A10-7870K", "score": 1095, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A10-7860K", "score": 908, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A10-7870K", "score": 1094, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10-7890K", "score": 972, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10-8750", "score": 856, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10-8850", "score": 773, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10-9700 RADEON", "score": 918, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A10-9700E RADEON", "score": 872, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 A12-9700P RADEON", "score": 712, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 A12-9700P RADEON", "score": 714, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A12-9720P RADEON", "score": 727, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A12-9730P RADEON", "score": 1014, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A12-9800 RADEON", "score": 1066, "tier": "low"}
@@ -2026,26 +2028,26 @@
 {"type": "GPU", "name": "Radeon R7 A360", "score": 607, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A365", "score": 781, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 A370", "score": 1281, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 FX-8800P", "score": 825, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 FX-9800P RADEON", "score": 737, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 FX-8800P", "score": 815, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 FX-9800P RADEON", "score": 775, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 FX-9830P RADEON", "score": 1419, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 G", "score": 869, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 M260", "score": 517, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 M260", "score": 518, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M260DX", "score": 816, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 M260X", "score": 1002, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 M260X", "score": 994, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M265", "score": 536, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M265DX", "score": 498, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M270", "score": 766, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 M340", "score": 651, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 M340", "score": 650, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M350", "score": 1167, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 M360", "score": 581, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 M360", "score": 582, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M365X", "score": 794, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M370", "score": 1417, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M380", "score": 1668, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M440", "score": 897, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M445", "score": 938, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 M460", "score": 1053, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 M465", "score": 1158, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 M460", "score": 1055, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 M465", "score": 1169, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 M465X", "score": 1786, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 Opteron X3421", "score": 1135, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A6-9500 2C+6G", "score": 781, "tier": "low"}
@@ -2056,16 +2058,16 @@
 {"type": "GPU", "name": "Radeon R7 PRO A10-8770", "score": 917, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A10-8770E", "score": 805, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A10-8850B", "score": 945, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 PRO A10-9700", "score": 804, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 PRO A10-9700", "score": 809, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A10-9700B", "score": 628, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A10-9700E", "score": 934, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A12-8800B", "score": 619, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A12-8830B", "score": 581, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 PRO A12-8870", "score": 929, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 PRO A12-8870", "score": 931, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A12-8870E", "score": 892, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7 PRO A12-9800", "score": 975, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 PRO A12-9800B", "score": 701, "tier": "low"}
-{"type": "GPU", "name": "Radeon R7 PRO A12-9800E", "score": 954, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 PRO A12-9800B", "score": 697, "tier": "low"}
+{"type": "GPU", "name": "Radeon R7 PRO A12-9800E", "score": 971, "tier": "low"}
 {"type": "GPU", "name": "Radeon R7E", "score": 564, "tier": "low"}
 {"type": "GPU", "name": "Radeon R8 M365DX", "score": 647, "tier": "low"}
 {"type": "GPU", "name": "Radeon R8 M445DX", "score": 796, "tier": "low"}
@@ -2074,36 +2076,36 @@
 {"type": "GPU", "name": "Radeon R9 260", "score": 3047, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 270", "score": 4306, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 270 / R7 370", "score": 4259, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R9 270X", "score": 4868, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R9 280", "score": 5542, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R9 280X", "score": 6131, "tier": "high"}
+{"type": "GPU", "name": "Radeon R9 270X", "score": 4870, "tier": "medium"}
+{"type": "GPU", "name": "Radeon R9 280", "score": 5543, "tier": "medium"}
+{"type": "GPU", "name": "Radeon R9 280X", "score": 6126, "tier": "high"}
 {"type": "GPU", "name": "Radeon R9 285 / 380", "score": 5549, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 290", "score": 8210, "tier": "high"}
 {"type": "GPU", "name": "Radeon R9 290 / 390", "score": 8150, "tier": "high"}
-{"type": "GPU", "name": "Radeon R9 290X", "score": 8526, "tier": "high"}
+{"type": "GPU", "name": "Radeon R9 290X", "score": 8522, "tier": "high"}
 {"type": "GPU", "name": "Radeon R9 290X / 390X", "score": 8380, "tier": "high"}
 {"type": "GPU", "name": "Radeon R9 295X2", "score": 8681, "tier": "high"}
-{"type": "GPU", "name": "Radeon R9 350", "score": 1989, "tier": "low"}
+{"type": "GPU", "name": "Radeon R9 350", "score": 1980, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 360", "score": 3031, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 370", "score": 4722, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R9 380", "score": 6080, "tier": "high"}
-{"type": "GPU", "name": "Radeon R9 380X", "score": 6171, "tier": "high"}
+{"type": "GPU", "name": "Radeon R9 380", "score": 6067, "tier": "high"}
+{"type": "GPU", "name": "Radeon R9 380X", "score": 6164, "tier": "high"}
 {"type": "GPU", "name": "Radeon R9 390", "score": 8874, "tier": "high"}
-{"type": "GPU", "name": "Radeon R9 390X", "score": 9368, "tier": "high"}
-{"type": "GPU", "name": "Radeon R9 Fury", "score": 9554, "tier": "high"}
+{"type": "GPU", "name": "Radeon R9 390X", "score": 9362, "tier": "high"}
+{"type": "GPU", "name": "Radeon R9 Fury", "score": 9545, "tier": "high"}
 {"type": "GPU", "name": "Radeon R9 Fury + Fury X", "score": 9741, "tier": "high"}
-{"type": "GPU", "name": "Radeon R9 Fury X", "score": 9448, "tier": "high"}
+{"type": "GPU", "name": "Radeon R9 Fury X", "score": 9452, "tier": "high"}
 {"type": "GPU", "name": "Radeon R9 M265X", "score": 1146, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M270X", "score": 1204, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M275", "score": 1114, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M275X", "score": 1699, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M275X / M375", "score": 1574, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M280X", "score": 813, "tier": "low"}
-{"type": "GPU", "name": "Radeon R9 M290X", "score": 3282, "tier": "medium"}
+{"type": "GPU", "name": "Radeon R9 M290X", "score": 3217, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 M295X", "score": 5150, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R9 M360", "score": 1823, "tier": "low"}
+{"type": "GPU", "name": "Radeon R9 M360", "score": 1835, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M365X", "score": 1481, "tier": "low"}
-{"type": "GPU", "name": "Radeon R9 M370X", "score": 1548, "tier": "low"}
+{"type": "GPU", "name": "Radeon R9 M370X", "score": 1547, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M375", "score": 973, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M375X", "score": 1715, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M380", "score": 2773, "tier": "medium"}
@@ -2111,83 +2113,84 @@
 {"type": "GPU", "name": "Radeon R9 M385X", "score": 1993, "tier": "low"}
 {"type": "GPU", "name": "Radeon R9 M390X", "score": 3850, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 M395", "score": 4915, "tier": "medium"}
-{"type": "GPU", "name": "Radeon R9 M395X", "score": 5194, "tier": "medium"}
+{"type": "GPU", "name": "Radeon R9 M395X", "score": 5299, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 M470", "score": 2330, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 M470X", "score": 3244, "tier": "medium"}
 {"type": "GPU", "name": "Radeon R9 M485X", "score": 3660, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX590 GME", "score": 8452, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 460", "score": 4098, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX 470/570", "score": 7964, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 480", "score": 8575, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX590 GME", "score": 8451, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 460", "score": 4092, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX 470/570", "score": 7963, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 480", "score": 8570, "tier": "high"}
 {"type": "GPU", "name": "Radeon RX 540", "score": 2013, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX 550", "score": 2688, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX 550X", "score": 2372, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX 560", "score": 3658, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX 550", "score": 2690, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX 550X", "score": 2365, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX 560", "score": 3660, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX 560X", "score": 3168, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX 570X", "score": 1923, "tier": "low"}
-{"type": "GPU", "name": "Radeon RX 580", "score": 8825, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 580 2048SP", "score": 7659, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 580X", "score": 7465, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 580", "score": 8824, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 580 2048SP", "score": 7665, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 580X", "score": 7536, "tier": "high"}
 {"type": "GPU", "name": "Radeon RX 590", "score": 9373, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 640", "score": 2141, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX 640", "score": 2145, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX 780", "score": 7657, "tier": "high"}
 {"type": "GPU", "name": "Radeon RX 5300", "score": 7587, "tier": "high"}
 {"type": "GPU", "name": "Radeon RX 5300M", "score": 4723, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX 5500", "score": 8769, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 5500 XT", "score": 9101, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 5500", "score": 8785, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 5500 XT", "score": 9098, "tier": "high"}
 {"type": "GPU", "name": "Radeon RX 5500M", "score": 5793, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX 5600", "score": 11725, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 5600 OEM", "score": 12610, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 5600 XT", "score": 13486, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 5600M", "score": 8845, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 5700", "score": 14334, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 5700 XT", "score": 16349, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 5600 XT", "score": 13488, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 5600M", "score": 8861, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 5700", "score": 14336, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 5700 XT", "score": 16340, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 5700 XT 50th Anniversary", "score": 16418, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6300", "score": 5192, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX 6300", "score": 5235, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX 6300M", "score": 6421, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 6400", "score": 7652, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 6500", "score": 7462, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 6500 XT", "score": 9590, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 6500M", "score": 7554, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 6550M", "score": 9773, "tier": "high"}
-{"type": "GPU", "name": "Radeon RX 6600", "score": 15098, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6400", "score": 7663, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 6500", "score": 7455, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 6500 XT", "score": 9600, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 6500M", "score": 7540, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 6550M", "score": 9791, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX 6600", "score": 15095, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 6600 LE", "score": 15387, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6600 XT", "score": 16478, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6600M", "score": 13911, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6600 XT", "score": 16477, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6600M", "score": 13928, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 6600S", "score": 11715, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6650 XT", "score": 17145, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6650M", "score": 15113, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6650 XT", "score": 17140, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6650M", "score": 15018, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 6650M XT", "score": 17070, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6700", "score": 19174, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6700 XT", "score": 19823, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6700M", "score": 13565, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6700S", "score": 15036, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6750 GRE 10GB", "score": 17942, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6700", "score": 19166, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6700 XT", "score": 19810, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6700M", "score": 13585, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6700S", "score": 15055, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6750 GRE 10GB", "score": 18137, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 6750 GRE 12GB", "score": 19691, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6750 XT", "score": 20746, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6800", "score": 22123, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6800 XT", "score": 25005, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6800M", "score": 13278, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6800S", "score": 15780, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6750 XT", "score": 20745, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6800", "score": 22109, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6800 XT", "score": 25018, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6800M", "score": 13276, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6800S", "score": 15820, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 6850M", "score": 12274, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6850M XT", "score": 17406, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6900 XT", "score": 26749, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 6950 XT", "score": 28100, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7600", "score": 16591, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7600 XT", "score": 17140, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6850M XT", "score": 17336, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6900 XT", "score": 26752, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 6950 XT", "score": 28111, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7600", "score": 16603, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7600 XT", "score": 17099, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 7600M", "score": 11581, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX 7600M XT", "score": 13212, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7600S", "score": 15527, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7700 XT", "score": 22450, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7700S", "score": 15423, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7800 XT", "score": 24209, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7800M", "score": 16496, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7900 GRE", "score": 27031, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7900 XT", "score": 28880, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7900 XTX", "score": 31135, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 7900M", "score": 23246, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 9070", "score": 24709, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX 9070 XT", "score": 27006, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7600S", "score": 15521, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7650 GRE", "score": 16992, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7700 XT", "score": 22477, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7700S", "score": 15347, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7800 XT", "score": 24218, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7800M", "score": 17029, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7900 GRE", "score": 27042, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7900 XT", "score": 28917, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7900 XTX", "score": 31139, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 7900M", "score": 23311, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 9070", "score": 24876, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX 9070 XT", "score": 26971, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX Vega11", "score": 1605, "tier": "low"}
 {"type": "GPU", "name": "Radeon RX Vega11 Ryzen 7 3750H", "score": 1711, "tier": "low"}
 {"type": "GPU", "name": "Radeon RX Vega11 Ryzen 7 Microsoft Surface Edition", "score": 1420, "tier": "low"}
@@ -2195,176 +2198,177 @@
 {"type": "GPU", "name": "Radeon RX Vega 8", "score": 1527, "tier": "low"}
 {"type": "GPU", "name": "Radeon RX Vega 10", "score": 1632, "tier": "low"}
 {"type": "GPU", "name": "Radeon RX Vega 10 Ryzen 7 3700C", "score": 1166, "tier": "low"}
-{"type": "GPU", "name": "Radeon RX Vega 10 Ryzen 7 3700U", "score": 1493, "tier": "low"}
-{"type": "GPU", "name": "Radeon RX Vega 10 Ryzen 7 3750H", "score": 1915, "tier": "low"}
+{"type": "GPU", "name": "Radeon RX Vega 10 Ryzen 7 3700U", "score": 1487, "tier": "low"}
+{"type": "GPU", "name": "Radeon RX Vega 10 Ryzen 7 3750H", "score": 1892, "tier": "low"}
 {"type": "GPU", "name": "Radeon RX Vega 10 Ryzen 7 PRO 3700U w/", "score": 1503, "tier": "low"}
-{"type": "GPU", "name": "Radeon RX Vega 11", "score": 2106, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX Vega 11", "score": 2105, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX Vega 11 PRD", "score": 2401, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX Vega 11 Processor", "score": 1799, "tier": "low"}
+{"type": "GPU", "name": "Radeon RX Vega 11 Processor", "score": 1766, "tier": "low"}
 {"type": "GPU", "name": "Radeon RX Vega 11 Ryzen 5 3350G", "score": 1957, "tier": "low"}
-{"type": "GPU", "name": "Radeon RX Vega 11 Ryzen 5 3400G", "score": 2170, "tier": "medium"}
+{"type": "GPU", "name": "Radeon RX Vega 11 Ryzen 5 3400G", "score": 2164, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX Vega 11 Ryzen 5 3400GE", "score": 1941, "tier": "low"}
-{"type": "GPU", "name": "Radeon RX Vega 56", "score": 13093, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon RX Vega 64", "score": 14115, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX Vega 56", "score": 13082, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon RX Vega 64", "score": 14097, "tier": "ultra"}
 {"type": "GPU", "name": "Radeon RX Vega - Renoir Ryzen 3 5300U", "score": 2312, "tier": "medium"}
-{"type": "GPU", "name": "Radeon RX Vega M GH", "score": 6581, "tier": "high"}
+{"type": "GPU", "name": "Radeon RX Vega M GH", "score": 6585, "tier": "high"}
 {"type": "GPU", "name": "Radeon RX Vega M GL", "score": 3867, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX Vega Ryzen 3 5300U", "score": 2329, "tier": "medium"}
 {"type": "GPU", "name": "Radeon RX Vega Ryzen 5 5600GT", "score": 9558, "tier": "high"}
 {"type": "GPU", "name": "Radeon RX Vega Ryzen 7 5825U", "score": 2916, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 3 3250U", "score": 802, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 3 5300U", "score": 1613, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 3 5425U", "score": 1528, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 3 7330U", "score": 1669, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 3 7335U", "score": 2155, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 3 3250U", "score": 807, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 3 5300U", "score": 1611, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 3 5425U", "score": 1531, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 3 7330U", "score": 1641, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 3 7335U", "score": 2158, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 3 PRO 4355GE", "score": 1431, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 3 PRO 5355GE", "score": 1951, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 3 PRO 5450U", "score": 1736, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 3 PRO 5450U", "score": 1710, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 3 PRO 5475U", "score": 1541, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 3 PRO 7330U", "score": 1822, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 3 PRO 7335U", "score": 2079, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 3450U", "score": 1120, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 5 3550H", "score": 1731, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 3 PRO 7330U", "score": 1832, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 3 PRO 7335U", "score": 2070, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 3450U", "score": 1114, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 5 3550H", "score": 1730, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 5 4600GE with Radeon Graphics", "score": 2249, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5500GT", "score": 2558, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5500GT", "score": 2561, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 5 5500H", "score": 1551, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5500U", "score": 2051, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5560U", "score": 2029, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5600GE", "score": 2469, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5600GT", "score": 2455, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5600H", "score": 2398, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5600U", "score": 2094, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 5625U", "score": 2128, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 6600H", "score": 3502, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 6600HS Creator Edition", "score": 3759, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 6600U", "score": 3312, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 7430U", "score": 2574, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 7530U", "score": 2239, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 7533HS", "score": 3817, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 7535HS", "score": 3095, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 7535U", "score": 3150, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 7600 6-Core", "score": 1751, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5500U", "score": 2047, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5560U", "score": 2031, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5600GE", "score": 2470, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5600GT", "score": 2451, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5600H", "score": 2424, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5600U", "score": 2097, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 5625U", "score": 2120, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 6600H", "score": 3481, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 6600HS Creator Edition", "score": 3764, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 6600U", "score": 3293, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 7430U", "score": 2564, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 7530U", "score": 2234, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 7535HS", "score": 3092, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 7535U", "score": 3130, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 7600 6-Core", "score": 1743, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 5 7600X3D 6-Core", "score": 1869, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 5 7600X 6-Core", "score": 1702, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 5 Microsoft Surface Edition", "score": 2058, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 7600X 6-Core", "score": 1699, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 5 Microsoft Surface Edition", "score": 2049, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 5 PRO 4655G", "score": 2232, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 5 PRO 4655GE", "score": 2361, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 5 PRO 5650G", "score": 2287, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 PRO 5650GE", "score": 2335, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 PRO 5650GE", "score": 2325, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 5 PRO 5655G", "score": 2562, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 PRO 5655GE", "score": 1466, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 5 PRO 5655GE", "score": 1840, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 5 PRO 5675U", "score": 1920, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 5 PRO 6650H", "score": 2548, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 PRO 6650U", "score": 3664, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 Pro 7535U", "score": 3071, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 5 PRO 7645 6-Core", "score": 1581, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 5 PRO 6650U", "score": 3658, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 Pro 7535U", "score": 3020, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 5 PRO 7645 6-Core", "score": 1510, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 7 3700U", "score": 1301, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 7 4700G", "score": 2582, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 4700G", "score": 2583, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 4700GE", "score": 2595, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 4700U", "score": 2032, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 4800H", "score": 3336, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 4800HS", "score": 3278, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 4700U", "score": 2034, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 4800H", "score": 3318, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 4800HS", "score": 3253, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 4800U", "score": 2320, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 5700U", "score": 2264, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 5800H", "score": 2820, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 5800HS", "score": 2537, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 5800U", "score": 2402, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 5700U", "score": 2259, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 5800H", "score": 2821, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 5800HS", "score": 2539, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 5800U", "score": 2403, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 5825U", "score": 2389, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 6800H", "score": 5025, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 6800HS", "score": 6025, "tier": "high"}
 {"type": "GPU", "name": "Radeon Ryzen 7 6800HS Creator Edition", "score": 5444, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 6800U", "score": 4597, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 6800U", "score": 4564, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 6810U", "score": 5937, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 7700 8-Core", "score": 1796, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 7 7700X 8-Core", "score": 2009, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 7730U", "score": 2435, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 7700 8-Core", "score": 1792, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 7 7700X 8-Core", "score": 1992, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 7 7730U", "score": 2429, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 7735H", "score": 5334, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 7735HS", "score": 5066, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 7735U", "score": 4792, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 7735HS", "score": 5057, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 7735U", "score": 4753, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 7736U", "score": 5818, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 7800X3D 8-Core", "score": 1810, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 7 7800X3D 8-Core", "score": 1787, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen 7 Microsoft Surface Edition", "score": 2282, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 4750G", "score": 2500, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 4750G", "score": 2496, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 PRO 4750GE", "score": 2379, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 4750U", "score": 2027, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 4750U", "score": 2021, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 PRO 5755GE", "score": 2117, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 5875U", "score": 2133, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 6850H", "score": 5358, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 5875U", "score": 2136, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 6850H", "score": 5377, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 7 PRO 6850HS", "score": 5057, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 6850U", "score": 5111, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 6860Z", "score": 4503, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 7730U", "score": 2319, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 Pro 7735U", "score": 3858, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 7 PRO 7745 8-Core", "score": 1660, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 9 4900H", "score": 2604, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 6850U", "score": 5112, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 6860Z", "score": 4624, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 7730U", "score": 2305, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 Pro 7735U", "score": 3889, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 7 PRO 7745 8-Core", "score": 1672, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 9 4900H", "score": 2600, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 9 4950U Mobile", "score": 2594, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 9 5900H", "score": 2960, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 9 6900HS", "score": 6602, "tier": "high"}
 {"type": "GPU", "name": "Radeon Ryzen 9 6900HS Creator Edition", "score": 5155, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 9 7900 12-Core", "score": 2019, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 9 7900X3D 12-Core", "score": 1768, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 9 7900X 12-Core", "score": 2342, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 9 7950X3D 16-Core", "score": 1662, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen 9 7950X 16-Core", "score": 3344, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 9 PRO 6950H", "score": 5795, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 9 7900 12-Core", "score": 2001, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 9 7900X3D 12-Core", "score": 1774, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 9 7900X 12-Core", "score": 2317, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 9 7950X3D 16-Core", "score": 1657, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 9 7950X 16-Core", "score": 3337, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen 9 PRO 6950H", "score": 5780, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Ryzen 9 PRO 6950HS", "score": 4427, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Ryzen 9 PRO 7945 12-Core", "score": 1604, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen 9 PRO 7945 12-Core", "score": 1619, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen Embedded R2314", "score": 997, "tier": "low"}
-{"type": "GPU", "name": "Radeon Ryzen Embedded R2514", "score": 1514, "tier": "low"}
+{"type": "GPU", "name": "Radeon Ryzen Embedded R2514", "score": 1581, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen Embedded R2544", "score": 1864, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen Embedded V2516", "score": 1527, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen Embedded V2546", "score": 1435, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen Embedded V2718", "score": 1998, "tier": "low"}
 {"type": "GPU", "name": "Radeon Ryzen Embedded V2748", "score": 2216, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Ryzen Z2 Go", "score": 5205, "tier": "medium"}
 {"type": "GPU", "name": "Radeon Sky 500", "score": 4709, "tier": "medium"}
-{"type": "GPU", "name": "Radeon TM", "score": 5617, "tier": "medium"}
+{"type": "GPU", "name": "Radeon TM", "score": 5627, "tier": "medium"}
 {"type": "GPU", "name": "Radeon TM R9 A360", "score": 2060, "tier": "medium"}
 {"type": "GPU", "name": "Radeon VE", "score": 2, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 2", "score": 506, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 2 Athlon Silver 3050U", "score": 521, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3", "score": 889, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 3 3020e", "score": 552, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 3 3020e", "score": 553, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon 300GE", "score": 1044, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon 300U", "score": 832, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon 320GE", "score": 677, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 3 Athlon 3000G", "score": 951, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 3 Athlon 3000G", "score": 952, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon Gold 3150G", "score": 1088, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon Gold 3150U", "score": 668, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon Gold PRO 3150G", "score": 671, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon PRO 300GE w/", "score": 960, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Athlon Silver 3050e", "score": 485, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 3 Athlon Silver 3050U", "score": 855, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 3 Mobile", "score": 1035, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 3 Ryzen 3 3200U", "score": 847, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 3 Ryzen 3 3250U", "score": 699, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 3 Athlon Silver 3050U", "score": 874, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 3 Mobile", "score": 1047, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 3 Ryzen 3 3200U", "score": 843, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 3 Ryzen 3 3250U", "score": 686, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Ryzen Embedded R1305G", "score": 579, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Ryzen Embedded R1505G", "score": 739, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 3 Ryzen Embedded R1606G", "score": 856, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 6", "score": 1307, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 6 Ryzen 3 3300U", "score": 1298, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 6 Ryzen 3 3350U", "score": 1497, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 6 Ryzen 3 3350U", "score": 1480, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 6 Ryzen 3 PRO 3300U w/", "score": 1357, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8", "score": 1578, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8 Mobile", "score": 1425, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8 Ryzen 3 3200G", "score": 1781, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8", "score": 1577, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8 Mobile", "score": 1428, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8 Ryzen 3 3200G", "score": 1751, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 8 Ryzen 3 3200GE", "score": 1994, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8 Ryzen 3 PRO 3200G", "score": 1303, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8 Ryzen 3 PRO 3200G", "score": 1265, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 8 Ryzen 3 PRO 3200GE w/", "score": 1580, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 3450U", "score": 1296, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 3500U", "score": 1367, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 3550H", "score": 1700, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 PRO 3500U w/", "score": 1481, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 3450U", "score": 1288, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 3500U", "score": 1358, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 3550H", "score": 1699, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 8 Ryzen 5 PRO 3500U w/", "score": 1478, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 9", "score": 1587, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 9 Ryzen 5 3550H", "score": 1571, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 9 Ryzen 5 Microsoft Surface Edition", "score": 1467, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 9 Ryzen 5 Microsoft Surface Edition", "score": 1448, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 10", "score": 1544, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega 10 Mobile", "score": 1528, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 10 Ryzen 7 PRO 3700U w/", "score": 1567, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 11", "score": 1858, "tier": "low"}
-{"type": "GPU", "name": "Radeon Vega 11 Ryzen 5 PRO 3350G", "score": 2184, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Vega 11 Ryzen 5 PRO 3400G", "score": 2021, "tier": "medium"}
-{"type": "GPU", "name": "Radeon Vega 11 Ryzen 5 PRO 3400GE w/", "score": 1445, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 10 Ryzen 7 PRO 3700U w/", "score": 1565, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 11", "score": 1861, "tier": "low"}
+{"type": "GPU", "name": "Radeon Vega 11 Ryzen 5 PRO 3350G", "score": 2185, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Vega 11 Ryzen 5 PRO 3400G", "score": 2023, "tier": "medium"}
+{"type": "GPU", "name": "Radeon Vega 11 Ryzen 5 PRO 3400GE w/", "score": 1427, "tier": "low"}
 {"type": "GPU", "name": "Radeon Vega Frontier Edition", "score": 13013, "tier": "ultra"}
-{"type": "GPU", "name": "Radeon VII", "score": 16407, "tier": "ultra"}
+{"type": "GPU", "name": "Radeon VII", "score": 16370, "tier": "ultra"}
 {"type": "GPU", "name": "RADEON X300SE", "score": 38, "tier": "low"}
 {"type": "GPU", "name": "RADEON X550", "score": 50, "tier": "low"}
 {"type": "GPU", "name": "RADEON X550XT", "score": 56, "tier": "low"}
@@ -2424,69 +2428,70 @@
 {"type": "GPU", "name": "RadeonT 660M", "score": 2220, "tier": "medium"}
 {"type": "GPU", "name": "RadeonT 660M Ryzen 5 7535HS", "score": 4051, "tier": "medium"}
 {"type": "GPU", "name": "RadeonT 680M Ryzen 7 7735HS", "score": 5626, "tier": "medium"}
-{"type": "GPU", "name": "RadeonT 780M", "score": 7121, "tier": "high"}
+{"type": "GPU", "name": "RadeonT 780M", "score": 7095, "tier": "high"}
 {"type": "GPU", "name": "RadeonT RX 6850M XT", "score": 14609, "tier": "ultra"}
 {"type": "GPU", "name": "RadeonT RX Vega 11", "score": 1842, "tier": "low"}
 {"type": "GPU", "name": "RadeonT Ryzen 3 3250U", "score": 581, "tier": "low"}
 {"type": "GPU", "name": "Rage 128 Pro", "score": 1, "tier": "low"}
 {"type": "GPU", "name": "RAGE 128 PRO AGP 4X TMDS", "score": 1, "tier": "low"}
 {"type": "GPU", "name": "Rage Fury Pro/Xpert 2000 Pro", "score": 3, "tier": "low"}
-{"type": "GPU", "name": "RDPDD Chained DD", "score": 239, "tier": "low"}
-{"type": "GPU", "name": "Red Hat QXL controller", "score": 31, "tier": "low"}
-{"type": "GPU", "name": "Red Hat VirtIO GPU DOD controller", "score": 4560, "tier": "medium"}
+{"type": "GPU", "name": "RDPDD Chained DD", "score": 234, "tier": "low"}
+{"type": "GPU", "name": "Red Hat QXL controller", "score": 52, "tier": "low"}
 {"type": "GPU", "name": "RGH Drivers v3", "score": 11, "tier": "low"}
 {"type": "GPU", "name": "RIVA TNT2 Model 64/Model 64 Pro", "score": 3, "tier": "low"}
 {"type": "GPU", "name": "RIVA TNT2/TNT2 Pro", "score": 3, "tier": "low"}
-{"type": "GPU", "name": "RTX 500 Ada Generation Laptop GPU", "score": 10913, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 1000 Ada Generation Laptop GPU", "score": 13395, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 2000 Ada Generation", "score": 17396, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 2000 Ada Generation Embedded GPU", "score": 15346, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 2000 Ada Generation Laptop GPU", "score": 15283, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 2000E Ada Generation", "score": 12460, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 3000 Ada Generation Laptop GPU", "score": 15883, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 500 Ada Generation Laptop GPU", "score": 10918, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 1000 Ada Generation Laptop GPU", "score": 13404, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 2000 Ada Generation", "score": 17218, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 2000 Ada Generation Embedded GPU", "score": 15334, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 2000 Ada Generation Laptop GPU", "score": 15278, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 2000E Ada Generation", "score": 13087, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 3000 Ada Generation Laptop GPU", "score": 15865, "tier": "ultra"}
 {"type": "GPU", "name": "RTX 3500 Ada Generation Embedded GPU", "score": 25188, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 3500 Ada Generation Laptop GPU", "score": 19702, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 4000 Ada Generation", "score": 23863, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 4000 Ada Generation Laptop GPU", "score": 22484, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 4000 SFF Ada Generation", "score": 20189, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 4500 Ada Generation", "score": 27693, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 5000 Ada Generation", "score": 29474, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 3500 Ada Generation Laptop GPU", "score": 19776, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 4000 Ada Generation", "score": 23763, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 4000 Ada Generation Laptop GPU", "score": 22420, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 4000 SFF Ada Generation", "score": 20244, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 4500 Ada Generation", "score": 27211, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 5000 Ada Generation", "score": 29699, "tier": "ultra"}
 {"type": "GPU", "name": "RTX 5000 Ada Generation Embedded GPU", "score": 27774, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 5000 Ada Generation Laptop GPU", "score": 23880, "tier": "ultra"}
+{"type": "GPU", "name": "RTX 5000 Ada Generation Laptop GPU", "score": 23900, "tier": "ultra"}
 {"type": "GPU", "name": "RTX 5880 Ada Generation", "score": 29012, "tier": "ultra"}
-{"type": "GPU", "name": "RTX 6000 Ada Generation", "score": 28850, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A400", "score": 5852, "tier": "medium"}
+{"type": "GPU", "name": "RTX 6000 Ada Generation", "score": 28426, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A400", "score": 5867, "tier": "medium"}
 {"type": "GPU", "name": "RTX A500 Embedded GPU", "score": 5292, "tier": "medium"}
-{"type": "GPU", "name": "RTX A500 Laptop GPU", "score": 6701, "tier": "high"}
-{"type": "GPU", "name": "RTX A1000", "score": 10702, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A1000 6GB Laptop GPU", "score": 10085, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A500 Laptop GPU", "score": 6687, "tier": "high"}
+{"type": "GPU", "name": "RTX A1000", "score": 10653, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A1000 6GB Laptop GPU", "score": 10084, "tier": "ultra"}
 {"type": "GPU", "name": "RTX A1000 Embedded GPU", "score": 11460, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A1000 Laptop GPU", "score": 9582, "tier": "high"}
-{"type": "GPU", "name": "RTX A2000", "score": 13586, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A2000 8GB Laptop GPU", "score": 10745, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A2000 12GB", "score": 13716, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A1000 Laptop GPU", "score": 9572, "tier": "high"}
+{"type": "GPU", "name": "RTX A2000", "score": 13573, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A2000 8GB Laptop GPU", "score": 10715, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A2000 12GB", "score": 13721, "tier": "ultra"}
 {"type": "GPU", "name": "RTX A2000 Embedded GPU", "score": 10860, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A2000 Laptop GPU", "score": 9741, "tier": "high"}
-{"type": "GPU", "name": "RTX A3000 12GB Laptop GPU", "score": 13843, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A3000 Laptop GPU", "score": 12647, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A4000", "score": 19548, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A4000 Laptop GPU", "score": 14943, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A4500", "score": 21300, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A4500 Embedded GPU", "score": 7141, "tier": "high"}
-{"type": "GPU", "name": "RTX A4500 Laptop GPU", "score": 16861, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A5000", "score": 22593, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A5000 Laptop GPU", "score": 16094, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A2000 Laptop GPU", "score": 9728, "tier": "high"}
+{"type": "GPU", "name": "RTX A3000 12GB Laptop GPU", "score": 13768, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A3000 Laptop GPU", "score": 12652, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A4000", "score": 19542, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A4000 Laptop GPU", "score": 14906, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A4500", "score": 21282, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A4500 Embedded GPU", "score": 8309, "tier": "high"}
+{"type": "GPU", "name": "RTX A4500 Laptop GPU", "score": 16853, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A5000", "score": 22510, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A5000 Laptop GPU", "score": 16066, "tier": "ultra"}
 {"type": "GPU", "name": "RTX A5500", "score": 21872, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A5500 Laptop GPU", "score": 17225, "tier": "ultra"}
-{"type": "GPU", "name": "RTX A6000", "score": 22684, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A5500 Laptop GPU", "score": 17268, "tier": "ultra"}
+{"type": "GPU", "name": "RTX A6000", "score": 22604, "tier": "ultra"}
+{"type": "GPU", "name": "RTX PRO 500 Blackwell Generation Laptop GPU", "score": 15341, "tier": "ultra"}
 {"type": "GPU", "name": "RTX PRO 1000 Blackwell Generation Laptop GPU", "score": 14131, "tier": "ultra"}
 {"type": "GPU", "name": "RTX PRO 2000 Blackwell Generation Laptop GPU", "score": 15569, "tier": "ultra"}
+{"type": "GPU", "name": "RTX PRO 6000 Blackwell Workstation Edition", "score": 32435, "tier": "ultra"}
 {"type": "GPU", "name": "RTXA5000-24Q", "score": 4802, "tier": "medium"}
 {"type": "GPU", "name": "RV530 PRO", "score": 118, "tier": "low"}
-{"type": "GPU", "name": "Ryzen 3 4300G with Radeon Graphics", "score": 1672, "tier": "low"}
-{"type": "GPU", "name": "Ryzen 3 4300GE with Radeon Graphics", "score": 2318, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 3 4300U with Radeon Graphics", "score": 1362, "tier": "low"}
-{"type": "GPU", "name": "Ryzen 3 5300G with Radeon Graphics", "score": 1963, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 3 4300G with Radeon Graphics", "score": 1631, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 3 4300GE with Radeon Graphics", "score": 2326, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 3 4300U with Radeon Graphics", "score": 1359, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 3 5300G with Radeon Graphics", "score": 1964, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 5300GE with Radeon Graphics", "score": 1950, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 5300U with Radeon Graphics", "score": 1539, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 5400U with Radeon Graphics", "score": 1601, "tier": "low"}
@@ -2496,7 +2501,7 @@
 {"type": "GPU", "name": "Ryzen 3 PRO 4200GE with Radeon Graphics", "score": 1748, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 PRO 4300U with Radeon Graphics", "score": 1542, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 Pro 4350G with Radeon Graphics", "score": 2098, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 3 PRO 4350GE with Radeon Graphics", "score": 1924, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 3 PRO 4350GE with Radeon Graphics", "score": 1931, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 PRO 4450U with Radeon Graphics", "score": 1512, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 PRO 5350G with Radeon Graphics", "score": 2299, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 3 PRO 5350GE with Radeon Graphics", "score": 1819, "tier": "low"}
@@ -2504,15 +2509,15 @@
 {"type": "GPU", "name": "Ryzen 3 PRO 5475U with Radeon Graphics", "score": 1431, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 3 PRO 7330U with Radeon Graphics", "score": 2144, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 2500U with Radeon Vega", "score": 1503, "tier": "low"}
-{"type": "GPU", "name": "Ryzen 5 4500U with Radeon Graphics", "score": 1812, "tier": "low"}
-{"type": "GPU", "name": "Ryzen 5 4600G with Radeon Graphics", "score": 2358, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 5 4600H with Radeon Graphics", "score": 2138, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 5 4500U with Radeon Graphics", "score": 1810, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 5 4600G with Radeon Graphics", "score": 2359, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 5 4600H with Radeon Graphics", "score": 2136, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 4600HS with Radeon Graphics", "score": 8370, "tier": "high"}
-{"type": "GPU", "name": "Ryzen 5 4600U with Radeon Graphics", "score": 1901, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 5 4600U with Radeon Graphics", "score": 1903, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 5 5500GT with Radeon Graphics", "score": 2224, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 5500U with Radeon Graphics", "score": 1970, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 5 5560U with Radeon Graphics", "score": 2098, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 5 5600G with Radeon Graphics", "score": 2571, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 5 5600G with Radeon Graphics", "score": 2570, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 5600GE with Radeon Graphics", "score": 2547, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 5600GT with Radeon Graphics", "score": 2200, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 5600H with Radeon Graphics", "score": 2297, "tier": "medium"}
@@ -2528,16 +2533,16 @@
 {"type": "GPU", "name": "Ryzen 5 PRO 4400G with Radeon Graphics", "score": 2305, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 PRO 4400GE with Radeon Graphics", "score": 1441, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 5 PRO 4500U with Radeon Graphics", "score": 2007, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 5 Pro 4650G with Radeon Graphics", "score": 2394, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 5 PRO 4650GE with Radeon Graphics", "score": 2134, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 5 PRO 4650U with Radeon Graphics", "score": 1694, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 5 Pro 4650G with Radeon Graphics", "score": 2390, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 5 PRO 4650GE with Radeon Graphics", "score": 2144, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 5 PRO 4650U with Radeon Graphics", "score": 1685, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 5 PRO 5650G with Radeon Graphics", "score": 2481, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 PRO 5650GE with Radeon Graphics", "score": 2455, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 5 PRO 5650U with Radeon Graphics", "score": 1973, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 5 PRO 5650U with Radeon Graphics", "score": 1958, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 5 PRO 5675U with Radeon Graphics", "score": 1719, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 5 PRO 6650U", "score": 3519, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 5 PRO 6650U with Radeon Graphics", "score": 3533, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 5 PRO 7530U with Radeon Graphics", "score": 1867, "tier": "low"}
+{"type": "GPU", "name": "Ryzen 5 PRO 7530U with Radeon Graphics", "score": 1870, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 5 Pro 7535U with Radeon Graphics", "score": 3750, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 2700U with Radeon Vega", "score": 1617, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 7 4700G with Radeon Graphics", "score": 2186, "tier": "medium"}
@@ -2545,7 +2550,7 @@
 {"type": "GPU", "name": "Ryzen 7 4700U with Radeon Graphics", "score": 2034, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 4800H with Radeon Graphics", "score": 2113, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 4800U with Radeon Graphics", "score": 2343, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 7 5700G with Radeon Graphics", "score": 2774, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 7 5700G with Radeon Graphics", "score": 2771, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 5700GE with Radeon Graphics", "score": 2762, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 5700U with Radeon Graphics", "score": 2241, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 5800H with Radeon Graphics", "score": 2736, "tier": "medium"}
@@ -2568,9 +2573,9 @@
 {"type": "GPU", "name": "Ryzen 7 Pro 4750G with Radeon Graphics", "score": 2681, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 PRO 4750GE with Radeon Graphics", "score": 2549, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 PRO 4750U with Radeon Graphics", "score": 2029, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 7 PRO 5750G with Radeon Graphics", "score": 2374, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 7 PRO 5750GE with Radeon Graphics", "score": 2485, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 7 PRO 5850U with Radeon Graphics", "score": 2346, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 7 PRO 5750G with Radeon Graphics", "score": 2369, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 7 PRO 5750GE with Radeon Graphics", "score": 2476, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 7 PRO 5850U with Radeon Graphics", "score": 2341, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 PRO 5875U with Radeon Graphics", "score": 2067, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 PRO 6850H with Radeon Graphics", "score": 5790, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 7 PRO 6850HS with Radeon Graphics", "score": 4087, "tier": "medium"}
@@ -2582,10 +2587,10 @@
 {"type": "GPU", "name": "Ryzen 7 Pro 7735U with Radeon Graphics", "score": 5142, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 9 4900HS with Radeon Graphics", "score": 7022, "tier": "high"}
 {"type": "GPU", "name": "Ryzen 9 5900HS with Radeon Graphics", "score": 5479, "tier": "medium"}
-{"type": "GPU", "name": "Ryzen 9 5900HX with Radeon Graphics", "score": 2938, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 9 5900HX with Radeon Graphics", "score": 2936, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 9 6900HS", "score": 8005, "tier": "high"}
 {"type": "GPU", "name": "Ryzen 9 6900HS with Radeon Graphics", "score": 6109, "tier": "high"}
-{"type": "GPU", "name": "Ryzen 9 6900HX with Radeon Graphics", "score": 5181, "tier": "medium"}
+{"type": "GPU", "name": "Ryzen 9 6900HX with Radeon Graphics", "score": 5179, "tier": "medium"}
 {"type": "GPU", "name": "Ryzen 9 9900X 12-Core Processor", "score": 1729, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 9 9950X 16-Core Processor", "score": 1770, "tier": "low"}
 {"type": "GPU", "name": "Ryzen 9 PRO 6950H", "score": 5758, "tier": "medium"}
@@ -2606,7 +2611,7 @@
 {"type": "GPU", "name": "Seria Radeon HD 7700", "score": 1603, "tier": "low"}
 {"type": "GPU", "name": "Snapdragon X Elite - X1E001DE - Qualcomm Adreno GP", "score": 3245, "tier": "medium"}
 {"type": "GPU", "name": "Snapdragon X Elite - X1E78100 - Qualcomm Adreno GP", "score": 2565, "tier": "medium"}
-{"type": "GPU", "name": "Snapdragon X Elite - X1E80100 - Qualcomm Adreno GP", "score": 2617, "tier": "medium"}
+{"type": "GPU", "name": "Snapdragon X Elite - X1E80100 - Qualcomm Adreno GP", "score": 2613, "tier": "medium"}
 {"type": "GPU", "name": "Snapdragon X Elite - X1E84100 - Qualcomm Adreno GP", "score": 2981, "tier": "medium"}
 {"type": "GPU", "name": "Snapdragon X Plus - X1P64100 - Qualcomm Adreno GPU", "score": 2601, "tier": "medium"}
 {"type": "GPU", "name": "SUMO 964A", "score": 497, "tier": "low"}
@@ -2614,15 +2619,15 @@
 {"type": "GPU", "name": "SUMO 9644", "score": 465, "tier": "low"}
 {"type": "GPU", "name": "SuperDisplay Virtual Adapter", "score": 10390, "tier": "ultra"}
 {"type": "GPU", "name": "Surface Duo Adreno 640 GPU", "score": 592, "tier": "low"}
-{"type": "GPU", "name": "T400", "score": 3601, "tier": "medium"}
-{"type": "GPU", "name": "T400 4GB", "score": 3798, "tier": "medium"}
-{"type": "GPU", "name": "T500", "score": 3645, "tier": "medium"}
-{"type": "GPU", "name": "T550 Laptop GPU", "score": 4799, "tier": "medium"}
-{"type": "GPU", "name": "T600", "score": 6469, "tier": "high"}
-{"type": "GPU", "name": "T600 Laptop GPU", "score": 7084, "tier": "high"}
+{"type": "GPU", "name": "T400", "score": 3602, "tier": "medium"}
+{"type": "GPU", "name": "T400 4GB", "score": 3803, "tier": "medium"}
+{"type": "GPU", "name": "T500", "score": 3643, "tier": "medium"}
+{"type": "GPU", "name": "T550 Laptop GPU", "score": 4791, "tier": "medium"}
+{"type": "GPU", "name": "T600", "score": 6473, "tier": "high"}
+{"type": "GPU", "name": "T600 Laptop GPU", "score": 7078, "tier": "high"}
 {"type": "GPU", "name": "T1000", "score": 7626, "tier": "high"}
-{"type": "GPU", "name": "T1000 8GB", "score": 7639, "tier": "high"}
-{"type": "GPU", "name": "T1200 Laptop GPU", "score": 7786, "tier": "high"}
+{"type": "GPU", "name": "T1000 8GB", "score": 7635, "tier": "high"}
+{"type": "GPU", "name": "T1200 Laptop GPU", "score": 7778, "tier": "high"}
 {"type": "GPU", "name": "TENSOR 1.0 Driver Intel HD 630", "score": 1299, "tier": "low"}
 {"type": "GPU", "name": "Tesla C2050", "score": 3175, "tier": "medium"}
 {"type": "GPU", "name": "Tesla C2050 / C2070", "score": 3428, "tier": "medium"}
@@ -2642,10 +2647,10 @@
 {"type": "GPU", "name": "Tesla P4", "score": 9097, "tier": "high"}
 {"type": "GPU", "name": "Tesla P40", "score": 12266, "tier": "ultra"}
 {"type": "GPU", "name": "Tesla P100-PCIE-16GB", "score": 11813, "tier": "ultra"}
-{"type": "GPU", "name": "Tesla T4", "score": 10561, "tier": "ultra"}
+{"type": "GPU", "name": "Tesla T4", "score": 10647, "tier": "ultra"}
 {"type": "GPU", "name": "Tesla T10", "score": 12557, "tier": "ultra"}
 {"type": "GPU", "name": "Tesla V100-PCIE-16GB", "score": 12328, "tier": "ultra"}
-{"type": "GPU", "name": "TITAN RTX", "score": 20507, "tier": "ultra"}
+{"type": "GPU", "name": "TITAN RTX", "score": 20331, "tier": "ultra"}
 {"type": "GPU", "name": "TITAN V", "score": 19738, "tier": "ultra"}
 {"type": "GPU", "name": "TITAN V CEO Edition", "score": 16987, "tier": "ultra"}
 {"type": "GPU", "name": "TITAN Xp COLLECTORS EDITION", "score": 18849, "tier": "ultra"}
@@ -2669,13 +2674,13 @@
 {"type": "GPU", "name": "VIA/S3G UniChrome IGP", "score": 4, "tier": "low"}
 {"type": "GPU", "name": "VIA/S3G UniChrome Pro IGP", "score": 4, "tier": "low"}
 {"type": "GPU", "name": "VIA/S3G UniChromeII", "score": 5, "tier": "low"}
-{"type": "GPU", "name": "Virtual Display Device", "score": 1660, "tier": "low"}
+{"type": "GPU", "name": "Virtual Display Device", "score": 1661, "tier": "low"}
 {"type": "GPU", "name": "VirtualMonitor Device", "score": 2130, "tier": "medium"}
 {"type": "GPU", "name": "VisionTek Radeon 7000", "score": 1, "tier": "low"}
-{"type": "GPU", "name": "VMware Horizon Indirect Display Driver", "score": 3651, "tier": "medium"}
+{"type": "GPU", "name": "VMware Horizon Indirect Display Driver", "score": 3565, "tier": "medium"}
 {"type": "GPU", "name": "WinFast A250 LE", "score": 4, "tier": "low"}
 {"type": "GPU", "name": "Xabre", "score": 5, "tier": "low"}
 {"type": "GPU", "name": "XGI Volari Family v1.13.23.D_V", "score": 4, "tier": "low"}
 {"type": "GPU", "name": "ZX C-1080", "score": 315, "tier": "low"}
-{"type": "GPU", "name": "ZX C-1190", "score": 476, "tier": "low"}
+{"type": "GPU", "name": "ZX C-1190", "score": 416, "tier": "low"}
 {"type": "GPU", "name": "ZX Chrome 645/640 GPU", "score": 147, "tier": "low"}

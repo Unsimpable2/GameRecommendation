@@ -6,6 +6,10 @@ import requests
 import shutil
 from datetime import datetime, timedelta
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+from Scripts.Database.delete_existing_appid import filter_existing_appids
+
 sys.stdout.reconfigure(encoding = 'utf-8', errors = 'replace')
 
 base_path = '../GameRecommendation'
@@ -58,7 +62,6 @@ def save_to_json(data, file_path):
 
 def compare_game_lists(base_data, new_data):
     base_ids = {game['appid'] for game in base_data}
-    new_ids = {game['appid'] for game in new_data}
     missing_games = [g for g in new_data if g['appid'] not in base_ids]
     return missing_games
 
@@ -88,6 +91,7 @@ def delete_duplicates():
 def update_game_list():
     if not should_update_database():
         logger.info("Game list update not required yet.")
+        logger.info("------------End of update------------")
         return
 
     logger.info("Starting safe update of the game list...")
@@ -125,16 +129,23 @@ def update_game_list():
         logger.info(f"Appended {len(new_unique_games)} new unique games to update list.")
 
         delete_duplicates()
+
+        removed_count, filtered_update_list = filter_existing_appids(update_file_path)
+        logger.info(f"Filtered out {removed_count} games already present in the database.")
+
+        save_to_json(filtered_update_list, update_file_path)
+
         save_to_json(new_data, base_file_path)
         backup_base_file()
 
         with open(last_update_file_path, 'a', encoding = 'utf-8') as f:
             f.write(f"Last Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write(f"Elements Added: {len(new_unique_games)}\n")
-            f.write("------------End of update------------\n\n")
+            f.write(f"Elements Removed (already in DB): {removed_count}\n")
+            f.write("------------End of update------------\n")
 
-        logger.info("Update completed successfully.\n")
-        logger.info("------------End of update------------\n")
+        logger.info("Update completed successfully.")
+        logger.info("------------End of update------------")
 
     except Exception as e:
         logger.error(f"Update failed: {e}")

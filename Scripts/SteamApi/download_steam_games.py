@@ -15,9 +15,9 @@ from langdetect import detect, DetectorFactory
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from get_id_form_error import get_id_from_error
-from game_data_to_vector import process_game_data
-from get_gpu_cpu_data import update_component_data_if_needed
+from Scripts.Core.get_id_form_error import get_id_from_error
+from Scripts.Core.game_data_to_vector import process_game_data
+from Scripts.Core.get_gpu_cpu_data import update_component_data_if_needed
 from update_game_list import should_update_database, update_game_list
 
 from Scripts.Database.db_connection_pool import create_connection_pool, close_connection_pool
