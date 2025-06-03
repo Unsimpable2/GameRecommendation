@@ -91,7 +91,7 @@ def delete_duplicates():
 def update_game_list():
     if not should_update_database():
         logger.info("Game list update not required yet.")
-        logger.info("------------End of update------------")
+        logger.info("------------End of update------------\n")
         return
 
     logger.info("Starting safe update of the game list...")
@@ -145,7 +145,7 @@ def update_game_list():
             f.write("------------End of update------------\n")
 
         logger.info("Update completed successfully.")
-        logger.info("------------End of update------------")
+        logger.info("------------End of update------------\n")
 
     except Exception as e:
         logger.error(f"Update failed: {e}")

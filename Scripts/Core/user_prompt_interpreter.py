@@ -57,6 +57,14 @@ def clean_json_fields(parsed_json):
 
     return {k: clean_value(v) for k, v in parsed_json.items()}
 
+def embed_prompt(prompt_text):
+    try:
+        embedding = model.encode(prompt_text)
+        return embedding.tolist()
+    except Exception as e:
+        prompt_logger.error(f"Error embedding prompt: {e}")
+        return None
+
 def clean_metadata_fields(data, mapping_path = "../GameRecommendation/Data/DatabasGamesData/tags_genres_categories_map.json"):
     try:
         with open(mapping_path, "r", encoding = "utf-8") as f:
@@ -193,6 +201,80 @@ def query_ollama(prompt, model = "mistral"):
     except Exception as e:
         prompt_logger.error(f"Unexpected error: {e}")
         return None
+    
+def generate_sql_query_from_filters(filters, include_vector_similarity = False):
+    where_clauses = []
+    sql_params = {}
+
+    if filters.get("is_free") is not None:
+        where_clauses.append("is_free = %(is_free)s")
+        sql_params["is_free"] = filters["is_free"]
+
+    if filters.get("price") is not None and filters.get("is_free") is not True:
+        where_clauses.append("price <= %(price)s")
+        sql_params["price"] = filters["price"]
+
+    for field in ["tags", "genres", "categories"]:
+        if filters.get(field):
+            where_clauses.append(f"{field} @> %({field})s")
+            sql_params[field] = filters[field]
+
+    if filters.get("release_year"):
+        where_clauses.append("release_year >= %(release_year)s")
+        sql_params["release_year"] = filters["release_year"]
+
+    if filters.get("recommendations"):
+        if isinstance(filters["recommendations"], str):
+            where_clauses.append("recommendations = %(recommendations)s")
+            sql_params["recommendations"] = filters["recommendations"]
+        elif isinstance(filters["recommendations"], dict) and "min" in filters["recommendations"]:
+            where_clauses.append("CAST(recommendations->>'count' AS INT) >= %(min_reviews)s")
+            sql_params["min_reviews"] = filters["recommendations"]["min"]
+
+    if filters.get("excluded_titles"):
+        for idx, title in enumerate(filters["excluded_titles"]):
+            param_key = f"title_{idx}"
+            where_clauses.append(f"NOT (%({param_key})s = ANY(excluded_titles))")
+            sql_params[param_key] = title
+
+    if filters.get("hardware_analysis"):
+        for hw_key in ["cpu_tier", "gpu_tier", "hardware_tier"]:
+            if filters["hardware_analysis"].get(hw_key):
+                where_clauses.append(f"hardware_analysis->>'{hw_key}' = %({hw_key})s")
+                sql_params[hw_key] = filters["hardware_analysis"][hw_key]
+
+    base_query = "SELECT *"
+    if include_vector_similarity:
+        threshold = filters.get("similarity_threshold", 0.75)
+        base_query += ", 1 - (metadata_vector <#> %(prompt_vector)s) AS similarity"
+        sql_params["prompt_vector"] = filters["user_vector"]
+        sql_params["similarity_threshold"] = threshold
+        where_clauses.append("1 - (metadata_vector <#> %(prompt_vector)s) >= %(similarity_threshold)s")
+
+    query = f"""
+        {base_query}
+        FROM games
+        WHERE {' AND '.join(where_clauses) if where_clauses else 'TRUE'}
+        ORDER BY similarity DESC NULLS LAST
+        LIMIT 3;
+    """
+
+    return query.strip(), sql_params
+
+def adjust_similarity_threshold(base_query_func, filters, db_execute_func, initial_threshold = 0.75, min_results = 5):
+    threshold = initial_threshold
+    while threshold >= 0.50:
+        filters["similarity_threshold"] = threshold
+        query, params = base_query_func(filters, include_vector_similarity = True)
+        result_count = db_execute_func(query, params)
+        if result_count >= min_results:
+            return query, params, threshold
+        threshold -= 0.05
+
+    return query, params, threshold
+
+def fake_execute(query, params):
+    return 0
 
 def main():
     user_prompt = input("Enter your game recommendation prompt in English: ")
@@ -213,16 +295,33 @@ def main():
             valid_titles, invalid_titles = validate_excluded_titles(excluded_titles)
             validated["excluded_titles"] = valid_titles or None
 
+            user_vector = embed_prompt(user_prompt)
+            if not user_vector:
+                print("Could not generate prompt embedding.")
+                return
+
+            validated["prompt_vector"] = user_vector
+
+            sql_query, sql_params, final_threshold = adjust_similarity_threshold(
+                generate_sql_query_from_filters,
+                validated,
+                fake_execute  #TODO, database connection/script
+            )
+
+            print(f"\nFinal similarity threshold used: {final_threshold}")
+            print("\nGenerated SQL Query:")
+            print(sql_query)
+            print("\nWith parameters:")
+            print(sql_params)
+
             if invalid_titles:
                 metadata_cleaner_logger.warning(f"Invalid excluded_titles (not found in DB): {invalid_titles}")
             if valid_titles:
                 metadata_cleaner_logger.info(f"Valid excluded_titles (exist in DB): {valid_titles}")
             metadata_cleaner_logger.info("------------End of modification------------\n")
 
-            print("\nCleaned & Validated JSON Response:\n", json.dumps(validated, indent=2))
-            prompt_logger.info(f"Parsed + Cleaned + Validated JSON: {json.dumps(validated, indent=2)}")
+            prompt_logger.info(f"Parsed + Cleaned + Validated JSON: {json.dumps(validated, indent = 2)}")
         except json.JSONDecodeError as e:
-            print("JSON parsing error.")
             prompt_logger.error(f"JSON decode error: {e}")
     else:
         print("\nNo response received. Check logs for details.")
