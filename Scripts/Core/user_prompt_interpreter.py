@@ -65,25 +65,37 @@ def embed_prompt(prompt_text):
         prompt_logger.error(f"Error embedding prompt: {e}")
         return None
 
-def clean_metadata_fields(data, mapping_path = "../GameRecommendation/Data/DatabasGamesData/tags_genres_categories_map.json"):
+def clean_metadata_fields(data, mapping_path="../GameRecommendation/Data/DatabasGamesData/tags_genres_categories_map.json"):
+    if not isinstance(data, dict):
+        return {}
+
     try:
-        with open(mapping_path, "r", encoding = "utf-8") as f:
+        with open(mapping_path, "r", encoding="utf-8") as f:
             mapping = json.load(f)
     except Exception as e:
         metadata_cleaner_logger.error(f"Error loading mapping file: {e}")
-        return data
+        out = dict(data) if isinstance(data, dict) else {}
+        for k in ["tags", "categories", "genres"]:
+            if not isinstance(out.get(k), list):
+                out[k] = []
+        return out
 
     cleaned = data.copy()
 
     for field in ["tags", "categories", "genres"]:
-        input_list = data.get(field, [])
+        input_list = data.get(field, []) or []
         valid_set = set(mapping.get(field, {}).values())
-        normalized_map = {k.lower(): v for k, v in mapping.get(field, {}).items()}
+        normalized_map = {str(k).lower(): v for k, v in mapping.get(field, {}).items()}
+
         new_valid_items = []
         moved_items = []
         fallback_items = []
 
-        for item in input_list or []:
+        for item in input_list:
+            if not isinstance(item, str):
+                metadata_cleaner_logger.warning(f"{field}: non-string item skipped: {item!r}")
+                continue
+
             key = item.lower()
             if key in normalized_map:
                 valid_value = normalized_map[key]
@@ -94,7 +106,7 @@ def clean_metadata_fields(data, mapping_path = "../GameRecommendation/Data/Datab
                 for alt_field in ["tags", "categories", "genres"]:
                     if alt_field == field:
                         continue
-                    alt_map = {k.lower(): v for k, v in mapping.get(alt_field, {}).items()}
+                    alt_map = {str(k).lower(): v for k, v in mapping.get(alt_field, {}).items()}
                     if key in alt_map:
                         moved_value = alt_map[key]
                         metadata_cleaner_logger.info(f"Moved '{item}' from {field} to {alt_field}")
@@ -105,25 +117,30 @@ def clean_metadata_fields(data, mapping_path = "../GameRecommendation/Data/Datab
                     metadata_cleaner_logger.warning(f"Removed unrecognized value '{item}' from {field}")
                     fallback_items.append(item)
 
-        cleaned[field] = sorted(set(new_valid_items)) if new_valid_items else None
+        cleaned[field] = sorted(set(new_valid_items)) if new_valid_items else []
 
         for alt_field, value in moved_items:
-            cleaned.setdefault(alt_field, [])
+            if not isinstance(cleaned.get(alt_field), list):
+                cleaned[alt_field] = []
             if value not in cleaned[alt_field]:
                 cleaned[alt_field].append(value)
 
         for fallback in fallback_items:
+            if not isinstance(fallback, str):
+                continue
             fallback_lower = fallback.lower()
             for alt_field in ["tags", "categories", "genres"]:
                 possible_values = set(mapping.get(alt_field, {}).values())
                 for val in possible_values:
                     if fallback_lower in val.lower() or val.lower() in fallback_lower:
-                        metadata_cleaner_logger.info(f"Approximated '{fallback}' to '{val}' in {alt_field}")
-                        cleaned.setdefault(alt_field, [])
+                        metadata_cleaner_logger.info(
+                            f"Approximated '{fallback}' to '{val}' in {alt_field}"
+                        )
+                        if not isinstance(cleaned.get(alt_field), list):
+                            cleaned[alt_field] = []
                         if val not in cleaned[alt_field]:
                             cleaned[alt_field].append(val)
                         break
-
     return cleaned
 
 def query_ollama(prompt, model = "mistral"):
@@ -203,65 +220,165 @@ def query_ollama(prompt, model = "mistral"):
         return None
     
 def generate_sql_query_from_filters(filters, include_vector_similarity = False):
-    where_clauses = []
-    sql_params = {}
+    params = {}
+    progressive = []
+    order_bonus = []
+    base = []
+
+    def add_clause(clauses, clause):
+        if clause:
+            clauses.append(clause)
+
+    def any_descriptions_condition(jsonb_col, values, prefix):
+        parts = []
+        for i, v in enumerate(values):
+            key = f"{prefix}_{i}"
+            parts.append(f"EXISTS (SELECT 1 FROM jsonb_array_elements({jsonb_col}) elem WHERE elem->>'description' = %({key})s)")
+            params[key] = v
+        return "(" + " OR ".join(parts) + ")" if parts else None
 
     if filters.get("is_free") is not None:
-        where_clauses.append("is_free = %(is_free)s")
-        sql_params["is_free"] = filters["is_free"]
+        add_clause(base, "g.is_free = %(is_free)s")
+        params["is_free"] = filters["is_free"]
 
     if filters.get("price") is not None and filters.get("is_free") is not True:
-        where_clauses.append("price <= %(price)s")
-        sql_params["price"] = filters["price"]
+        add_clause(base, "g.price <= %(price)s")
+        params["price"] = filters["price"]
 
-    for field in ["tags", "genres", "categories"]:
-        if filters.get(field):
-            where_clauses.append(f"{field} @> %({field})s")
-            sql_params[field] = filters[field]
-
-    if filters.get("release_year"):
-        where_clauses.append("release_year >= %(release_year)s")
-        sql_params["release_year"] = filters["release_year"]
-
-    if filters.get("recommendations"):
-        if isinstance(filters["recommendations"], str):
-            where_clauses.append("recommendations = %(recommendations)s")
-            sql_params["recommendations"] = filters["recommendations"]
-        elif isinstance(filters["recommendations"], dict) and "min" in filters["recommendations"]:
-            where_clauses.append("CAST(recommendations->>'count' AS INT) >= %(min_reviews)s")
-            sql_params["min_reviews"] = filters["recommendations"]["min"]
+    if filters.get("tags"):
+        params["tags_any"] = filters["tags"]
+        add_clause(
+            base,
+            "("
+            "EXISTS (SELECT 1 FROM jsonb_array_elements_text(g.tags) t WHERE t = ANY(%(tags_any)s::text[])) "
+            "OR g.tags ?| %(tags_any)s::text[]"
+            ")"
+        )
 
     if filters.get("excluded_titles"):
-        for idx, title in enumerate(filters["excluded_titles"]):
-            param_key = f"title_{idx}"
-            where_clauses.append(f"NOT (%({param_key})s = ANY(excluded_titles))")
-            sql_params[param_key] = title
+        add_clause(base, "NOT (g.excluded_titles @> %(excluded_titles)s::text[])")
+        params["excluded_titles"] = filters["excluded_titles"]
 
-    if filters.get("hardware_analysis"):
-        for hw_key in ["cpu_tier", "gpu_tier", "hardware_tier"]:
-            if filters["hardware_analysis"].get(hw_key):
-                where_clauses.append(f"hardware_analysis->>'{hw_key}' = %({hw_key})s")
-                sql_params[hw_key] = filters["hardware_analysis"][hw_key]
+    if filters.get("has_metacritic_score") is not None:
+        add_clause(base, "g.has_metacritic_score = %(has_mc)s")
+        params["has_mc"] = filters["has_metacritic_score"]
 
-    base_query = "SELECT *"
+    base_conditions = " AND ".join(base) if base else "TRUE"
+
+    release_year_clause = None
+    if filters.get("release_year"):
+        release_year_clause = "g.release_year >= %(release_year)s"
+        params["release_year"] = filters["release_year"]
+    
+    rec_clause_strict = None
+    if filters.get("recommendations"):
+        rec = filters["recommendations"]
+        if isinstance(rec, str):
+            params["rec_sent"] = rec
+            rec_clause_strict = (
+                "jsonb_typeof(g.recommendations) = 'array' "
+                "AND jsonb_array_length(g.recommendations) > 0 "
+                "AND g.recommendations->>0 ILIKE %(rec_sent)s"
+            )
+        elif isinstance(rec, dict) and "min" in rec:
+            params["min_reviews"] = rec["min"]
+            rec_clause_strict = (
+                "jsonb_typeof(g.recommendations) = 'array' "
+                "AND jsonb_array_length(g.recommendations) > 1 "
+                "AND (g.recommendations->>1) ~ '^[0-9]+$' "
+                "AND (g.recommendations->>1)::int >= %(min_reviews)s"
+            )
+
+    if filters.get("genres"):
+        add_clause(progressive, any_descriptions_condition("g.genres", filters["genres"], "genre"))
+
+    if filters.get("categories"):
+        add_clause(progressive, any_descriptions_condition("g.categories", filters["categories"], "cat"))
+
+    mid_conditions = " AND ".join([c for c in [base_conditions, release_year_clause, any_descriptions_condition("g.genres", filters.get("genres", []), "m_genre")] if c]) or base_conditions
+    strict_conditions = " AND ".join([c for c in [base_conditions, release_year_clause, rec_clause_strict, *progressive] if c]) or "TRUE"
+
+    hw = filters.get("hardware_analysis") or {}
+    if hw.get("hardware_tier"):
+        order_bonus.append(f"(g.hardware_analysis->>'hardware_tier' = %(ob_hw_tier)s) DESC")
+        params["ob_hw_tier"] = hw["hardware_tier"]
+    if hw.get("cpu_tier"):
+        order_bonus.append(f"(g.hardware_analysis->>'cpu_tier' = %(ob_cpu_tier)s) DESC")
+        params["ob_cpu_tier"] = hw["cpu_tier"]
+    if hw.get("gpu_tier"):
+        order_bonus.append(f"(g.hardware_analysis->>'gpu_tier' = %(ob_gpu_tier)s) DESC")
+        params["ob_gpu_tier"] = hw["gpu_tier"]
+
+    if filters.get("release_year"):
+        order_bonus.append("(g.release_year >= %(release_year)s) DESC")
+
+    if filters.get("bonus_tags"):
+        ors = " OR ".join([f"g.tags ? %({f'bt_{i}'})s" for i, _ in enumerate(filters["bonus_tags"])])
+        for i, t in enumerate(filters["bonus_tags"]):
+            params[f"bt_{i}"] = t
+        order_bonus.append(f"(({ors})) DESC")
+
+    if filters.get("age_rating"):
+        order_bonus.append("(g.age_rating >= %(age_rating)s) DESC")
+        params["age_rating"] = filters["age_rating"]
+
+    order_bonus.append("(jsonb_typeof(g.recommendations)='array' " "AND g.recommendations->>0 ILIKE ANY (ARRAY['Overwhelmingly Positive','Very Positive'])) DESC")
+    order_bonus.append("CASE WHEN jsonb_typeof(g.recommendations)='array' ""AND (g.recommendations->>1) ~ '^[0-9]+$' ""THEN (g.recommendations->>1)::int ELSE 0 END DESC")
+
+    order_tail = (", " + ", ".join(order_bonus)) if order_bonus else ""
+
     if include_vector_similarity:
-        threshold = filters.get("similarity_threshold", 0.75)
-        base_query += ", 1 - (metadata_vector <#> %(prompt_vector)s) AS similarity"
-        sql_params["prompt_vector"] = filters["user_vector"]
-        sql_params["similarity_threshold"] = threshold
-        where_clauses.append("1 - (metadata_vector <#> %(prompt_vector)s) >= %(similarity_threshold)s")
+        params["prompt_vector"] = filters["prompt_vector"]
+        params["similarity_threshold"] = filters.get("similarity_threshold", 0.70)
 
-    query = f"""
-        {base_query}
-        FROM games
-        WHERE {' AND '.join(where_clauses) if where_clauses else 'TRUE'}
-        ORDER BY similarity DESC NULLS LAST
+        query = f"""
+        WITH q AS (
+            SELECT %(prompt_vector)s::vector(768) AS v
+        ),
+        strict AS (
+            SELECT g.app_id, g.game_name, 1 - (g.metadata_vector <=> q.v) AS similarity
+            FROM games g, q
+            WHERE {strict_conditions}
+              AND 1 - (g.metadata_vector <=> q.v) >= %(similarity_threshold)s
+            ORDER BY similarity DESC NULLS LAST{order_tail}
+            LIMIT 3
+        ),
+        have_strict AS (SELECT (COUNT(*) > 0) AS has_rows FROM strict),
+
+        mid AS (
+            SELECT g.app_id, g.game_name, 1 - (g.metadata_vector <=> q.v) AS similarity
+            FROM games g, q
+            WHERE {mid_conditions}
+            ORDER BY similarity DESC NULLS LAST{order_tail}
+            LIMIT 3
+        ),
+        have_mid AS (SELECT (COUNT(*) > 0) AS has_rows FROM mid)
+
+        SELECT * FROM strict
+        UNION ALL
+        SELECT * FROM mid WHERE NOT (SELECT has_rows FROM have_strict)
+        UNION ALL
+        SELECT * FROM (
+            SELECT g.app_id, g.game_name, 1 - (g.metadata_vector <=> q.v) AS similarity
+            FROM games g, q
+            WHERE {base_conditions}
+            ORDER BY similarity DESC NULLS LAST{order_tail}
+            LIMIT 3
+        ) base
+        WHERE NOT (SELECT has_rows FROM have_strict) AND NOT (SELECT has_rows FROM have_mid);
+        """
+    else:
+        query = f"""
+        SELECT g.app_id, g.game_name
+        FROM games g
+        WHERE {strict_conditions}
+        ORDER BY game_name ASC
         LIMIT 3;
-    """
+        """
 
-    return query.strip(), sql_params
+    return query.strip(), params
 
-def adjust_similarity_threshold(base_query_func, filters, db_execute_func, initial_threshold = 0.75, min_results = 5):
+def adjust_similarity_threshold(base_query_func, filters, db_execute_func, initial_threshold = 0.70, min_results = 3):
     threshold = initial_threshold
     while threshold >= 0.50:
         filters["similarity_threshold"] = threshold
@@ -289,7 +406,7 @@ def main():
         try:
             parsed = json.loads(result)
             cleaned = clean_json_fields(parsed)
-            validated = clean_metadata_fields(cleaned)
+            validated = clean_metadata_fields(cleaned) or {}
 
             excluded_titles = validated.get("excluded_titles") or []
             valid_titles, invalid_titles = validate_excluded_titles(excluded_titles)
