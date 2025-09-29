@@ -2,15 +2,19 @@ import os
 import re
 import sys
 import json
+import atexit
 import logging
 from psycopg2 import sql
+from psycopg2.pool import PoolError
+from psycopg2.extras import Json
 from datetime import datetime
 
 sys.stdout.reconfigure(encoding = 'utf-8', errors = 'replace')
 
-from Scripts.Database.db_connection_pool import get_connection, return_connection
+from Scripts.Database.db_connection_pool import create_connection_pool, get_connection, return_connection, close_connection_pool
 
 VECTOR_SIZE = 768
+_POOL_READY = False
 
 def setup_logger_data():
     log_dir = '../GameRecommendation/Logs/Database'
@@ -25,6 +29,31 @@ def setup_logger_data():
     return logger
 
 database_logger = setup_logger_data()
+
+def ensure_pool(minconn = 1, maxconn = 10):
+    global _POOL_READY
+    if not _POOL_READY:
+        create_connection_pool(minconn = minconn, maxconn = maxconn)
+        _POOL_READY = True
+
+def safe_close_pool():
+    global _POOL_READY
+    try:
+        if _POOL_READY:
+            close_connection_pool()
+    except PoolError:
+        pass
+    _POOL_READY = False
+
+atexit.register(safe_close_pool)
+
+def vec_literal(vec, size=VECTOR_SIZE):
+    if not isinstance(vec, list):
+        vec = []
+    vec = [float(x) for x in vec][:size]
+    if len(vec) < size:
+        vec += [0.0] * (size - len(vec))
+    return "[" + ",".join(str(x) for x in vec) + "]"
 
 def log_start_of_insert_session():
     database_logger.info("Started inserting games in streaming mode (one by one)...")
@@ -92,106 +121,139 @@ def normalize_vector(vector, size = VECTOR_SIZE):
     return vector + [0.0] * (size - len(vector))
 
 def insert_data_from_object(data, silent = False):
-    connection = None
+    ensure_pool()
+
+    query = """
+        INSERT INTO games (
+            app_id, game_name, type, developer, publisher, is_free, price, 
+            age_rating, detailed_description, short_description, about_the_game, 
+            minimum_requirements, recommended_requirements, categories, tags, genres,
+            recommendations, release_date, release_date_days,
+            features, detailed_description_vector, about_the_game_vector, short_description_vector,
+            metadata_vector, excluded_titles, release_year, has_metacritic_score,
+            hardware_analysis, vector_norms
+        ) VALUES (
+            %(App ID)s, %(Game Name)s, %(Type)s, %(Developer)s, %(Publisher)s, %(Is Free)s, %(Price)s,
+            %(Age Rating)s, %(Detailed Description)s, %(Short Description)s, %(About the Game)s,
+            %(Minimum Requirements)s, %(Recommended Requirements)s,
+            %(Categories)s::jsonb, %(Tags)s::jsonb, %(Genres)s::jsonb,
+            %(Recommendations)s::jsonb, %(Release Date)s, %(Release Date Days)s,
+            %(Features)s::vector(768),
+            %(Detailed Description Vector)s::vector(768),
+            %(About the Game Vector)s::vector(768),
+            %(Short Description Vector)s::vector(768),
+            %(Metadata Vector)s::vector(768),
+            %(Excluded Titles)s, %(Release Year)s, %(Has Metacritic Score)s,
+            %(Hardware Analysis)s::jsonb, %(Vector Norms)s::jsonb
+        )
+        ON CONFLICT (app_id) DO NOTHING
+        RETURNING app_id;
+    """
+
+    def one_pass():
+        connection = get_connection()
+        try:
+            with connection:
+                with connection.cursor() as cursor:
+                    success_rows = 0
+                    conflict_rows = 0
+                    error_rows = 0
+
+                    if not silent:
+                        database_logger.info("Started importing game data to the database...")
+
+                    for game in data:
+                        try:
+                            if not game.get('App ID') or not game.get('Game Name'):
+                                app_id = game.get('App ID', 'UNKNOWN')
+                                msg = f"Missing required fields for game with App ID: {app_id}"
+                                print(msg)
+                                database_logger.error(msg)
+                                error_rows += 1
+                                continue
+
+                            release_date, release_date_days = parse_release_date(game.get('Release Date'))
+
+                            dev = game.get('Developer') or []
+                            pub = game.get('Publisher') or []
+                            if isinstance(dev, str): dev = [dev]
+                            if isinstance(pub, str): pub = [pub]
+
+                            excluded = game.get('excluded_titles')
+                            if excluded is None:
+                                excluded = []
+                            elif isinstance(excluded, str):
+                                try:
+                                    excluded = json.loads(excluded)
+                                except Exception:
+                                    excluded = [excluded]
+                            elif not isinstance(excluded, (list, tuple)):
+                                excluded = [str(excluded)]
+                            excluded = [str(x) for x in excluded]
+
+                            params = {
+                                'App ID': game.get('App ID'),
+                                'Game Name': game.get('Game Name'),
+                                'Type': game.get('Type'),
+                                'Developer': dev,
+                                'Publisher': pub,
+                                'Is Free': game.get('Is Free'),
+                                'Price': game.get('Price'),
+                                'Age Rating': validate_integer(game.get('Age Rating')),
+                                'Detailed Description': game.get('Detailed Description'),
+                                'Short Description': game.get('Short Description'),
+                                'About the Game': game.get('About the Game'),
+                                'Minimum Requirements': game.get('Minimum Requirements'),
+                                'Recommended Requirements': game.get('Recommended Requirements'),
+                                'Categories': json.dumps(game.get('Categories')),
+                                'Tags': json.dumps(game.get('Tags')),
+                                'Genres': json.dumps(game.get('Genres')),
+                                'Recommendations': json.dumps(game.get('Recommendations')),
+                                'Release Date': release_date,
+                                'Release Date Days': release_date_days,
+                                'Features': vec_literal(game.get('Features', [])),
+                                'Detailed Description Vector': vec_literal(game.get('Detailed Description Vector', [])),
+                                'About the Game Vector': vec_literal(game.get('About the Game Vector', [])),
+                                'Short Description Vector': vec_literal(game.get('Short Description Vector', [])),
+                                'Metadata Vector': vec_literal(game.get('Metadata Vector', [])),
+                                'Excluded Titles': excluded,
+                                'Release Year': game.get('release_year'),
+                                'Has Metacritic Score': game.get('has_metacritic_score'),
+                                'Hardware Analysis': json.dumps(game.get('hardware_analysis')),
+                                'Vector Norms': json.dumps(game.get('vector_norms')),
+                            }
+
+                            cursor.execute(query, params)
+                            ret = cursor.fetchone()
+                            if ret:
+                                success_rows += 1
+                            else:
+                                conflict_rows += 1
+
+                        except Exception as e:
+                            error_rows += 1
+                            print(f"[INSERT ERROR app_id={game.get('App ID')}] {e}")
+                            database_logger.error(f"Error inserting data for game {game.get('App ID')}: {e}")
+                            connection.rollback()
+
+                    if not silent:
+                        if error_rows == 0:
+                            database_logger.info(f"Inserted: {success_rows}, conflicts (skipped): {conflict_rows}.")
+                        else:
+                            database_logger.warning(
+                                f"Inserted: {success_rows}, conflicts: {conflict_rows}, errors: {error_rows}."
+                            )
+                        database_logger.info("------------End of data importing------------\n")
+        finally:
+            return_connection(connection)
 
     try:
-        connection = get_connection()
-        cursor = connection.cursor()
-
-        success_count = 0
-        error_count = 0
-        batch_size = 1000
-
-        if not silent:
-            database_logger.info("Started importing game data to the database...")
-
-        for game in data:
-            try:
-                if not game.get('App ID') or not game.get('Game Name'):
-                    app_id = game.get('App ID', 'UNKNOWN')
-                    database_logger.error(f"Missing required fields for game with App ID: {app_id}")
-                    error_count += 1
-                    continue
-
-                query = """
-                    INSERT INTO games (
-                        app_id, game_name, type, developer, publisher, is_free, price, 
-                        age_rating, detailed_description, short_description, about_the_game, 
-                        minimum_requirements, recommended_requirements, categories, tags, genres,
-                        recommendations, release_date, release_date_days,
-                        features, detailed_description_vector, about_the_game_vector, short_description_vector,
-                        metadata_vector, excluded_titles, release_year, has_metacritic_score,
-                        hardware_analysis, vector_norms
-                    ) VALUES (
-                        %(App ID)s, %(Game Name)s, %(Type)s, %(Developer)s, %(Publisher)s, %(Is Free)s, %(Price)s,
-                        %(Age Rating)s, %(Detailed Description)s, %(Short Description)s, %(About the Game)s,
-                        %(Minimum Requirements)s, %(Recommended Requirements)s, %(Categories)s, %(Tags)s, %(Genres)s,
-                        %(Recommendations)s, %(Release Date)s, %(Release Date Days)s,
-                        %(Features)s, %(Detailed Description Vector)s, %(About the Game Vector)s, %(Short Description Vector)s,
-                        %(Metadata Vector)s, %(Excluded Titles)s, %(Release Year)s, %(Has Metacritic Score)s,
-                        %(Hardware Analysis)s, %(Vector Norms)s
-                    )
-                    ON CONFLICT (app_id) DO NOTHING;
-                """
-
-                release_date, release_date_days = parse_release_date(game.get('Release Date'))
-
-                cursor.execute(query, {
-                    'App ID': game.get('App ID'),
-                    'Game Name': game.get('Game Name'),
-                    'Type': game.get('Type'),
-                    'Developer': game.get('Developer'),
-                    'Publisher': game.get('Publisher'),
-                    'Is Free': game.get('Is Free'),
-                    'Price': game.get('Price'),
-                    'Age Rating': validate_integer(game.get('Age Rating')),
-                    'Detailed Description': game.get('Detailed Description'),
-                    'Short Description': game.get('Short Description'),
-                    'About the Game': game.get('About the Game'),
-                    'Minimum Requirements': game.get('Minimum Requirements'),
-                    'Recommended Requirements': game.get('Recommended Requirements'),
-                    'Categories': json.dumps(game.get('Categories')),
-                    'Tags': json.dumps(game.get('Tags')),
-                    'Genres': json.dumps(game.get('Genres')),
-                    'Recommendations': json.dumps(game.get('Recommendations')),
-                    'Release Date': release_date,
-                    'Release Date Days': release_date_days,
-                    'Features': normalize_vector(game.get('Features', []), VECTOR_SIZE),
-                    'Detailed Description Vector': normalize_vector(game.get('Detailed Description Vector', []), VECTOR_SIZE),
-                    'About the Game Vector': normalize_vector(game.get('About the Game Vector', []), VECTOR_SIZE),
-                    'Short Description Vector': normalize_vector(game.get('Short Description Vector', []), VECTOR_SIZE),
-                    'Metadata Vector': normalize_vector(game.get('Metadata Vector', []), VECTOR_SIZE),
-                    'Excluded Titles': game.get('excluded_titles'),
-                    'Release Year': game.get('release_year'),
-                    'Has Metacritic Score': game.get('has_metacritic_score'),
-                    'Hardware Analysis': json.dumps(game.get('hardware_analysis')),
-                    'Vector Norms': json.dumps(game.get('vector_norms'))
-                })
-
-                success_count += 1
-
-                if success_count % batch_size == 0:
-                    connection.commit()
-                    database_logger.info(f"Committed batch of {batch_size} records.")
-
-            except Exception as e:
-                error_count += 1
-                database_logger.error(f"Error inserting data for game {game.get('App ID')}: {e}")
-                connection.rollback()
-
-        connection.commit()
-
-        if not silent:
-            if error_count == 0:
-                database_logger.info(f"Successfully imported all {success_count} games.")
-            else:
-                database_logger.warning(f"Import completed with {success_count} successes and {error_count} errors.")
-            database_logger.info(f"------------End of data importing------------\n")
-
+        one_pass()
+    except PoolError:
+        database_logger.warning("PoolError: pool was closed. Recreating pool and retrying once...")
+        safe_close_pool()
+        ensure_pool()
+        one_pass()
     except Exception as e:
+        print(f"[CRITICAL INSERT ERROR] {e}")
         database_logger.error(f"Critical error: {e}")
-        if connection:
-            connection.rollback()
-    finally:
-        if connection:
-            return_connection(connection)

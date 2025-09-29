@@ -14,9 +14,9 @@ from Scripts.Database.check_excluded_titles import validate_excluded_titles
 
 model = SentenceTransformer("BAAI/bge-base-en-v1.5")
 
-_ANSI_RE = re.compile(r"\x1b\[[0-9;?]*[ -/]*[@-~]")
-_OSC8_OPEN_RE  = re.compile(r"\x1b]8;;.*?\x1b\\")
-_OSC8_CLOSE_RE = re.compile(r"\x1b]8;;\x1b\\")
+ANSI_RE = re.compile(r"\x1b\[[0-9;?]*[ -/]*[@-~]")
+OSC8_OPEN_RE  = re.compile(r"\x1b]8;;.*?\x1b\\")
+OSC8_CLOSE_RE = re.compile(r"\x1b]8;;\x1b\\")
 
 def setup_logger(name, filename):
     log_dir = '../GameRecommendation/Logs/Prompt'
@@ -157,8 +157,9 @@ def query_ollama(prompt, model = "mistral", mapping_path = "../GameRecommendatio
     allowed_tags = []
     allowed_genres = []
     allowed_categories = []
+
     try:
-        with open(mapping_path, "r", encoding="utf-8") as f:
+        with open(mapping_path, "r", encoding = "utf-8") as f:
             mapping = json.load(f) or {}
             allowed_tags = sorted(set(mapping.get("tags", {}).values()))
             allowed_genres = sorted(set(mapping.get("genres", {}).values()))
@@ -168,7 +169,7 @@ def query_ollama(prompt, model = "mistral", mapping_path = "../GameRecommendatio
 
     available_fields = {
         "is_free": "boolean",
-        "price": "float (0.0+) or null (must be null when is_free=true)",
+        "price": "float (0.0+) or null (must be null when is_free = true)",
         "age_rating": "integer (PEGI: 3, 7, 12, 16, 18) or null",
         "categories": "list of categories (choose from allowed list if provided)",
         "tags": "list of tags (choose from allowed list if provided)",
@@ -422,13 +423,11 @@ def backfill_from_prompt(prompt, obj, allowed_tags, allowed_genres, allowed_cate
                 obj["release_year"] = yr
                 obj.setdefault("release_year_evidence", []).append(m2.group(0))
 
-    def _infer_excluded_titles(text: str):
-        patterns = [
-            r"(?:like|similar to|not like|excluding|other than|different from)\s+([A-Z][^\.;,\n]+)",
-            r"\"([^\"]+)\""
-        ]
+    def infer_excluded_titles(text: str):
         found = []
         evid = []
+        patterns = [r"(?:like|similar to|not like|excluding|other than|different from)\s+([A-Z][^\.;,\n]+)", r"\"([^\"]+)\""]
+        
         for pat in patterns:
             for m in re.finditer(pat, text, flags=re.IGNORECASE):
                 chunk = m.group(1).strip()
@@ -444,7 +443,7 @@ def backfill_from_prompt(prompt, obj, allowed_tags, allowed_genres, allowed_cate
         return uniq, evid
 
     if not obj.get("excluded_titles"):
-        titles_raw, evid = _infer_excluded_titles(prompt)
+        titles_raw, evid = infer_excluded_titles(prompt)
         try:
             valid, _invalid = validate_excluded_titles(titles_raw)
         except Exception:
@@ -509,13 +508,7 @@ def generate_sql_query_from_filters(filters, include_vector_similarity = False):
 
     if filters.get("tags"):
         params["tags_any"] = filters["tags"]
-        add_clause(
-            base,
-            "("
-            "EXISTS (SELECT 1 FROM jsonb_array_elements_text(g.tags) t WHERE t = ANY(%(tags_any)s::text[])) "
-            "OR g.tags ?| %(tags_any)s::text[]"
-            ")"
-        )
+        add_clause(base, "(""EXISTS (SELECT 1 FROM jsonb_array_elements_text(g.tags) t WHERE t = ANY(%(tags_any)s::text[])) ""OR g.tags ?| %(tags_any)s::text[]"")")
 
     if filters.get("excluded_titles"):
         add_clause(base, "NOT (g.excluded_titles @> %(excluded_titles)s::text[])")
@@ -537,19 +530,10 @@ def generate_sql_query_from_filters(filters, include_vector_similarity = False):
         rec = filters["recommendations"]
         if isinstance(rec, str):
             params["rec_sent"] = rec
-            rec_clause_strict = (
-                "jsonb_typeof(g.recommendations) = 'array' "
-                "AND jsonb_array_length(g.recommendations) > 0 "
-                "AND g.recommendations->>0 ILIKE %(rec_sent)s"
-            )
+            rec_clause_strict = ("jsonb_typeof(g.recommendations) = 'array' " "AND jsonb_array_length(g.recommendations) > 0 ""AND g.recommendations->>0 ILIKE %(rec_sent)s")
         elif isinstance(rec, dict) and "min" in rec:
             params["min_reviews"] = rec["min"]
-            rec_clause_strict = (
-                "jsonb_typeof(g.recommendations) = 'array' "
-                "AND jsonb_array_length(g.recommendations) > 1 "
-                "AND (g.recommendations->>1) ~ '^[0-9]+$' "
-                "AND (g.recommendations->>1)::int >= %(min_reviews)s"
-            )
+            rec_clause_strict = ("jsonb_typeof(g.recommendations) = 'array' " "AND jsonb_array_length(g.recommendations) > 1 " "AND (g.recommendations->>1) ~ '^[0-9]+$' " "AND (g.recommendations->>1)::int >= %(min_reviews)s")
 
     if filters.get("genres"):
         add_clause(progressive, any_descriptions_condition("g.genres", filters["genres"], "genre"))
@@ -661,15 +645,15 @@ def db_execute_count(query, params):
 def _strip_invisible(s):
     if not isinstance(s, str):
         s = str(s)
-    s = _OSC8_OPEN_RE.sub("", s)
-    s = _OSC8_CLOSE_RE.sub("", s)
-    s = _ANSI_RE.sub("", s)
+    s = OSC8_OPEN_RE.sub("", s)
+    s = OSC8_CLOSE_RE.sub("", s)
+    s = ANSI_RE.sub("", s)
     return s
 
 def _visible_len(s):
     return len(_strip_invisible(s))
 
-def _pad_visible(s, width):
+def pad_visible(s, width):
     pad = width - _visible_len(s)
     if pad > 0:
         return s + " " * pad
@@ -711,10 +695,10 @@ def print_table(rows, max_rows = 20, use_hyperlinks = True):
             col_w[h] = max(col_w[h], _visible_len(str(row[h])))
 
     def fmt_row(row_dict):
-        return " | ".join(_pad_visible(str(row_dict[h]), col_w[h]) for h in headers)
+        return " | ".join(pad_visible(str(row_dict[h]), col_w[h]) for h in headers)
 
     print()
-    print(" | ".join(_pad_visible(header_labels[h], col_w[h]) for h in headers))
+    print(" | ".join(pad_visible(header_labels[h], col_w[h]) for h in headers))
     print("-+-".join("-" * col_w[h] for h in headers))
     for row in data:
         print(fmt_row(row))
