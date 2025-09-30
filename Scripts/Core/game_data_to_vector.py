@@ -144,20 +144,13 @@ def process_game_data(game_data, all_tags, all_genres):
 
     game = game_data.copy()
     game["Features"] = generate_feature_vector(game, all_tags, all_genres)
-    game["Detailed Description Vector"] = process_text_to_vector(game.get("Detailed Description", ""))
-    game["About the Game Vector"] = process_text_to_vector(game.get("About the Game", ""))
-    game["Short Description Vector"] = process_text_to_vector(game.get("Short Description", ""))
     game["Metadata Vector"] = process_text_to_vector(create_metadata_string(game))
 
     game["excluded_titles"] = [game.get("Game Name", "")]
     game["release_year"] = extract_release_year(game.get("Release Date", ""))
     game["has_metacritic_score"] = has_metacritic_score(game.get("Metacritic", ""))
 
-    game["vector_norms"] = {
-        "detailed_description": compute_vector_norm(game["Detailed Description Vector"]),
-        "short_description": compute_vector_norm(game["Short Description Vector"]),
-        "metadata": compute_vector_norm(game["Metadata Vector"])
-    }
+    game["vector_norms"] = {"metadata": compute_vector_norm(game["Metadata Vector"])}
 
     for key in list(game.keys()):
         if key.endswith(" Vector Norm") or key.startswith("hardware_min_") or key.startswith("hardware_rec_"):

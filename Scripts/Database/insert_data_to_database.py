@@ -126,23 +126,16 @@ def insert_data_from_object(data, silent = False):
     query = """
         INSERT INTO games (
             app_id, game_name, type, developer, publisher, is_free, price, 
-            age_rating, detailed_description, short_description, about_the_game, 
-            minimum_requirements, recommended_requirements, categories, tags, genres,
-            recommendations, release_date, release_date_days,
-            features, detailed_description_vector, about_the_game_vector, short_description_vector,
-            metadata_vector, excluded_titles, release_year, has_metacritic_score,
+            age_rating, minimum_requirements, recommended_requirements, categories, 
+            tags, genres, recommendations, release_date, release_date_days,
+            features, metadata_vector, excluded_titles, release_year, has_metacritic_score,
             hardware_analysis, vector_norms
         ) VALUES (
             %(App ID)s, %(Game Name)s, %(Type)s, %(Developer)s, %(Publisher)s, %(Is Free)s, %(Price)s,
-            %(Age Rating)s, %(Detailed Description)s, %(Short Description)s, %(About the Game)s,
-            %(Minimum Requirements)s, %(Recommended Requirements)s,
+            %(Age Rating)s, %(Minimum Requirements)s, %(Recommended Requirements)s,
             %(Categories)s::jsonb, %(Tags)s::jsonb, %(Genres)s::jsonb,
             %(Recommendations)s::jsonb, %(Release Date)s, %(Release Date Days)s,
-            %(Features)s::vector(768),
-            %(Detailed Description Vector)s::vector(768),
-            %(About the Game Vector)s::vector(768),
-            %(Short Description Vector)s::vector(768),
-            %(Metadata Vector)s::vector(768),
+            %(Features)s::vector(768), %(Metadata Vector)s::vector(768),
             %(Excluded Titles)s, %(Release Year)s, %(Has Metacritic Score)s,
             %(Hardware Analysis)s::jsonb, %(Vector Norms)s::jsonb
         )
@@ -200,9 +193,6 @@ def insert_data_from_object(data, silent = False):
                                 'Is Free': game.get('Is Free'),
                                 'Price': game.get('Price'),
                                 'Age Rating': validate_integer(game.get('Age Rating')),
-                                'Detailed Description': game.get('Detailed Description'),
-                                'Short Description': game.get('Short Description'),
-                                'About the Game': game.get('About the Game'),
                                 'Minimum Requirements': game.get('Minimum Requirements'),
                                 'Recommended Requirements': game.get('Recommended Requirements'),
                                 'Categories': json.dumps(game.get('Categories')),
@@ -212,9 +202,6 @@ def insert_data_from_object(data, silent = False):
                                 'Release Date': release_date,
                                 'Release Date Days': release_date_days,
                                 'Features': vec_literal(game.get('Features', [])),
-                                'Detailed Description Vector': vec_literal(game.get('Detailed Description Vector', [])),
-                                'About the Game Vector': vec_literal(game.get('About the Game Vector', [])),
-                                'Short Description Vector': vec_literal(game.get('Short Description Vector', [])),
                                 'Metadata Vector': vec_literal(game.get('Metadata Vector', [])),
                                 'Excluded Titles': excluded,
                                 'Release Year': game.get('release_year'),

@@ -71,7 +71,7 @@ def embed_prompt(prompt_text):
         prompt_logger.error(f"Error embedding prompt: {e}")
         return None
 
-def clean_metadata_fields(data, mapping_path="../GameRecommendation/Data/DatabasGamesData/tags_genres_categories_map.json"):
+def clean_metadata_fields(data, mapping_path="../GameRecommendation/Data/DatabaseGamesData/tags_genres_categories_map.json"):
     if not isinstance(data, dict):
         return {}
 
@@ -149,7 +149,7 @@ def clean_metadata_fields(data, mapping_path="../GameRecommendation/Data/Databas
                         break
     return cleaned
 
-def query_ollama(prompt, model = "mistral", mapping_path = "../GameRecommendation/Data/DatabasGamesData/tags_genres_categories_map.json"):
+def query_ollama(prompt, model = "mistral", mapping_path = "../GameRecommendation/Data/DatabaseGamesData/tags_genres_categories_map.json"):
     if not is_english(prompt):
         prompt_logger.warning("Prompt is not in English. Aborting request.")
         return None
@@ -720,7 +720,7 @@ def main():
             parsed = json.loads(result)
             cleaned = clean_json_fields(parsed)
             
-            mapping_path = "../GameRecommendation/Data/DatabasGamesData/tags_genres_categories_map.json"
+            mapping_path = "../GameRecommendation/Data/DatabaseGamesData/tags_genres_categories_map.json"
             try:
                 with open(mapping_path, "r", encoding = "utf-8") as f:
                     _mapping = json.load(f) or {}

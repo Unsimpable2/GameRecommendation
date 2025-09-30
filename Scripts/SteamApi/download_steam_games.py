@@ -310,12 +310,8 @@ def download_steam_games(file_path_list, max_iterations = 90000):
                 if details and details.get('type') == 'game':
                     download_logger.info(f"Processed game: {details.get('name', 'No name')} (app_id: {app_id})")
 
-                    detailed_description = details.get('detailed_description', '')
-                    short_description = details.get('short_description', '')
-                    about_game = details.get('about_the_game', '')
-
-                    if not (is_english(detailed_description) or is_english(short_description) or is_english(about_game) or is_english(details['name'])):
-                        download_logger.info(f"Skipping app_id: {app_id} because description is not in English.")
+                    if not is_english(details['name']) or is_english(details['developers']) or is_english(details['publishers']):
+                        download_logger.info(f"Skipping app_id: {app_id} because name is not in English.")
                         iteration_count += 1
                         continue
 
@@ -342,9 +338,6 @@ def download_steam_games(file_path_list, max_iterations = 90000):
                         'Is Free': is_free,
                         'Price': price,
                         'Age Rating': details.get('required_age', 'N/A'),
-                        'Detailed Description': detailed_description,
-                        'Short Description': short_description,
-                        'About the Game': about_game,
                         'Minimum Requirements': minimal_requirements,
                         'Recommended Requirements': recommended_requirements,
                         'Metacritic': metacritic_score,

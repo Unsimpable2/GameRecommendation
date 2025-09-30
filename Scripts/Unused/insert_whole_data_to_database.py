@@ -147,18 +147,14 @@
 #                query = """
 #                    INSERT INTO games (
 #                        app_id, game_name, type, developer, publisher, is_free, price, 
-#                        age_rating, detailed_description, short_description, about_the_game, 
-#                        minimum_requirements, recommended_requirements, categories, tags, genres,
-#                        recommendations, release_date, release_date_days,
-#                        features, detailed_description_vector, about_the_game_vector, short_description_vector,
+#                        age_rating, minimum_requirements, recommended_requirements, categories, tags, genres,
+#                        recommendations, release_date, release_date_days, features,
 #                        metadata_vector, excluded_titles, release_year, has_metacritic_score,
 #                        hardware_analysis, vector_norms
 #                    ) VALUES (
 #                        %(App ID)s, %(Game Name)s, %(Type)s, %(Developer)s, %(Publisher)s, %(Is Free)s, %(Price)s,
-#                        %(Age Rating)s, %(Detailed Description)s, %(Short Description)s, %(About the Game)s,
-#                        %(Minimum Requirements)s, %(Recommended Requirements)s, %(Categories)s, %(Tags)s, %(Genres)s,
-#                        %(Recommendations)s, %(Release Date)s, %(Release Date Days)s,
-#                        %(Features)s, %(Detailed Description Vector)s, %(About the Game Vector)s, %(Short Description Vector)s,
+#                        %(Age Rating)s, %(Minimum Requirements)s, %(Recommended Requirements)s, %(Categories)s, %(Tags)s, %(Genres)s,
+#                        %(Recommendations)s, %(Release Date)s, %(Release Date Days)s, %(Features)s,
 #                        %(Metadata Vector)s, %(Excluded Titles)s, %(Release Year)s, %(Has Metacritic Score)s,
 #                        %(Hardware Analysis)s, %(Vector Norms)s
 #                    )
@@ -174,9 +170,6 @@
 #                    'Is Free': game.get('Is Free'),
 #                    'Price': game.get('Price'),
 #                    'Age Rating': validate_integer(game.get('Age Rating')),
-#                    'Detailed Description': game.get('Detailed Description'),
-#                    'Short Description': game.get('Short Description'),
-#                    'About the Game': game.get('About the Game'),
 #                    'Minimum Requirements': game.get('Minimum Requirements'),
 #                    'Recommended Requirements': game.get('Recommended Requirements'),
 #                    'Categories': json.dumps(game.get('Categories')),
@@ -186,9 +179,6 @@
 #                    'Release Date': release_date,
 #                    'Release Date Days': release_date_days,
 #                    'Features': normalize_vector_whole(game.get('Features', []), VECTOR_SIZE),
-#                    'Detailed Description Vector': normalize_vector_whole(game.get('Detailed Description Vector', []), VECTOR_SIZE),
-#                    'About the Game Vector': normalize_vector_whole(game.get('About the Game Vector', []), VECTOR_SIZE),
-#                    'Short Description Vector': normalize_vector_whole(game.get('Short Description Vector', []), VECTOR_SIZE),
 #                    'Metadata Vector': normalize_vector_whole(game.get('Metadata Vector', []), VECTOR_SIZE),
 #                    'Excluded Titles': game.get('excluded_titles'),
 #                    'Release Year': game.get('release_year'),
